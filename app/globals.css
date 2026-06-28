@@ -105,8 +105,8 @@
 /* ─── Light theme — granite ───────────────────────────────────────────────── */
 :root {
   /* Background layers */
-  --background:       #ECEEF1;
-  --surface:          #F3F4F6;
+  --background:       #E2E5EA;
+  --surface:          #ECEEF2;
   --surface-raised:   #FFFFFF;
   --surface-overlay:  #FFFFFF;
   --surface-hover:    #F8F9FA;

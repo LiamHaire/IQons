@@ -23,6 +23,7 @@ export function IconBrowser() {
   const [sizeIndex, setSizeIndex]       = useState(2); // default 32px
   const iconSize = SIZE_STEPS[sizeIndex];
 
+
   const filtered = useMemo(() => {
     const q = query.toLowerCase().trim();
     return icons.filter((icon) => {
@@ -48,7 +49,7 @@ export function IconBrowser() {
       <aside
         className="flex flex-col shrink-0 overflow-y-auto"
         style={{
-          width: 280,
+          width: 240,
           borderRight: "1px solid var(--border-default)",
           padding: "32px 24px",
         }}
@@ -58,8 +59,8 @@ export function IconBrowser() {
           style={{ height: 72, marginLeft: -24, marginRight: -24, paddingLeft: 24, paddingRight: 24, marginTop: -32, marginBottom: 12 }}
         >
           <p
-            className="text-base font-semibold"
-            style={{ color: "var(--text-primary)" }}
+            className="text-xs font-semibold uppercase tracking-widest"
+            style={{ color: "var(--text-muted)" }}
           >
             Category:
           </p>
@@ -108,8 +109,8 @@ export function IconBrowser() {
           {/* Style pills */}
           <div className="flex items-center gap-1.5">
             <span
-              className="text-base font-semibold mr-2"
-              style={{ color: "var(--text-primary)" }}
+              className="text-xs font-semibold uppercase tracking-widest mr-2"
+              style={{ color: "var(--text-muted)" }}
             >
               Style:
             </span>
@@ -142,8 +143,8 @@ export function IconBrowser() {
           {/* Size slider */}
           <div className="flex items-center gap-3 ml-6">
             <span
-              className="text-base font-semibold whitespace-nowrap"
-              style={{ color: "var(--text-primary)" }}
+              className="text-xs font-semibold uppercase tracking-widest whitespace-nowrap"
+              style={{ color: "var(--text-muted)" }}
             >
               Size:
             </span>
@@ -209,7 +210,7 @@ export function IconBrowser() {
               No icons match your search.
             </p>
           ) : (
-            <div className="grid gap-4 grid-cols-[repeat(auto-fill,minmax(140px,1fr))]">
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(140px, 1fr))", gap: 8 }}>
               {filtered.map((icon) => (
                 <IconCard key={icon.id} icon={icon} style={activeStyle} size={iconSize} />
               ))}
