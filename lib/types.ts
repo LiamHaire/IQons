@@ -1,21 +1,22 @@
 export type IconStyle = "outline" | "filled" | "duotone" | "thin";
 
 export type IconCategory =
-  | "arrows"
-  | "communication"
-  | "design"
-  | "devices"
-  | "files"
-  | "finance"
-  | "interface"
-  | "media"
-  | "nature"
-  | "security"
-  | "shapes"
-  | "social"
-  | "time"
-  | "travel"
-  | "weather";
+  | "navigation"
+  | "search-discovery"
+  | "data-actions"
+  | "calendar-scheduling"
+  | "communications"
+  | "sharing"
+  | "documents-content"
+  | "workflow-productivity"
+  | "user-id"
+  | "status-feedback"
+  | "security-access"
+  | "analytics-reports"
+  | "settings-admin"
+  | "system-utility"
+  | "ai"
+  | "sector-health";
 
 export interface Icon {
   id: string;
@@ -23,7 +24,7 @@ export interface Icon {
   tags: string[];
   category: IconCategory;
   styles: IconStyle[];
-  svg: Record<IconStyle, string>;
+  svg: Partial<Record<IconStyle, string>>;
 }
 
 export interface IconGroup {
