@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { IconBrowser } from "@/components/IconBrowser";
+import { HeaderControls } from "@/components/HeaderControls";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -36,16 +37,7 @@ export default function IconsPage() {
           </svg>
         </Link>
 
-        {/* Grid density buttons — placeholder, wired in IconBrowser via context later */}
-        <div className="flex items-center gap-2">
-          {[0, 1, 2].map((i) => (
-            <div
-              key={i}
-              className="w-9 h-9 rounded-lg flex items-center justify-center"
-              style={{ border: "1px solid var(--border-default)" }}
-            />
-          ))}
-        </div>
+        <HeaderControls />
       </header>
 
       <hr style={{ border: "none", borderTop: "1px solid var(--border-default)", margin: 0 }} />
