@@ -2,6 +2,10 @@
 
 import { useState, useMemo } from "react";
 import { icons, CATEGORY_LABELS, CATEGORY_ORDER, SECTOR_CATEGORIES, ICON_STYLES } from "@/lib/icons";
+
+const CATEGORY_ICONS: Partial<Record<string, string>> = {
+  navigation: icons.find(i => i.id === "arrow-up")?.svg.outline,
+};
 import { IconCard } from "./IconCard";
 import type { IconCategory, IconStyle } from "@/lib/types";
 
@@ -51,12 +55,15 @@ export function IconBrowser() {
         style={{
           width: 240,
           borderRight: "1px solid var(--border-default)",
-          padding: "32px 24px",
+          paddingTop: 0,
+          paddingBottom: 32,
+          paddingLeft: 0,
+          paddingRight: 24,
         }}
       >
         <div
           className="flex items-center shrink-0"
-          style={{ height: 72, marginLeft: -24, marginRight: -24, paddingLeft: 24, paddingRight: 24, marginTop: -32, marginBottom: 12 }}
+          style={{ height: 72, marginBottom: 12 }}
         >
           <p
             className="text-xs font-semibold uppercase tracking-widest"
@@ -89,6 +96,7 @@ export function IconBrowser() {
                   label={CATEGORY_LABELS[cat]}
                   active={activeCategory === cat}
                   onClick={() => setActiveCategory(cat)}
+                  iconSvg={CATEGORY_ICONS[cat]}
                 />
               </div>
             );
@@ -228,10 +236,12 @@ function CategoryRow({
   label,
   active,
   onClick,
+  iconSvg,
 }: {
   label: string;
   active: boolean;
   onClick: () => void;
+  iconSvg?: string;
 }) {
   return (
     <button
@@ -251,14 +261,20 @@ function CategoryRow({
             }
       }
     >
-      {/* Icon placeholder */}
-      <span
-        className="w-5 h-5 rounded-md shrink-0"
-        style={{
-          border: "1.5px solid var(--border-strong)",
-          background: "var(--surface-active)",
-        }}
-      />
+      {iconSvg ? (
+        <span
+          className="w-5 h-5 shrink-0 flex items-center justify-center"
+          dangerouslySetInnerHTML={{ __html: iconSvg.replace(/<svg /, '<svg width="20" height="20" ') }}
+        />
+      ) : (
+        <span
+          className="w-5 h-5 rounded-md shrink-0"
+          style={{
+            border: "1.5px solid var(--border-strong)",
+            background: "var(--surface-active)",
+          }}
+        />
+      )}
       {label}
     </button>
   );

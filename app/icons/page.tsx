@@ -9,10 +9,7 @@ export const metadata: Metadata = {
 
 export default function IconsPage() {
   return (
-    <div
-      className="flex flex-col h-screen"
-      style={{ background: "var(--background)" }}
-    >
+    <div className="flex flex-col flex-1 min-h-0">
       {/* ── Nav ── */}
       <header
         className="flex items-center justify-between shrink-0"
