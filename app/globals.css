@@ -265,6 +265,34 @@ body {
   outline-offset: 2px;
 }
 
+/* ─── Scrollbar ───────────────────────────────────────────────────────────── */
+.custom-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 999px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+.custom-scroll::-webkit-scrollbar-button {
+  display: none;
+  height: 0;
+}
+
 /* ─── Range slider ────────────────────────────────────────────────────────── */
 input[type="range"] {
   -webkit-appearance: none;

@@ -208,7 +208,7 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
         </div>
 
         {/* Icon grid */}
-        <div className="flex-1 overflow-y-auto pt-3 pb-8">
+        <div className="custom-scroll flex-1 overflow-y-auto pt-3 pb-8" style={{ marginRight: "-40px", paddingRight: "40px", scrollbarGutter: "stable" }}>
           {filtered.length === 0 ? (
             <p className="text-sm" style={{ color: "var(--text-muted)" }}>
               No icons match your search.
