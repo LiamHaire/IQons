@@ -38,6 +38,13 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
     });
   }, [query, activeStyle, activeCategory]);
 
+  const total = useMemo(() =>
+    icons.filter((icon) => {
+      if (activeCategory !== ALL && icon.category !== activeCategory) return false;
+      return icon.styles.includes(activeStyle);
+    }).length,
+  [activeStyle, activeCategory, icons]);
+
   const categories = useMemo(() => {
     const seen = new Set(icons.map((i) => i.category));
     return CATEGORY_ORDER.filter((c) => seen.has(c));
@@ -207,8 +214,13 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
           </div>
         </div>
 
+        {/* Count */}
+        <p className="shrink-0 text-sm mb-4" style={{ color: "var(--text-muted)" }}>
+          Showing {filtered.length} of {total}
+        </p>
+
         {/* Icon grid */}
-        <div className="custom-scroll flex-1 overflow-y-auto pt-3 pb-8" style={{ marginRight: "-40px", paddingRight: "40px", scrollbarGutter: "stable" }}>
+        <div className="custom-scroll flex-1 overflow-y-auto pb-8" style={{ marginRight: "-40px", paddingRight: "40px", scrollbarGutter: "stable" }}>
           {filtered.length === 0 ? (
             <p className="text-sm" style={{ color: "var(--text-muted)" }}>
               No icons match your search.
