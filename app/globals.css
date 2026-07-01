@@ -65,13 +65,6 @@
   --color-info-border:        var(--info-border);
   --color-info-fg:            var(--info-foreground);
 
-  /* Icon (mirrors text) */
-  --color-icon:          var(--text-primary);
-  --color-icon-secondary: var(--text-secondary);
-  --color-icon-muted:    var(--text-muted);
-  --color-icon-disabled: var(--text-disabled);
-  --color-icon-accent:   var(--brand-primary);
-
   /* Chart */
   --color-chart-orange:      #F8B49A;
   --color-chart-deep-orange: #D94E18;
@@ -104,6 +97,13 @@
 
 /* ─── Light theme — granite ───────────────────────────────────────────────── */
 :root {
+  /* Icon tokens */
+  --color-icon:           #1A1D21;
+  --color-icon-secondary: #48505E;
+  --color-icon-muted:     #7A8494;
+  --color-icon-disabled:  #AAB2BF;
+  --color-icon-accent:    #F15D22;
+  --icon-fill: #3E474D;
   /* Background layers */
   --background:       #E2E5EA;
   --surface:          #ECEEF2;
@@ -171,6 +171,13 @@
 
 /* ─── Dark theme — monolith ───────────────────────────────────────────────── */
 .dark {
+  /* Icon tokens */
+  --color-icon:           #E8ECF0;
+  --color-icon-secondary: #A8B0BC;
+  --color-icon-muted:     #6B7585;
+  --color-icon-disabled:  #454D5A;
+  --color-icon-accent:    #F8936A;
+  --icon-fill: #C6CDD2;
   /* Background layers */
   --background:       #141518;
   --surface:          #1C1E22;

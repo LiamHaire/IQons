@@ -50,7 +50,8 @@ export function IconCard({ icon, style, size = 32 }: IconCardProps) {
         style={{ height: 112, overflow: "hidden" }}
       >
         <span
-          style={{ width: size, height: size, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, color: "var(--text-primary)", transition: "transform 150ms" }}
+          data-icon
+          style={{ width: size, height: size, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, color: "var(--icon-fill)", transition: "transform 150ms, color 150ms" }}
           className="group-hover:scale-110"
           dangerouslySetInnerHTML={{ __html: svgContent.replace(/<svg /, `<svg width="${size}" height="${size}" `) }}
         />

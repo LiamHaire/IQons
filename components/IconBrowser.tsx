@@ -1,13 +1,9 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { icons, CATEGORY_LABELS, CATEGORY_ORDER, SECTOR_CATEGORIES, ICON_STYLES } from "@/lib/icons";
-
-const CATEGORY_ICONS: Partial<Record<string, string>> = {
-  navigation: icons.find(i => i.id === "arrow-up")?.svg.outline,
-};
+import { CATEGORY_LABELS, CATEGORY_ORDER, SECTOR_CATEGORIES, ICON_STYLES } from "@/lib/icons";
 import { IconCard } from "./IconCard";
-import type { IconCategory, IconStyle } from "@/lib/types";
+import type { Icon, IconCategory, IconStyle } from "@/lib/types";
 
 const ALL = "all";
 
@@ -19,7 +15,7 @@ const STYLE_DISPLAY: Record<IconStyle, string> = {
   thin:     "Thin",
 };
 
-export function IconBrowser() {
+export function IconBrowser({ icons }: { icons: Icon[] }) {
   const [query, setQuery]               = useState("");
   const [activeStyle, setActiveStyle]   = useState<IconStyle>("outline");
   const [activeCategory, setActiveCategory] = useState<string>(ALL);
@@ -96,7 +92,7 @@ export function IconBrowser() {
                   label={CATEGORY_LABELS[cat]}
                   active={activeCategory === cat}
                   onClick={() => setActiveCategory(cat)}
-                  iconSvg={CATEGORY_ICONS[cat]}
+                  iconSvg={undefined}
                 />
               </div>
             );

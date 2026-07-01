@@ -1,13 +1,15 @@
 import Link from "next/link";
 import { IconBrowser } from "@/components/IconBrowser";
 import { HeaderControls } from "@/components/HeaderControls";
+import { getAllIcons } from "@/lib/loadIcons";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Browse Icons — IQons",
 };
 
-export default function IconsPage() {
+export default async function IconsPage() {
+  const icons = getAllIcons();
   return (
     <div className="flex flex-col flex-1 min-h-0">
       {/* ── Nav ── */}
@@ -41,7 +43,7 @@ export default function IconsPage() {
 
       {/* ── Body ── */}
       <div className="flex flex-1 min-h-0">
-        <IconBrowser />
+        <IconBrowser icons={icons} />
       </div>
     </div>
   );
