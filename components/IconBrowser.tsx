@@ -151,8 +151,8 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
                   activeStyle === style
                     ? {
                         height: 40,
-                        border: "1.5px solid var(--brand-primary)",
-                        color: "var(--brand-primary)",
+                        border: "1.5px solid var(--text-primary)",
+                        color: "var(--text-primary)",
                         background: "var(--surface)",
                       }
                     : {
@@ -302,7 +302,7 @@ function CategoryRow({
       style={
         active
           ? {
-              border: "1.5px solid var(--brand-primary)",
+              border: "1.5px solid var(--text-primary)",
               color: "var(--text-primary)",
               background: "var(--surface)",
             }
