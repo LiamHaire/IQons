@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { IconBrowser } from "@/components/IconBrowser";
-import { HeaderControls } from "@/components/HeaderControls";
 import { getAllIcons } from "@/lib/loadIcons";
 import type { Metadata } from "next";
 
@@ -36,7 +35,6 @@ export default async function IconsPage() {
           </svg>
         </Link>
 
-        <HeaderControls />
       </header>
 
       <hr style={{ border: "none", borderTop: "1px solid var(--border-default)", margin: 0 }} />

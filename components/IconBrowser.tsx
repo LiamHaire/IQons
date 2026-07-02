@@ -1,9 +1,12 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { CATEGORY_LABELS, CATEGORY_ORDER, SECTOR_CATEGORIES, ICON_STYLES } from "@/lib/icons";
+import { motion } from "framer-motion";
+import { CATEGORY_LABELS, CATEGORY_ORDER, SECTOR_CATEGORIES, ICON_STYLES, CATEGORY_ICONS } from "@/lib/icons";
 import { IconCard } from "./IconCard";
 import type { Icon, IconCategory, IconStyle } from "@/lib/types";
+
+const outExpo = [0.16, 1, 0.3, 1] as const;
 
 const ALL = "all";
 
@@ -22,6 +25,19 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
   const SIZE_STEPS = [24, 28, 32, 40, 48, 56];
   const [sizeIndex, setSizeIndex]       = useState(2); // default 32px
   const iconSize = SIZE_STEPS[sizeIndex];
+  const [dark, setDark]                 = useState(false);
+  const [pressing, setPressing]         = useState(false);
+
+  function toggleTheme() {
+    if (pressing) return;
+    setPressing(true);
+    setTimeout(() => {
+      const next = !dark;
+      setDark(next);
+      document.documentElement.classList.toggle("dark", next);
+      setPressing(false);
+    }, 280);
+  }
 
 
   const filtered = useMemo(() => {
@@ -81,6 +97,7 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
             label="All"
             active={activeCategory === ALL}
             onClick={() => setActiveCategory(ALL)}
+            iconSvg={CATEGORY_ICONS["all"]}
           />
           {categories.map((cat, i) => {
             const isFirstSector = SECTOR_CATEGORIES.has(cat) &&
@@ -99,7 +116,7 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
                   label={CATEGORY_LABELS[cat]}
                   active={activeCategory === cat}
                   onClick={() => setActiveCategory(cat)}
-                  iconSvg={undefined}
+                  iconSvg={CATEGORY_ICONS[cat]}
                 />
               </div>
             );
@@ -212,6 +229,33 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
               style={{ color: "var(--text-primary)", outline: "none", border: "none", boxShadow: "none" }}
             />
           </div>
+
+          {/* Theme toggle */}
+          <motion.button
+            onClick={toggleTheme}
+            className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0"
+            style={{
+              border: "1px solid var(--border-default)",
+              background: "transparent",
+              color: "var(--text-secondary)",
+              cursor: "pointer",
+            }}
+            animate={pressing ? { scale: 0.88, y: 2 } : { scale: 1, y: 0 }}
+            transition={pressing ? { duration: 0.1, ease: "easeIn" } : { duration: 0.35, ease: outExpo }}
+            whileHover={{ borderColor: "var(--border-strong)" }}
+            title={dark ? "Switch to light mode" : "Switch to dark mode"}
+          >
+            {dark ? (
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+              </svg>
+            ) : (
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="4"/>
+                <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+              </svg>
+            )}
+          </motion.button>
         </div>
 
         {/* Count */}
@@ -269,18 +313,11 @@ function CategoryRow({
             }
       }
     >
-      {iconSvg ? (
+      {iconSvg && (
         <span
           className="w-5 h-5 shrink-0 flex items-center justify-center"
+          style={{ color: "var(--icon-fill)" }}
           dangerouslySetInnerHTML={{ __html: iconSvg.replace(/<svg /, '<svg width="20" height="20" ') }}
-        />
-      ) : (
-        <span
-          className="w-5 h-5 rounded-md shrink-0"
-          style={{
-            border: "1.5px solid var(--border-strong)",
-            background: "var(--surface-active)",
-          }}
         />
       )}
       {label}
