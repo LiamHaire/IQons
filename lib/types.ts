@@ -16,7 +16,9 @@ export type IconCategory =
   | "settings-admin"
   | "system-utility"
   | "ai"
-  | "sector-health";
+  | "sector-health"
+  | "sector-education"
+  | "sector-legal";
 
 export interface Icon {
   id: string;

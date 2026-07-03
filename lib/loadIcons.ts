@@ -24,6 +24,8 @@ const FOLDER_MAP: Record<string, FolderConfig> = {
   "System & utility":    { id: "system-utility",   prefix: "system&utility" },
   "AI":                  { id: "ai",               prefix: "ai" },
   "Health":              { id: "sector-health",    prefix: "health" },
+  "Education":           { id: "sector-education", prefix: "education" },
+  "Legal":               { id: "sector-legal",     prefix: "legal" },
 };
 
 const STYLE_MAP: Record<string, IconStyle> = {
