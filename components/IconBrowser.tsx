@@ -291,7 +291,7 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
         {/* Icon grid */}
         <div className="custom-scroll flex-1 overflow-y-auto pb-8" style={{ marginRight: "-40px", paddingRight: "40px", scrollbarGutter: "stable" }}>
           {filtered.length === 0 ? (
-            <ZeroState query={query} />
+            <ZeroState query={query} onHome={() => { setQuery(""); setActiveCategory(ALL); }} />
           ) : (
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(140px, 1fr))", gap: 8 }}>
               {filtered.map((icon) => (

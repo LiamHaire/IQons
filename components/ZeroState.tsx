@@ -1,7 +1,49 @@
 "use client";
 
-export function ZeroState({ query }: { query: string }) {
-  return (
+import { useState } from "react";
+
+const inputStyle: React.CSSProperties = {
+  width: "100%",
+  height: 44,
+  padding: "0 14px",
+  border: "1px solid var(--border-default)",
+  borderRadius: 10,
+  background: "var(--surface)",
+  color: "var(--text-primary)",
+  fontSize: 15,
+  outline: "none",
+  transition: "border-color 150ms",
+};
+
+const labelStyle: React.CSSProperties = {
+  display: "block",
+  marginBottom: 6,
+  fontSize: 13,
+  fontWeight: 600,
+  color: "var(--text-secondary)",
+  textAlign: "left",
+};
+
+export function ZeroState({ query, onHome }: { query: string; onHome: () => void }) {
+  const [showForm, setShowForm] = useState(false);
+  const [description, setDescription] = useState(query || "");
+  const [requestedBy, setRequestedBy] = useState("");
+  const [copied, setCopied] = useState(false);
+  const [descFocused, setDescFocused] = useState(false);
+  const [reqFocused, setReqFocused] = useState(false);
+
+  function handleSubmit() {
+    const parts = [description.trim()];
+    if (requestedBy.trim()) parts.push(`(requested by ${requestedBy.trim()})`);
+    const command = `/create-icon ${parts.join(" ")}`;
+    navigator.clipboard.writeText(command).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    });
+  }
+
+  if (!showForm) {
+    return (
     <div
       className="flex flex-col items-center justify-center text-center"
       style={{ paddingTop: 64, paddingBottom: 64 }}
@@ -50,6 +92,7 @@ export function ZeroState({ query }: { query: string }) {
           : "There are no icons matching your search criteria."}
       </p>
       <button
+        onClick={() => setShowForm(true)}
         style={{
           marginTop: 20,
           height: 40,
@@ -73,6 +116,96 @@ export function ZeroState({ query }: { query: string }) {
         }}
       >
         Create new icon
+      </button>
+    </div>
+  );
+  }
+
+  return (
+    <div
+      className="flex flex-col justify-center"
+      style={{ paddingTop: 64, paddingBottom: 64, maxWidth: 420, margin: "0 auto", width: "100%" }}
+    >
+      {/* Header */}
+      <div style={{ marginBottom: 28 }}>
+        <button
+          onClick={() => { setShowForm(false); onHome(); }}
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 6,
+            background: "none",
+            border: "none",
+            padding: 0,
+            cursor: "pointer",
+            color: "var(--text-muted)",
+            fontSize: 13,
+            marginBottom: 16,
+          }}
+          onMouseEnter={(e) => (e.currentTarget.style.color = "var(--text-primary)")}
+          onMouseLeave={(e) => (e.currentTarget.style.color = "var(--text-muted)")}
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.9394 19.5634C11.5252 20.1491 12.4747 20.1491 13.0605 19.5634L19.707 12.9169C20.0975 12.5264 20.0974 11.8933 19.707 11.5028C19.3165 11.1124 18.6835 11.1124 18.293 11.5028L13 16.7958V4.99989C12.9999 4.44768 12.5522 3.99993 12 3.99989C11.4478 3.99989 11.0001 4.44765 11 4.99989V16.7958L5.70697 11.5028C5.31648 11.1124 4.68343 11.1124 4.29294 11.5028C3.90245 11.8933 3.90253 12.5264 4.29294 12.9169L10.9394 19.5634Z" fill="currentColor"/>
+          </svg>
+          Back to IQons
+        </button>
+        <h3
+          className="text-2xl font-semibold"
+          style={{ color: "var(--text-primary)", marginBottom: 6 }}
+        >
+          Request a new icon
+        </h3>
+        <p style={{ fontSize: 15, color: "var(--text-muted)", margin: 0 }}>
+          Describe the icon you need and we'll generate all three style variants — outline, filled, and duotone.
+        </p>
+      </div>
+
+      {/* Fields */}
+      <div style={{ display: "flex", flexDirection: "column", gap: 20, marginBottom: 28 }}>
+        <div>
+          <label style={labelStyle}>Icon description</label>
+          <textarea
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
+            placeholder="e.g. a shield with a checkmark inside a rounded square container, representing security or verification"
+            rows={5}
+            style={{ ...inputStyle, height: "auto", padding: "12px 14px", resize: "vertical", lineHeight: "1.5", borderColor: descFocused ? "var(--text-primary)" : "var(--border-default)" }}
+            onFocus={() => setDescFocused(true)}
+            onBlur={() => setDescFocused(false)}
+          />
+        </div>
+        <div>
+          <label style={labelStyle}>Requested by <span style={{ fontWeight: 400, color: "var(--text-muted)" }}>(optional)</span></label>
+          <input
+            type="text"
+            value={requestedBy}
+            onChange={(e) => setRequestedBy(e.target.value)}
+            placeholder="e.g. Finance team, John Smith"
+            style={{ ...inputStyle, borderColor: reqFocused ? "var(--text-primary)" : "var(--border-default)" }}
+            onFocus={() => setReqFocused(true)}
+            onBlur={() => setReqFocused(false)}
+          />
+        </div>
+      </div>
+
+      {/* Submit */}
+      <button
+        onClick={handleSubmit}
+        disabled={!description.trim()}
+        style={{
+          height: 44,
+          borderRadius: 10,
+          border: "none",
+          background: description.trim() ? "var(--text-primary)" : "var(--border-default)",
+          color: description.trim() ? "var(--surface)" : "var(--text-disabled)",
+          fontSize: 15,
+          fontWeight: 600,
+          cursor: description.trim() ? "pointer" : "not-allowed",
+          transition: "background 150ms",
+        }}
+      >
+        {copied ? "Request sent ✓" : "Send request"}
       </button>
     </div>
   );

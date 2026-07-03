@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Icon Preview — avocado</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #E2E5EA;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 48px;
+    }
+    .card {
+      background: #ECEEF2;
+      border-radius: 16px;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+    h1 { font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #7A8494; }
+    .variants { display: flex; gap: 48px; align-items: flex-end; }
+    .variant { display: flex; flex-direction: column; align-items: center; gap: 16px; }
+    .icon-wrap { background: #FFFFFF; border-radius: 12px; padding: 20px; border: 1px solid #D0D4DC; }
+    .sizes { display: flex; gap: 24px; align-items: center; }
+    .size-label { font-size: 11px; color: #AAB2BF; text-align: center; margin-top: 8px; }
+    .label { font-size: 12px; font-weight: 600; color: #7A8494; letter-spacing: 0.06em; text-transform: uppercase; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>avocado</h1>
+
+    <!--
+      Outer avocado: narrow neck top (12,1), curves out to wide pear body, round bottom (12,23)
+      Outer: M12 1 C13.5 1 14.5 3.5 14.5 5.5 C17.5 7 19 11 19 15 C19 20 16 23 12 23 C8 23 5 20 5 15 C5 11 6.5 7 9.5 5.5 C9.5 3.5 10.5 1 12 1 Z
+      Inner (1.5px inset): M12 2.5 C13 2.5 13 4.5 13 5.5 C15.5 7.5 17.5 11 17.5 15 C17.5 19.5 15 21.5 12 21.5 C9 21.5 6.5 19.5 6.5 15 C6.5 11 8.5 7.5 11 5.5 C11 4.5 11 2.5 12 2.5 Z
+      Stone: cx=12 cy=15 r=3.5 (outer), r=2 (inner ring)
+    -->
+
+    <div class="variants">
+
+      <!-- OUTLINE -->
+      <div class="variant">
+        <div class="icon-wrap">
+          <div class="sizes">
+            <div>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C10.5 1 9.5 3.5 9.5 5.5C6.5 7 5 11 5 15C5 20 8 23 12 23C16 23 19 20 19 15C19 11 17.5 7 14.5 5.5C14.5 3.5 13.5 1 12 1ZM12 2.5C12.5 2.5 13 4 13 5.5C15.5 7.5 17.5 11 17.5 15C17.5 19.5 15 21.5 12 21.5C9 21.5 6.5 19.5 6.5 15C6.5 11 8.5 7.5 11 5.5C11 4 11.5 2.5 12 2.5Z" fill="#424138"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 11.5C10.067 11.5 8.5 13.067 8.5 15C8.5 16.933 10.067 18.5 12 18.5C13.933 18.5 15.5 16.933 15.5 15C15.5 13.067 13.933 11.5 12 11.5ZM12 13C13.1046 13 14 13.8954 14 15C14 16.1046 13.1046 17 12 17C10.8954 17 10 16.1046 10 15C10 13.8954 10.8954 13 12 13Z" fill="#424138"/>
+              </svg>
+              <div class="size-label">16</div>
+            </div>
+            <div>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C10.5 1 9.5 3.5 9.5 5.5C6.5 7 5 11 5 15C5 20 8 23 12 23C16 23 19 20 19 15C19 11 17.5 7 14.5 5.5C14.5 3.5 13.5 1 12 1ZM12 2.5C12.5 2.5 13 4 13 5.5C15.5 7.5 17.5 11 17.5 15C17.5 19.5 15 21.5 12 21.5C9 21.5 6.5 19.5 6.5 15C6.5 11 8.5 7.5 11 5.5C11 4 11.5 2.5 12 2.5Z" fill="#424138"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 11.5C10.067 11.5 8.5 13.067 8.5 15C8.5 16.933 10.067 18.5 12 18.5C13.933 18.5 15.5 16.933 15.5 15C15.5 13.067 13.933 11.5 12 11.5ZM12 13C13.1046 13 14 13.8954 14 15C14 16.1046 13.1046 17 12 17C10.8954 17 10 16.1046 10 15C10 13.8954 10.8954 13 12 13Z" fill="#424138"/>
+              </svg>
+              <div class="size-label">24</div>
+            </div>
+            <div>
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C10.5 1 9.5 3.5 9.5 5.5C6.5 7 5 11 5 15C5 20 8 23 12 23C16 23 19 20 19 15C19 11 17.5 7 14.5 5.5C14.5 3.5 13.5 1 12 1ZM12 2.5C12.5 2.5 13 4 13 5.5C15.5 7.5 17.5 11 17.5 15C17.5 19.5 15 21.5 12 21.5C9 21.5 6.5 19.5 6.5 15C6.5 11 8.5 7.5 11 5.5C11 4 11.5 2.5 12 2.5Z" fill="#424138"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 11.5C10.067 11.5 8.5 13.067 8.5 15C8.5 16.933 10.067 18.5 12 18.5C13.933 18.5 15.5 16.933 15.5 15C15.5 13.067 13.933 11.5 12 11.5ZM12 13C13.1046 13 14 13.8954 14 15C14 16.1046 13.1046 17 12 17C10.8954 17 10 16.1046 10 15C10 13.8954 10.8954 13 12 13Z" fill="#424138"/>
+              </svg>
+              <div class="size-label">48</div>
+            </div>
+          </div>
+        </div>
+        <div class="label">Outline</div>
+      </div>
+
+      <!-- FILL: solid body with stone hole, solid stone -->
+      <div class="variant">
+        <div class="icon-wrap">
+          <div class="sizes">
+            <div>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C10.5 1 9.5 3.5 9.5 5.5C6.5 7 5 11 5 15C5 20 8 23 12 23C16 23 19 20 19 15C19 11 17.5 7 14.5 5.5C14.5 3.5 13.5 1 12 1ZM12 11.5C10.067 11.5 8.5 13.067 8.5 15C8.5 16.933 10.067 18.5 12 18.5C13.933 18.5 15.5 16.933 15.5 15C15.5 13.067 13.933 11.5 12 11.5Z" fill="#424138"/>
+                <path d="M12 13C10.8954 13 10 13.8954 10 15C10 16.1046 10.8954 17 12 17C13.1046 17 14 16.1046 14 15C14 13.8954 13.1046 13 12 13Z" fill="#424138"/>
+              </svg>
+              <div class="size-label">16</div>
+            </div>
+            <div>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C10.5 1 9.5 3.5 9.5 5.5C6.5 7 5 11 5 15C5 20 8 23 12 23C16 23 19 20 19 15C19 11 17.5 7 14.5 5.5C14.5 3.5 13.5 1 12 1ZM12 11.5C10.067 11.5 8.5 13.067 8.5 15C8.5 16.933 10.067 18.5 12 18.5C13.933 18.5 15.5 16.933 15.5 15C15.5 13.067 13.933 11.5 12 11.5Z" fill="#424138"/>
+                <path d="M12 13C10.8954 13 10 13.8954 10 15C10 16.1046 10.8954 17 12 17C13.1046 17 14 16.1046 14 15C14 13.8954 13.1046 13 12 13Z" fill="#424138"/>
+              </svg>
+              <div class="size-label">24</div>
+            </div>
+            <div>
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C10.5 1 9.5 3.5 9.5 5.5C6.5 7 5 11 5 15C5 20 8 23 12 23C16 23 19 20 19 15C19 11 17.5 7 14.5 5.5C14.5 3.5 13.5 1 12 1ZM12 11.5C10.067 11.5 8.5 13.067 8.5 15C8.5 16.933 10.067 18.5 12 18.5C13.933 18.5 15.5 16.933 15.5 15C15.5 13.067 13.933 11.5 12 11.5Z" fill="#424138"/>
+                <path d="M12 13C10.8954 13 10 13.8954 10 15C10 16.1046 10.8954 17 12 17C13.1046 17 14 16.1046 14 15C14 13.8954 13.1046 13 12 13Z" fill="#424138"/>
+              </svg>
+              <div class="size-label">48</div>
+            </div>
+          </div>
+        </div>
+        <div class="label">Fill</div>
+      </div>
+
+      <!-- DUOTONE: tint body + ring + stone ring -->
+      <div class="variant">
+        <div class="icon-wrap">
+          <div class="sizes">
+            <div>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 1C10.5 1 9.5 3.5 9.5 5.5C6.5 7 5 11 5 15C5 20 8 23 12 23C16 23 19 20 19 15C19 11 17.5 7 14.5 5.5C14.5 3.5 13.5 1 12 1Z" fill="#E2DDCD"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C10.5 1 9.5 3.5 9.5 5.5C6.5 7 5 11 5 15C5 20 8 23 12 23C16 23 19 20 19 15C19 11 17.5 7 14.5 5.5C14.5 3.5 13.5 1 12 1ZM12 2.5C12.5 2.5 13 4 13 5.5C15.5 7.5 17.5 11 17.5 15C17.5 19.5 15 21.5 12 21.5C9 21.5 6.5 19.5 6.5 15C6.5 11 8.5 7.5 11 5.5C11 4 11.5 2.5 12 2.5Z" fill="#424138"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 11.5C10.067 11.5 8.5 13.067 8.5 15C8.5 16.933 10.067 18.5 12 18.5C13.933 18.5 15.5 16.933 15.5 15C15.5 13.067 13.933 11.5 12 11.5ZM12 13C13.1046 13 14 13.8954 14 15C14 16.1046 13.1046 17 12 17C10.8954 17 10 16.1046 10 15C10 13.8954 10.8954 13 12 13Z" fill="#424138"/>
+              </svg>
+              <div class="size-label">16</div>
+            </div>
+            <div>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 1C10.5 1 9.5 3.5 9.5 5.5C6.5 7 5 11 5 15C5 20 8 23 12 23C16 23 19 20 19 15C19 11 17.5 7 14.5 5.5C14.5 3.5 13.5 1 12 1Z" fill="#E2DDCD"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C10.5 1 9.5 3.5 9.5 5.5C6.5 7 5 11 5 15C5 20 8 23 12 23C16 23 19 20 19 15C19 11 17.5 7 14.5 5.5C14.5 3.5 13.5 1 12 1ZM12 2.5C12.5 2.5 13 4 13 5.5C15.5 7.5 17.5 11 17.5 15C17.5 19.5 15 21.5 12 21.5C9 21.5 6.5 19.5 6.5 15C6.5 11 8.5 7.5 11 5.5C11 4 11.5 2.5 12 2.5Z" fill="#424138"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 11.5C10.067 11.5 8.5 13.067 8.5 15C8.5 16.933 10.067 18.5 12 18.5C13.933 18.5 15.5 16.933 15.5 15C15.5 13.067 13.933 11.5 12 11.5ZM12 13C13.1046 13 14 13.8954 14 15C14 16.1046 13.1046 17 12 17C10.8954 17 10 16.1046 10 15C10 13.8954 10.8954 13 12 13Z" fill="#424138"/>
+              </svg>
+              <div class="size-label">24</div>
+            </div>
+            <div>
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 1C10.5 1 9.5 3.5 9.5 5.5C6.5 7 5 11 5 15C5 20 8 23 12 23C16 23 19 20 19 15C19 11 17.5 7 14.5 5.5C14.5 3.5 13.5 1 12 1Z" fill="#E2DDCD"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C10.5 1 9.5 3.5 9.5 5.5C6.5 7 5 11 5 15C5 20 8 23 12 23C16 23 19 20 19 15C19 11 17.5 7 14.5 5.5C14.5 3.5 13.5 1 12 1ZM12 2.5C12.5 2.5 13 4 13 5.5C15.5 7.5 17.5 11 17.5 15C17.5 19.5 15 21.5 12 21.5C9 21.5 6.5 19.5 6.5 15C6.5 11 8.5 7.5 11 5.5C11 4 11.5 2.5 12 2.5Z" fill="#424138"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 11.5C10.067 11.5 8.5 13.067 8.5 15C8.5 16.933 10.067 18.5 12 18.5C13.933 18.5 15.5 16.933 15.5 15C15.5 13.067 13.933 11.5 12 11.5ZM12 13C13.1046 13 14 13.8954 14 15C14 16.1046 13.1046 17 12 17C10.8954 17 10 16.1046 10 15C10 13.8954 10.8954 13 12 13Z" fill="#424138"/>
+              </svg>
+              <div class="size-label">48</div>
+            </div>
+          </div>
+        </div>
+        <div class="label">Duotone</div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
