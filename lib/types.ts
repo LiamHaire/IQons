@@ -18,7 +18,8 @@ export type IconCategory =
   | "ai"
   | "sector-health"
   | "sector-education"
-  | "sector-legal";
+  | "sector-legal"
+  | "sector-finance";
 
 export interface Icon {
   id: string;
