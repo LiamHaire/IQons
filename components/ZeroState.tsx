@@ -49,6 +49,31 @@ export function ZeroState({ query }: { query: string }) {
           ? <>There are no icons matching <span style={{ color: "var(--text-secondary)" }}>&quot;{query}&quot;</span>.</>
           : "There are no icons matching your search criteria."}
       </p>
+      <button
+        style={{
+          marginTop: 20,
+          height: 40,
+          paddingLeft: 20,
+          paddingRight: 20,
+          border: "1px solid var(--border-default)",
+          borderRadius: 999,
+          background: "var(--surface)",
+          color: "var(--text-secondary)",
+          fontSize: 14,
+          cursor: "pointer",
+          transition: "border-color 150ms, color 150ms",
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.borderColor = "var(--text-primary)";
+          e.currentTarget.style.color = "var(--text-primary)";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.borderColor = "var(--border-default)";
+          e.currentTarget.style.color = "var(--text-secondary)";
+        }}
+      >
+        Create new icon
+      </button>
     </div>
   );
 }
