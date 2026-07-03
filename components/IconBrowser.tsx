@@ -221,13 +221,36 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
               <path d="M21 21l-4.35-4.35"/>
             </svg>
             <input
-              type="search"
+              type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Search for an icon..."
               className="flex-1 text-sm bg-transparent"
               style={{ color: "var(--text-primary)", outline: "none", border: "none", boxShadow: "none" }}
             />
+            {query && (
+              <button
+                onClick={() => setQuery("")}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  flexShrink: 0,
+                  background: "none",
+                  border: "none",
+                  padding: 0,
+                  cursor: "pointer",
+                  color: "var(--text-muted)",
+                }}
+                onMouseEnter={(e) => (e.currentTarget.style.color = "var(--text-primary)")}
+                onMouseLeave={(e) => (e.currentTarget.style.color = "var(--text-muted)")}
+                aria-label="Clear search"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18.293 4.29305C18.6836 3.90252 19.3166 3.90252 19.7071 4.29305C20.0976 4.68358 20.0976 5.31661 19.7071 5.70711L13.4141 12.0001L19.7071 18.293C20.0976 18.6836 20.0976 19.3166 19.7071 19.7071C19.3166 20.0976 18.6836 20.0976 18.293 19.7071L12.0001 13.4141L5.70711 19.7071C5.31661 20.0976 4.68358 20.0976 4.29305 19.7071C3.90252 19.3166 3.90252 18.6836 4.29305 18.293L10.586 12.0001L4.29305 5.70711C3.90252 5.31658 3.90252 4.68357 4.29305 4.29305C4.68357 3.90252 5.31658 3.90252 5.70711 4.29305L12.0001 10.586L18.293 4.29305Z" fill="currentColor"/>
+                </svg>
+              </button>
+            )}
           </div>
 
           {/* Theme toggle */}
