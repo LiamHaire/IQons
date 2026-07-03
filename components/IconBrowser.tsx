@@ -27,6 +27,7 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
   const iconSize = SIZE_STEPS[sizeIndex];
   const [dark, setDark]                 = useState(false);
   const [pressing, setPressing]         = useState(false);
+  const [searchFocused, setSearchFocused] = useState(false);
 
   function toggleTheme() {
     if (pressing) return;
@@ -202,13 +203,13 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
             style={{
               width: 280,
               height: 40,
-              border: "1px solid var(--border-default)",
+              border: searchFocused ? "1.5px solid var(--text-primary)" : "1px solid var(--border-default)",
               borderRadius: 999,
               background: "var(--surface)",
               transition: "border-color 150ms",
             }}
-            onFocusCapture={(e) => (e.currentTarget.style.borderColor = "var(--brand-primary)")}
-            onBlurCapture={(e) => (e.currentTarget.style.borderColor = "var(--border-default)")}
+            onFocusCapture={() => setSearchFocused(true)}
+            onBlurCapture={() => setSearchFocused(false)}
           >
             <svg
               width="16" height="16"
