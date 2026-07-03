@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import { CATEGORY_LABELS, CATEGORY_ORDER, SECTOR_CATEGORIES, ICON_STYLES, CATEGORY_ICONS } from "@/lib/icons";
 import { IconCard } from "./IconCard";
+import { ZeroState } from "./ZeroState";
 import type { Icon, IconCategory, IconStyle } from "@/lib/types";
 
 const outExpo = [0.16, 1, 0.3, 1] as const;
@@ -290,9 +291,7 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
         {/* Icon grid */}
         <div className="custom-scroll flex-1 overflow-y-auto pb-8" style={{ marginRight: "-40px", paddingRight: "40px", scrollbarGutter: "stable" }}>
           {filtered.length === 0 ? (
-            <p className="text-sm" style={{ color: "var(--text-muted)" }}>
-              No icons match your search.
-            </p>
+            <ZeroState query={query} />
           ) : (
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(140px, 1fr))", gap: 8 }}>
               {filtered.map((icon) => (
