@@ -44,7 +44,29 @@ State which base icon you are building from before generating.
 
 ---
 
-## Step 2 — Study the existing style
+## Step 2 — Determine the sizing frame FIRST
+
+**Before reading any reference icons or drawing anything**, classify the icon's primary shape and lock in the correct bounding box. This is non-negotiable — the wrong frame is the most common mistake.
+
+| Shape type | Bounding box | Centred at (12,12) means… | Use for |
+|---|---|---|---|
+| Circular | 22×22px | x: 1–23, y: 1–23 | Round forms, faces, globes, coins, badges |
+| Square | 20×20px | x: 2–22, y: 2–22 | Documents, screens, tiles, cards |
+| Rectangular (landscape) | 22×18px | x: 1–23, y: 3–21 | Wide shapes, tables, cameras, screens, banners |
+| Rectangular (portrait) | 18×22px | x: 3–21, y: 1–23 | Tall shapes, phones, pages, keys |
+| Small / navigational | 16×16px | x: 4–20, y: 4–20 | Arrows, chevrons, simple directional icons |
+
+**Sizing rules:**
+- Most icons fall into one of these five buckets — default to the closest match, not a custom size
+- Slight adjustments (±1–2px on one dimension only) are acceptable only when the concept genuinely demands it — state why
+- **Never use a circular or square frame for a shape that is clearly wider than it is tall, or vice versa**
+- All icons must be **centred** at (12, 12) within the 24×24 canvas
+
+State the chosen frame and the coordinates you will use before proceeding.
+
+---
+
+## Step 4 — Study the existing style
 
 Before drawing anything, read a representative sample of existing icons from the library. Run:
 
@@ -59,26 +81,14 @@ Key file facts:
 - Colors are always literal `#424138` (foreground) and `#E2DDCD` (duotone tint) — never use `currentColor` in raw files; the app substitutes these at runtime
 - All strokes must be converted to filled outline paths — no `stroke` attributes. This ensures consistent scaling at all sizes.
 
-## Step 3 — Apply the IQons design rules
+## Step 5 — Apply the IQons design rules
 
 ### Canvas & padding
 - 24×24px canvas, `viewBox="0 0 24 24"`
 - Minimum 1px padding on all four sides — no part of the icon should touch the canvas edge
 
 ### Icon sizing by shape
-Choose the appropriate bounding box for the icon's primary shape:
-
-| Shape type | Bounding box | Use for |
-|---|---|---|
-| Circular | 22×22px | Round forms, faces, globes, coins, badges |
-| Square | 20×20px | Documents, screens, tiles, cards |
-| Rectangular (landscape) | 22×18px | Wide shapes, cameras, screens, banners |
-| Rectangular (portrait) | 18×22px | Tall shapes, phones, pages, keys |
-| Small / navigational | 16×16px | Arrows, chevrons, simple directional icons |
-
-These are defaults — slight adjustments (e.g. 14×22px) are acceptable to maintain visual balance or correct proportions, but try to adjust only one dimension to preserve consistency.
-
-All icons must be **centred** horizontally and vertically within the 24×24 canvas.
+Use the frame locked in at **Step 2**. Do not deviate from it here.
 
 ### Action badges (add, edit, remove, etc.)
 
@@ -153,7 +163,7 @@ Chonky lines should only appear inside a circle or square container. Default is 
 
 ---
 
-## Step 4 — Style variant specifications
+## Step 6 — Style variant specifications
 
 ### Outline
 - Linework only — paths represent the outlines of the shape, not a silhouette
@@ -177,7 +187,7 @@ Chonky lines should only appear inside a circle or square container. Default is 
 
 ---
 
-## Step 5 — Choose the category
+## Step 7 — Choose the category
 
 Pick the most appropriate folder from:
 
@@ -205,7 +215,7 @@ Pick the most appropriate folder from:
 
 State which category you chose and why.
 
-## Step 6 — Determine the filename prefix
+## Step 8 — Determine the filename prefix
 
 | Folder | Prefix |
 |---|---|
@@ -229,14 +239,14 @@ State which category you chose and why.
 | `Education` | `education` |
 | `Legal` | `legal` |
 
-## Step 7 — Derive the icon slug
+## Step 9 — Derive the icon slug
 
 Convert the icon name to lowercase kebab-case:
 - "Arrow Diagonal" → `arrow-diagonal`
 - "Bar Chart" → `bar-chart`
 - "ID Card" → `id-card`
 
-## Step 8 — Generate the three SVG files
+## Step 10 — Generate the three SVG files
 
 Produce the SVG content for all three variants in memory. Do NOT write any files yet.
 
@@ -254,21 +264,25 @@ All three use this wrapper:
 </svg>
 ```
 
-## Step 9 — Preview for approval
+## Step 11 — Preview for approval
 
-Present the icons for review before saving anything. Show:
+Write a preview HTML file to `public/_preview/{slug}.html` and open it in the browser using Playwright (`mcp__playwright__browser_navigate` + `mcp__playwright__browser_take_screenshot`). The preview must show:
 
+- All three variants side by side (Outline, Fill, Duo-tone)
+- Each variant at 4 sizes: 16, 24, 32, 48px
+- A dark mode card showing all three at 32px on a dark background
+- Download buttons per variant (see existing `public/_preview/boardroom.html` for the pattern)
+
+After screenshotting, show the image and state:
 1. **Category** chosen and why
-2. **Sizing rule** applied and any adjustments
-3. **All three SVG variants** displayed inline — render each one at a larger preview size (e.g. `width="96" height="96"`) so the shapes are clearly visible, with the variant name labelled beneath each
-4. A clear prompt:
+2. **Sizing frame** used (from Step 2) and the exact coordinates
 
 > **Do these look right?**
 > Reply **"approve"** to save them to the library, or **"reject"** to discard. You can also say **"adjust: [feedback]"** and I'll revise before saving.
 
 Wait for the user's response before proceeding.
 
-## Step 10 — Save or discard based on response
+## Step 12 — Save or discard based on response
 
 **If approved:** Write each file to `raw-icons/{Folder}/` using the Write tool. Use the exact folder name including capitalisation and spaces (e.g. `raw-icons/Security & access/`). Then confirm the three filenames and that the icons are live in the browser immediately.
 
