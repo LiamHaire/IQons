@@ -6,22 +6,88 @@ Generate three SVG variants of the requested icon (outline, fill, duotone) that 
 
 ## Step 1 — Study the existing style
 
-Before drawing anything, read a representative sample of existing icons to infer the house style. Run:
+Before drawing anything, read a representative sample of existing icons from the library. Run:
 
 ```
 ls raw-icons/
 ```
 
-Then read 3–4 icons across different categories — at least one of each variant (outline, fill, duotone) — to understand:
-- Path construction approach (pixel-hinted coordinates, sharp corners vs rounded, stroke style)
-- How outline differs from fill (outline = stroked paths with `fill="#424138"`; fill = solid filled shape, often inside a rounded rectangle or circle container)
-- How duotone layers work: a background shape in `fill="#E2DDCD"` (the tint layer) plus foreground detail paths in `fill="#424138"`
+Then read 3–4 icons across different categories — at least one of each variant (outline, fill, duotone) — paying attention to how paths are constructed and how the design rules below are applied in practice.
+
+Key file facts:
 - ViewBox is always `0 0 24 24`, width/height always `24`
-- Colors are always literal `#424138` (foreground) and `#E2DDCD` (duotone tint) — never use `currentColor` in the raw files; the app substitutes these at runtime
+- Colors are always literal `#424138` (foreground) and `#E2DDCD` (duotone tint) — never use `currentColor` in raw files; the app substitutes these at runtime
+- All strokes must be converted to filled outline paths — no `stroke` attributes. This ensures consistent scaling at all sizes.
 
-## Step 2 — Choose the category
+## Step 2 — Apply the IQons design rules
 
-Pick the most appropriate category folder from:
+### Canvas & padding
+- 24×24px canvas, `viewBox="0 0 24 24"`
+- Minimum 2px padding on all four sides — no part of the icon should touch the canvas edge
+
+### Icon sizing by shape
+Choose the appropriate bounding box for the icon's primary shape:
+
+| Shape type | Bounding box | Use for |
+|---|---|---|
+| Circular | 22×22px | Round forms, faces, globes, coins, badges |
+| Square | 20×20px | Documents, screens, tiles, cards |
+| Rectangular (landscape) | 22×18px | Wide shapes, cameras, screens, banners |
+| Rectangular (portrait) | 18×22px | Tall shapes, phones, pages, keys |
+| Small / navigational | 16×16px | Arrows, chevrons, simple directional icons |
+
+These are defaults — slight adjustments (e.g. 14×22px) are acceptable to maintain visual balance or correct proportions, but try to adjust only one dimension to preserve consistency.
+
+All icons must be **centred** horizontally and vertically within the 24×24 canvas.
+
+### Corner radius
+- Default: **2px** on outer corners
+- Internal lines/joins: **1px** where a small radius improves the shape
+- Sharp (0px) only when the icon concept demands it (e.g. a lightning bolt)
+
+### Line thickness (strokes converted to filled paths)
+| Weight | Width | When to use |
+|---|---|---|
+| Default | **1.5px** | Almost all lines — outlines, structural forms |
+| Slimline | **1px** | Delicate internal detail where 1.5px is too heavy |
+| Chonky | **2px** | Action lines inside a container (add +, minus −, cancel ×) |
+
+Chonky lines should only appear inside a circle or square container. Default is the right choice in most cases.
+
+### Shape language
+- Simple and geometric — avoid decorative or illustrative detail
+- Maintain visual consistency with the existing icon library (study the examples before generating)
+- Prefer clean closed paths over complex overlapping shapes
+
+---
+
+## Step 3 — Style variant specifications
+
+### Outline
+- Linework only — paths represent the outlines of the shape, not a silhouette
+- All paths use `fill="#424138"`, no stroke attributes
+- Use **1.5px default line weight** for structural lines, converted to filled paths
+- Keep it clean: the outline variant should read clearly at small sizes
+
+### Fill
+- Solid silhouette version of the icon
+- The primary shape is fully filled with `fill="#424138"`
+- Internal negative space (cutouts, holes) created with `fill-rule="evenodd"` or separate white-knockout paths
+- Often sits inside a rounded-rectangle or circle container (filled solid)
+- Any internal action lines (e.g. + or −) use **2px chonky weight** as white knockout paths
+
+### Duotone
+- Two-layer composition:
+  1. **Tint layer** (`fill="#E2DDCD"`) — the primary mass of the icon, the largest background shape
+  2. **Detail layer** (`fill="#424138"`) — outlines, structural lines, and selective fills drawn over the tint
+- **Do not fill every internal space** — leave some areas unfilled for contrast and visual interest. The outline paths from the outline variant typically form the detail layer, with only select enclosed regions receiving the tint fill.
+- Study the existing duotone examples carefully before generating — the balance between filled and unfilled areas is key to the style.
+
+---
+
+## Step 4 — Choose the category
+
+Pick the most appropriate folder from:
 
 | Folder | Category |
 |---|---|
@@ -45,11 +111,9 @@ Pick the most appropriate category folder from:
 | `Education` | Learning, books, school |
 | `Legal` | Law, contract, compliance |
 
-State which category you chose and why before generating.
+State which category you chose and why.
 
-## Step 3 — Determine the filename prefix
-
-Each category has a filename prefix derived from the folder name (spaces removed, `&` kept):
+## Step 5 — Determine the filename prefix
 
 | Folder | Prefix |
 |---|---|
@@ -73,45 +137,38 @@ Each category has a filename prefix derived from the folder name (spaces removed
 | `Education` | `education` |
 | `Legal` | `legal` |
 
-## Step 4 — Derive the icon slug
+## Step 6 — Derive the icon slug
 
-Convert the icon name to lowercase kebab-case. Examples:
+Convert the icon name to lowercase kebab-case:
 - "Arrow Diagonal" → `arrow-diagonal`
 - "Bar Chart" → `bar-chart`
 - "ID Card" → `id-card`
 
-## Step 5 — Generate the three SVG files
+## Step 7 — Generate the three SVG files
 
-Filenames follow this exact pattern:
+Filenames:
 ```
 icon-{prefix}-{slug}-outline.svg
 icon-{prefix}-{slug}-fill.svg
 icon-{prefix}-{slug}-duotone.svg
 ```
 
-**Outline** — clean linework icon, single filled path using `fill="#424138"`. Think of it as a precise line-art version — paths describe the outline/stroke of the shape, not a filled silhouette.
-
-**Fill** — solid silhouette. Often (but not always) set inside a rounded rectangle or circle container. Single `fill-rule="evenodd"` path or a small set of paths, all `fill="#424138"`.
-
-**Duotone** — two-layer composition:
-1. A background shape in `fill="#E2DDCD"` (the tint) — usually the primary mass of the icon
-2. Foreground detail paths in `fill="#424138"` — outlines, details, cutouts drawn over the tint
-
-All three files share this SVG wrapper:
+All three use this wrapper:
 ```svg
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
   <!-- paths here -->
 </svg>
 ```
 
-## Step 6 — Save the files
+## Step 8 — Save the files
 
 Write each file to `raw-icons/{Folder}/` using the Write tool. Use the exact folder name including capitalisation and spaces (e.g. `raw-icons/Security & access/`).
 
-## Step 7 — Confirm
+## Step 9 — Confirm
 
-List what was created and tell the user:
+Tell the user:
 - The category chosen and why
 - The three filenames
-- That the icon will appear live in the browser immediately (no rebuild needed)
-- That they can move the files to a different category folder if the category choice isn't right
+- The sizing rule applied (circular / square / rectangular / small) and any adjustments made
+- That the icons will appear live in the browser immediately (no rebuild needed)
+- That they can move the files to a different category folder if the placement isn't right
