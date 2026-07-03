@@ -71,7 +71,7 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
     <>
       {/* ── Sidebar ── */}
       <aside
-        className="flex flex-col shrink-0 overflow-y-auto"
+        className="flex flex-col shrink-0 overflow-y-auto custom-scroll"
         style={{
           width: 240,
           borderRight: "1px solid var(--border-default)",
