@@ -339,9 +339,9 @@ function CategoryRow({
     >
       {iconSvg && (
         <span
-          className="w-6 h-6 shrink-0 flex items-center justify-center"
+          className="w-5 h-5 shrink-0 flex items-center justify-center"
           style={{ color: "var(--icon-fill)" }}
-          dangerouslySetInnerHTML={{ __html: iconSvg.replace(/<svg /, '<svg width="24" height="24" ') }}
+          dangerouslySetInnerHTML={{ __html: iconSvg.replace(/<svg /, '<svg width="20" height="20" ') }}
         />
       )}
       {label}
