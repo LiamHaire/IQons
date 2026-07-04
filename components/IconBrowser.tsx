@@ -29,6 +29,7 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
   const [dark, setDark]                 = useState(false);
   const [pressing, setPressing]         = useState(false);
   const [searchFocused, setSearchFocused] = useState(false);
+  const [searchHovered, setSearchHovered] = useState(false);
 
   function toggleTheme() {
     if (pressing) return;
@@ -148,22 +149,28 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
               <button
                 key={style}
                 onClick={() => setActiveStyle(style)}
-                className="px-4 text-sm rounded-full transition-colors inline-flex items-center"
+                className="px-4 text-sm rounded-full inline-flex items-center"
                 style={
                   activeStyle === style
                     ? {
                         height: 40,
-                        border: "1.5px solid var(--text-primary)",
+                        border: "1.5px solid var(--brand-primary)",
                         color: "var(--text-primary)",
-                        background: "var(--surface)",
+                        background: "transparent",
+                        cursor: "pointer",
+                        transition: "background 150ms, border-color 150ms",
                       }
                     : {
                         height: 40,
                         border: "1px solid var(--border-default)",
                         color: "var(--text-secondary)",
-                        background: "var(--surface)",
+                        background: "transparent",
+                        cursor: "pointer",
+                        transition: "background 150ms, border-color 150ms",
                       }
                 }
+                onMouseEnter={(e) => { e.currentTarget.style.background = "var(--surface-hover)"; }}
+                onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
               >
                 {STYLE_DISPLAY[style]}
               </button>
@@ -204,13 +211,20 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
             style={{
               width: 280,
               height: 40,
-              border: searchFocused ? "1.5px solid var(--text-primary)" : "1px solid var(--border-default)",
+              border: searchFocused
+                ? "1.5px solid var(--brand-primary)"
+                : searchHovered
+                  ? "1px solid var(--border-strong)"
+                  : "1px solid var(--border-default)",
               borderRadius: 999,
-              background: "var(--surface)",
-              transition: "border-color 150ms",
+              background: searchHovered && !searchFocused ? "var(--surface-hover)" : "transparent",
+              transition: "border-color 150ms, background 150ms",
+              cursor: "text",
             }}
             onFocusCapture={() => setSearchFocused(true)}
             onBlurCapture={() => setSearchFocused(false)}
+            onMouseEnter={() => setSearchHovered(true)}
+            onMouseLeave={() => setSearchHovered(false)}
           >
             <svg
               width="16" height="16"
@@ -264,10 +278,11 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
               background: "transparent",
               color: "var(--text-secondary)",
               cursor: "pointer",
+              transition: "background 150ms, border-color 150ms",
             }}
             animate={pressing ? { scale: 0.88, y: 2 } : { scale: 1, y: 0 }}
             transition={pressing ? { duration: 0.1, ease: "easeIn" } : { duration: 0.35, ease: outExpo }}
-            whileHover={{ borderColor: "var(--border-strong)" }}
+            whileHover={{ borderColor: "var(--border-strong)", background: "var(--surface-hover)" }}
             title={dark ? "Switch to light mode" : "Switch to dark mode"}
           >
             {dark ? (
@@ -318,23 +333,20 @@ function CategoryRow({
   onClick: () => void;
   iconSvg?: string;
 }) {
+  const [hovered, setHovered] = useState(false);
   return (
     <button
       onClick={onClick}
-      className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-left w-full transition-colors"
-      style={
-        active
-          ? {
-              border: "1.5px solid var(--text-primary)",
-              color: "var(--text-primary)",
-              background: "var(--surface)",
-            }
-          : {
-              border: "1px solid transparent",
-              color: "var(--text-secondary)",
-              background: "var(--surface)",
-            }
-      }
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+      className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-left w-full"
+      style={{
+        border: active ? "1.5px solid var(--brand-primary)" : "1px solid transparent",
+        color: active ? "var(--text-primary)" : "var(--text-secondary)",
+        background: hovered ? "var(--surface-hover)" : "transparent",
+        cursor: "pointer",
+        transition: "background 150ms, border-color 150ms",
+      }}
     >
       {iconSvg && (
         <span

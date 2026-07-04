@@ -25,7 +25,7 @@ export function IconCard({ icon, style, size = 32 }: IconCardProps) {
         height: 148,
         border: "1px solid var(--border-default)",
         borderRadius: 12,
-        background: "var(--surface)",
+        background: "var(--surface-raised)",
         overflow: "hidden",
         cursor: "pointer",
         transition: "border-color 150ms, box-shadow 150ms, background 150ms",
@@ -34,14 +34,14 @@ export function IconCard({ icon, style, size = 32 }: IconCardProps) {
       onMouseEnter={(e) => {
         const el = e.currentTarget as HTMLButtonElement;
         el.style.borderColor = "var(--border-strong)";
-        el.style.boxShadow = "0 4px 12px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.04)";
+        el.style.boxShadow = "0 2px 8px rgba(0,0,0,0.05), 0 1px 3px rgba(0,0,0,0.03)";
         el.style.background = "var(--surface-hover)";
       }}
       onMouseLeave={(e) => {
         const el = e.currentTarget as HTMLButtonElement;
         el.style.borderColor = "var(--border-default)";
         el.style.boxShadow = "none";
-        el.style.background = "var(--surface)";
+        el.style.background = "var(--surface-raised)";
       }}
     >
       {/* Icon area */}

@@ -98,39 +98,39 @@
 /* ─── Light theme — granite ───────────────────────────────────────────────── */
 :root {
   /* Icon tokens */
-  --color-icon:           #1A1D21;
-  --color-icon-secondary: #48505E;
-  --color-icon-muted:     #7A8494;
+  --color-icon:           #1C1F24;
+  --color-icon-secondary: #9299A1;
+  --color-icon-muted:     #9299A1;
   --color-icon-disabled:  #AAB2BF;
-  --color-icon-accent:    #F15D22;
-  --icon-fill: #3E474D;
+  --color-icon-accent:    #F15A24;
+  --icon-fill: #1C1F24;
   /* Background layers */
-  --background:       #E2E5EA;
-  --surface:          #ECEEF2;
+  --background:       #FEFEFD;
+  --surface:          #FAFBFC;
   --surface-raised:   #FFFFFF;
   --surface-overlay:  #FFFFFF;
-  --surface-hover:    #F8F9FA;
-  --surface-active:   #E4E7EB;
-  --surface-disabled: #EAECEF;
+  --surface-hover:    #F5F7F8;
+  --surface-active:   #EEF2F4;
+  --surface-disabled: #F0F2F4;
 
   /* Typography */
-  --text-primary:    #1A1D21;
-  --text-secondary:  #48505E;
-  --text-muted:      #7A8494;
+  --text-primary:    #22262B;
+  --text-secondary:  #6C737B;
+  --text-muted:      #9299A1;
   --text-disabled:   #AAB2BF;
   --text-inverse:    #FFFFFF;
   --text-link:       #C44D1A;
   --text-link-hover: #A83D12;
 
   /* Borders */
-  --border-subtle:   #E0E3E8;
-  --border-default:  #D0D4DC;
-  --border-strong:   #B4BAC6;
-  --border-focus:    #F15D22;
-  --border-disabled: #E8EAED;
+  --border-subtle:   #EDF0F3;
+  --border-default:  #E2E5E8;
+  --border-strong:   #D5DADF;
+  --border-focus:    #F15A24;
+  --border-disabled: #ECF0F3;
 
   /* Brand */
-  --brand-primary:            #F15D22;
+  --brand-primary:            #F15A24;
   --brand-primary-hover:      #D94E18;
   --brand-primary-active:     #BF4212;
   --brand-primary-soft:       #FDE8DF;
@@ -165,8 +165,8 @@
   --info-foreground:  #FFFFFF;
 
   /* Focus */
-  --focus-ring: #F15D22;
-  --selection:  rgba(241, 93, 34, 0.13);
+  --focus-ring: #F15A24;
+  --selection:  rgba(241, 90, 36, 0.13);
 }
 
 /* ─── Dark theme — monolith ───────────────────────────────────────────────── */
