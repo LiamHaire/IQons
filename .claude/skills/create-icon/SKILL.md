@@ -35,6 +35,7 @@ Load and use the following documents before beginning any work.
 @variant-specs.md
 @categories.md
 @badge-spec.md
+@validation-rules.md
 
 These documents define the IQons design language.
 
@@ -306,7 +307,15 @@ Each variant must comply with `variant-specs.md`.
 
 ---
 
-## STEP 10 — Self Review
+## STEP 10 — Validation
+
+Perform the complete validation workflow defined in `validation-rules.md`.
+
+Do not continue until all validation stages have been passed.
+
+---
+
+## STEP 11 — Self Review
 
 Before presenting any SVG, complete a full design review.
 
@@ -335,7 +344,7 @@ Do not present incomplete work.
 
 ---
 
-## STEP 11 — Generate Preview
+## STEP 12 — Generate Preview
 
 Generate a preview page displaying all three variants:
 
@@ -365,7 +374,7 @@ Capture a preview screenshot and present it to the user.
 
 ---
 
-## STEP 12 — Await Design Review
+## STEP 13 — Await Design Review
 
 Wait for the user's decision.
 
@@ -382,7 +391,7 @@ Do not save any files until explicit approval is received.
 
 ---
 
-## STEP 13 — Save
+## STEP 14 — Save
 
 If approved:
 
@@ -406,7 +415,7 @@ Do not commit, publish or push to Git until instructed.
 
 ---
 
-## STEP 14 — Completion
+## STEP 15 — Completion
 
 Summarise:
 
