@@ -315,36 +315,7 @@ Do not continue until all validation stages have been passed.
 
 ---
 
-## STEP 11 — Self Review
-
-Before presenting any SVG, complete a full design review.
-
-Confirm:
-
-- [ ] No duplicate icon has been created.
-- [ ] Existing icon reuse has been maximised.
-- [ ] Construction Inheritance has been used where appropriate.
-- [ ] Geometry matches neighbouring icons.
-- [ ] Padding is correct.
-- [ ] Line weight is correct.
-- [ ] Corner radius is correct.
-- [ ] Optical weight matches the library.
-- [ ] Visual balance is consistent.
-- [ ] Negative space is appropriate.
-- [ ] Detail has been simplified wherever possible.
-- [ ] The icon remains recognisable at small sizes.
-- [ ] SVG formatting complies with `design-rules.md`.
-- [ ] Outline variant is correct.
-- [ ] Fill variant is correct.
-- [ ] Duotone variant is correct.
-
-If any item fails: correct the issue before continuing.
-
-Do not present incomplete work.
-
----
-
-## STEP 12 — Generate Preview
+## STEP 11 — Generate Preview
 
 Generate a preview page displaying all three variants:
 
@@ -374,7 +345,7 @@ Capture a preview screenshot and present it to the user.
 
 ---
 
-## STEP 13 — Await Design Review
+## STEP 12 — Await Design Review
 
 Wait for the user's decision.
 
@@ -391,7 +362,7 @@ Do not save any files until explicit approval is received.
 
 ---
 
-## STEP 14 — Save
+## STEP 13 — Save
 
 If approved:
 
@@ -415,7 +386,7 @@ Do not commit, publish or push to Git until instructed.
 
 ---
 
-## STEP 15 — Completion
+## STEP 14 — Completion
 
 Summarise:
 
