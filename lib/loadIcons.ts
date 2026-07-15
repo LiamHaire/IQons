@@ -100,10 +100,17 @@ export function getAllIcons(): Icon[] {
       const entry = iconMap.get(key)!;
       const raw = fs.readFileSync(path.join(folderPath, file), "utf8").trim();
       entry.svgMap[parsed.style] = raw
-        .replace(/fill="#424138"/gi, 'fill="currentColor"')
+        // Preserve duotone tint colours before blanket replacement
         .replace(/fill="#E2DDCD"/gi, 'fill="currentColor" fill-opacity="0.15"')
-        .replace(/stroke="#424138"/gi, 'stroke="currentColor"')
-        .replace(/stroke="#E2DDCD"/gi, 'stroke="currentColor" stroke-opacity="0.15"');
+        .replace(/stroke="#E2DDCD"/gi, 'stroke="currentColor" stroke-opacity="0.15"')
+        // Replace any remaining hardcoded fill colour (hex, named black/white) with currentColor
+        .replace(/fill="#[0-9a-fA-F]{3,8}"/g, 'fill="currentColor"')
+        .replace(/fill="black"/gi, 'fill="currentColor"')
+        .replace(/fill="white"/gi, 'fill="currentColor"')
+        // Replace any remaining hardcoded stroke colour with currentColor
+        .replace(/stroke="#[0-9a-fA-F]{3,8}"/g, 'stroke="currentColor"')
+        .replace(/stroke="black"/gi, 'stroke="currentColor"')
+        .replace(/stroke="white"/gi, 'stroke="currentColor"');
       entry.styles.add(parsed.style);
     }
   }
