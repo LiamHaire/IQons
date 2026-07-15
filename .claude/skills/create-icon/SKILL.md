@@ -221,17 +221,25 @@ Apply the categorisation rules defined in `categories.md`.
 
 Using `design-rules.md` determine the correct construction frame.
 
-Possible construction frames include:
+These are the **only** permitted frames. You must select one. Do not invent a custom size.
 
-- Circular
-- Square
-- Landscape rectangular
-- Portrait rectangular
-- Small / navigational
+| Frame | Artwork size | Use when the concept's natural proportions are… |
+|---|---|---|
+| Circle | 22×22px | Circular or radially symmetric |
+| Square | 20×20px | Roughly equal width and height |
+| Landscape | 22×18px | Noticeably wider than tall |
+| Portrait | 18×22px | Noticeably taller than wide |
+| Small | 16×16px | A compact symbol or directional indicator with no dominant axis |
 
-Choose the smallest geometry capable of communicating the concept.
+**The concept's natural proportions must drive the decision** — not style preference or available space.
 
-Never increase complexity unnecessarily.
+Sketch the icon's silhouette mentally. Does it sit square, wider, or taller? That determines the frame.
+
+All frames are calibrated to produce the same perceived visual weight as a 22×22px circle.
+
+Do not choose a larger frame simply to fill more space.
+
+Do not use any dimensions other than those listed above.
 
 ---
 

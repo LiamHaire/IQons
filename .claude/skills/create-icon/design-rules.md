@@ -192,15 +192,37 @@ Different shapes occupy different amounts of space because filled and outlined f
 
 ---
 
-## Default Size Frames
+## Size Frames
 
-| Frame | Size | Usage |
-|---|---|---|
-| Circle | 22×22px diameter | Circular objects, faces, globes, badges |
-| Square | 20×20px | Solid objects, documents, cards, tiles |
-| Landscape | 22×18px | Wide objects, cameras, banners, monitors |
-| Portrait | 18×22px | Tall objects, phones, pages, keys |
-| Small | 16×16px | Navigation, arrows, chevrons, compact symbols |
+These are the **only** permitted artwork dimensions within the 24×24 canvas.
+
+Do not use any other dimensions.
+
+Do not invent custom sizes.
+
+Do not resize the SVG canvas — it is always `width="24" height="24" viewBox="0 0 24 24"`.
+
+The size frame defines the bounding area of the artwork **within** the canvas, not the canvas itself.
+
+| Frame | Artwork size | Padding each side | Usage |
+|---|---|---|---|
+| Circle | 22×22px diameter | 1px | Circular objects, faces, globes, badges |
+| Square | 20×20px | 2px | Solid objects, documents, cards, tiles |
+| Landscape | 22×18px | 1px h / 3px v | Wide objects, cameras, banners, monitors |
+| Portrait | 18×22px | 3px h / 1px v | Tall objects, phones, pages, keys |
+| Small | 16×16px | 4px | Navigation, arrows, chevrons, compact symbols |
+
+**Frame selection must be driven by the concept's natural proportions** — the shape the artwork would naturally occupy if drawn without constraints.
+
+- A cup is wider than it is tall → Landscape (22×18px)
+- A phone is taller than it is wide → Portrait (18×22px)
+- A document is roughly square → Square (20×20px)
+- A globe is circular → Circle (22×22px)
+- An arrow is compact and directional → Small (16×16px)
+
+If a concept does not obviously fit one frame, choose the closest match based on the dominant axis.
+
+Never choose a frame based on what fits the artwork you have already drawn — choose the frame first, then draw to fit it.
 
 ---
 
@@ -238,14 +260,23 @@ A non-solid icon should feel balanced when placed beside:
 
 ## Optical Balance
 
-The objective is equal perceived size.
+The objective is equal perceived size across all icons in the library.
+
+**The 22×22px circle is the optical reference.**
+
+Every size frame is derived from this reference — its dimensions are chosen so that the artwork produces the same perceived visual weight as a 22×22px circle.
+
+- Square icons use 20×20px because a solid square at 22×22px appears heavier than a 22px circle.
+- Portrait and Landscape icons use one 22px axis and one 18px axis because the shorter axis compensates for the shape's directionality.
+- Small icons use 16×16px because compact symbols carry concentrated weight.
 
 Rules:
 
-- Heavy filled shapes should generally be smaller.
-- Lighter outlined shapes may occupy more space.
-- Irregular shapes should be sized by visual weight.
-- Icons should align visually when viewed together.
+- Always size artwork so it feels equal in weight to a 22×22px circle.
+- Heavy filled shapes must be smaller — do not expand them to fill the maximum frame.
+- Lighter outlined shapes may use more of the frame because they carry less visual weight.
+- Irregular or complex shapes should be sized by visual weight, not mathematical bounds.
+- When in doubt, compare the new icon against an existing circle icon at the same size.
 
 ---
 
@@ -344,6 +375,51 @@ Do not use Small as the default radius.
 Do not use Large radius unless explicitly requested.
 
 Large radius is reserved for cases where a softer or more rounded treatment is specifically required by the icon concept. This is an exception, not a default. If in doubt, use Standard (2px).
+
+---
+
+# Spacing
+
+## Spacing System
+
+All spacing between elements must be a multiple of the Standard line weight.
+
+This ties the spatial rhythm of the icon to its stroke weight, keeping the construction visually coherent.
+
+| Multiplier | Value | Use |
+|---|---|---|
+| 1× Standard | 1 unit | Minimum gap between adjacent elements |
+| 2× Standard | 2 units | Default separation between distinct parts |
+| 3× Standard | 3 units | Larger separation when visual breathing room is needed |
+
+Do not use arbitrary spacing values.
+
+Do not use fractional multiples.
+
+---
+
+## Applying the Spacing Rule
+
+Examples of correct application:
+
+- The gap between a cup body and a saucer line should be **1× Standard**.
+- The gap between the top of a cup body and the base of steam lines should be **1× Standard**.
+- The gap between a base icon and a badge cutout should follow the badge specification, which is also grounded in Standard weight.
+
+When two elements are touching, they share an edge — there is no gap. A gap only exists when the elements are visually separated.
+
+---
+
+## Internal Element Spacing
+
+Spacing between internal elements within a single shape follows the same rule.
+
+Use:
+
+- **1× Standard** as the minimum internal gap
+- **2× Standard** for comfortable separation inside a larger shape
+
+Do not reduce internal spacing below **1× Standard** to fit more detail. Simplify the design instead.
 
 ---
 

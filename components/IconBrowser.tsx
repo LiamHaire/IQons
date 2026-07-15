@@ -23,8 +23,8 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
   const [query, setQuery]               = useState("");
   const [activeStyle, setActiveStyle]   = useState<IconStyle>("outline");
   const [activeCategory, setActiveCategory] = useState<string>(ALL);
-  const SIZE_STEPS = [24, 28, 32, 40, 48, 56];
-  const [sizeIndex, setSizeIndex]       = useState(2); // default 32px
+  const SIZE_STEPS = [16, 18, 20, 24, 28, 32, 40, 48, 56];
+  const [sizeIndex, setSizeIndex]       = useState(5); // default 32px
   const iconSize = SIZE_STEPS[sizeIndex];
   const [dark, setDark]                 = useState(false);
   const [pressing, setPressing]         = useState(false);

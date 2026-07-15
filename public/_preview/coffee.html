@@ -1,331 +1,129 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>IQons Preview — coffee</title>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; padding: 40px; }
-    h1 { font-size: 14px; font-weight: 600; color: #333; margin-bottom: 32px; letter-spacing: 0.05em; text-transform: uppercase; }
-    h2 { font-size: 11px; font-weight: 500; color: #999; margin-bottom: 16px; letter-spacing: 0.08em; text-transform: uppercase; }
-    .section { margin-bottom: 48px; }
-    .card { background: #fff; border-radius: 12px; padding: 32px; margin-bottom: 16px; display: flex; gap: 48px; align-items: flex-end; }
-    .card.dark { background: #1a1a1a; }
-    .variant { display: flex; flex-direction: column; align-items: center; gap: 24px; }
-    .variant-label { font-size: 11px; color: #aaa; text-transform: uppercase; letter-spacing: 0.08em; }
-    .card.dark .variant-label { color: #666; }
-    .sizes { display: flex; align-items: flex-end; gap: 20px; }
-    .size-item { display: flex; flex-direction: column; align-items: center; gap: 8px; }
-    .size-label { font-size: 10px; color: #ccc; }
-    .card.dark .size-label { color: #555; }
-    svg { display: block; }
-  </style>
-</head>
-<body>
-  <h1>coffee — System &amp; utility</h1>
-
-  <div class="section">
-    <h2>Light Background</h2>
-    <div class="card">
-
-      <!-- OUTLINE -->
-      <div class="variant">
-        <div class="variant-label">Outline</div>
-        <div class="sizes">
-          <div class="size-item">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <!-- Steam left -->
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <!-- Steam right -->
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <!-- Cup body -->
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 8.75C5.22386 8.75 5 8.97386 5 9.25V16.75C5 17.7165 5.7835 18.5 6.75 18.5H15C15.9665 18.5 16.75 17.7165 16.75 16.75V9.25C16.75 8.97386 16.5261 8.75 16.25 8.75H5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-              <!-- Handle -->
-              <path d="M16.75 11H18C18.9665 11 19.75 11.7835 19.75 12.75C19.75 13.7165 18.9665 14.5 18 14.5H16.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <!-- Saucer -->
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">16</span>
-          </div>
-          <div class="size-item">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 8.75C5.22386 8.75 5 8.97386 5 9.25V16.75C5 17.7165 5.7835 18.5 6.75 18.5H15C15.9665 18.5 16.75 17.7165 16.75 16.75V9.25C16.75 8.97386 16.5261 8.75 16.25 8.75H5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M16.75 11H18C18.9665 11 19.75 11.7835 19.75 12.75C19.75 13.7165 18.9665 14.5 18 14.5H16.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">24</span>
-          </div>
-          <div class="size-item">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 8.75C5.22386 8.75 5 8.97386 5 9.25V16.75C5 17.7165 5.7835 18.5 6.75 18.5H15C15.9665 18.5 16.75 17.7165 16.75 16.75V9.25C16.75 8.97386 16.5261 8.75 16.25 8.75H5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M16.75 11H18C18.9665 11 19.75 11.7835 19.75 12.75C19.75 13.7165 18.9665 14.5 18 14.5H16.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">32</span>
-          </div>
-          <div class="size-item">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 8.75C5.22386 8.75 5 8.97386 5 9.25V16.75C5 17.7165 5.7835 18.5 6.75 18.5H15C15.9665 18.5 16.75 17.7165 16.75 16.75V9.25C16.75 8.97386 16.5261 8.75 16.25 8.75H5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M16.75 11H18C18.9665 11 19.75 11.7835 19.75 12.75C19.75 13.7165 18.9665 14.5 18 14.5H16.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">48</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- FILL -->
-      <div class="variant">
-        <div class="variant-label">Fill</div>
-        <div class="sizes">
-          <div class="size-item">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <!-- Cup + handle as compound fill -->
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5 9.25C5 8.97386 5.22386 8.75 5.5 8.75H16.25C16.5261 8.75 16.75 8.97386 16.75 9.25V10.25H18C19.3807 10.25 20.5 11.3693 20.5 12.75C20.5 14.1307 19.3807 15.25 18 15.25H16.75V16.75C16.75 17.7165 15.9665 18.5 15 18.5H6.75C5.7835 18.5 5 17.7165 5 16.75V9.25ZM16.75 13.75H18C18.5523 13.75 19 13.3023 19 12.75C19 12.1977 18.5523 11.75 18 11.75H16.75V13.75Z" fill="currentColor"/>
-              <!-- Saucer fill -->
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">16</span>
-          </div>
-          <div class="size-item">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5 9.25C5 8.97386 5.22386 8.75 5.5 8.75H16.25C16.5261 8.75 16.75 8.97386 16.75 9.25V10.25H18C19.3807 10.25 20.5 11.3693 20.5 12.75C20.5 14.1307 19.3807 15.25 18 15.25H16.75V16.75C16.75 17.7165 15.9665 18.5 15 18.5H6.75C5.7835 18.5 5 17.7165 5 16.75V9.25ZM16.75 13.75H18C18.5523 13.75 19 13.3023 19 12.75C19 12.1977 18.5523 11.75 18 11.75H16.75V13.75Z" fill="currentColor"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">24</span>
-          </div>
-          <div class="size-item">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5 9.25C5 8.97386 5.22386 8.75 5.5 8.75H16.25C16.5261 8.75 16.75 8.97386 16.75 9.25V10.25H18C19.3807 10.25 20.5 11.3693 20.5 12.75C20.5 14.1307 19.3807 15.25 18 15.25H16.75V16.75C16.75 17.7165 15.9665 18.5 15 18.5H6.75C5.7835 18.5 5 17.7165 5 16.75V9.25ZM16.75 13.75H18C18.5523 13.75 19 13.3023 19 12.75C19 12.1977 18.5523 11.75 18 11.75H16.75V13.75Z" fill="currentColor"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">32</span>
-          </div>
-          <div class="size-item">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5 9.25C5 8.97386 5.22386 8.75 5.5 8.75H16.25C16.5261 8.75 16.75 8.97386 16.75 9.25V10.25H18C19.3807 10.25 20.5 11.3693 20.5 12.75C20.5 14.1307 19.3807 15.25 18 15.25H16.75V16.75C16.75 17.7165 15.9665 18.5 15 18.5H6.75C5.7835 18.5 5 17.7165 5 16.75V9.25ZM16.75 13.75H18C18.5523 13.75 19 13.3023 19 12.75C19 12.1977 18.5523 11.75 18 11.75H16.75V13.75Z" fill="currentColor"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">48</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- DUOTONE -->
-      <div class="variant">
-        <div class="variant-label">Duotone</div>
-        <div class="sizes">
-          <div class="size-item">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <!-- Tint: cup body interior + saucer -->
-              <path d="M5.75 9.5H16V17C16 17.2761 15.7761 17.5 15.5 17.5H6.5C6.22386 17.5 6 17.2761 6 17L5.75 9.5Z" fill="currentColor" fill-opacity="0.2"/>
-              <!-- Primary: steam -->
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <!-- Primary: cup outline -->
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 8.75C5.22386 8.75 5 8.97386 5 9.25V16.75C5 17.7165 5.7835 18.5 6.75 18.5H15C15.9665 18.5 16.75 17.7165 16.75 16.75V9.25C16.75 8.97386 16.5261 8.75 16.25 8.75H5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-              <!-- Primary: handle -->
-              <path d="M16.75 11H18C18.9665 11 19.75 11.7835 19.75 12.75C19.75 13.7165 18.9665 14.5 18 14.5H16.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <!-- Primary: saucer outline -->
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">16</span>
-          </div>
-          <div class="size-item">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5.75 9.5H16V17C16 17.2761 15.7761 17.5 15.5 17.5H6.5C6.22386 17.5 6 17.2761 6 17L5.75 9.5Z" fill="currentColor" fill-opacity="0.2"/>
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 8.75C5.22386 8.75 5 8.97386 5 9.25V16.75C5 17.7165 5.7835 18.5 6.75 18.5H15C15.9665 18.5 16.75 17.7165 16.75 16.75V9.25C16.75 8.97386 16.5261 8.75 16.25 8.75H5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M16.75 11H18C18.9665 11 19.75 11.7835 19.75 12.75C19.75 13.7165 18.9665 14.5 18 14.5H16.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">24</span>
-          </div>
-          <div class="size-item">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5.75 9.5H16V17C16 17.2761 15.7761 17.5 15.5 17.5H6.5C6.22386 17.5 6 17.2761 6 17L5.75 9.5Z" fill="currentColor" fill-opacity="0.2"/>
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 8.75C5.22386 8.75 5 8.97386 5 9.25V16.75C5 17.7165 5.7835 18.5 6.75 18.5H15C15.9665 18.5 16.75 17.7165 16.75 16.75V9.25C16.75 8.97386 16.5261 8.75 16.25 8.75H5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M16.75 11H18C18.9665 11 19.75 11.7835 19.75 12.75C19.75 13.7165 18.9665 14.5 18 14.5H16.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">32</span>
-          </div>
-          <div class="size-item">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5.75 9.5H16V17C16 17.2761 15.7761 17.5 15.5 17.5H6.5C6.22386 17.5 6 17.2761 6 17L5.75 9.5Z" fill="currentColor" fill-opacity="0.2"/>
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 8.75C5.22386 8.75 5 8.97386 5 9.25V16.75C5 17.7165 5.7835 18.5 6.75 18.5H15C15.9665 18.5 16.75 17.7165 16.75 16.75V9.25C16.75 8.97386 16.5261 8.75 16.25 8.75H5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M16.75 11H18C18.9665 11 19.75 11.7835 19.75 12.75C19.75 13.7165 18.9665 14.5 18 14.5H16.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">48</span>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <h2>Dark Background</h2>
-    <div class="card dark" style="color: #ffffff;">
-
-      <div class="variant">
-        <div class="variant-label">Outline</div>
-        <div class="sizes">
-          <div class="size-item">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 8.75C5.22386 8.75 5 8.97386 5 9.25V16.75C5 17.7165 5.7835 18.5 6.75 18.5H15C15.9665 18.5 16.75 17.7165 16.75 16.75V9.25C16.75 8.97386 16.5261 8.75 16.25 8.75H5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M16.75 11H18C18.9665 11 19.75 11.7835 19.75 12.75C19.75 13.7165 18.9665 14.5 18 14.5H16.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">16</span>
-          </div>
-          <div class="size-item">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 8.75C5.22386 8.75 5 8.97386 5 9.25V16.75C5 17.7165 5.7835 18.5 6.75 18.5H15C15.9665 18.5 16.75 17.7165 16.75 16.75V9.25C16.75 8.97386 16.5261 8.75 16.25 8.75H5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M16.75 11H18C18.9665 11 19.75 11.7835 19.75 12.75C19.75 13.7165 18.9665 14.5 18 14.5H16.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">24</span>
-          </div>
-          <div class="size-item">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 8.75C5.22386 8.75 5 8.97386 5 9.25V16.75C5 17.7165 5.7835 18.5 6.75 18.5H15C15.9665 18.5 16.75 17.7165 16.75 16.75V9.25C16.75 8.97386 16.5261 8.75 16.25 8.75H5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M16.75 11H18C18.9665 11 19.75 11.7835 19.75 12.75C19.75 13.7165 18.9665 14.5 18 14.5H16.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">32</span>
-          </div>
-          <div class="size-item">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 8.75C5.22386 8.75 5 8.97386 5 9.25V16.75C5 17.7165 5.7835 18.5 6.75 18.5H15C15.9665 18.5 16.75 17.7165 16.75 16.75V9.25C16.75 8.97386 16.5261 8.75 16.25 8.75H5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M16.75 11H18C18.9665 11 19.75 11.7835 19.75 12.75C19.75 13.7165 18.9665 14.5 18 14.5H16.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">48</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="variant">
-        <div class="variant-label">Fill</div>
-        <div class="sizes">
-          <div class="size-item">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5 9.25C5 8.97386 5.22386 8.75 5.5 8.75H16.25C16.5261 8.75 16.75 8.97386 16.75 9.25V10.25H18C19.3807 10.25 20.5 11.3693 20.5 12.75C20.5 14.1307 19.3807 15.25 18 15.25H16.75V16.75C16.75 17.7165 15.9665 18.5 15 18.5H6.75C5.7835 18.5 5 17.7165 5 16.75V9.25ZM16.75 13.75H18C18.5523 13.75 19 13.3023 19 12.75C19 12.1977 18.5523 11.75 18 11.75H16.75V13.75Z" fill="currentColor"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">16</span>
-          </div>
-          <div class="size-item">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5 9.25C5 8.97386 5.22386 8.75 5.5 8.75H16.25C16.5261 8.75 16.75 8.97386 16.75 9.25V10.25H18C19.3807 10.25 20.5 11.3693 20.5 12.75C20.5 14.1307 19.3807 15.25 18 15.25H16.75V16.75C16.75 17.7165 15.9665 18.5 15 18.5H6.75C5.7835 18.5 5 17.7165 5 16.75V9.25ZM16.75 13.75H18C18.5523 13.75 19 13.3023 19 12.75C19 12.1977 18.5523 11.75 18 11.75H16.75V13.75Z" fill="currentColor"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">24</span>
-          </div>
-          <div class="size-item">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5 9.25C5 8.97386 5.22386 8.75 5.5 8.75H16.25C16.5261 8.75 16.75 8.97386 16.75 9.25V10.25H18C19.3807 10.25 20.5 11.3693 20.5 12.75C20.5 14.1307 19.3807 15.25 18 15.25H16.75V16.75C16.75 17.7165 15.9665 18.5 15 18.5H6.75C5.7835 18.5 5 17.7165 5 16.75V9.25ZM16.75 13.75H18C18.5523 13.75 19 13.3023 19 12.75C19 12.1977 18.5523 11.75 18 11.75H16.75V13.75Z" fill="currentColor"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">32</span>
-          </div>
-          <div class="size-item">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5 9.25C5 8.97386 5.22386 8.75 5.5 8.75H16.25C16.5261 8.75 16.75 8.97386 16.75 9.25V10.25H18C19.3807 10.25 20.5 11.3693 20.5 12.75C20.5 14.1307 19.3807 15.25 18 15.25H16.75V16.75C16.75 17.7165 15.9665 18.5 15 18.5H6.75C5.7835 18.5 5 17.7165 5 16.75V9.25ZM16.75 13.75H18C18.5523 13.75 19 13.3023 19 12.75C19 12.1977 18.5523 11.75 18 11.75H16.75V13.75Z" fill="currentColor"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">48</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="variant">
-        <div class="variant-label">Duotone</div>
-        <div class="sizes">
-          <div class="size-item">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5.75 9.5H16V17C16 17.2761 15.7761 17.5 15.5 17.5H6.5C6.22386 17.5 6 17.2761 6 17L5.75 9.5Z" fill="currentColor" fill-opacity="0.2"/>
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 8.75C5.22386 8.75 5 8.97386 5 9.25V16.75C5 17.7165 5.7835 18.5 6.75 18.5H15C15.9665 18.5 16.75 17.7165 16.75 16.75V9.25C16.75 8.97386 16.5261 8.75 16.25 8.75H5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M16.75 11H18C18.9665 11 19.75 11.7835 19.75 12.75C19.75 13.7165 18.9665 14.5 18 14.5H16.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">16</span>
-          </div>
-          <div class="size-item">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5.75 9.5H16V17C16 17.2761 15.7761 17.5 15.5 17.5H6.5C6.22386 17.5 6 17.2761 6 17L5.75 9.5Z" fill="currentColor" fill-opacity="0.2"/>
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 8.75C5.22386 8.75 5 8.97386 5 9.25V16.75C5 17.7165 5.7835 18.5 6.75 18.5H15C15.9665 18.5 16.75 17.7165 16.75 16.75V9.25C16.75 8.97386 16.5261 8.75 16.25 8.75H5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M16.75 11H18C18.9665 11 19.75 11.7835 19.75 12.75C19.75 13.7165 18.9665 14.5 18 14.5H16.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">24</span>
-          </div>
-          <div class="size-item">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5.75 9.5H16V17C16 17.2761 15.7761 17.5 15.5 17.5H6.5C6.22386 17.5 6 17.2761 6 17L5.75 9.5Z" fill="currentColor" fill-opacity="0.2"/>
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 8.75C5.22386 8.75 5 8.97386 5 9.25V16.75C5 17.7165 5.7835 18.5 6.75 18.5H15C15.9665 18.5 16.75 17.7165 16.75 16.75V9.25C16.75 8.97386 16.5261 8.75 16.25 8.75H5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M16.75 11H18C18.9665 11 19.75 11.7835 19.75 12.75C19.75 13.7165 18.9665 14.5 18 14.5H16.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">32</span>
-          </div>
-          <div class="size-item">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5.75 9.5H16V17C16 17.2761 15.7761 17.5 15.5 17.5H6.5C6.22386 17.5 6 17.2761 6 17L5.75 9.5Z" fill="currentColor" fill-opacity="0.2"/>
-              <path d="M9 6C9 6 8 5 8 4C8 3 9 2 9 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path d="M13 6C13 6 12 5 12 4C12 3 13 2 13 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 8.75C5.22386 8.75 5 8.97386 5 9.25V16.75C5 17.7165 5.7835 18.5 6.75 18.5H15C15.9665 18.5 16.75 17.7165 16.75 16.75V9.25C16.75 8.97386 16.5261 8.75 16.25 8.75H5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M16.75 11H18C18.9665 11 19.75 11.7835 19.75 12.75C19.75 13.7165 18.9665 14.5 18 14.5H16.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-              <rect x="3" y="20.25" width="16" height="1.5" rx="0.75" fill="currentColor"/>
-            </svg>
-            <span class="size-label">48</span>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-</body>
-</html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>IQons Preview — coffee</title><style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f5f5f5;padding:40px}h1{font-size:14px;font-weight:600;color:#333;margin-bottom:32px;letter-spacing:.05em;text-transform:uppercase}h2{font-size:11px;font-weight:500;color:#999;margin-bottom:16px;letter-spacing:.08em;text-transform:uppercase}.section{margin-bottom:48px}.card{background:#fff;border-radius:12px;padding:32px;margin-bottom:16px;display:flex;gap:48px;align-items:flex-end}.card.dark{background:#1a1a1a;color:#fff}.variant{display:flex;flex-direction:column;align-items:center;gap:24px}.variant-label{font-size:11px;color:#aaa;text-transform:uppercase;letter-spacing:.08em}.card.dark .variant-label{color:#666}.sizes{display:flex;align-items:flex-end;gap:20px}.size-item{display:flex;flex-direction:column;align-items:center;gap:8px}.size-label{font-size:10px;color:#ccc}.card.dark .size-label{color:#555}svg{display:block}</style></head><body><h1>coffee &mdash; System &amp; utility</h1><div class="section"><h2>Light Background</h2><div class="card"><div class="variant"><div class="variant-label">Outline</div><div class="sizes"><div class="size-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5ZM7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">16</span></div><div class="size-item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5ZM7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">24</span></div><div class="size-item"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5ZM7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">32</span></div><div class="size-item"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5ZM7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">48</span></div></div></div><div class="variant"><div class="variant-label">Fill</div><div class="sizes"><div class="size-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">16</span></div><div class="size-item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">24</span></div><div class="size-item"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">32</span></div><div class="size-item"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">48</span></div></div></div><div class="variant"><div class="variant-label">Duotone</div><div class="sizes"><div class="size-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z" fill="currentColor" fill-opacity="0.2"/>
+              <rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5ZM7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">16</span></div><div class="size-item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z" fill="currentColor" fill-opacity="0.2"/>
+              <rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5ZM7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">24</span></div><div class="size-item"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z" fill="currentColor" fill-opacity="0.2"/>
+              <rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5ZM7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">32</span></div><div class="size-item"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z" fill="currentColor" fill-opacity="0.2"/>
+              <rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5ZM7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">48</span></div></div></div></div><h2>Dark Background</h2><div class="card dark"><div class="variant"><div class="variant-label">Outline</div><div class="sizes"><div class="size-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5ZM7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">16</span></div><div class="size-item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5ZM7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">24</span></div><div class="size-item"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5ZM7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">32</span></div><div class="size-item"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5ZM7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">48</span></div></div></div><div class="variant"><div class="variant-label">Fill</div><div class="sizes"><div class="size-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">16</span></div><div class="size-item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">24</span></div><div class="size-item"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">32</span></div><div class="size-item"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">48</span></div></div></div><div class="variant"><div class="variant-label">Duotone</div><div class="sizes"><div class="size-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z" fill="currentColor" fill-opacity="0.2"/>
+              <rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5ZM7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">16</span></div><div class="size-item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z" fill="currentColor" fill-opacity="0.2"/>
+              <rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5ZM7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">24</span></div><div class="size-item"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z" fill="currentColor" fill-opacity="0.2"/>
+              <rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5ZM7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">32</span></div><div class="size-item"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z" fill="currentColor" fill-opacity="0.2"/>
+              <rect x='7.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='11.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <rect x='15.25' y='2' width='1.5' height='3' rx='0.75' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M7 6.5H17Q19 6.5 19 8.5V15Q19 19 15 19H9Q5 19 5 15V8.5Q5 6.5 7 6.5ZM7.25 8H16.75Q17.5 8 17.5 8.5V15Q17.5 17.5 15 17.5H9Q6.5 17.5 6.5 15V8.5Q6.5 8 7.25 8Z' fill='currentColor'/>
+              <path fill-rule='evenodd' clip-rule='evenodd' d='M19 9H20Q22 9 22 12.75Q22 16.5 20 16.5H19V19ZM19 10.5H19.5Q20.5 10.5 20.5 12.75Q20.5 15 19.5 15H19V17.5Z' fill='currentColor'/>
+              <rect x='2' y='20.5' width='20' height='1.5' rx='0.75' fill='currentColor'/></svg><span class="size-label">48</span></div></div></div></div></div></body></html>

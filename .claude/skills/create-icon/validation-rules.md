@@ -83,17 +83,18 @@ Validate against `design-rules.md`.
 
 Confirm:
 
-- [ ] 24 × 24 artboard.
-- [ ] Correct safe area selected.
-- [ ] Correct geometry category.
-- [ ] Circular icons = 22 × 22.
-- [ ] Square icons = 20 × 20.
-- [ ] Rectangular icons = 18 × 22.
-- [ ] Compact icons = 16 × 16.
-- [ ] Padding respected.
+- [ ] 24 × 24 artboard (`width="24" height="24" viewBox="0 0 24 24"`).
+- [ ] One of the five permitted size frames was chosen — no custom dimensions used.
+- [ ] Correct frame selected for the icon's proportions and weight.
+- [ ] Circle frame: artwork fits within 22×22px diameter.
+- [ ] Square frame: artwork fits within 20×20px.
+- [ ] Landscape frame: artwork fits within 22×18px.
+- [ ] Portrait frame: artwork fits within 18×22px.
+- [ ] Small frame: artwork fits within 16×16px.
+- [ ] Padding respected for the chosen frame.
 - [ ] Optical alignment correct.
 - [ ] Optical centring correct.
-- [ ] Visual weight balanced.
+- [ ] Visual weight balanced relative to the chosen frame.
 
 ---
 
@@ -105,6 +106,7 @@ Confirm:
 
 - [ ] Correct viewBox.
 - [ ] Line weight correct.
+- [ ] All spacing between elements is a multiple of the Standard line weight — no arbitrary gap values.
 - [ ] No stroke attributes.
 - [ ] No transforms.
 - [ ] No clipping paths.
