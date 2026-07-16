@@ -15,7 +15,7 @@ const ALL = "all";
 const STYLE_DISPLAY: Record<IconStyle, string> = {
   outline:  "Outline",
   duotone:  "Duo-tone",
-  filled:   "Solid",
+  filled:   "Fill",
   thin:     "Thin",
 };
 
