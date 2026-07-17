@@ -18,14 +18,16 @@
   "types": "./dist/index.d.ts",
   "files": ["dist"],
   "scripts": {
-    "build": "node ../../scripts/build-react.mjs && tsc --project tsconfig.json",
-    "dev": "node ../../scripts/build-react.mjs --watch"
+    "generate": "node ../../scripts/build-react.mjs",
+    "build": "npm run generate && tsup",
+    "dev": "tsup --watch"
   },
   "peerDependencies": {
     "react": ">=17"
   },
   "devDependencies": {
     "@types/react": "^19",
+    "tsup": "^8",
     "typescript": "^5"
   }
 }
