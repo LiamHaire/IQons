@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "pause",
+  "type": "registry:ui",
+  "title": "Pause",
+  "description": "IQons Pause icon. Variants: outline, fill, duotone.",
+  "dependencies": [
+    "iqons-react"
+  ],
+  "files": [
+    {
+      "path": "packages/iqons-react/src/Pause.tsx",
+      "type": "registry:ui",
+      "content": "import type { IqonProps } from \"./types\";\n\nconst VARIANTS: Partial<Record<string, string>> = {\n  outline: `<path d=\"M9.5 8C10.0523 8 10.5 8.44772 10.5 9V15C10.5 15.5523 10.0523 16 9.5 16C8.94772 16 8.5 15.5523 8.5 15V9C8.5 8.44772 8.94772 8 9.5 8Z\" fill=\"currentColor\"/>\n<path d=\"M14.5 8C15.0523 8 15.5 8.44772 15.5 9V15C15.5 15.5523 15.0523 16 14.5 16C13.9477 16 13.5 15.5523 13.5 15V9C13.5 8.44772 13.9477 8 14.5 8Z\" fill=\"currentColor\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20.2041 2.01074C21.2128 2.113 22 2.96435 22 4V20L21.9893 20.2041C21.8938 21.1457 21.1457 21.8938 20.2041 21.9893L20 22H4C2.96435 22 2.113 21.2128 2.01074 20.2041L2 20V4C2 2.89543 2.89543 2 4 2H20L20.2041 2.01074ZM4 3.5C3.72386 3.5 3.5 3.72386 3.5 4V20C3.5 20.2761 3.72386 20.5 4 20.5H20C20.2761 20.5 20.5 20.2761 20.5 20V4C20.5 3.72386 20.2761 3.5 20 3.5H4Z\" fill=\"currentColor\"/>`,\n  fill: `<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20 2C21.1046 2 22 2.89543 22 4V20C22 21.1046 21.1046 22 20 22H4C2.89543 22 2 21.1046 2 20V4C2 2.89543 2.89543 2 4 2H20ZM9.5 8C8.94772 8 8.5 8.44772 8.5 9V15C8.5 15.5523 8.94772 16 9.5 16C10.0523 16 10.5 15.5523 10.5 15V9C10.5 8.44772 10.0523 8 9.5 8ZM14.5 8C13.9477 8 13.5 8.44772 13.5 9V15C13.5 15.5523 13.9477 16 14.5 16C15.0523 16 15.5 15.5523 15.5 15V9C15.5 8.44772 15.0523 8 14.5 8Z\" fill=\"currentColor\"/>`,\n  duotone: `<path d=\"M2 4C2 2.89543 2.89543 2 4 2H20C21.1046 2 22 2.89543 22 4V20C22 21.1046 21.1046 22 20 22H4C2.89543 22 2 21.1046 2 20V4Z\" fill=\"currentColor\" fill-opacity=\"0.15\"/>\n<path d=\"M9.5 8C10.0523 8 10.5 8.44772 10.5 9V15C10.5 15.5523 10.0523 16 9.5 16C8.94772 16 8.5 15.5523 8.5 15V9C8.5 8.44772 8.94772 8 9.5 8Z\" fill=\"currentColor\"/>\n<path d=\"M14.5 8C15.0523 8 15.5 8.44772 15.5 9V15C15.5 15.5523 15.0523 16 14.5 16C13.9477 16 13.5 15.5523 13.5 15V9C13.5 8.44772 13.9477 8 14.5 8Z\" fill=\"currentColor\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20.2041 2.01074C21.2128 2.113 22 2.96435 22 4V20L21.9893 20.2041C21.8938 21.1457 21.1457 21.8938 20.2041 21.9893L20 22H4C2.96435 22 2.113 21.2128 2.01074 20.2041L2 20V4C2 2.89543 2.89543 2 4 2H20L20.2041 2.01074ZM4 3.5C3.72386 3.5 3.5 3.72386 3.5 4V20C3.5 20.2761 3.72386 20.5 4 20.5H20C20.2761 20.5 20.5 20.2761 20.5 20V4C20.5 3.72386 20.2761 3.5 20 3.5H4Z\" fill=\"currentColor\"/>`,\n};\n\nconst AVAILABLE = [\"outline\",\"fill\",\"duotone\"] as const;\ntype Variant = (typeof AVAILABLE)[number];\n\n/**\n * Pause icon\n * Variants: outline, fill, duotone\n */\nexport function Pause({\n  variant = \"outline\",\n  size = 24,\n  label,\n  ...props\n}: IqonProps) {\n  const inner = VARIANTS[variant] ?? VARIANTS[\"outline\"] ?? \"\";\n  return (\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n      width={size}\n      height={size}\n      fill=\"none\"\n      aria-label={label}\n      aria-hidden={label ? undefined : true}\n      role={label ? \"img\" : undefined}\n      {...props}\n      dangerouslySetInnerHTML={{ __html: inner }}\n    />\n  );\n}\n\nPause.displayName = \"Pause\";\nPause.variants = AVAILABLE;\n"
+    }
+  ]
+}

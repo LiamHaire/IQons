@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tag",
+  "type": "registry:ui",
+  "title": "Tag",
+  "description": "IQons Tag icon. Variants: outline, fill, duotone.",
+  "dependencies": [
+    "iqons-react"
+  ],
+  "files": [
+    {
+      "path": "packages/iqons-react/src/Tag.tsx",
+      "type": "registry:ui",
+      "content": "import type { IqonProps } from \"./types\";\n\nconst VARIANTS: Partial<Record<string, string>> = {\n  outline: `<path d=\"M19 21.5V23H5V21.5H19ZM19.5 21V9.7998C19.4999 9.31406 19.3009 8.86956 18.9629 8.53906L13.3379 3.03906C12.9992 2.70794 12.5287 2.5 12 2.5C11.4713 2.5 11.0008 2.70794 10.6621 3.03906L5.03711 8.53906C4.69912 8.86956 4.50005 9.31406 4.5 9.7998V21C4.5 21.2761 4.72386 21.5 5 21.5V23L4.7959 22.9893C3.78722 22.887 3 22.0357 3 21V9.7998C3.00005 8.94549 3.33213 8.16704 3.87695 7.58105L3.98926 7.4668L9.61426 1.9668C10.225 1.36976 11.0681 1 12 1C12.932 1 13.776 1.36961 14.3867 1.9668L20.0117 7.4668C20.6223 8.06392 20.9999 8.88874 21 9.7998V21C21 22.1046 20.1046 23 19 23V21.5C19.2761 21.5 19.5 21.2761 19.5 21Z\" fill=\"currentColor\"/>\n<ellipse cx=\"12\" cy=\"5.95\" rx=\"1.6875\" ry=\"1.65\" fill=\"currentColor\"/>`,\n  fill: `<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 1C12.932 1 13.776 1.36961 14.3867 1.9668L20.0117 7.4668C20.6223 8.06392 20.9999 8.88874 21 9.7998V21C21 22.1046 20.1046 23 19 23H5C3.89543 23 3 22.1046 3 21V9.7998C3.00005 8.88861 3.37855 8.06394 3.98926 7.4668L9.61426 1.9668C10.225 1.36976 11.0681 1 12 1ZM12 4.2998C11.068 4.2998 10.3125 5.03893 10.3125 5.9502C10.3126 6.86138 11.0681 7.59961 12 7.59961C12.9319 7.59961 13.6874 6.86138 13.6875 5.9502C13.6875 5.03893 12.932 4.2998 12 4.2998Z\" fill=\"currentColor\"/>`,\n  duotone: `<path d=\"M12 1C12.932 1 13.7755 1.36961 14.3862 1.9668L20.0112 7.4668C20.622 8.06398 21 8.88873 21 9.8V21C21 22.1046 20.1046 23 19 23H5C3.89543 23 3 22.1046 3 21V9.8C3 8.88873 3.37801 8.06398 3.98877 7.4668L9.61377 1.9668C10.2245 1.36961 11.068 1 12 1Z\" fill=\"currentColor\" fill-opacity=\"0.15\"/>\n<path d=\"M19 21.5V23H5V21.5H19ZM19.5 21V9.7998C19.4999 9.31406 19.3009 8.86956 18.9629 8.53906L13.3379 3.03906C12.9992 2.70794 12.5287 2.5 12 2.5C11.4713 2.5 11.0008 2.70794 10.6621 3.03906L5.03711 8.53906C4.69912 8.86956 4.50005 9.31406 4.5 9.7998V21C4.5 21.2761 4.72386 21.5 5 21.5V23L4.7959 22.9893C3.78722 22.887 3 22.0357 3 21V9.7998C3.00005 8.94549 3.33213 8.16704 3.87695 7.58105L3.98926 7.4668L9.61426 1.9668C10.225 1.36976 11.0681 1 12 1C12.932 1 13.776 1.36961 14.3867 1.9668L20.0117 7.4668C20.6223 8.06392 20.9999 8.88874 21 9.7998V21C21 22.1046 20.1046 23 19 23V21.5C19.2761 21.5 19.5 21.2761 19.5 21Z\" fill=\"currentColor\"/>\n<ellipse cx=\"12\" cy=\"5.95\" rx=\"1.6875\" ry=\"1.65\" fill=\"currentColor\"/>`,\n};\n\nconst AVAILABLE = [\"outline\",\"fill\",\"duotone\"] as const;\ntype Variant = (typeof AVAILABLE)[number];\n\n/**\n * Tag icon\n * Variants: outline, fill, duotone\n */\nexport function Tag({\n  variant = \"outline\",\n  size = 24,\n  label,\n  ...props\n}: IqonProps) {\n  const inner = VARIANTS[variant] ?? VARIANTS[\"outline\"] ?? \"\";\n  return (\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n      width={size}\n      height={size}\n      fill=\"none\"\n      aria-label={label}\n      aria-hidden={label ? undefined : true}\n      role={label ? \"img\" : undefined}\n      {...props}\n      dangerouslySetInnerHTML={{ __html: inner }}\n    />\n  );\n}\n\nTag.displayName = \"Tag\";\nTag.variants = AVAILABLE;\n"
+    }
+  ]
+}

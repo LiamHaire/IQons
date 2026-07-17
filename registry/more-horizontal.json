@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "more-horizontal",
+  "type": "registry:ui",
+  "title": "More Horizontal",
+  "description": "IQons MoreHorizontal icon. Variants: outline, fill, duotone.",
+  "dependencies": [
+    "iqons-react"
+  ],
+  "files": [
+    {
+      "path": "packages/iqons-react/src/MoreHorizontal.tsx",
+      "type": "registry:ui",
+      "content": "import type { IqonProps } from \"./types\";\n\nconst VARIANTS: Partial<Record<string, string>> = {\n  outline: `<path d=\"M6 10C7.10457 10 8 10.8954 8 12C8 13.1046 7.10457 14 6 14C4.89543 14 4 13.1046 4 12C4 10.8954 4.89543 10 6 10Z\" fill=\"currentColor\"/>\n<path d=\"M12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10Z\" fill=\"currentColor\"/>\n<path d=\"M18 10C19.1046 10 20 10.8954 20 12C20 13.1046 19.1046 14 18 14C16.8954 14 16 13.1046 16 12C16 10.8954 16.8954 10 18 10Z\" fill=\"currentColor\"/>`,\n  fill: `<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M22 20C22 21.1046 21.1046 22 20 22L4 22C2.89543 22 2 21.1046 2 20L2 4C2 2.89543 2.89543 2 4 2L20 2C21.1046 2 22 2.89543 22 4L22 20ZM8 12C8 10.8954 7.10457 10 6 10C4.89543 10 4 10.8954 4 12C4 13.1046 4.89543 14 6 14C7.10457 14 8 13.1046 8 12ZM14 12C14 10.8954 13.1046 10 12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14C13.1046 14 14 13.1046 14 12ZM20 12C20 10.8954 19.1046 10 18 10C16.8954 10 16 10.8954 16 12C16 13.1046 16.8954 14 18 14C19.1046 14 20 13.1046 20 12Z\" fill=\"currentColor\"/>`,\n  duotone: `<path d=\"M6 8L18 8C20.2091 8 22 9.79086 22 12C22 14.2091 20.2091 16 18 16L6 16C3.79086 16 2 14.2091 2 12C2 9.79086 3.79086 8 6 8Z\" fill=\"currentColor\" fill-opacity=\"0.15\"/>\n<path d=\"M18 14C16.8954 14 16 13.1046 16 12C16 10.8954 16.8954 10 18 10C19.1046 10 20 10.8954 20 12C20 13.1046 19.1046 14 18 14Z\" fill=\"currentColor\"/>\n<path d=\"M12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14Z\" fill=\"currentColor\"/>\n<path d=\"M6 14C4.89543 14 4 13.1046 4 12C4 10.8954 4.89543 10 6 10C7.10457 10 8 10.8954 8 12C8 13.1046 7.10457 14 6 14Z\" fill=\"currentColor\"/>`,\n};\n\nconst AVAILABLE = [\"outline\",\"fill\",\"duotone\"] as const;\ntype Variant = (typeof AVAILABLE)[number];\n\n/**\n * MoreHorizontal icon\n * Variants: outline, fill, duotone\n */\nexport function MoreHorizontal({\n  variant = \"outline\",\n  size = 24,\n  label,\n  ...props\n}: IqonProps) {\n  const inner = VARIANTS[variant] ?? VARIANTS[\"outline\"] ?? \"\";\n  return (\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n      width={size}\n      height={size}\n      fill=\"none\"\n      aria-label={label}\n      aria-hidden={label ? undefined : true}\n      role={label ? \"img\" : undefined}\n      {...props}\n      dangerouslySetInnerHTML={{ __html: inner }}\n    />\n  );\n}\n\nMoreHorizontal.displayName = \"MoreHorizontal\";\nMoreHorizontal.variants = AVAILABLE;\n"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "key",
+  "type": "registry:ui",
+  "title": "Key",
+  "description": "IQons Key icon. Variants: outline, fill, duotone.",
+  "dependencies": [
+    "iqons-react"
+  ],
+  "files": [
+    {
+      "path": "packages/iqons-react/src/Key.tsx",
+      "type": "registry:ui",
+      "content": "import type { IqonProps } from \"./types\";\n\nconst VARIANTS: Partial<Record<string, string>> = {\n  outline: `<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M7 6C9.97288 6 12.4388 8.16245 12.915 11H22C22.5523 11 23 11.4477 23 12C23 12.5523 22.5523 13 22 13V15C22 15.5523 21.5523 16 21 16C20.4477 16 20 15.5523 20 15V13H19V16C19 16.5523 18.5523 17 18 17C17.4477 17 17 16.5523 17 16V13H12.915C12.4388 15.8376 9.97288 18 7 18C3.68629 18 1 15.3137 1 12C1 8.68629 3.68629 6 7 6ZM7 8C4.79086 8 3 9.79086 3 12C3 14.2091 4.79086 16 7 16C9.20914 16 11 14.2091 11 12C11 9.79086 9.20914 8 7 8Z\" fill=\"currentColor\"/>`,\n  fill: `<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M7 6C9.97288 6 12.4388 8.16245 12.915 11H22C22.5523 11 23 11.4477 23 12C23 12.5523 22.5523 13 22 13V15C22 15.5523 21.5523 16 21 16C20.4477 16 20 15.5523 20 15V13H19V16C19 16.5523 18.5523 17 18 17C17.4477 17 17 16.5523 17 16V13H12.915C12.4388 15.8376 9.97288 18 7 18C3.68629 18 1 15.3137 1 12C1 8.68629 3.68629 6 7 6ZM7 8C4.79086 8 3 9.79086 3 12C3 14.2091 4.79086 16 7 16C9.20914 16 11 14.2091 11 12C11 9.79086 9.20914 8 7 8Z\" fill=\"currentColor\"/>`,\n  duotone: `<circle cx=\"7\" cy=\"12\" r=\"6\" fill=\"currentColor\" fill-opacity=\"0.15\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M7 6C9.97288 6 12.4388 8.16245 12.915 11H22C22.5523 11 23 11.4477 23 12C23 12.5523 22.5523 13 22 13V15C22 15.5523 21.5523 16 21 16C20.4477 16 20 15.5523 20 15V13H19V16C19 16.5523 18.5523 17 18 17C17.4477 17 17 16.5523 17 16V13H12.915C12.4388 15.8376 9.97288 18 7 18C3.68629 18 1 15.3137 1 12C1 8.68629 3.68629 6 7 6ZM7 8C4.79086 8 3 9.79086 3 12C3 14.2091 4.79086 16 7 16C9.20914 16 11 14.2091 11 12C11 9.79086 9.20914 8 7 8Z\" fill=\"currentColor\"/>`,\n};\n\nconst AVAILABLE = [\"outline\",\"fill\",\"duotone\"] as const;\ntype Variant = (typeof AVAILABLE)[number];\n\n/**\n * Key icon\n * Variants: outline, fill, duotone\n */\nexport function Key({\n  variant = \"outline\",\n  size = 24,\n  label,\n  ...props\n}: IqonProps) {\n  const inner = VARIANTS[variant] ?? VARIANTS[\"outline\"] ?? \"\";\n  return (\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n      width={size}\n      height={size}\n      fill=\"none\"\n      aria-label={label}\n      aria-hidden={label ? undefined : true}\n      role={label ? \"img\" : undefined}\n      {...props}\n      dangerouslySetInnerHTML={{ __html: inner }}\n    />\n  );\n}\n\nKey.displayName = \"Key\";\nKey.variants = AVAILABLE;\n"
+    }
+  ]
+}

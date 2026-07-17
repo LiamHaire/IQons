@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chart-line",
+  "type": "registry:ui",
+  "title": "Chart Line",
+  "description": "IQons ChartLine icon. Variants: outline, fill, duotone.",
+  "dependencies": [
+    "iqons-react"
+  ],
+  "files": [
+    {
+      "path": "packages/iqons-react/src/ChartLine.tsx",
+      "type": "registry:ui",
+      "content": "import type { IqonProps } from \"./types\";\n\nconst VARIANTS: Partial<Record<string, string>> = {\n  outline: `<path d=\"M2.75 2C3.16421 2 3.5 2.33579 3.5 2.75V15.3486L8.54004 9.87402C9.18143 9.1772 10.2608 9.117 10.9756 9.73828L15.0039 13.2393C15.1181 13.3384 15.2938 13.3139 15.377 13.1875L20.373 5.58789C20.6006 5.2418 21.066 5.14555 21.4121 5.37305C21.7582 5.60059 21.8545 6.06601 21.627 6.41211L16.6299 14.0117C16.0479 14.8969 14.8191 15.066 14.0195 14.3711L9.99121 10.8701C9.88909 10.7816 9.7351 10.7902 9.64355 10.8896L3.55176 17.5078C3.53521 17.5258 3.51782 17.5426 3.5 17.5586V20.5H21.25C21.6642 20.5 22 20.8358 22 21.25C22 21.6642 21.6642 22 21.25 22H3.5C2.67157 22 2 21.3284 2 20.5V2.75C2 2.33579 2.33579 2 2.75 2Z\" fill=\"currentColor\"/>`,\n  fill: `<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20 2C21.1046 2 22 2.89543 22 4V20C22 21.1046 21.1046 22 20 22H4C2.89543 22 2 21.1046 2 20V4C2 2.89543 2.89543 2 4 2H20ZM4.25 3.5C3.83579 3.5 3.5 3.83579 3.5 4.25V19C3.5 19.8284 4.17157 20.5 5 20.5H19.75C20.1642 20.5 20.5 20.1642 20.5 19.75C20.5 19.3358 20.1642 19 19.75 19H5V16.707C5.00333 16.7035 5.00746 16.7008 5.01074 16.6973L10.0078 11.2676C10.0992 11.1683 10.2533 11.1601 10.3555 11.248L13.4717 13.957C14.2711 14.6518 15.5 14.4824 16.082 13.5977L20.167 7.38477C20.3945 7.03866 20.2982 6.57325 19.9521 6.3457C19.6061 6.11862 19.1405 6.21463 18.9131 6.56055L14.8291 12.7734C14.7459 12.8998 14.5702 12.9235 14.4561 12.8242L11.3398 10.1162C10.625 9.49538 9.54555 9.55529 8.9043 10.252L5 14.4932V4.25C5 3.83579 4.66421 3.5 4.25 3.5Z\" fill=\"currentColor\"/>`,\n  duotone: `<path d=\"M21 21V7L15 14L10 10L3 16V21H21Z\" fill=\"currentColor\" fill-opacity=\"0.15\"/>\n<path d=\"M2.75 2C3.16421 2 3.5 2.33579 3.5 2.75V15.3486L8.54004 9.87402C9.18143 9.1772 10.2608 9.117 10.9756 9.73828L15.0039 13.2393C15.1181 13.3384 15.2938 13.3139 15.377 13.1875L20.373 5.58789C20.6006 5.2418 21.066 5.14555 21.4121 5.37305C21.7582 5.60059 21.8545 6.06601 21.627 6.41211L16.6299 14.0117C16.0479 14.8969 14.8191 15.066 14.0195 14.3711L9.99121 10.8701C9.88909 10.7816 9.7351 10.7902 9.64355 10.8896L3.55176 17.5078C3.53521 17.5258 3.51782 17.5426 3.5 17.5586V20.5H21.25C21.6642 20.5 22 20.8358 22 21.25C22 21.6642 21.6642 22 21.25 22H3.5C2.67157 22 2 21.3284 2 20.5V2.75C2 2.33579 2.33579 2 2.75 2Z\" fill=\"currentColor\"/>`,\n};\n\nconst AVAILABLE = [\"outline\",\"fill\",\"duotone\"] as const;\ntype Variant = (typeof AVAILABLE)[number];\n\n/**\n * ChartLine icon\n * Variants: outline, fill, duotone\n */\nexport function ChartLine({\n  variant = \"outline\",\n  size = 24,\n  label,\n  ...props\n}: IqonProps) {\n  const inner = VARIANTS[variant] ?? VARIANTS[\"outline\"] ?? \"\";\n  return (\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n      width={size}\n      height={size}\n      fill=\"none\"\n      aria-label={label}\n      aria-hidden={label ? undefined : true}\n      role={label ? \"img\" : undefined}\n      {...props}\n      dangerouslySetInnerHTML={{ __html: inner }}\n    />\n  );\n}\n\nChartLine.displayName = \"ChartLine\";\nChartLine.variants = AVAILABLE;\n"
+    }
+  ]
+}

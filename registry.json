@@ -1,0 +1,3442 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "iqons",
+  "homepage": "https://github.com/LiamHaire/IQons",
+  "items": [
+    {
+      "name": "acbs",
+      "type": "registry:ui",
+      "title": "Acbs",
+      "description": "IQons Acbs icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Acbs.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "accessibility",
+      "type": "registry:ui",
+      "title": "Accessibility",
+      "description": "IQons Accessibility icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Accessibility.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "add",
+      "type": "registry:ui",
+      "title": "Add",
+      "description": "IQons Add icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Add.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "add-round",
+      "type": "registry:ui",
+      "title": "Add Round",
+      "description": "IQons AddRound icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/AddRound.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "add-square",
+      "type": "registry:ui",
+      "title": "Add Square",
+      "description": "IQons AddSquare icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/AddSquare.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "address-book",
+      "type": "registry:ui",
+      "title": "Address Book",
+      "description": "IQons AddressBook icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/AddressBook.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "admin",
+      "type": "registry:ui",
+      "title": "Admin",
+      "description": "IQons Admin icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Admin.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "agent",
+      "type": "registry:ui",
+      "title": "Agent",
+      "description": "IQons Agent icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Agent.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "ai",
+      "type": "registry:ui",
+      "title": "Ai",
+      "description": "IQons Ai icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Ai.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "align-bottom",
+      "type": "registry:ui",
+      "title": "Align Bottom",
+      "description": "IQons AlignBottom icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/AlignBottom.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "align-left",
+      "type": "registry:ui",
+      "title": "Align Left",
+      "description": "IQons AlignLeft icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/AlignLeft.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "align-right",
+      "type": "registry:ui",
+      "title": "Align Right",
+      "description": "IQons AlignRight icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/AlignRight.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "align-top",
+      "type": "registry:ui",
+      "title": "Align Top",
+      "description": "IQons AlignTop icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/AlignTop.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "ambulance",
+      "type": "registry:ui",
+      "title": "Ambulance",
+      "description": "IQons Ambulance icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Ambulance.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "analytics",
+      "type": "registry:ui",
+      "title": "Analytics",
+      "description": "IQons Analytics icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Analytics.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "announcement",
+      "type": "registry:ui",
+      "title": "Announcement",
+      "description": "IQons Announcement icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Announcement.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "appointment",
+      "type": "registry:ui",
+      "title": "Appointment",
+      "description": "IQons Appointment icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Appointment.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "appointment-new",
+      "type": "registry:ui",
+      "title": "Appointment New",
+      "description": "IQons AppointmentNew icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/AppointmentNew.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "approve",
+      "type": "registry:ui",
+      "title": "Approve",
+      "description": "IQons Approve icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Approve.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "approve-square",
+      "type": "registry:ui",
+      "title": "Approve Square",
+      "description": "IQons ApproveSquare icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ApproveSquare.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "apps",
+      "type": "registry:ui",
+      "title": "Apps",
+      "description": "IQons Apps icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Apps.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "archive",
+      "type": "registry:ui",
+      "title": "Archive",
+      "description": "IQons Archive icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Archive.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "arrow-diagonal-down-left",
+      "type": "registry:ui",
+      "title": "Arrow Diagonal Down Left",
+      "description": "IQons ArrowDiagonalDownLeft icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ArrowDiagonalDownLeft.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "arrow-diagonal-down-right",
+      "type": "registry:ui",
+      "title": "Arrow Diagonal Down Right",
+      "description": "IQons ArrowDiagonalDownRight icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ArrowDiagonalDownRight.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "arrow-diagonal-up-left",
+      "type": "registry:ui",
+      "title": "Arrow Diagonal Up Left",
+      "description": "IQons ArrowDiagonalUpLeft icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ArrowDiagonalUpLeft.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "arrow-diagonal-up-right",
+      "type": "registry:ui",
+      "title": "Arrow Diagonal Up Right",
+      "description": "IQons ArrowDiagonalUpRight icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ArrowDiagonalUpRight.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "arrow-down",
+      "type": "registry:ui",
+      "title": "Arrow Down",
+      "description": "IQons ArrowDown icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ArrowDown.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "arrow-left",
+      "type": "registry:ui",
+      "title": "Arrow Left",
+      "description": "IQons ArrowLeft icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ArrowLeft.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "arrow-right",
+      "type": "registry:ui",
+      "title": "Arrow Right",
+      "description": "IQons ArrowRight icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ArrowRight.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "arrow-up",
+      "type": "registry:ui",
+      "title": "Arrow Up",
+      "description": "IQons ArrowUp icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ArrowUp.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "attach",
+      "type": "registry:ui",
+      "title": "Attach",
+      "description": "IQons Attach icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Attach.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "audio",
+      "type": "registry:ui",
+      "title": "Audio",
+      "description": "IQons Audio icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Audio.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "audio-off",
+      "type": "registry:ui",
+      "title": "Audio Off",
+      "description": "IQons AudioOff icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/AudioOff.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "audio-on",
+      "type": "registry:ui",
+      "title": "Audio On",
+      "description": "IQons AudioOn icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/AudioOn.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "audit",
+      "type": "registry:ui",
+      "title": "Audit",
+      "description": "IQons Audit icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Audit.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "authentication",
+      "type": "registry:ui",
+      "title": "Authentication",
+      "description": "IQons Authentication icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Authentication.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "automation",
+      "type": "registry:ui",
+      "title": "Automation",
+      "description": "IQons Automation icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Automation.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "bin",
+      "type": "registry:ui",
+      "title": "Bin",
+      "description": "IQons Bin icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Bin.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "boardroom",
+      "type": "registry:ui",
+      "title": "Boardroom",
+      "description": "IQons Boardroom icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Boardroom.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "bookmark",
+      "type": "registry:ui",
+      "title": "Bookmark",
+      "description": "IQons Bookmark icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Bookmark.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "briefcase",
+      "type": "registry:ui",
+      "title": "Briefcase",
+      "description": "IQons Briefcase icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Briefcase.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "calculator",
+      "type": "registry:ui",
+      "title": "Calculator",
+      "description": "IQons Calculator icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Calculator.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "calendar",
+      "type": "registry:ui",
+      "title": "Calendar",
+      "description": "IQons Calendar icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Calendar.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "cancel",
+      "type": "registry:ui",
+      "title": "Cancel",
+      "description": "IQons Cancel icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Cancel.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "cancel-square",
+      "type": "registry:ui",
+      "title": "Cancel Square",
+      "description": "IQons CancelSquare icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/CancelSquare.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "certificate",
+      "type": "registry:ui",
+      "title": "Certificate",
+      "description": "IQons Certificate icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Certificate.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "chart-bar",
+      "type": "registry:ui",
+      "title": "Chart Bar",
+      "description": "IQons ChartBar icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ChartBar.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "chart-donut",
+      "type": "registry:ui",
+      "title": "Chart Donut",
+      "description": "IQons ChartDonut icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ChartDonut.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "chart-line",
+      "type": "registry:ui",
+      "title": "Chart Line",
+      "description": "IQons ChartLine icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ChartLine.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "chart-pie",
+      "type": "registry:ui",
+      "title": "Chart Pie",
+      "description": "IQons ChartPie icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ChartPie.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "chat",
+      "type": "registry:ui",
+      "title": "Chat",
+      "description": "IQons Chat icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Chat.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "chat-close",
+      "type": "registry:ui",
+      "title": "Chat Close",
+      "description": "IQons ChatClose icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ChatClose.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "chat-history",
+      "type": "registry:ui",
+      "title": "Chat History",
+      "description": "IQons ChatHistory icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ChatHistory.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "chat-new",
+      "type": "registry:ui",
+      "title": "Chat New",
+      "description": "IQons ChatNew icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ChatNew.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "checklist",
+      "type": "registry:ui",
+      "title": "Checklist",
+      "description": "IQons Checklist icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Checklist.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "chevron-down",
+      "type": "registry:ui",
+      "title": "Chevron Down",
+      "description": "IQons ChevronDown icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ChevronDown.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "chevron-left",
+      "type": "registry:ui",
+      "title": "Chevron Left",
+      "description": "IQons ChevronLeft icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ChevronLeft.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "chevron-right",
+      "type": "registry:ui",
+      "title": "Chevron Right",
+      "description": "IQons ChevronRight icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ChevronRight.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "chevron-up",
+      "type": "registry:ui",
+      "title": "Chevron Up",
+      "description": "IQons ChevronUp icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ChevronUp.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "circle-dashed",
+      "type": "registry:ui",
+      "title": "Circle Dashed",
+      "description": "IQons CircleDashed icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/CircleDashed.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "circle-notch",
+      "type": "registry:ui",
+      "title": "Circle Notch",
+      "description": "IQons CircleNotch icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/CircleNotch.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "clipboard",
+      "type": "registry:ui",
+      "title": "Clipboard",
+      "description": "IQons Clipboard icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Clipboard.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "clock",
+      "type": "registry:ui",
+      "title": "Clock",
+      "description": "IQons Clock icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Clock.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "close",
+      "type": "registry:ui",
+      "title": "Close",
+      "description": "IQons Close icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Close.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "cloud",
+      "type": "registry:ui",
+      "title": "Cloud",
+      "description": "IQons Cloud icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Cloud.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "comment",
+      "type": "registry:ui",
+      "title": "Comment",
+      "description": "IQons Comment icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Comment.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "config",
+      "type": "registry:ui",
+      "title": "Config",
+      "description": "IQons Config icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Config.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "consultation",
+      "type": "registry:ui",
+      "title": "Consultation",
+      "description": "IQons Consultation icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Consultation.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "copy",
+      "type": "registry:ui",
+      "title": "Copy",
+      "description": "IQons Copy icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Copy.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "cut",
+      "type": "registry:ui",
+      "title": "Cut",
+      "description": "IQons Cut icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Cut.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "dark",
+      "type": "registry:ui",
+      "title": "Dark",
+      "description": "IQons Dark icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Dark.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "dashboard",
+      "type": "registry:ui",
+      "title": "Dashboard",
+      "description": "IQons Dashboard icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Dashboard.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "database",
+      "type": "registry:ui",
+      "title": "Database",
+      "description": "IQons Database icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Database.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "datatable",
+      "type": "registry:ui",
+      "title": "Datatable",
+      "description": "IQons Datatable icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Datatable.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "deadline",
+      "type": "registry:ui",
+      "title": "Deadline",
+      "description": "IQons Deadline icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Deadline.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "deploy",
+      "type": "registry:ui",
+      "title": "Deploy",
+      "description": "IQons Deploy icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Deploy.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "diagnosis",
+      "type": "registry:ui",
+      "title": "Diagnosis",
+      "description": "IQons Diagnosis icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Diagnosis.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "document",
+      "type": "registry:ui",
+      "title": "Document",
+      "description": "IQons Document icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Document.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "document-new",
+      "type": "registry:ui",
+      "title": "Document New",
+      "description": "IQons DocumentNew icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/DocumentNew.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "download",
+      "type": "registry:ui",
+      "title": "Download",
+      "description": "IQons Download icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Download.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "drug-doubling",
+      "type": "registry:ui",
+      "title": "Drug Doubling",
+      "description": "IQons DrugDoubling icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/DrugDoubling.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "duplicate",
+      "type": "registry:ui",
+      "title": "Duplicate",
+      "description": "IQons Duplicate icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Duplicate.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "edit",
+      "type": "registry:ui",
+      "title": "Edit",
+      "description": "IQons Edit icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Edit.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "error",
+      "type": "registry:ui",
+      "title": "Error",
+      "description": "IQons Error icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Error.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "event",
+      "type": "registry:ui",
+      "title": "Event",
+      "description": "IQons Event icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Event.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "export",
+      "type": "registry:ui",
+      "title": "Export",
+      "description": "IQons Export icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Export.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "favourite",
+      "type": "registry:ui",
+      "title": "Favourite",
+      "description": "IQons Favourite icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Favourite.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "filter",
+      "type": "registry:ui",
+      "title": "Filter",
+      "description": "IQons Filter icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Filter.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "find",
+      "type": "registry:ui",
+      "title": "Find",
+      "description": "IQons Find icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Find.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "flag",
+      "type": "registry:ui",
+      "title": "Flag",
+      "description": "IQons Flag icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Flag.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "folder",
+      "type": "registry:ui",
+      "title": "Folder",
+      "description": "IQons Folder icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Folder.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "folder-basic",
+      "type": "registry:ui",
+      "title": "Folder Basic",
+      "description": "IQons FolderBasic icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/FolderBasic.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "folder-new",
+      "type": "registry:ui",
+      "title": "Folder New",
+      "description": "IQons FolderNew icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/FolderNew.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "forecast",
+      "type": "registry:ui",
+      "title": "Forecast",
+      "description": "IQons Forecast icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Forecast.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "fullscreen",
+      "type": "registry:ui",
+      "title": "Fullscreen",
+      "description": "IQons Fullscreen icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Fullscreen.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "globe",
+      "type": "registry:ui",
+      "title": "Globe",
+      "description": "IQons Globe icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Globe.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "graduation",
+      "type": "registry:ui",
+      "title": "Graduation",
+      "description": "IQons Graduation icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Graduation.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "grid",
+      "type": "registry:ui",
+      "title": "Grid",
+      "description": "IQons Grid icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Grid.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "headset",
+      "type": "registry:ui",
+      "title": "Headset",
+      "description": "IQons Headset icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Headset.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "help",
+      "type": "registry:ui",
+      "title": "Help",
+      "description": "IQons Help icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Help.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "history",
+      "type": "registry:ui",
+      "title": "History",
+      "description": "IQons History icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/History.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "holiday",
+      "type": "registry:ui",
+      "title": "Holiday",
+      "description": "IQons Holiday icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Holiday.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "registry:ui",
+      "title": "Home",
+      "description": "IQons Home icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Home.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "hype",
+      "type": "registry:ui",
+      "title": "Hype",
+      "description": "IQons Hype icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Hype.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "idbadge",
+      "type": "registry:ui",
+      "title": "Idbadge",
+      "description": "IQons Idbadge icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Idbadge.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "idea",
+      "type": "registry:ui",
+      "title": "Idea",
+      "description": "IQons Idea icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Idea.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "image",
+      "type": "registry:ui",
+      "title": "Image",
+      "description": "IQons Image icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Image.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "immunisation",
+      "type": "registry:ui",
+      "title": "Immunisation",
+      "description": "IQons Immunisation icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Immunisation.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "import",
+      "type": "registry:ui",
+      "title": "Import",
+      "description": "IQons Import icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Import.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "in-progress",
+      "type": "registry:ui",
+      "title": "In Progress",
+      "description": "IQons InProgress icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/InProgress.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "inbox",
+      "type": "registry:ui",
+      "title": "Inbox",
+      "description": "IQons Inbox icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Inbox.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "incognito",
+      "type": "registry:ui",
+      "title": "Incognito",
+      "description": "IQons Incognito icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Incognito.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "info",
+      "type": "registry:ui",
+      "title": "Info",
+      "description": "IQons Info icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Info.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "key",
+      "type": "registry:ui",
+      "title": "Key",
+      "description": "IQons Key icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Key.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "key-return",
+      "type": "registry:ui",
+      "title": "Key Return",
+      "description": "IQons KeyReturn icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/KeyReturn.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "layout",
+      "type": "registry:ui",
+      "title": "Layout",
+      "description": "IQons Layout icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Layout.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "layout-list",
+      "type": "registry:ui",
+      "title": "Layout List",
+      "description": "IQons LayoutList icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/LayoutList.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "light",
+      "type": "registry:ui",
+      "title": "Light",
+      "description": "IQons Light icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Light.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "lightning",
+      "type": "registry:ui",
+      "title": "Lightning",
+      "description": "IQons Lightning icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Lightning.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "link",
+      "type": "registry:ui",
+      "title": "Link",
+      "description": "IQons Link icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Link.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "locate",
+      "type": "registry:ui",
+      "title": "Locate",
+      "description": "IQons Locate icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Locate.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "location",
+      "type": "registry:ui",
+      "title": "Location",
+      "description": "IQons Location icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Location.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "lock",
+      "type": "registry:ui",
+      "title": "Lock",
+      "description": "IQons Lock icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Lock.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "logs",
+      "type": "registry:ui",
+      "title": "Logs",
+      "description": "IQons Logs icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Logs.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "magic-wand",
+      "type": "registry:ui",
+      "title": "Magic Wand",
+      "description": "IQons MagicWand icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/MagicWand.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "mail",
+      "type": "registry:ui",
+      "title": "Mail",
+      "description": "IQons Mail icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Mail.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "map",
+      "type": "registry:ui",
+      "title": "Map",
+      "description": "IQons Map icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Map.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "marketplace",
+      "type": "registry:ui",
+      "title": "Marketplace",
+      "description": "IQons Marketplace icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Marketplace.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "medication",
+      "type": "registry:ui",
+      "title": "Medication",
+      "description": "IQons Medication icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Medication.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "medication-add",
+      "type": "registry:ui",
+      "title": "Medication Add",
+      "description": "IQons MedicationAdd icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/MedicationAdd.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "medication-branded",
+      "type": "registry:ui",
+      "title": "Medication Branded",
+      "description": "IQons MedicationBranded icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/MedicationBranded.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "medication-discontinued",
+      "type": "registry:ui",
+      "title": "Medication Discontinued",
+      "description": "IQons MedicationDiscontinued icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/MedicationDiscontinued.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "medication-unlicensed",
+      "type": "registry:ui",
+      "title": "Medication Unlicensed",
+      "description": "IQons MedicationUnlicensed icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/MedicationUnlicensed.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "meeting",
+      "type": "registry:ui",
+      "title": "Meeting",
+      "description": "IQons Meeting icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Meeting.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "menu",
+      "type": "registry:ui",
+      "title": "Menu",
+      "description": "IQons Menu icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Menu.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "merge",
+      "type": "registry:ui",
+      "title": "Merge",
+      "description": "IQons Merge icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Merge.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "microphone",
+      "type": "registry:ui",
+      "title": "Microphone",
+      "description": "IQons Microphone icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Microphone.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "minimise",
+      "type": "registry:ui",
+      "title": "Minimise",
+      "description": "IQons Minimise icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Minimise.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "more-horizontal",
+      "type": "registry:ui",
+      "title": "More Horizontal",
+      "description": "IQons MoreHorizontal icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/MoreHorizontal.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "more-vertical",
+      "type": "registry:ui",
+      "title": "More Vertical",
+      "description": "IQons MoreVertical icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/MoreVertical.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "new-conversation",
+      "type": "registry:ui",
+      "title": "New Conversation",
+      "description": "IQons NewConversation icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/NewConversation.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "news",
+      "type": "registry:ui",
+      "title": "News",
+      "description": "IQons News icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/News.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "notes",
+      "type": "registry:ui",
+      "title": "Notes",
+      "description": "IQons Notes icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Notes.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "notifications",
+      "type": "registry:ui",
+      "title": "Notifications",
+      "description": "IQons Notifications icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Notifications.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "open-external",
+      "type": "registry:ui",
+      "title": "Open External",
+      "description": "IQons OpenExternal icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/OpenExternal.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "organisation",
+      "type": "registry:ui",
+      "title": "Organisation",
+      "description": "IQons Organisation icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Organisation.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "outbox",
+      "type": "registry:ui",
+      "title": "Outbox",
+      "description": "IQons Outbox icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Outbox.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "palette",
+      "type": "registry:ui",
+      "title": "Palette",
+      "description": "IQons Palette icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Palette.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "paragraph",
+      "type": "registry:ui",
+      "title": "Paragraph",
+      "description": "IQons Paragraph icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Paragraph.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "password",
+      "type": "registry:ui",
+      "title": "Password",
+      "description": "IQons Password icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Password.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "paste",
+      "type": "registry:ui",
+      "title": "Paste",
+      "description": "IQons Paste icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Paste.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "pause",
+      "type": "registry:ui",
+      "title": "Pause",
+      "description": "IQons Pause icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Pause.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "permissions",
+      "type": "registry:ui",
+      "title": "Permissions",
+      "description": "IQons Permissions icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Permissions.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "phone",
+      "type": "registry:ui",
+      "title": "Phone",
+      "description": "IQons Phone icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Phone.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "piggybank",
+      "type": "registry:ui",
+      "title": "Piggybank",
+      "description": "IQons Piggybank icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Piggybank.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "play",
+      "type": "registry:ui",
+      "title": "Play",
+      "description": "IQons Play icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Play.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "plugin",
+      "type": "registry:ui",
+      "title": "Plugin",
+      "description": "IQons Plugin icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Plugin.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "policy",
+      "type": "registry:ui",
+      "title": "Policy",
+      "description": "IQons Policy icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Policy.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "print",
+      "type": "registry:ui",
+      "title": "Print",
+      "description": "IQons Print icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Print.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "priority-high",
+      "type": "registry:ui",
+      "title": "Priority High",
+      "description": "IQons PriorityHigh icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/PriorityHigh.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "priority-low",
+      "type": "registry:ui",
+      "title": "Priority Low",
+      "description": "IQons PriorityLow icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/PriorityLow.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "priority-medium",
+      "type": "registry:ui",
+      "title": "Priority Medium",
+      "description": "IQons PriorityMedium icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/PriorityMedium.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "privacy",
+      "type": "registry:ui",
+      "title": "Privacy",
+      "description": "IQons Privacy icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Privacy.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "process",
+      "type": "registry:ui",
+      "title": "Process",
+      "description": "IQons Process icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Process.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "profile",
+      "type": "registry:ui",
+      "title": "Profile",
+      "description": "IQons Profile icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Profile.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "qrcode",
+      "type": "registry:ui",
+      "title": "Qrcode",
+      "description": "IQons Qrcode icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Qrcode.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "queue",
+      "type": "registry:ui",
+      "title": "Queue",
+      "description": "IQons Queue icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Queue.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "receipt",
+      "type": "registry:ui",
+      "title": "Receipt",
+      "description": "IQons Receipt icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Receipt.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "recurring",
+      "type": "registry:ui",
+      "title": "Recurring",
+      "description": "IQons Recurring icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Recurring.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "refresh",
+      "type": "registry:ui",
+      "title": "Refresh",
+      "description": "IQons Refresh icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Refresh.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "reminder",
+      "type": "registry:ui",
+      "title": "Reminder",
+      "description": "IQons Reminder icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Reminder.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "restore",
+      "type": "registry:ui",
+      "title": "Restore",
+      "description": "IQons Restore icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Restore.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "restoredown",
+      "type": "registry:ui",
+      "title": "Restoredown",
+      "description": "IQons Restoredown icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Restoredown.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "save",
+      "type": "registry:ui",
+      "title": "Save",
+      "description": "IQons Save icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Save.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "scales",
+      "type": "registry:ui",
+      "title": "Scales",
+      "description": "IQons Scales icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Scales.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "scan",
+      "type": "registry:ui",
+      "title": "Scan",
+      "description": "IQons Scan icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Scan.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "search",
+      "type": "registry:ui",
+      "title": "Search",
+      "description": "IQons Search icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Search.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "security-alert",
+      "type": "registry:ui",
+      "title": "Security Alert",
+      "description": "IQons SecurityAlert icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/SecurityAlert.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "send",
+      "type": "registry:ui",
+      "title": "Send",
+      "description": "IQons Send icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Send.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "server",
+      "type": "registry:ui",
+      "title": "Server",
+      "description": "IQons Server icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Server.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "settings",
+      "type": "registry:ui",
+      "title": "Settings",
+      "description": "IQons Settings icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Settings.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "share",
+      "type": "registry:ui",
+      "title": "Share",
+      "description": "IQons Share icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Share.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "shield",
+      "type": "registry:ui",
+      "title": "Shield",
+      "description": "IQons Shield icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Shield.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "sidebar-left",
+      "type": "registry:ui",
+      "title": "Sidebar Left",
+      "description": "IQons SidebarLeft icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/SidebarLeft.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "sidebar-right",
+      "type": "registry:ui",
+      "title": "Sidebar Right",
+      "description": "IQons SidebarRight icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/SidebarRight.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "sign-out",
+      "type": "registry:ui",
+      "title": "Sign Out",
+      "description": "IQons SignOut icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/SignOut.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "signal-high",
+      "type": "registry:ui",
+      "title": "Signal High",
+      "description": "IQons SignalHigh icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/SignalHigh.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "signal-low",
+      "type": "registry:ui",
+      "title": "Signal Low",
+      "description": "IQons SignalLow icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/SignalLow.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "signal-medium",
+      "type": "registry:ui",
+      "title": "Signal Medium",
+      "description": "IQons SignalMedium icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/SignalMedium.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "sls",
+      "type": "registry:ui",
+      "title": "Sls",
+      "description": "IQons Sls icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Sls.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "sort-ascending",
+      "type": "registry:ui",
+      "title": "Sort Ascending",
+      "description": "IQons SortAscending icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/SortAscending.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "sort-descending",
+      "type": "registry:ui",
+      "title": "Sort Descending",
+      "description": "IQons SortDescending icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/SortDescending.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "speech",
+      "type": "registry:ui",
+      "title": "Speech",
+      "description": "IQons Speech icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Speech.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "stop",
+      "type": "registry:ui",
+      "title": "Stop",
+      "description": "IQons Stop icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Stop.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "stopwatch",
+      "type": "registry:ui",
+      "title": "Stopwatch",
+      "description": "IQons Stopwatch icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Stopwatch.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "subtract",
+      "type": "registry:ui",
+      "title": "Subtract",
+      "description": "IQons Subtract icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Subtract.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "subtract-round",
+      "type": "registry:ui",
+      "title": "Subtract Round",
+      "description": "IQons SubtractRound icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/SubtractRound.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "subtract-square",
+      "type": "registry:ui",
+      "title": "Subtract Square",
+      "description": "IQons SubtractSquare icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/SubtractSquare.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "success-round",
+      "type": "registry:ui",
+      "title": "Success Round",
+      "description": "IQons SuccessRound icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/SuccessRound.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "swap",
+      "type": "registry:ui",
+      "title": "Swap",
+      "description": "IQons Swap icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Swap.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "sync",
+      "type": "registry:ui",
+      "title": "Sync",
+      "description": "IQons Sync icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Sync.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "tag",
+      "type": "registry:ui",
+      "title": "Tag",
+      "description": "IQons Tag icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Tag.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "target",
+      "type": "registry:ui",
+      "title": "Target",
+      "description": "IQons Target icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Target.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "task",
+      "type": "registry:ui",
+      "title": "Task",
+      "description": "IQons Task icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Task.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "task-new",
+      "type": "registry:ui",
+      "title": "Task New",
+      "description": "IQons TaskNew icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/TaskNew.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "team",
+      "type": "registry:ui",
+      "title": "Team",
+      "description": "IQons Team icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Team.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "theme",
+      "type": "registry:ui",
+      "title": "Theme",
+      "description": "IQons Theme icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Theme.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "thumbs-down",
+      "type": "registry:ui",
+      "title": "Thumbs Down",
+      "description": "IQons ThumbsDown icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ThumbsDown.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "thumbs-up",
+      "type": "registry:ui",
+      "title": "Thumbs Up",
+      "description": "IQons ThumbsUp icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ThumbsUp.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "ticket",
+      "type": "registry:ui",
+      "title": "Ticket",
+      "description": "IQons Ticket icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Ticket.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "timeline",
+      "type": "registry:ui",
+      "title": "Timeline",
+      "description": "IQons Timeline icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Timeline.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "toolbox",
+      "type": "registry:ui",
+      "title": "Toolbox",
+      "description": "IQons Toolbox icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Toolbox.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "tools",
+      "type": "registry:ui",
+      "title": "Tools",
+      "description": "IQons Tools icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Tools.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "trend-down",
+      "type": "registry:ui",
+      "title": "Trend Down",
+      "description": "IQons TrendDown icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/TrendDown.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "trend-up",
+      "type": "registry:ui",
+      "title": "Trend Up",
+      "description": "IQons TrendUp icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/TrendUp.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "unlink",
+      "type": "registry:ui",
+      "title": "Unlink",
+      "description": "IQons Unlink icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Unlink.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "unlock",
+      "type": "registry:ui",
+      "title": "Unlock",
+      "description": "IQons Unlock icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Unlock.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "upload",
+      "type": "registry:ui",
+      "title": "Upload",
+      "description": "IQons Upload icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Upload.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "user",
+      "type": "registry:ui",
+      "title": "User",
+      "description": "IQons User icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/User.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "user-add",
+      "type": "registry:ui",
+      "title": "User Add",
+      "description": "IQons UserAdd icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/UserAdd.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "user-circle",
+      "type": "registry:ui",
+      "title": "User Circle",
+      "description": "IQons UserCircle icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/UserCircle.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "user-edit",
+      "type": "registry:ui",
+      "title": "User Edit",
+      "description": "IQons UserEdit icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/UserEdit.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "user-group",
+      "type": "registry:ui",
+      "title": "User Group",
+      "description": "IQons UserGroup icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/UserGroup.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "user-remove",
+      "type": "registry:ui",
+      "title": "User Remove",
+      "description": "IQons UserRemove icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/UserRemove.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "video",
+      "type": "registry:ui",
+      "title": "Video",
+      "description": "IQons Video icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Video.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "video-call",
+      "type": "registry:ui",
+      "title": "Video Call",
+      "description": "IQons VideoCall icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/VideoCall.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "warning",
+      "type": "registry:ui",
+      "title": "Warning",
+      "description": "IQons Warning icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Warning.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "web",
+      "type": "registry:ui",
+      "title": "Web",
+      "description": "IQons Web icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Web.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "workflow",
+      "type": "registry:ui",
+      "title": "Workflow",
+      "description": "IQons Workflow icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Workflow.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "key-return",
+  "type": "registry:ui",
+  "title": "Key Return",
+  "description": "IQons KeyReturn icon. Variants: outline, fill, duotone.",
+  "dependencies": [
+    "iqons-react"
+  ],
+  "files": [
+    {
+      "path": "packages/iqons-react/src/KeyReturn.tsx",
+      "type": "registry:ui",
+      "content": "import type { IqonProps } from \"./types\";\n\nconst VARIANTS: Partial<Record<string, string>> = {\n  outline: `<path d=\"M20 7.50012C20.4142 7.50013 20.7499 7.836 20.75 8.25012V10.0001C20.75 11.5189 19.5188 12.7501 18 12.7501H5.56155L8.12405 15.2579C8.41434 15.542 8.41427 16.0031 8.12405 16.2872C7.83373 16.5713 7.36259 16.5713 7.07229 16.2872L3.2178 12.5148C2.94559 12.2484 2.92878 11.8269 3.16702 11.5411L3.2178 11.4855L7.07229 7.71301C7.36258 7.42898 7.83374 7.42901 8.12405 7.71301C8.41435 7.9971 8.41431 8.45819 8.12405 8.7423L5.56155 11.2501H18C18.6904 11.2501 19.25 10.6905 19.25 10.0001V8.25012C19.2501 7.83599 19.5859 7.50012 20 7.50012Z\" fill=\"currentColor\"/>`,\n  fill: `<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M21 3C22.1046 3 23 3.89543 23 5V19C23 20.1046 22.1046 21 21 21H3C1.89543 21 1 20.1046 1 19V5C1 3.89543 1.89543 3 3 3H21ZM20 7.5C19.5859 7.50002 19.2502 7.83593 19.25 8.25V10C19.25 10.6903 18.6903 11.25 18 11.25H5.56152L8.12402 8.74219C8.41424 8.45807 8.41431 7.99697 8.12402 7.71289C7.83372 7.42898 7.36253 7.42893 7.07227 7.71289L3.21777 11.4854L3.16699 11.541C2.92877 11.8267 2.94564 12.2483 3.21777 12.5146L7.07227 16.2871C7.36256 16.5712 7.8337 16.5711 8.12402 16.2871C8.4142 16.003 8.41429 15.5419 8.12402 15.2578L5.56152 12.75H18C19.5188 12.75 20.75 11.5188 20.75 10V8.25C20.7498 7.83593 20.4141 7.50002 20 7.5Z\" fill=\"currentColor\"/>`,\n  duotone: `<path d=\"M1 5C1 3.89543 1.89543 3 3 3H21C22.1046 3 23 3.89543 23 5V19C23 20.1046 22.1046 21 21 21H3C1.89543 21 1 20.1046 1 19V5Z\" fill=\"currentColor\" fill-opacity=\"0.2\"/>\n<path d=\"M20 7.50012C20.4142 7.50013 20.7499 7.836 20.75 8.25012V10.0001C20.75 11.5189 19.5188 12.7501 18 12.7501H5.56155L8.12405 15.2579C8.41434 15.542 8.41427 16.0031 8.12405 16.2872C7.83373 16.5713 7.36259 16.5713 7.07229 16.2872L3.2178 12.5148C2.94559 12.2484 2.92878 11.8269 3.16702 11.5411L3.2178 11.4855L7.07229 7.71301C7.36258 7.42898 7.83374 7.42901 8.12405 7.71301C8.41435 7.9971 8.41431 8.45819 8.12405 8.7423L5.56155 11.2501H18C18.6904 11.2501 19.25 10.6905 19.25 10.0001V8.25012C19.2501 7.83599 19.5859 7.50012 20 7.50012Z\" fill=\"currentColor\"/>`,\n};\n\nconst AVAILABLE = [\"outline\",\"fill\",\"duotone\"] as const;\ntype Variant = (typeof AVAILABLE)[number];\n\n/**\n * KeyReturn icon\n * Variants: outline, fill, duotone\n */\nexport function KeyReturn({\n  variant = \"outline\",\n  size = 24,\n  label,\n  ...props\n}: IqonProps) {\n  const inner = VARIANTS[variant] ?? VARIANTS[\"outline\"] ?? \"\";\n  return (\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n      width={size}\n      height={size}\n      fill=\"none\"\n      aria-label={label}\n      aria-hidden={label ? undefined : true}\n      role={label ? \"img\" : undefined}\n      {...props}\n      dangerouslySetInnerHTML={{ __html: inner }}\n    />\n  );\n}\n\nKeyReturn.displayName = \"KeyReturn\";\nKeyReturn.variants = AVAILABLE;\n"
+    }
+  ]
+}

@@ -64,8 +64,8 @@ export function IconDetail({ icon, style, onClose }: IconDetailProps) {
     {
       key: "shadcn" as Tab,
       label: "ShadCN",
-      note: "Coming in Step 5 — ShadCN registry",
-      code: `npx shadcn add iqons/${icon.id}`,
+      note: "Requires ShadCN v2+ in your project",
+      code: `npx shadcn add https://raw.githubusercontent.com/LiamHaire/IQons/master/registry/${icon.id}.json`,
     },
     {
       key: "svg" as Tab,

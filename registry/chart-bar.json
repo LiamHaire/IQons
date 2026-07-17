@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chart-bar",
+  "type": "registry:ui",
+  "title": "Chart Bar",
+  "description": "IQons ChartBar icon. Variants: outline, fill, duotone.",
+  "dependencies": [
+    "iqons-react"
+  ],
+  "files": [
+    {
+      "path": "packages/iqons-react/src/ChartBar.tsx",
+      "type": "registry:ui",
+      "content": "import type { IqonProps } from \"./types\";\n\nconst VARIANTS: Partial<Record<string, string>> = {\n  outline: `<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15.25 8.5H20.25V20.5H21.25C21.6642 20.5 22 20.8358 22 21.25C22 21.6642 21.6642 22 21.25 22H2.75C2.33579 22 2 21.6642 2 21.25C2 20.8358 2.33579 20.5 2.75 20.5H3.75V11.5H8.75V2H15.25V8.5ZM5.25 20.5H8.75V13H5.25V20.5ZM10.25 20.5H13.75V3.5H10.25V20.5ZM15.25 20.5H18.75V10H15.25V20.5Z\" fill=\"currentColor\"/>`,\n  fill: `<path d=\"M15 20.5H16V9H21V20.5H21.25C21.6642 20.5 22 20.8358 22 21.25C22 21.6642 21.6642 22 21.25 22H2.75C2.33579 22 2 21.6642 2 21.25C2 20.8358 2.33579 20.5 2.75 20.5H4V12H9V20.5H10V2H15V20.5Z\" fill=\"currentColor\"/>`,\n  duotone: `<path d=\"M4.5 12.25H9.5V21.25H4.5V12.25Z\" fill=\"currentColor\" fill-opacity=\"0.15\"/>\n<path d=\"M9.5 2.75H14.5V21.25H9.5V2.75Z\" fill=\"currentColor\" fill-opacity=\"0.15\"/>\n<path d=\"M14.5 9.25H19.5V21.25H14.5V9.25Z\" fill=\"currentColor\" fill-opacity=\"0.15\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15.25 8.5H20.25V20.5H21.25C21.6642 20.5 22 20.8358 22 21.25C22 21.6642 21.6642 22 21.25 22H2.75C2.33579 22 2 21.6642 2 21.25C2 20.8358 2.33579 20.5 2.75 20.5H3.75V11.5H8.75V2H15.25V8.5ZM5.25 20.5H8.75V13H5.25V20.5ZM10.25 20.5H13.75V3.5H10.25V20.5ZM15.25 20.5H18.75V10H15.25V20.5Z\" fill=\"currentColor\"/>`,\n};\n\nconst AVAILABLE = [\"outline\",\"fill\",\"duotone\"] as const;\ntype Variant = (typeof AVAILABLE)[number];\n\n/**\n * ChartBar icon\n * Variants: outline, fill, duotone\n */\nexport function ChartBar({\n  variant = \"outline\",\n  size = 24,\n  label,\n  ...props\n}: IqonProps) {\n  const inner = VARIANTS[variant] ?? VARIANTS[\"outline\"] ?? \"\";\n  return (\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n      width={size}\n      height={size}\n      fill=\"none\"\n      aria-label={label}\n      aria-hidden={label ? undefined : true}\n      role={label ? \"img\" : undefined}\n      {...props}\n      dangerouslySetInnerHTML={{ __html: inner }}\n    />\n  );\n}\n\nChartBar.displayName = \"ChartBar\";\nChartBar.variants = AVAILABLE;\n"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrow-right",
+  "type": "registry:ui",
+  "title": "Arrow Right",
+  "description": "IQons ArrowRight icon. Variants: outline, fill, duotone.",
+  "dependencies": [
+    "iqons-react"
+  ],
+  "files": [
+    {
+      "path": "packages/iqons-react/src/ArrowRight.tsx",
+      "type": "registry:ui",
+      "content": "import type { IqonProps } from \"./types\";\n\nconst VARIANTS: Partial<Record<string, string>> = {\n  outline: `<path d=\"M19.7012 11.3565C20.0724 11.6746 20.0956 12.2331 19.7706 12.5811L19.7012 12.6475L12.7901 18.5713C12.4757 18.8407 12.002 18.8045 11.7325 18.4902C11.463 18.1758 11.4993 17.7022 11.8135 17.4326L17.2745 12.752L4.75202 12.752C4.33784 12.752 4.00207 12.4161 4.00202 12.002C4.00202 11.5877 4.33781 11.252 4.75202 11.252L17.2745 11.252L11.8135 6.5713C11.4993 6.30174 11.4631 5.8281 11.7325 5.51368C12.0021 5.19935 12.4757 5.16315 12.7901 5.43262L19.7012 11.3565Z\" fill=\"currentColor\"/>`,\n  fill: `<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M22 20C22 21.1046 21.1046 22 20 22L4 22C2.89543 22 2 21.1046 2 20L2 4C2 2.89543 2.89543 2 4 2L20 2C21.1046 2 22 2.89543 22 4L22 20ZM19.7686 12.5791C20.0935 12.2311 20.0704 11.6726 19.6992 11.3545L12.7881 5.43066C12.4737 5.16125 12 5.19745 11.7305 5.51172C11.4611 5.82613 11.4973 6.29977 11.8115 6.56934L17.2725 11.25L4.75 11.25C4.33582 11.25 4.00005 11.5858 4 12C4.00005 12.4142 4.33582 12.75 4.75 12.75L17.2725 12.75L11.8115 17.4307C11.4973 17.7003 11.4611 18.1739 11.7305 18.4883C12 18.8026 12.4736 18.8387 12.7881 18.5693L19.6992 12.6455L19.7686 12.5791Z\" fill=\"currentColor\"/>`,\n  duotone: `<path d=\"M2 4C2 2.89543 2.89543 2 4 2H20C21.1046 2 22 2.89543 22 4V20C22 21.1046 21.1046 22 20 22H4C2.89543 22 2 21.1046 2 20V4Z\" fill=\"currentColor\" fill-opacity=\"0.2\"/>\n<path d=\"M19.7012 11.3564C20.0724 11.6746 20.0956 12.2331 19.7706 12.5811L19.7012 12.6475L12.7901 18.5713C12.4757 18.8407 12.002 18.8045 11.7325 18.4902C11.463 18.1758 11.4993 17.7022 11.8135 17.4326L17.2745 12.752L4.75202 12.752C4.33784 12.752 4.00207 12.4161 4.00202 12.002C4.00202 11.5877 4.33781 11.252 4.75202 11.252L17.2745 11.252L11.8135 6.57129C11.4993 6.30173 11.4631 5.82809 11.7325 5.51367C12.0021 5.19934 12.4757 5.16314 12.7901 5.43262L19.7012 11.3564Z\" fill=\"currentColor\"/>`,\n};\n\nconst AVAILABLE = [\"outline\",\"fill\",\"duotone\"] as const;\ntype Variant = (typeof AVAILABLE)[number];\n\n/**\n * ArrowRight icon\n * Variants: outline, fill, duotone\n */\nexport function ArrowRight({\n  variant = \"outline\",\n  size = 24,\n  label,\n  ...props\n}: IqonProps) {\n  const inner = VARIANTS[variant] ?? VARIANTS[\"outline\"] ?? \"\";\n  return (\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n      width={size}\n      height={size}\n      fill=\"none\"\n      aria-label={label}\n      aria-hidden={label ? undefined : true}\n      role={label ? \"img\" : undefined}\n      {...props}\n      dangerouslySetInnerHTML={{ __html: inner }}\n    />\n  );\n}\n\nArrowRight.displayName = \"ArrowRight\";\nArrowRight.variants = AVAILABLE;\n"
+    }
+  ]
+}

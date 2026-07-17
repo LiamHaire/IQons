@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "flag",
+  "type": "registry:ui",
+  "title": "Flag",
+  "description": "IQons Flag icon. Variants: outline, fill, duotone.",
+  "dependencies": [
+    "iqons-react"
+  ],
+  "files": [
+    {
+      "path": "packages/iqons-react/src/Flag.tsx",
+      "type": "registry:ui",
+      "content": "import type { IqonProps } from \"./types\";\n\nconst VARIANTS: Partial<Record<string, string>> = {\n  outline: `<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M19.9473 1C20.7861 1.00013 21.2873 1.89022 20.8223 2.55469L18.0967 6.44531C17.8615 6.78118 17.8615 7.21882 18.0967 7.55469L20.8223 11.4453C21.2873 12.1098 20.7861 12.9999 19.9473 13H4.5V22.25C4.5 22.6642 4.16421 23 3.75 23C3.33579 23 3 22.6642 3 22.25V1.75C3 1.33579 3.33579 1 3.75 1C3.79605 1 3.84101 1.00475 3.88477 1.0127C3.90415 1.00977 3.92364 1.00679 3.94336 1.00488L4.05078 1H19.9473ZM4.5 11.5H19.0283L16.8682 8.41504C16.2712 7.56258 16.2712 6.43742 16.8682 5.58496L19.0283 2.5H4.5V11.5Z\" fill=\"currentColor\"/>`,\n  fill: `<path d=\"M19.9473 1C20.3032 1 20.597 1.16135 20.7832 1.39648C20.8165 1.43858 20.8479 1.48191 20.874 1.52832C21.0243 1.79563 21.0502 2.12669 20.8984 2.42773C20.8768 2.47077 20.8513 2.51315 20.8223 2.55469L18.0967 6.44531C17.8908 6.73931 17.865 7.11139 18.0195 7.4248C18.0415 7.46942 18.0674 7.51284 18.0967 7.55469L20.8223 11.4453C20.9095 11.57 20.963 11.7027 20.9863 11.8359C21.0878 12.4126 20.6289 13 19.9473 13H4.5V22.25C4.5 22.6642 4.16421 23 3.75 23C3.33579 23 3 22.6642 3 22.25V1.75C3 1.33579 3.33579 1 3.75 1C3.79671 1 3.84237 1.00452 3.88672 1.0127C3.94014 1.00473 3.995 1 4.05078 1H19.9473Z\" fill=\"currentColor\"/>`,\n  duotone: `<path d=\"M19.9476 1H4.05059C3.47037 1 3 1.44772 3 2V12C3 12.5523 3.47037 13 4.05059 13H19.9476C20.7867 13 21.2872 12.1099 20.8218 11.4453L18.0968 7.5547C17.8616 7.2188 17.8616 6.7812 18.0968 6.4453L20.8218 2.5547C21.2872 1.89015 20.7867 1 19.9476 1Z\" fill=\"currentColor\" fill-opacity=\"0.15\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M19.9473 1C20.7861 1.00013 21.2873 1.89022 20.8223 2.55469L18.0967 6.44531C17.8615 6.78118 17.8615 7.21882 18.0967 7.55469L20.8223 11.4453C21.2873 12.1098 20.7861 12.9999 19.9473 13H4.5V22.25C4.5 22.6642 4.16421 23 3.75 23C3.33579 23 3 22.6642 3 22.25V1.75C3 1.33579 3.33579 1 3.75 1C3.79605 1 3.84101 1.00475 3.88477 1.0127C3.90415 1.00977 3.92364 1.00679 3.94336 1.00488L4.05078 1H19.9473ZM4.5 11.5H19.0283L16.8682 8.41504C16.2712 7.56258 16.2712 6.43742 16.8682 5.58496L19.0283 2.5H4.5V11.5Z\" fill=\"currentColor\"/>`,\n};\n\nconst AVAILABLE = [\"outline\",\"fill\",\"duotone\"] as const;\ntype Variant = (typeof AVAILABLE)[number];\n\n/**\n * Flag icon\n * Variants: outline, fill, duotone\n */\nexport function Flag({\n  variant = \"outline\",\n  size = 24,\n  label,\n  ...props\n}: IqonProps) {\n  const inner = VARIANTS[variant] ?? VARIANTS[\"outline\"] ?? \"\";\n  return (\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n      width={size}\n      height={size}\n      fill=\"none\"\n      aria-label={label}\n      aria-hidden={label ? undefined : true}\n      role={label ? \"img\" : undefined}\n      {...props}\n      dangerouslySetInnerHTML={{ __html: inner }}\n    />\n  );\n}\n\nFlag.displayName = \"Flag\";\nFlag.variants = AVAILABLE;\n"
+    }
+  ]
+}
