@@ -329,7 +329,6 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
                   icon={icon}
                   style={activeStyle}
                   size={iconSize}
-                  selected={selectedIcon?.id === icon.id}
                   onClick={() => setSelectedIcon(icon)}
                 />
               ))}
