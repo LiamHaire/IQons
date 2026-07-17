@@ -116,6 +116,7 @@ export function IconDetail({ icon, style, onClose }: IconDetailProps) {
             <div
               style={{
                 width: 560,
+                height: 580,
                 maxWidth: "calc(100vw - 48px)",
                 maxHeight: "calc(100vh - 80px)",
                 background: "var(--background)",
@@ -277,7 +278,7 @@ export function IconDetail({ icon, style, onClose }: IconDetailProps) {
                 </div>
 
                 {/* Usage section */}
-                <div style={{ padding: "20px 24px 24px" }}>
+                <div style={{ padding: "20px 24px 24px", flex: 1, display: "flex", flexDirection: "column" }}>
                   <Label>Usage</Label>
 
                   {/* Tab bar */}
@@ -308,13 +309,14 @@ export function IconDetail({ icon, style, onClose }: IconDetailProps) {
                   {snippets.map((s) => {
                     if (s.key !== activeTab) return null;
                     return (
-                      <div key={s.key}>
+                      <div key={s.key} style={{ flex: 1, display: "flex", flexDirection: "column" }}>
                         <p style={{ fontSize: 11, color: "var(--text-muted)", marginBottom: 8 }}>
                           {s.note}
                         </p>
-                        <div style={{ position: "relative" }}>
+                        <div style={{ position: "relative", flex: 1, display: "flex", flexDirection: "column" }}>
                           <pre
                             style={{
+                              flex: 1,
                               margin: 0,
                               padding: "14px 48px 14px 16px",
                               borderRadius: 10,
@@ -327,7 +329,6 @@ export function IconDetail({ icon, style, onClose }: IconDetailProps) {
                               whiteSpace: "pre-wrap",
                               wordBreak: "break-all",
                               lineHeight: 1.6,
-                              maxHeight: 180,
                               overflowY: "auto",
                             }}
                           >
