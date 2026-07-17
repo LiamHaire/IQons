@@ -1,10 +1,19 @@
 {
   "title": "Sync",
-  "description": "",
+  "description": "Synchronise data across devices or services",
   "keywords": [
-    "sync"
+    "sync",
+    "synchronise",
+    "synchronize",
+    "refresh",
+    "update",
+    "arrows"
   ],
-  "aliases": [],
+  "aliases": [
+    "synchronise",
+    "synchronize",
+    "refresh"
+  ],
   "variants": [
     "outline",
     "fill",

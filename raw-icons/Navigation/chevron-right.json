@@ -1,11 +1,17 @@
 {
   "title": "Chevron Right",
-  "description": "",
+  "description": "Right-facing chevron, used for forward navigation or next item",
   "keywords": [
     "chevron",
-    "right"
+    "right",
+    "caret",
+    "forward",
+    "next",
+    "navigate"
   ],
-  "aliases": [],
+  "aliases": [
+    "caret-right"
+  ],
   "variants": [
     "outline",
     "fill",

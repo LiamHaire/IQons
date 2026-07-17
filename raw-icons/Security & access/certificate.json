@@ -1,10 +1,20 @@
 {
   "title": "Certificate",
-  "description": "",
+  "description": "Security certificate or digital credential",
   "keywords": [
-    "certificate"
+    "certificate",
+    "cert",
+    "ssl",
+    "credential",
+    "trust",
+    "secure",
+    "digital"
   ],
-  "aliases": [],
+  "aliases": [
+    "cert",
+    "ssl",
+    "credential"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,10 +1,17 @@
 {
   "title": "Copy",
-  "description": "",
+  "description": "Copy selected content to the clipboard",
   "keywords": [
-    "copy"
+    "copy",
+    "clone",
+    "duplicate",
+    "clipboard",
+    "multiple"
   ],
-  "aliases": [],
+  "aliases": [
+    "duplicate-content",
+    "clipboard-copy"
+  ],
   "variants": [
     "outline",
     "fill",

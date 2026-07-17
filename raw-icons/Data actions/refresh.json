@@ -1,10 +1,19 @@
 {
   "title": "Refresh",
-  "description": "",
+  "description": "Refresh or reload content",
   "keywords": [
-    "refresh"
+    "refresh",
+    "reload",
+    "sync",
+    "update",
+    "repeat",
+    "arrows"
   ],
-  "aliases": [],
+  "aliases": [
+    "reload",
+    "sync",
+    "update"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,11 +1,18 @@
 {
   "title": "Sort Ascending",
-  "description": "",
+  "description": "Sort a list in ascending order (A to Z or low to high)",
   "keywords": [
     "sort",
-    "ascending"
+    "ascending",
+    "order",
+    "asc",
+    "low-to-high",
+    "a-z"
   ],
-  "aliases": [],
+  "aliases": [
+    "sort-asc",
+    "order-ascending"
+  ],
   "variants": [
     "outline",
     "fill",

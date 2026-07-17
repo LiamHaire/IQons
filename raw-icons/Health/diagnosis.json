@@ -1,10 +1,19 @@
 {
   "title": "Diagnosis",
-  "description": "",
+  "description": "A clinical diagnosis or medical assessment",
   "keywords": [
-    "diagnosis"
+    "diagnosis",
+    "assessment",
+    "condition",
+    "finding",
+    "clinical",
+    "medical"
   ],
-  "aliases": [],
+  "aliases": [
+    "assessment",
+    "condition",
+    "finding"
+  ],
   "variants": [
     "outline",
     "fill",

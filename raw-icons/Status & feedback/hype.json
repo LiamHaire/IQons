@@ -1,10 +1,20 @@
 {
   "title": "Hype",
-  "description": "",
+  "description": "Excitement, enthusiasm, or positive energy",
   "keywords": [
-    "hype"
+    "hype",
+    "excited",
+    "boost",
+    "fire",
+    "energy",
+    "positive",
+    "trending"
   ],
-  "aliases": [],
+  "aliases": [
+    "excited",
+    "boost",
+    "fire"
+  ],
   "variants": [
     "outline",
     "fill",

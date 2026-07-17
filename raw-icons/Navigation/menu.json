@@ -1,10 +1,19 @@
 {
   "title": "Menu",
-  "description": "",
+  "description": "Hamburger menu icon to open a navigation drawer or sidebar",
   "keywords": [
-    "menu"
+    "menu",
+    "hamburger",
+    "navigation",
+    "nav",
+    "bars",
+    "sidebar"
   ],
-  "aliases": [],
+  "aliases": [
+    "hamburger",
+    "nav",
+    "burger"
+  ],
   "variants": [
     "outline",
     "fill",

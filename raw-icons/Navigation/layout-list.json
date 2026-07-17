@@ -1,11 +1,17 @@
 {
   "title": "Layout List",
-  "description": "",
+  "description": "List layout view with rows of content",
   "keywords": [
     "layout",
-    "list"
+    "list",
+    "rows",
+    "view",
+    "feed"
   ],
-  "aliases": [],
+  "aliases": [
+    "list-view",
+    "rows"
+  ],
   "variants": [
     "outline",
     "fill",

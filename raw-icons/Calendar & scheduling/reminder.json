@@ -1,10 +1,17 @@
 {
   "title": "Reminder",
-  "description": "",
+  "description": "A reminder or alert for an upcoming event",
   "keywords": [
-    "reminder"
+    "reminder",
+    "alert",
+    "notification",
+    "bell",
+    "upcoming"
   ],
-  "aliases": [],
+  "aliases": [
+    "alert",
+    "notification"
+  ],
   "variants": [
     "outline",
     "fill",

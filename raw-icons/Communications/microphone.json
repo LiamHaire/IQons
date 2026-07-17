@@ -1,10 +1,20 @@
 {
   "title": "Microphone",
-  "description": "",
+  "description": "Microphone for audio recording or voice input",
   "keywords": [
-    "microphone"
+    "microphone",
+    "mic",
+    "voice",
+    "record",
+    "audio",
+    "speak",
+    "input"
   ],
-  "aliases": [],
+  "aliases": [
+    "mic",
+    "voice",
+    "record"
+  ],
   "variants": [
     "outline",
     "fill",

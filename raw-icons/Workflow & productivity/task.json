@@ -1,10 +1,19 @@
 {
   "title": "Task",
-  "description": "",
+  "description": "A task or work item to complete",
   "keywords": [
-    "task"
+    "task",
+    "todo",
+    "work",
+    "action",
+    "item",
+    "complete"
   ],
-  "aliases": [],
+  "aliases": [
+    "todo",
+    "work-item",
+    "action"
+  ],
   "variants": [
     "outline",
     "fill",

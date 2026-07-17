@@ -1,10 +1,19 @@
 {
   "title": "Merge",
-  "description": "",
+  "description": "Merge two or more items into one",
   "keywords": [
-    "merge"
+    "merge",
+    "combine",
+    "join",
+    "consolidate",
+    "unite",
+    "branches"
   ],
-  "aliases": [],
+  "aliases": [
+    "combine",
+    "join",
+    "consolidate"
+  ],
   "variants": [
     "outline",
     "fill",

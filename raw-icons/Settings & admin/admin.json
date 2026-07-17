@@ -1,10 +1,18 @@
 {
   "title": "Admin",
-  "description": "",
+  "description": "Admin panel or administrative controls",
   "keywords": [
-    "admin"
+    "admin",
+    "administration",
+    "control",
+    "panel",
+    "settings",
+    "manage"
   ],
-  "aliases": [],
+  "aliases": [
+    "administration",
+    "control-panel"
+  ],
   "variants": [
     "outline",
     "fill",

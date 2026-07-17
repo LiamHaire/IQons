@@ -1,10 +1,17 @@
 {
   "title": "Meeting",
-  "description": "",
+  "description": "A scheduled meeting with multiple participants",
   "keywords": [
-    "meeting"
+    "meeting",
+    "conference",
+    "call",
+    "participants",
+    "schedule"
   ],
-  "aliases": [],
+  "aliases": [
+    "conference",
+    "call"
+  ],
   "variants": [
     "outline",
     "fill",

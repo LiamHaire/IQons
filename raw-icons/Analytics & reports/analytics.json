@@ -1,10 +1,20 @@
 {
   "title": "Analytics",
-  "description": "",
+  "description": "Analytics dashboard showing data insights and metrics",
   "keywords": [
-    "analytics"
+    "analytics",
+    "insights",
+    "metrics",
+    "data",
+    "statistics",
+    "dashboard",
+    "kpi"
   ],
-  "aliases": [],
+  "aliases": [
+    "insights",
+    "metrics",
+    "data"
+  ],
   "variants": [
     "outline",
     "fill",

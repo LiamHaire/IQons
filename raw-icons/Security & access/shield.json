@@ -1,10 +1,20 @@
 {
   "title": "Shield",
-  "description": "",
+  "description": "Security shield representing protection or defence",
   "keywords": [
-    "shield"
+    "shield",
+    "protect",
+    "defence",
+    "guard",
+    "security",
+    "safe",
+    "armour"
   ],
-  "aliases": [],
+  "aliases": [
+    "protect",
+    "defence",
+    "guard"
+  ],
   "variants": [
     "outline",
     "fill",

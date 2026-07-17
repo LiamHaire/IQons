@@ -1,11 +1,17 @@
 {
   "title": "Chat Close",
-  "description": "",
+  "description": "Close or end an active chat conversation",
   "keywords": [
     "chat",
-    "close"
+    "close",
+    "end",
+    "dismiss",
+    "conversation"
   ],
-  "aliases": [],
+  "aliases": [
+    "end-chat",
+    "close-conversation"
+  ],
   "variants": [
     "outline",
     "fill",

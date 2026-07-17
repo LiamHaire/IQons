@@ -1,10 +1,19 @@
 {
   "title": "Image",
-  "description": "",
+  "description": "An image or photo file",
   "keywords": [
-    "image"
+    "image",
+    "photo",
+    "picture",
+    "img",
+    "media",
+    "graphic"
   ],
-  "aliases": [],
+  "aliases": [
+    "photo",
+    "picture",
+    "img"
+  ],
   "variants": [
     "outline",
     "fill",

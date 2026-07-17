@@ -1,11 +1,19 @@
 {
   "title": "Arrow Left",
-  "description": "",
+  "description": "Arrow pointing left, used to go back or indicate previous",
   "keywords": [
     "arrow",
-    "left"
+    "left",
+    "back",
+    "previous",
+    "direction",
+    "west"
   ],
-  "aliases": [],
+  "aliases": [
+    "arrow-back",
+    "arrow-previous",
+    "arrow-west"
+  ],
   "variants": [
     "outline",
     "fill",

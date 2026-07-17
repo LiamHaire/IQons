@@ -1,10 +1,21 @@
 {
   "title": "Lightning",
-  "description": "",
+  "description": "Fast AI processing or a high-speed action",
   "keywords": [
-    "lightning"
+    "lightning",
+    "fast",
+    "instant",
+    "speed",
+    "ai",
+    "spark",
+    "power",
+    "bolt"
   ],
-  "aliases": [],
+  "aliases": [
+    "fast",
+    "instant",
+    "spark"
+  ],
   "variants": [
     "outline",
     "fill",

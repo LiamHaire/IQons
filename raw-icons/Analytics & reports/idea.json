@@ -1,10 +1,19 @@
 {
   "title": "Idea",
-  "description": "",
+  "description": "An idea or insight, represented by a lightbulb",
   "keywords": [
-    "idea"
+    "idea",
+    "lightbulb",
+    "insight",
+    "suggestion",
+    "creative",
+    "innovation"
   ],
-  "aliases": [],
+  "aliases": [
+    "lightbulb",
+    "insight",
+    "suggestion"
+  ],
   "variants": [
     "outline",
     "fill",

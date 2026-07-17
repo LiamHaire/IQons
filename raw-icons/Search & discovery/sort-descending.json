@@ -1,11 +1,18 @@
 {
   "title": "Sort Descending",
-  "description": "",
+  "description": "Sort a list in descending order (Z to A or high to low)",
   "keywords": [
     "sort",
-    "descending"
+    "descending",
+    "order",
+    "desc",
+    "high-to-low",
+    "z-a"
   ],
-  "aliases": [],
+  "aliases": [
+    "sort-desc",
+    "order-descending"
+  ],
   "variants": [
     "outline",
     "fill",

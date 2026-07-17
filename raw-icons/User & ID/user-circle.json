@@ -1,11 +1,19 @@
 {
   "title": "User Circle",
-  "description": "",
+  "description": "User avatar in a circular frame",
   "keywords": [
     "user",
-    "circle"
+    "circle",
+    "avatar",
+    "profile",
+    "account",
+    "person"
   ],
-  "aliases": [],
+  "aliases": [
+    "avatar",
+    "user-avatar",
+    "profile-circle"
+  ],
   "variants": [
     "outline",
     "fill",

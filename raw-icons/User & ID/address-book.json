@@ -1,11 +1,20 @@
 {
   "title": "Address Book",
-  "description": "",
+  "description": "Address book or contact list",
   "keywords": [
     "address",
-    "book"
+    "book",
+    "address-book",
+    "contacts",
+    "phonebook",
+    "directory",
+    "people"
   ],
-  "aliases": [],
+  "aliases": [
+    "contacts",
+    "phonebook",
+    "directory"
+  ],
   "variants": [
     "outline",
     "fill",

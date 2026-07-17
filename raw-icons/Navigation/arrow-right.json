@@ -1,11 +1,19 @@
 {
   "title": "Arrow Right",
-  "description": "",
+  "description": "Arrow pointing right, used to go forward or indicate next",
   "keywords": [
     "arrow",
-    "right"
+    "right",
+    "forward",
+    "next",
+    "direction",
+    "east"
   ],
-  "aliases": [],
+  "aliases": [
+    "arrow-forward",
+    "arrow-next",
+    "arrow-east"
+  ],
   "variants": [
     "outline",
     "fill",

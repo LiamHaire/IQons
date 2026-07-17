@@ -1,10 +1,20 @@
 {
   "title": "Piggybank",
-  "description": "",
+  "description": "Piggy bank representing savings, budgeting, or financial goals",
   "keywords": [
-    "piggybank"
+    "piggybank",
+    "savings",
+    "save",
+    "money",
+    "budget",
+    "finance",
+    "goal"
   ],
-  "aliases": [],
+  "aliases": [
+    "savings",
+    "save-money",
+    "budget"
+  ],
   "variants": [
     "outline",
     "fill",

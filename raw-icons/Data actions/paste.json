@@ -1,10 +1,15 @@
 {
   "title": "Paste",
-  "description": "",
+  "description": "Paste content from the clipboard",
   "keywords": [
-    "paste"
+    "paste",
+    "clipboard",
+    "insert",
+    "place"
   ],
-  "aliases": [],
+  "aliases": [
+    "clipboard-paste"
+  ],
   "variants": [
     "outline",
     "fill",

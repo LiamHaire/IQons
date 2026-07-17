@@ -1,11 +1,18 @@
 {
   "title": "Medication Branded",
-  "description": "",
+  "description": "A branded medication as opposed to a generic drug",
   "keywords": [
     "medication",
-    "branded"
+    "branded",
+    "brand",
+    "proprietary",
+    "drug",
+    "prescription"
   ],
-  "aliases": [],
+  "aliases": [
+    "brand-name-drug",
+    "proprietary-medication"
+  ],
   "variants": [
     "outline",
     "fill",

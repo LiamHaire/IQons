@@ -1,10 +1,20 @@
 {
   "title": "Agent",
-  "description": "",
+  "description": "AI agent capable of performing autonomous tasks",
   "keywords": [
-    "agent"
+    "agent",
+    "ai",
+    "autonomous",
+    "bot",
+    "assistant",
+    "task",
+    "automation"
   ],
-  "aliases": [],
+  "aliases": [
+    "ai-agent",
+    "bot",
+    "assistant-agent"
+  ],
   "variants": [
     "outline",
     "fill",

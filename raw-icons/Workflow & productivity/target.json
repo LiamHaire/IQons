@@ -1,10 +1,19 @@
 {
   "title": "Target",
-  "description": "",
+  "description": "A goal, target, or objective to achieve",
   "keywords": [
-    "target"
+    "target",
+    "goal",
+    "aim",
+    "objective",
+    "bullseye",
+    "focus"
   ],
-  "aliases": [],
+  "aliases": [
+    "goal",
+    "aim",
+    "objective"
+  ],
   "variants": [
     "outline",
     "fill",

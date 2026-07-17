@@ -1,10 +1,20 @@
 {
   "title": "Edit",
-  "description": "",
+  "description": "Edit or modify existing content",
   "keywords": [
-    "edit"
+    "edit",
+    "modify",
+    "update",
+    "pencil",
+    "write",
+    "change"
   ],
-  "aliases": [],
+  "aliases": [
+    "pencil",
+    "modify",
+    "update",
+    "write"
+  ],
   "variants": [
     "outline",
     "fill",

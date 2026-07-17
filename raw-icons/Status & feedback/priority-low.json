@@ -1,11 +1,19 @@
 {
   "title": "Priority Low",
-  "description": "",
+  "description": "Low priority item that can be addressed later",
   "keywords": [
     "priority",
-    "low"
+    "low",
+    "minor",
+    "deferred",
+    "later",
+    "backlog"
   ],
-  "aliases": [],
+  "aliases": [
+    "low",
+    "minor",
+    "deferred"
+  ],
   "variants": [
     "outline",
     "fill",

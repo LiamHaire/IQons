@@ -1,10 +1,18 @@
 {
   "title": "Cloud",
-  "description": "",
+  "description": "Cloud storage or cloud-based service",
   "keywords": [
-    "cloud"
+    "cloud",
+    "storage",
+    "online",
+    "remote",
+    "server",
+    "saas"
   ],
-  "aliases": [],
+  "aliases": [
+    "cloud-storage",
+    "online"
+  ],
   "variants": [
     "outline",
     "fill",

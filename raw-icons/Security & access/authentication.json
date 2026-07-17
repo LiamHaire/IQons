@@ -1,10 +1,20 @@
 {
   "title": "Authentication",
-  "description": "",
+  "description": "User authentication or identity verification",
   "keywords": [
-    "authentication"
+    "authentication",
+    "auth",
+    "verify",
+    "login",
+    "identity",
+    "credential",
+    "mfa"
   ],
-  "aliases": [],
+  "aliases": [
+    "auth",
+    "verify",
+    "login"
+  ],
   "variants": [
     "outline",
     "fill",

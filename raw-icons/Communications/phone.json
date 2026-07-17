@@ -1,10 +1,19 @@
 {
   "title": "Phone",
-  "description": "",
+  "description": "Phone or telephone for calling",
   "keywords": [
-    "phone"
+    "phone",
+    "call",
+    "telephone",
+    "ring",
+    "contact",
+    "dial"
   ],
-  "aliases": [],
+  "aliases": [
+    "call",
+    "telephone",
+    "ring"
+  ],
   "variants": [
     "outline",
     "fill",

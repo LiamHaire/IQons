@@ -1,11 +1,19 @@
 {
   "title": "Sign Out",
-  "description": "",
+  "description": "Sign out or log out of an account",
   "keywords": [
     "sign",
-    "out"
+    "out",
+    "sign-out",
+    "logout",
+    "exit",
+    "leave",
+    "account"
   ],
-  "aliases": [],
+  "aliases": [
+    "logout",
+    "log-out"
+  ],
   "variants": [
     "outline",
     "fill",

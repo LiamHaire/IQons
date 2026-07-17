@@ -1,11 +1,18 @@
 {
   "title": "Medication Unlicensed",
-  "description": "",
+  "description": "An unlicensed or off-label medication use",
   "keywords": [
     "medication",
-    "unlicensed"
+    "unlicensed",
+    "off-label",
+    "special",
+    "drug",
+    "prescribing"
   ],
-  "aliases": [],
+  "aliases": [
+    "off-label",
+    "unlicensed-drug"
+  ],
   "variants": [
     "outline",
     "fill",

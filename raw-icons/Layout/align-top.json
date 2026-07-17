@@ -1,11 +1,17 @@
 {
   "title": "Align Top",
-  "description": "",
+  "description": "Align selected elements to the top edge",
   "keywords": [
     "align",
-    "top"
+    "top",
+    "edge",
+    "layout",
+    "position",
+    "distribute"
   ],
-  "aliases": [],
+  "aliases": [
+    "top-align"
+  ],
   "variants": [
     "outline",
     "fill",

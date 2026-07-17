@@ -1,10 +1,19 @@
 {
   "title": "Sls",
-  "description": "",
+  "description": "SLS — Selected List Scheme, a prescribing restriction category",
   "keywords": [
-    "sls"
+    "sls",
+    "selected",
+    "list",
+    "scheme",
+    "prescribing",
+    "restriction",
+    "clinical"
   ],
-  "aliases": [],
+  "aliases": [
+    "selected-list-scheme",
+    "prescribing-restriction"
+  ],
   "variants": [
     "outline",
     "fill",

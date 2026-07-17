@@ -1,10 +1,19 @@
 {
   "title": "Tag",
-  "description": "",
+  "description": "Label or tag an item for categorisation",
   "keywords": [
-    "tag"
+    "tag",
+    "label",
+    "badge",
+    "category",
+    "ticket",
+    "mark"
   ],
-  "aliases": [],
+  "aliases": [
+    "label",
+    "badge",
+    "category"
+  ],
   "variants": [
     "outline",
     "fill",

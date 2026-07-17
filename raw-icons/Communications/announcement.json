@@ -1,10 +1,19 @@
 {
   "title": "Announcement",
-  "description": "",
+  "description": "An announcement or broadcast message to a group",
   "keywords": [
-    "announcement"
+    "announcement",
+    "broadcast",
+    "megaphone",
+    "alert",
+    "notice",
+    "news"
   ],
-  "aliases": [],
+  "aliases": [
+    "broadcast",
+    "megaphone",
+    "alert"
+  ],
   "variants": [
     "outline",
     "fill",

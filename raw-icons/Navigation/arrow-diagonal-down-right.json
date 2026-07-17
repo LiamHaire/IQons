@@ -1,13 +1,18 @@
 {
   "title": "Arrow Diagonal Down Right",
-  "description": "",
+  "description": "Diagonal arrow pointing down and to the right",
   "keywords": [
     "arrow",
     "diagonal",
     "down",
-    "right"
+    "right",
+    "direction",
+    "south-east"
   ],
-  "aliases": [],
+  "aliases": [
+    "arrow-down-right",
+    "arrow-se"
+  ],
   "variants": [
     "outline",
     "fill",

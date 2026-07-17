@@ -1,11 +1,20 @@
 {
   "title": "Chart Line",
-  "description": "",
+  "description": "Line chart showing trends over time",
   "keywords": [
     "chart",
-    "line"
+    "line",
+    "graph",
+    "trend",
+    "time",
+    "statistics",
+    "analytics"
   ],
-  "aliases": [],
+  "aliases": [
+    "line-chart",
+    "line-graph",
+    "trend-chart"
+  ],
   "variants": [
     "outline",
     "fill",

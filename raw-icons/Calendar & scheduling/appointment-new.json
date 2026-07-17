@@ -1,11 +1,17 @@
 {
   "title": "Appointment New",
-  "description": "",
+  "description": "Create a new appointment or booking",
   "keywords": [
     "appointment",
-    "new"
+    "new",
+    "create",
+    "booking",
+    "schedule"
   ],
-  "aliases": [],
+  "aliases": [
+    "new-appointment",
+    "book"
+  ],
   "variants": [
     "outline",
     "fill",

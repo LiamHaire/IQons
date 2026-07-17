@@ -1,10 +1,20 @@
 {
   "title": "Scales",
-  "description": "",
+  "description": "Scales of justice representing legal balance and fairness",
   "keywords": [
-    "scales"
+    "scales",
+    "justice",
+    "balance",
+    "legal",
+    "law",
+    "court",
+    "fair"
   ],
-  "aliases": [],
+  "aliases": [
+    "justice",
+    "balance",
+    "legal"
+  ],
   "variants": [
     "outline",
     "fill",

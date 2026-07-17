@@ -1,10 +1,18 @@
 {
   "title": "Unlink",
-  "description": "",
+  "description": "Remove a hyperlink or disconnect two items",
   "keywords": [
-    "unlink"
+    "unlink",
+    "break",
+    "disconnect",
+    "remove",
+    "url",
+    "chain"
   ],
-  "aliases": [],
+  "aliases": [
+    "break-link",
+    "disconnect"
+  ],
   "variants": [
     "outline",
     "fill",

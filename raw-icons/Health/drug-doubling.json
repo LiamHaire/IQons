@@ -1,11 +1,19 @@
 {
   "title": "Drug Doubling",
-  "description": "",
+  "description": "Drug doubling alert — flags when a patient may be receiving duplicate medication",
   "keywords": [
     "drug",
-    "doubling"
+    "doubling",
+    "duplicate",
+    "medication",
+    "alert",
+    "prescribing",
+    "safety"
   ],
-  "aliases": [],
+  "aliases": [
+    "duplicate-medication",
+    "double-prescribing"
+  ],
   "variants": [
     "outline",
     "fill",

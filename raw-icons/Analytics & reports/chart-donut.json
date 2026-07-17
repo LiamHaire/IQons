@@ -1,11 +1,18 @@
 {
   "title": "Chart Donut",
-  "description": "",
+  "description": "Donut chart showing proportional data",
   "keywords": [
     "chart",
-    "donut"
+    "donut",
+    "ring",
+    "proportion",
+    "statistics",
+    "analytics"
   ],
-  "aliases": [],
+  "aliases": [
+    "donut-chart",
+    "ring-chart"
+  ],
   "variants": [
     "outline",
     "fill",

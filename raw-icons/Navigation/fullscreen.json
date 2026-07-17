@@ -1,10 +1,18 @@
 {
   "title": "Fullscreen",
-  "description": "",
+  "description": "Expand to fill the full screen or viewport",
   "keywords": [
-    "fullscreen"
+    "fullscreen",
+    "expand",
+    "maximize",
+    "view",
+    "full",
+    "screen"
   ],
-  "aliases": [],
+  "aliases": [
+    "expand",
+    "maximize"
+  ],
   "variants": [
     "outline",
     "fill",

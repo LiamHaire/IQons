@@ -1,10 +1,18 @@
 {
   "title": "Save",
-  "description": "",
+  "description": "Save the current state or file",
   "keywords": [
-    "save"
+    "save",
+    "store",
+    "floppy",
+    "disk",
+    "persist",
+    "write"
   ],
-  "aliases": [],
+  "aliases": [
+    "floppy-disk",
+    "store"
+  ],
   "variants": [
     "outline",
     "fill",

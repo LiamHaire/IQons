@@ -1,10 +1,18 @@
 {
   "title": "Add",
-  "description": "",
+  "description": "Add or create a new item",
   "keywords": [
-    "add"
+    "add",
+    "create",
+    "new",
+    "plus",
+    "insert"
   ],
-  "aliases": [],
+  "aliases": [
+    "plus",
+    "create",
+    "new"
+  ],
   "variants": [
     "outline",
     "fill",

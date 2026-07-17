@@ -1,11 +1,19 @@
 {
   "title": "Audio Off",
-  "description": "",
+  "description": "Mute or disable audio",
   "keywords": [
     "audio",
-    "off"
+    "off",
+    "mute",
+    "sound",
+    "silent",
+    "disable"
   ],
-  "aliases": [],
+  "aliases": [
+    "mute",
+    "sound-off",
+    "silent"
+  ],
   "variants": [
     "outline",
     "fill",

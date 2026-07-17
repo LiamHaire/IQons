@@ -1,10 +1,19 @@
 {
   "title": "Timeline",
-  "description": "",
+  "description": "A timeline view of events or tasks in chronological order",
   "keywords": [
-    "timeline"
+    "timeline",
+    "gantt",
+    "schedule",
+    "roadmap",
+    "chronological",
+    "events"
   ],
-  "aliases": [],
+  "aliases": [
+    "gantt",
+    "schedule",
+    "roadmap"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,10 +1,19 @@
 {
   "title": "Workflow",
-  "description": "",
+  "description": "A multi-step workflow or process diagram",
   "keywords": [
-    "workflow"
+    "workflow",
+    "flowchart",
+    "pipeline",
+    "process",
+    "steps",
+    "automation"
   ],
-  "aliases": [],
+  "aliases": [
+    "flowchart",
+    "pipeline",
+    "process-flow"
+  ],
   "variants": [
     "outline",
     "fill",

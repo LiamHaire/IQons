@@ -1,10 +1,20 @@
 {
   "title": "Settings",
-  "description": "",
+  "description": "Application settings and preferences",
   "keywords": [
-    "settings"
+    "settings",
+    "preferences",
+    "gear",
+    "cog",
+    "options",
+    "configure"
   ],
-  "aliases": [],
+  "aliases": [
+    "preferences",
+    "gear",
+    "cog",
+    "options"
+  ],
   "variants": [
     "outline",
     "fill",

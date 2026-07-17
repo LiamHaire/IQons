@@ -1,10 +1,19 @@
 {
   "title": "Receipt",
-  "description": "",
+  "description": "A receipt or invoice for a transaction",
   "keywords": [
-    "receipt"
+    "receipt",
+    "invoice",
+    "bill",
+    "transaction",
+    "payment",
+    "purchase"
   ],
-  "aliases": [],
+  "aliases": [
+    "invoice",
+    "bill",
+    "transaction"
+  ],
   "variants": [
     "outline",
     "fill",

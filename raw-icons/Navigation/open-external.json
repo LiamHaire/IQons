@@ -1,11 +1,19 @@
 {
   "title": "Open External",
-  "description": "",
+  "description": "Open a link in a new tab or external window",
   "keywords": [
     "open",
-    "external"
+    "external",
+    "link",
+    "new-tab",
+    "outbound",
+    "share"
   ],
-  "aliases": [],
+  "aliases": [
+    "external-link",
+    "new-tab",
+    "open-new"
+  ],
   "variants": [
     "outline",
     "fill",

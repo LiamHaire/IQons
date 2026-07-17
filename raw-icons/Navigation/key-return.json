@@ -1,11 +1,18 @@
 {
   "title": "Key Return",
-  "description": "",
+  "description": "Return or enter key on a keyboard",
   "keywords": [
     "key",
+    "return",
+    "enter",
+    "keyboard",
+    "submit",
+    "newline"
+  ],
+  "aliases": [
+    "enter",
     "return"
   ],
-  "aliases": [],
   "variants": [
     "outline",
     "fill",

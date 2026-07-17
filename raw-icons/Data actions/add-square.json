@@ -1,11 +1,17 @@
 {
   "title": "Add Square",
-  "description": "",
+  "description": "Add a new item using a square button",
   "keywords": [
     "add",
-    "square"
+    "square",
+    "create",
+    "new",
+    "plus"
   ],
-  "aliases": [],
+  "aliases": [
+    "plus-square",
+    "create-square"
+  ],
   "variants": [
     "outline",
     "fill",

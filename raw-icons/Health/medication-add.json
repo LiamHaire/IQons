@@ -1,11 +1,19 @@
 {
   "title": "Medication Add",
-  "description": "",
+  "description": "Add a new medication to a patient's record",
   "keywords": [
     "medication",
-    "add"
+    "add",
+    "prescribe",
+    "new",
+    "prescription",
+    "drug"
   ],
-  "aliases": [],
+  "aliases": [
+    "add-medication",
+    "prescribe",
+    "new-prescription"
+  ],
   "variants": [
     "outline",
     "fill",

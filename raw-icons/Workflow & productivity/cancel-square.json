@@ -1,11 +1,16 @@
 {
   "title": "Cancel Square",
-  "description": "",
+  "description": "Cancel or reject an action using a square button",
   "keywords": [
     "cancel",
-    "square"
+    "square",
+    "reject",
+    "stop",
+    "x"
   ],
-  "aliases": [],
+  "aliases": [
+    "reject-square"
+  ],
   "variants": [
     "outline",
     "fill",

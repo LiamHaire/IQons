@@ -1,11 +1,21 @@
 {
   "title": "User Add",
-  "description": "",
+  "description": "Add or invite a new user",
   "keywords": [
     "user",
-    "add"
+    "add",
+    "invite",
+    "new",
+    "plus",
+    "create",
+    "person"
   ],
-  "aliases": [],
+  "aliases": [
+    "invite",
+    "add-user",
+    "user-plus",
+    "new-user"
+  ],
   "variants": [
     "outline",
     "fill",

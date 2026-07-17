@@ -1,10 +1,17 @@
 {
   "title": "Grid",
-  "description": "",
+  "description": "Grid or tile layout view",
   "keywords": [
-    "grid"
+    "grid",
+    "layout",
+    "tiles",
+    "view",
+    "mosaic"
   ],
-  "aliases": [],
+  "aliases": [
+    "tiles",
+    "mosaic"
+  ],
   "variants": [
     "outline",
     "fill",

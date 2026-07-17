@@ -1,11 +1,18 @@
 {
   "title": "Medication Discontinued",
-  "description": "",
+  "description": "A medication that has been discontinued or stopped",
   "keywords": [
     "medication",
-    "discontinued"
+    "discontinued",
+    "stopped",
+    "ended",
+    "drug",
+    "historical"
   ],
-  "aliases": [],
+  "aliases": [
+    "stopped-medication",
+    "discontinued-drug"
+  ],
   "variants": [
     "outline",
     "fill",

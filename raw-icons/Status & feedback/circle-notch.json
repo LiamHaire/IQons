@@ -1,11 +1,21 @@
 {
   "title": "Circle Notch",
-  "description": "",
+  "description": "Spinning circle used as a loading or progress indicator",
   "keywords": [
     "circle",
-    "notch"
+    "notch",
+    "loading",
+    "spinner",
+    "progress",
+    "wait",
+    "busy",
+    "throbber"
   ],
-  "aliases": [],
+  "aliases": [
+    "spinner",
+    "loading",
+    "loader"
+  ],
   "variants": [
     "outline",
     "fill",

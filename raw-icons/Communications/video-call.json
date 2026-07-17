@@ -1,11 +1,18 @@
 {
   "title": "Video Call",
-  "description": "",
+  "description": "Start a video call or video conference",
   "keywords": [
     "video",
-    "call"
+    "call",
+    "conference",
+    "meeting",
+    "camera",
+    "virtual"
   ],
-  "aliases": [],
+  "aliases": [
+    "video-conference",
+    "video-meeting"
+  ],
   "variants": [
     "outline",
     "fill",

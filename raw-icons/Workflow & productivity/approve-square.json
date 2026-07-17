@@ -1,11 +1,18 @@
 {
   "title": "Approve Square",
-  "description": "",
+  "description": "Approve or accept an item using a square checkbox",
   "keywords": [
     "approve",
-    "square"
+    "square",
+    "accept",
+    "checkbox",
+    "tick",
+    "done"
   ],
-  "aliases": [],
+  "aliases": [
+    "checkbox",
+    "check-square"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,10 +1,19 @@
 {
   "title": "Document",
-  "description": "",
+  "description": "A generic document or file",
   "keywords": [
-    "document"
+    "document",
+    "file",
+    "doc",
+    "paper",
+    "text",
+    "record"
   ],
-  "aliases": [],
+  "aliases": [
+    "file",
+    "doc",
+    "paper"
+  ],
   "variants": [
     "outline",
     "fill",

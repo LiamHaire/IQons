@@ -1,11 +1,21 @@
 {
   "title": "In Progress",
-  "description": "",
+  "description": "An item that is currently in progress or being worked on",
   "keywords": [
     "in",
-    "progress"
+    "progress",
+    "in-progress",
+    "working",
+    "active",
+    "ongoing",
+    "loading",
+    "processing"
   ],
-  "aliases": [],
+  "aliases": [
+    "working",
+    "active",
+    "ongoing"
+  ],
   "variants": [
     "outline",
     "fill",

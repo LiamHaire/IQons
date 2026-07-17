@@ -1,10 +1,18 @@
 {
   "title": "Process",
-  "description": "",
+  "description": "A process or workflow step",
   "keywords": [
-    "process"
+    "process",
+    "workflow",
+    "step",
+    "procedure",
+    "flow",
+    "cycle"
   ],
-  "aliases": [],
+  "aliases": [
+    "workflow-step",
+    "procedure"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,10 +1,19 @@
 {
   "title": "Apps",
-  "description": "",
+  "description": "Grid of application tiles, typically used as an app launcher or home screen",
   "keywords": [
-    "apps"
+    "apps",
+    "grid",
+    "launcher",
+    "home",
+    "tiles",
+    "start"
   ],
-  "aliases": [],
+  "aliases": [
+    "app-launcher",
+    "home-screen",
+    "app-grid"
+  ],
   "variants": [
     "outline",
     "fill",

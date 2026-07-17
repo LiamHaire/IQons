@@ -1,10 +1,18 @@
 {
   "title": "Outbox",
-  "description": "",
+  "description": "Email outbox for sent or pending messages",
   "keywords": [
-    "outbox"
+    "outbox",
+    "sent",
+    "outgoing",
+    "mail",
+    "email",
+    "pending"
   ],
-  "aliases": [],
+  "aliases": [
+    "sent",
+    "outgoing"
+  ],
   "variants": [
     "outline",
     "fill",

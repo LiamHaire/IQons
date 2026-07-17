@@ -1,10 +1,20 @@
 {
   "title": "Cancel",
-  "description": "",
+  "description": "Cancel or reject an action",
   "keywords": [
-    "cancel"
+    "cancel",
+    "reject",
+    "deny",
+    "decline",
+    "stop",
+    "close",
+    "x"
   ],
-  "aliases": [],
+  "aliases": [
+    "reject",
+    "deny",
+    "decline"
+  ],
   "variants": [
     "outline",
     "fill",

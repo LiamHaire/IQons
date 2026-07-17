@@ -1,11 +1,18 @@
 {
   "title": "Sidebar Left",
-  "description": "",
+  "description": "Toggle or show a left-side navigation panel",
   "keywords": [
     "sidebar",
-    "left"
+    "left",
+    "panel",
+    "navigation",
+    "drawer",
+    "layout"
   ],
-  "aliases": [],
+  "aliases": [
+    "panel-left",
+    "drawer-left"
+  ],
   "variants": [
     "outline",
     "fill",

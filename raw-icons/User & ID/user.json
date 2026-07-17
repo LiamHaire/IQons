@@ -1,10 +1,19 @@
 {
   "title": "User",
-  "description": "",
+  "description": "A single user or person",
   "keywords": [
-    "user"
+    "user",
+    "person",
+    "account",
+    "individual",
+    "profile",
+    "contact"
   ],
-  "aliases": [],
+  "aliases": [
+    "person",
+    "account",
+    "individual"
+  ],
   "variants": [
     "outline",
     "fill",

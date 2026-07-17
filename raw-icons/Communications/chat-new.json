@@ -1,11 +1,19 @@
 {
   "title": "Chat New",
-  "description": "",
+  "description": "Start a new chat or conversation",
   "keywords": [
     "chat",
-    "new"
+    "new",
+    "compose",
+    "start",
+    "message",
+    "conversation"
   ],
-  "aliases": [],
+  "aliases": [
+    "new-message",
+    "new-chat",
+    "compose"
+  ],
   "variants": [
     "outline",
     "fill",

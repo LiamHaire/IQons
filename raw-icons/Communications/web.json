@@ -1,10 +1,20 @@
 {
   "title": "Web",
-  "description": "",
+  "description": "Open a web page or browser",
   "keywords": [
-    "web"
+    "web",
+    "browser",
+    "website",
+    "url",
+    "internet",
+    "link",
+    "page"
   ],
-  "aliases": [],
+  "aliases": [
+    "browser",
+    "website",
+    "url"
+  ],
   "variants": [
     "outline",
     "fill",

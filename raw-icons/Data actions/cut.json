@@ -1,10 +1,16 @@
 {
   "title": "Cut",
-  "description": "",
+  "description": "Cut selected content to the clipboard",
   "keywords": [
-    "cut"
+    "cut",
+    "scissors",
+    "remove",
+    "clipboard",
+    "snip"
   ],
-  "aliases": [],
+  "aliases": [
+    "scissors"
+  ],
   "variants": [
     "outline",
     "fill",

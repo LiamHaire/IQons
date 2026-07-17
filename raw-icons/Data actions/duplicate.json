@@ -1,10 +1,17 @@
 {
   "title": "Duplicate",
-  "description": "",
+  "description": "Create an exact copy of an item",
   "keywords": [
-    "duplicate"
+    "duplicate",
+    "clone",
+    "copy",
+    "replicate",
+    "repeat"
   ],
-  "aliases": [],
+  "aliases": [
+    "clone",
+    "copy-item"
+  ],
   "variants": [
     "outline",
     "fill",

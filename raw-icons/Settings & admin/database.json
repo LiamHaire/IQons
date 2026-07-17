@@ -1,10 +1,20 @@
 {
   "title": "Database",
-  "description": "",
+  "description": "Database or data storage system",
   "keywords": [
-    "database"
+    "database",
+    "db",
+    "storage",
+    "data",
+    "server",
+    "sql",
+    "tables"
   ],
-  "aliases": [],
+  "aliases": [
+    "db",
+    "data-store",
+    "storage"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,13 +1,18 @@
 {
   "title": "Arrow Diagonal Up Right",
-  "description": "",
+  "description": "Diagonal arrow pointing up and to the right",
   "keywords": [
     "arrow",
     "diagonal",
     "up",
-    "right"
+    "right",
+    "direction",
+    "north-east"
   ],
-  "aliases": [],
+  "aliases": [
+    "arrow-up-right",
+    "arrow-ne"
+  ],
   "variants": [
     "outline",
     "fill",

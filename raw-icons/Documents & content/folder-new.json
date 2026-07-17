@@ -1,11 +1,17 @@
 {
   "title": "Folder New",
-  "description": "",
+  "description": "Create a new folder or directory",
   "keywords": [
     "folder",
-    "new"
+    "new",
+    "create",
+    "directory",
+    "add"
   ],
-  "aliases": [],
+  "aliases": [
+    "new-folder",
+    "create-folder"
+  ],
   "variants": [
     "outline",
     "fill",

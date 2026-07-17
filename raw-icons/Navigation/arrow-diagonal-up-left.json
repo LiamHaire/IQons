@@ -1,13 +1,18 @@
 {
   "title": "Arrow Diagonal Up Left",
-  "description": "",
+  "description": "Diagonal arrow pointing up and to the left",
   "keywords": [
     "arrow",
     "diagonal",
     "up",
-    "left"
+    "left",
+    "direction",
+    "north-west"
   ],
-  "aliases": [],
+  "aliases": [
+    "arrow-up-left",
+    "arrow-nw"
+  ],
   "variants": [
     "outline",
     "fill",

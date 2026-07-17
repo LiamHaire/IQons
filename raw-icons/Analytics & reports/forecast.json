@@ -1,10 +1,19 @@
 {
   "title": "Forecast",
-  "description": "",
+  "description": "Forecast or predictive data projection",
   "keywords": [
-    "forecast"
+    "forecast",
+    "prediction",
+    "projection",
+    "trend",
+    "future",
+    "estimate"
   ],
-  "aliases": [],
+  "aliases": [
+    "prediction",
+    "projection",
+    "trend"
+  ],
   "variants": [
     "outline",
     "fill",

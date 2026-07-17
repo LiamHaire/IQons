@@ -1,10 +1,17 @@
 {
   "title": "Boardroom",
-  "description": "",
+  "description": "A boardroom or conference room booking",
   "keywords": [
-    "boardroom"
+    "boardroom",
+    "conference",
+    "meeting",
+    "room",
+    "booking"
   ],
-  "aliases": [],
+  "aliases": [
+    "conference-room",
+    "meeting-room"
+  ],
   "variants": [
     "outline",
     "fill",

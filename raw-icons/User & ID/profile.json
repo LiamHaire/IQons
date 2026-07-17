@@ -1,10 +1,19 @@
 {
   "title": "Profile",
-  "description": "",
+  "description": "User profile or account details",
   "keywords": [
-    "profile"
+    "profile",
+    "account",
+    "user",
+    "avatar",
+    "details",
+    "personal"
   ],
-  "aliases": [],
+  "aliases": [
+    "account",
+    "user-profile",
+    "avatar"
+  ],
   "variants": [
     "outline",
     "fill",

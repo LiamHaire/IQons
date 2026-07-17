@@ -1,10 +1,20 @@
 {
   "title": "Error",
-  "description": "",
+  "description": "An error state indicating something went wrong",
   "keywords": [
-    "error"
+    "error",
+    "failure",
+    "wrong",
+    "invalid",
+    "problem",
+    "issue",
+    "x"
   ],
-  "aliases": [],
+  "aliases": [
+    "failure",
+    "wrong",
+    "invalid"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,11 +1,18 @@
 {
   "title": "New Conversation",
-  "description": "",
+  "description": "Start a new conversation or thread",
   "keywords": [
     "new",
-    "conversation"
+    "conversation",
+    "thread",
+    "compose",
+    "start",
+    "chat"
   ],
-  "aliases": [],
+  "aliases": [
+    "compose",
+    "new-thread"
+  ],
   "variants": [
     "outline",
     "fill",

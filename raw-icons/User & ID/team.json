@@ -1,10 +1,20 @@
 {
   "title": "Team",
-  "description": "",
+  "description": "A team or group of users",
   "keywords": [
-    "team"
+    "team",
+    "group",
+    "users",
+    "squad",
+    "people",
+    "members",
+    "collaboration"
   ],
-  "aliases": [],
+  "aliases": [
+    "group",
+    "users",
+    "squad"
+  ],
   "variants": [
     "outline",
     "fill",

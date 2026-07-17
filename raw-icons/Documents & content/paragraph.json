@@ -1,10 +1,19 @@
 {
   "title": "Paragraph",
-  "description": "",
+  "description": "A paragraph or block of text content",
   "keywords": [
-    "paragraph"
+    "paragraph",
+    "text",
+    "body",
+    "prose",
+    "content",
+    "writing"
   ],
-  "aliases": [],
+  "aliases": [
+    "text",
+    "body-text",
+    "prose"
+  ],
   "variants": [
     "outline",
     "fill",

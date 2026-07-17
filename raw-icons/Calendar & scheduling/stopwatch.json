@@ -1,10 +1,17 @@
 {
   "title": "Stopwatch",
-  "description": "",
+  "description": "A stopwatch for measuring elapsed time",
   "keywords": [
-    "stopwatch"
+    "stopwatch",
+    "timer",
+    "elapsed",
+    "time",
+    "measure"
   ],
-  "aliases": [],
+  "aliases": [
+    "timer",
+    "elapsed"
+  ],
   "variants": [
     "outline",
     "fill",

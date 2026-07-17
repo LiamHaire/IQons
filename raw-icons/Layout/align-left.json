@@ -1,11 +1,19 @@
 {
   "title": "Align Left",
-  "description": "",
+  "description": "Align selected elements to the left edge",
   "keywords": [
     "align",
-    "left"
+    "left",
+    "edge",
+    "layout",
+    "text",
+    "justify",
+    "position"
   ],
-  "aliases": [],
+  "aliases": [
+    "left-align",
+    "justify-left"
+  ],
   "variants": [
     "outline",
     "fill",

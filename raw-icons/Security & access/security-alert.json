@@ -1,11 +1,20 @@
 {
   "title": "Security Alert",
-  "description": "",
+  "description": "Security alert or threat notification",
   "keywords": [
     "security",
-    "alert"
+    "alert",
+    "threat",
+    "breach",
+    "warning",
+    "danger",
+    "incident"
   ],
-  "aliases": [],
+  "aliases": [
+    "threat",
+    "breach",
+    "security-warning"
+  ],
   "variants": [
     "outline",
     "fill",

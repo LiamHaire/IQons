@@ -1,10 +1,20 @@
 {
   "title": "Deploy",
-  "description": "",
+  "description": "Deploy or release an application or update",
   "keywords": [
-    "deploy"
+    "deploy",
+    "release",
+    "publish",
+    "ship",
+    "launch",
+    "push",
+    "devops"
   ],
-  "aliases": [],
+  "aliases": [
+    "release",
+    "publish",
+    "ship"
+  ],
   "variants": [
     "outline",
     "fill",

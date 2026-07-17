@@ -1,10 +1,18 @@
 {
   "title": "Comment",
-  "description": "",
+  "description": "Add a comment or note to an item",
   "keywords": [
-    "comment"
+    "comment",
+    "note",
+    "annotation",
+    "reply",
+    "feedback",
+    "chat"
   ],
-  "aliases": [],
+  "aliases": [
+    "note",
+    "annotation"
+  ],
   "variants": [
     "outline",
     "fill",

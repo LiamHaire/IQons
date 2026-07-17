@@ -1,10 +1,19 @@
 {
   "title": "Accessibility",
-  "description": "",
+  "description": "Accessibility settings and support features",
   "keywords": [
-    "accessibility"
+    "accessibility",
+    "a11y",
+    "inclusive",
+    "disability",
+    "support",
+    "contrast"
   ],
-  "aliases": [],
+  "aliases": [
+    "a11y",
+    "inclusive",
+    "disability"
+  ],
   "variants": [
     "outline",
     "fill",

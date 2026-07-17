@@ -1,11 +1,19 @@
 {
   "title": "User Remove",
-  "description": "",
+  "description": "Remove or delete a user",
   "keywords": [
     "user",
-    "remove"
+    "remove",
+    "delete",
+    "minus",
+    "revoke",
+    "offboard"
   ],
-  "aliases": [],
+  "aliases": [
+    "remove-user",
+    "delete-user",
+    "user-minus"
+  ],
   "variants": [
     "outline",
     "fill",

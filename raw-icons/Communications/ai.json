@@ -1,12 +1,20 @@
 {
   "title": "Ai",
-  "description": "",
+  "description": "AI-powered chat or assistant conversation",
   "keywords": [
     "ai",
     "artificial intelligence",
-    "machine learning"
+    "machine learning",
+    "assistant",
+    "chat",
+    "copilot",
+    "bot"
   ],
-  "aliases": [],
+  "aliases": [
+    "ai-chat",
+    "assistant",
+    "copilot"
+  ],
   "variants": [
     "outline",
     "fill",

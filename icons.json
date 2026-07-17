@@ -6,11 +6,19 @@
       "id": "acbs",
       "category": "sector-health",
       "title": "Acbs",
-      "description": "",
+      "description": "ACBS — Advisory Committee on Borderline Substances, used in prescribing workflows",
       "keywords": [
-        "acbs"
+        "acbs",
+        "borderline",
+        "substances",
+        "prescribing",
+        "advisory",
+        "clinical"
       ],
-      "aliases": [],
+      "aliases": [
+        "borderline-substances",
+        "advisory-committee"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -21,11 +29,20 @@
       "id": "accessibility",
       "category": "system-utility",
       "title": "Accessibility",
-      "description": "",
+      "description": "Accessibility settings and support features",
       "keywords": [
-        "accessibility"
+        "accessibility",
+        "a11y",
+        "inclusive",
+        "disability",
+        "support",
+        "contrast"
       ],
-      "aliases": [],
+      "aliases": [
+        "a11y",
+        "inclusive",
+        "disability"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -36,11 +53,19 @@
       "id": "add",
       "category": "data-actions",
       "title": "Add",
-      "description": "",
+      "description": "Add or create a new item",
       "keywords": [
-        "add"
+        "add",
+        "create",
+        "new",
+        "plus",
+        "insert"
       ],
-      "aliases": [],
+      "aliases": [
+        "plus",
+        "create",
+        "new"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -51,12 +76,19 @@
       "id": "add-round",
       "category": "data-actions",
       "title": "Add Round",
-      "description": "",
+      "description": "Add a new item using a circular button",
       "keywords": [
         "add",
-        "round"
+        "round",
+        "create",
+        "new",
+        "plus",
+        "circle"
       ],
-      "aliases": [],
+      "aliases": [
+        "plus-circle",
+        "create-circle"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -67,12 +99,18 @@
       "id": "add-square",
       "category": "data-actions",
       "title": "Add Square",
-      "description": "",
+      "description": "Add a new item using a square button",
       "keywords": [
         "add",
-        "square"
+        "square",
+        "create",
+        "new",
+        "plus"
       ],
-      "aliases": [],
+      "aliases": [
+        "plus-square",
+        "create-square"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -83,12 +121,21 @@
       "id": "address-book",
       "category": "user-id",
       "title": "Address Book",
-      "description": "",
+      "description": "Address book or contact list",
       "keywords": [
         "address",
-        "book"
+        "book",
+        "address-book",
+        "contacts",
+        "phonebook",
+        "directory",
+        "people"
       ],
-      "aliases": [],
+      "aliases": [
+        "contacts",
+        "phonebook",
+        "directory"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -99,11 +146,19 @@
       "id": "admin",
       "category": "settings-admin",
       "title": "Admin",
-      "description": "",
+      "description": "Admin panel or administrative controls",
       "keywords": [
-        "admin"
+        "admin",
+        "administration",
+        "control",
+        "panel",
+        "settings",
+        "manage"
       ],
-      "aliases": [],
+      "aliases": [
+        "administration",
+        "control-panel"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -114,11 +169,21 @@
       "id": "agent",
       "category": "ai",
       "title": "Agent",
-      "description": "",
+      "description": "AI agent capable of performing autonomous tasks",
       "keywords": [
-        "agent"
+        "agent",
+        "ai",
+        "autonomous",
+        "bot",
+        "assistant",
+        "task",
+        "automation"
       ],
-      "aliases": [],
+      "aliases": [
+        "ai-agent",
+        "bot",
+        "assistant-agent"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -129,13 +194,21 @@
       "id": "ai",
       "category": "communications",
       "title": "Ai",
-      "description": "",
+      "description": "AI-powered chat or assistant conversation",
       "keywords": [
         "ai",
         "artificial intelligence",
-        "machine learning"
+        "machine learning",
+        "assistant",
+        "chat",
+        "copilot",
+        "bot"
       ],
-      "aliases": [],
+      "aliases": [
+        "ai-chat",
+        "assistant",
+        "copilot"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -146,12 +219,19 @@
       "id": "align-bottom",
       "category": "layout",
       "title": "Align Bottom",
-      "description": "",
+      "description": "Align selected elements to the bottom edge",
       "keywords": [
         "align",
-        "bottom"
+        "bottom",
+        "edge",
+        "layout",
+        "position",
+        "distribute"
       ],
-      "aliases": [],
+      "aliases": [
+        "align-base",
+        "bottom-align"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -162,12 +242,20 @@
       "id": "align-left",
       "category": "layout",
       "title": "Align Left",
-      "description": "",
+      "description": "Align selected elements to the left edge",
       "keywords": [
         "align",
-        "left"
+        "left",
+        "edge",
+        "layout",
+        "text",
+        "justify",
+        "position"
       ],
-      "aliases": [],
+      "aliases": [
+        "left-align",
+        "justify-left"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -178,12 +266,20 @@
       "id": "align-right",
       "category": "layout",
       "title": "Align Right",
-      "description": "",
+      "description": "Align selected elements to the right edge",
       "keywords": [
         "align",
-        "right"
+        "right",
+        "edge",
+        "layout",
+        "text",
+        "justify",
+        "position"
       ],
-      "aliases": [],
+      "aliases": [
+        "right-align",
+        "justify-right"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -194,12 +290,18 @@
       "id": "align-top",
       "category": "layout",
       "title": "Align Top",
-      "description": "",
+      "description": "Align selected elements to the top edge",
       "keywords": [
         "align",
-        "top"
+        "top",
+        "edge",
+        "layout",
+        "position",
+        "distribute"
       ],
-      "aliases": [],
+      "aliases": [
+        "top-align"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -210,11 +312,21 @@
       "id": "ambulance",
       "category": "sector-health",
       "title": "Ambulance",
-      "description": "",
+      "description": "Ambulance or emergency medical vehicle",
       "keywords": [
-        "ambulance"
+        "ambulance",
+        "emergency",
+        "ems",
+        "paramedic",
+        "vehicle",
+        "999",
+        "urgent"
       ],
-      "aliases": [],
+      "aliases": [
+        "emergency",
+        "ems",
+        "paramedic"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -225,11 +337,21 @@
       "id": "analytics",
       "category": "analytics-reports",
       "title": "Analytics",
-      "description": "",
+      "description": "Analytics dashboard showing data insights and metrics",
       "keywords": [
-        "analytics"
+        "analytics",
+        "insights",
+        "metrics",
+        "data",
+        "statistics",
+        "dashboard",
+        "kpi"
       ],
-      "aliases": [],
+      "aliases": [
+        "insights",
+        "metrics",
+        "data"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -240,11 +362,20 @@
       "id": "announcement",
       "category": "communications",
       "title": "Announcement",
-      "description": "",
+      "description": "An announcement or broadcast message to a group",
       "keywords": [
-        "announcement"
+        "announcement",
+        "broadcast",
+        "megaphone",
+        "alert",
+        "notice",
+        "news"
       ],
-      "aliases": [],
+      "aliases": [
+        "broadcast",
+        "megaphone",
+        "alert"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -255,11 +386,19 @@
       "id": "appointment",
       "category": "calendar-scheduling",
       "title": "Appointment",
-      "description": "",
+      "description": "A scheduled appointment or meeting slot",
       "keywords": [
-        "appointment"
+        "appointment",
+        "booking",
+        "slot",
+        "schedule",
+        "calendar",
+        "meeting"
       ],
-      "aliases": [],
+      "aliases": [
+        "booking",
+        "slot"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -270,12 +409,18 @@
       "id": "appointment-new",
       "category": "calendar-scheduling",
       "title": "Appointment New",
-      "description": "",
+      "description": "Create a new appointment or booking",
       "keywords": [
         "appointment",
-        "new"
+        "new",
+        "create",
+        "booking",
+        "schedule"
       ],
-      "aliases": [],
+      "aliases": [
+        "new-appointment",
+        "book"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -286,11 +431,22 @@
       "id": "approve",
       "category": "workflow-productivity",
       "title": "Approve",
-      "description": "",
+      "description": "Approve or accept an item",
       "keywords": [
-        "approve"
+        "approve",
+        "accept",
+        "confirm",
+        "tick",
+        "check",
+        "done",
+        "complete"
       ],
-      "aliases": [],
+      "aliases": [
+        "accept",
+        "confirm",
+        "tick",
+        "check"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -301,12 +457,19 @@
       "id": "approve-square",
       "category": "workflow-productivity",
       "title": "Approve Square",
-      "description": "",
+      "description": "Approve or accept an item using a square checkbox",
       "keywords": [
         "approve",
-        "square"
+        "square",
+        "accept",
+        "checkbox",
+        "tick",
+        "done"
       ],
-      "aliases": [],
+      "aliases": [
+        "checkbox",
+        "check-square"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -317,11 +480,20 @@
       "id": "apps",
       "category": "navigation",
       "title": "Apps",
-      "description": "",
+      "description": "Grid of application tiles, typically used as an app launcher or home screen",
       "keywords": [
-        "apps"
+        "apps",
+        "grid",
+        "launcher",
+        "home",
+        "tiles",
+        "start"
       ],
-      "aliases": [],
+      "aliases": [
+        "app-launcher",
+        "home-screen",
+        "app-grid"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -332,11 +504,19 @@
       "id": "archive",
       "category": "data-actions",
       "title": "Archive",
-      "description": "",
+      "description": "Archive an item to store it out of the active view",
       "keywords": [
-        "archive"
+        "archive",
+        "store",
+        "box",
+        "storage",
+        "backup",
+        "index"
       ],
-      "aliases": [],
+      "aliases": [
+        "store",
+        "box"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -347,14 +527,19 @@
       "id": "arrow-diagonal-down-left",
       "category": "navigation",
       "title": "Arrow Diagonal Down Left",
-      "description": "",
+      "description": "Diagonal arrow pointing down and to the left",
       "keywords": [
         "arrow",
         "diagonal",
         "down",
-        "left"
+        "left",
+        "direction",
+        "south-west"
       ],
-      "aliases": [],
+      "aliases": [
+        "arrow-down-left",
+        "arrow-sw"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -365,14 +550,19 @@
       "id": "arrow-diagonal-down-right",
       "category": "navigation",
       "title": "Arrow Diagonal Down Right",
-      "description": "",
+      "description": "Diagonal arrow pointing down and to the right",
       "keywords": [
         "arrow",
         "diagonal",
         "down",
-        "right"
+        "right",
+        "direction",
+        "south-east"
       ],
-      "aliases": [],
+      "aliases": [
+        "arrow-down-right",
+        "arrow-se"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -383,14 +573,19 @@
       "id": "arrow-diagonal-up-left",
       "category": "navigation",
       "title": "Arrow Diagonal Up Left",
-      "description": "",
+      "description": "Diagonal arrow pointing up and to the left",
       "keywords": [
         "arrow",
         "diagonal",
         "up",
-        "left"
+        "left",
+        "direction",
+        "north-west"
       ],
-      "aliases": [],
+      "aliases": [
+        "arrow-up-left",
+        "arrow-nw"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -401,14 +596,19 @@
       "id": "arrow-diagonal-up-right",
       "category": "navigation",
       "title": "Arrow Diagonal Up Right",
-      "description": "",
+      "description": "Diagonal arrow pointing up and to the right",
       "keywords": [
         "arrow",
         "diagonal",
         "up",
-        "right"
+        "right",
+        "direction",
+        "north-east"
       ],
-      "aliases": [],
+      "aliases": [
+        "arrow-up-right",
+        "arrow-ne"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -419,12 +619,18 @@
       "id": "arrow-down",
       "category": "navigation",
       "title": "Arrow Down",
-      "description": "",
+      "description": "Arrow pointing downward, used to indicate direction, scroll, or collapse",
       "keywords": [
         "arrow",
-        "down"
+        "down",
+        "direction",
+        "south",
+        "scroll",
+        "collapse"
       ],
-      "aliases": [],
+      "aliases": [
+        "arrow-south"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -435,12 +641,20 @@
       "id": "arrow-left",
       "category": "navigation",
       "title": "Arrow Left",
-      "description": "",
+      "description": "Arrow pointing left, used to go back or indicate previous",
       "keywords": [
         "arrow",
-        "left"
+        "left",
+        "back",
+        "previous",
+        "direction",
+        "west"
       ],
-      "aliases": [],
+      "aliases": [
+        "arrow-back",
+        "arrow-previous",
+        "arrow-west"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -451,12 +665,20 @@
       "id": "arrow-right",
       "category": "navigation",
       "title": "Arrow Right",
-      "description": "",
+      "description": "Arrow pointing right, used to go forward or indicate next",
       "keywords": [
         "arrow",
-        "right"
+        "right",
+        "forward",
+        "next",
+        "direction",
+        "east"
       ],
-      "aliases": [],
+      "aliases": [
+        "arrow-forward",
+        "arrow-next",
+        "arrow-east"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -467,12 +689,18 @@
       "id": "arrow-up",
       "category": "navigation",
       "title": "Arrow Up",
-      "description": "",
+      "description": "Arrow pointing upward, used to indicate direction, scroll, or expand",
       "keywords": [
         "arrow",
-        "up"
+        "up",
+        "direction",
+        "north",
+        "scroll",
+        "expand"
       ],
-      "aliases": [],
+      "aliases": [
+        "arrow-north"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -483,11 +711,20 @@
       "id": "attach",
       "category": "documents-content",
       "title": "Attach",
-      "description": "",
+      "description": "Attach a file to a message or record",
       "keywords": [
-        "attach"
+        "attach",
+        "attachment",
+        "paperclip",
+        "file",
+        "clip",
+        "append"
       ],
-      "aliases": [],
+      "aliases": [
+        "attachment",
+        "paperclip",
+        "file-attach"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -498,11 +735,20 @@
       "id": "audio",
       "category": "documents-content",
       "title": "Audio",
-      "description": "",
+      "description": "An audio file or sound recording",
       "keywords": [
-        "audio"
+        "audio",
+        "sound",
+        "music",
+        "file",
+        "recording",
+        "mp3",
+        "wav"
       ],
-      "aliases": [],
+      "aliases": [
+        "sound",
+        "music-file"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -513,12 +759,20 @@
       "id": "audio-off",
       "category": "system-utility",
       "title": "Audio Off",
-      "description": "",
+      "description": "Mute or disable audio",
       "keywords": [
         "audio",
-        "off"
+        "off",
+        "mute",
+        "sound",
+        "silent",
+        "disable"
       ],
-      "aliases": [],
+      "aliases": [
+        "mute",
+        "sound-off",
+        "silent"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -529,12 +783,19 @@
       "id": "audio-on",
       "category": "system-utility",
       "title": "Audio On",
-      "description": "",
+      "description": "Enable or unmute audio",
       "keywords": [
         "audio",
-        "on"
+        "on",
+        "sound",
+        "unmute",
+        "enable",
+        "speaker"
       ],
-      "aliases": [],
+      "aliases": [
+        "sound-on",
+        "unmute"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -545,11 +806,21 @@
       "id": "audit",
       "category": "security-access",
       "title": "Audit",
-      "description": "",
+      "description": "Audit trail or activity log for compliance and review",
       "keywords": [
-        "audit"
+        "audit",
+        "log",
+        "compliance",
+        "trail",
+        "review",
+        "history",
+        "record"
       ],
-      "aliases": [],
+      "aliases": [
+        "audit-log",
+        "compliance",
+        "trail"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -560,11 +831,21 @@
       "id": "authentication",
       "category": "security-access",
       "title": "Authentication",
-      "description": "",
+      "description": "User authentication or identity verification",
       "keywords": [
-        "authentication"
+        "authentication",
+        "auth",
+        "verify",
+        "login",
+        "identity",
+        "credential",
+        "mfa"
       ],
-      "aliases": [],
+      "aliases": [
+        "auth",
+        "verify",
+        "login"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -575,11 +856,21 @@
       "id": "automation",
       "category": "workflow-productivity",
       "title": "Automation",
-      "description": "",
+      "description": "Automated workflow or scheduled process",
       "keywords": [
-        "automation"
+        "automation",
+        "automated",
+        "bot",
+        "scheduled",
+        "workflow",
+        "process",
+        "trigger"
       ],
-      "aliases": [],
+      "aliases": [
+        "automated",
+        "bot",
+        "scheduled"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -590,11 +881,22 @@
       "id": "bin",
       "category": "data-actions",
       "title": "Bin",
-      "description": "",
+      "description": "Delete or move an item to the trash",
       "keywords": [
-        "bin"
+        "bin",
+        "trash",
+        "delete",
+        "remove",
+        "garbage",
+        "rubbish",
+        "discard"
       ],
-      "aliases": [],
+      "aliases": [
+        "trash",
+        "delete",
+        "remove",
+        "garbage"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -605,11 +907,18 @@
       "id": "boardroom",
       "category": "calendar-scheduling",
       "title": "Boardroom",
-      "description": "",
+      "description": "A boardroom or conference room booking",
       "keywords": [
-        "boardroom"
+        "boardroom",
+        "conference",
+        "meeting",
+        "room",
+        "booking"
       ],
-      "aliases": [],
+      "aliases": [
+        "conference-room",
+        "meeting-room"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -620,11 +929,21 @@
       "id": "bookmark",
       "category": "search-discovery",
       "title": "Bookmark",
-      "description": "",
+      "description": "Bookmark or save an item for later reference",
       "keywords": [
-        "bookmark"
+        "bookmark",
+        "save",
+        "favourite",
+        "mark",
+        "pin",
+        "tag",
+        "read-later"
       ],
-      "aliases": [],
+      "aliases": [
+        "save",
+        "favourite",
+        "mark"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -635,11 +954,20 @@
       "id": "briefcase",
       "category": "data-actions",
       "title": "Briefcase",
-      "description": "",
+      "description": "Briefcase representing work, tasks, or a job",
       "keywords": [
-        "briefcase"
+        "briefcase",
+        "work",
+        "job",
+        "portfolio",
+        "bag",
+        "business"
       ],
-      "aliases": [],
+      "aliases": [
+        "work",
+        "job",
+        "portfolio"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -650,11 +978,19 @@
       "id": "calculator",
       "category": "system-utility",
       "title": "Calculator",
-      "description": "",
+      "description": "Calculator for performing calculations",
       "keywords": [
-        "calculator"
+        "calculator",
+        "calc",
+        "math",
+        "arithmetic",
+        "numbers",
+        "compute"
       ],
-      "aliases": [],
+      "aliases": [
+        "calc",
+        "math"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -665,11 +1001,19 @@
       "id": "calendar",
       "category": "calendar-scheduling",
       "title": "Calendar",
-      "description": "",
+      "description": "Calendar for viewing dates and scheduling events",
       "keywords": [
-        "calendar"
+        "calendar",
+        "date",
+        "schedule",
+        "month",
+        "year",
+        "events"
       ],
-      "aliases": [],
+      "aliases": [
+        "date",
+        "schedule"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -680,11 +1024,21 @@
       "id": "cancel",
       "category": "workflow-productivity",
       "title": "Cancel",
-      "description": "",
+      "description": "Cancel or reject an action",
       "keywords": [
-        "cancel"
+        "cancel",
+        "reject",
+        "deny",
+        "decline",
+        "stop",
+        "close",
+        "x"
       ],
-      "aliases": [],
+      "aliases": [
+        "reject",
+        "deny",
+        "decline"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -695,12 +1049,17 @@
       "id": "cancel-square",
       "category": "workflow-productivity",
       "title": "Cancel Square",
-      "description": "",
+      "description": "Cancel or reject an action using a square button",
       "keywords": [
         "cancel",
-        "square"
+        "square",
+        "reject",
+        "stop",
+        "x"
       ],
-      "aliases": [],
+      "aliases": [
+        "reject-square"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -711,11 +1070,21 @@
       "id": "certificate",
       "category": "security-access",
       "title": "Certificate",
-      "description": "",
+      "description": "Security certificate or digital credential",
       "keywords": [
-        "certificate"
+        "certificate",
+        "cert",
+        "ssl",
+        "credential",
+        "trust",
+        "secure",
+        "digital"
       ],
-      "aliases": [],
+      "aliases": [
+        "cert",
+        "ssl",
+        "credential"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -726,12 +1095,20 @@
       "id": "chart-bar",
       "category": "analytics-reports",
       "title": "Chart Bar",
-      "description": "",
+      "description": "Bar chart for comparing values across categories",
       "keywords": [
         "chart",
-        "bar"
+        "bar",
+        "graph",
+        "statistics",
+        "analytics",
+        "compare",
+        "columns"
       ],
-      "aliases": [],
+      "aliases": [
+        "bar-chart",
+        "bar-graph"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -742,12 +1119,19 @@
       "id": "chart-donut",
       "category": "analytics-reports",
       "title": "Chart Donut",
-      "description": "",
+      "description": "Donut chart showing proportional data",
       "keywords": [
         "chart",
-        "donut"
+        "donut",
+        "ring",
+        "proportion",
+        "statistics",
+        "analytics"
       ],
-      "aliases": [],
+      "aliases": [
+        "donut-chart",
+        "ring-chart"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -758,12 +1142,21 @@
       "id": "chart-line",
       "category": "analytics-reports",
       "title": "Chart Line",
-      "description": "",
+      "description": "Line chart showing trends over time",
       "keywords": [
         "chart",
-        "line"
+        "line",
+        "graph",
+        "trend",
+        "time",
+        "statistics",
+        "analytics"
       ],
-      "aliases": [],
+      "aliases": [
+        "line-chart",
+        "line-graph",
+        "trend-chart"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -774,12 +1167,18 @@
       "id": "chart-pie",
       "category": "analytics-reports",
       "title": "Chart Pie",
-      "description": "",
+      "description": "Pie chart showing proportional data",
       "keywords": [
         "chart",
-        "pie"
+        "pie",
+        "proportion",
+        "statistics",
+        "analytics",
+        "segments"
       ],
-      "aliases": [],
+      "aliases": [
+        "pie-chart"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -790,11 +1189,20 @@
       "id": "chat",
       "category": "communications",
       "title": "Chat",
-      "description": "",
+      "description": "Chat or instant messaging conversation",
       "keywords": [
-        "chat"
+        "chat",
+        "message",
+        "conversation",
+        "im",
+        "bubble",
+        "talk"
       ],
-      "aliases": [],
+      "aliases": [
+        "message",
+        "im",
+        "conversation"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -805,12 +1213,18 @@
       "id": "chat-close",
       "category": "communications",
       "title": "Chat Close",
-      "description": "",
+      "description": "Close or end an active chat conversation",
       "keywords": [
         "chat",
-        "close"
+        "close",
+        "end",
+        "dismiss",
+        "conversation"
       ],
-      "aliases": [],
+      "aliases": [
+        "end-chat",
+        "close-conversation"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -821,12 +1235,19 @@
       "id": "chat-history",
       "category": "communications",
       "title": "Chat History",
-      "description": "",
+      "description": "View previous chat messages and conversation history",
       "keywords": [
         "chat",
-        "history"
+        "history",
+        "past",
+        "messages",
+        "conversation",
+        "log"
       ],
-      "aliases": [],
+      "aliases": [
+        "message-history",
+        "past-conversations"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -837,12 +1258,20 @@
       "id": "chat-new",
       "category": "communications",
       "title": "Chat New",
-      "description": "",
+      "description": "Start a new chat or conversation",
       "keywords": [
         "chat",
-        "new"
+        "new",
+        "compose",
+        "start",
+        "message",
+        "conversation"
       ],
-      "aliases": [],
+      "aliases": [
+        "new-message",
+        "new-chat",
+        "compose"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -853,11 +1282,20 @@
       "id": "checklist",
       "category": "workflow-productivity",
       "title": "Checklist",
-      "description": "",
+      "description": "A checklist of items to complete",
       "keywords": [
-        "checklist"
+        "checklist",
+        "todo",
+        "task",
+        "list",
+        "items",
+        "complete",
+        "pending"
       ],
-      "aliases": [],
+      "aliases": [
+        "todo-list",
+        "task-list"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -868,12 +1306,19 @@
       "id": "chevron-down",
       "category": "navigation",
       "title": "Chevron Down",
-      "description": "",
+      "description": "Downward-facing chevron, typically used for dropdowns or expandable sections",
       "keywords": [
         "chevron",
-        "down"
+        "down",
+        "caret",
+        "dropdown",
+        "expand",
+        "collapse"
       ],
-      "aliases": [],
+      "aliases": [
+        "caret-down",
+        "dropdown"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -884,12 +1329,18 @@
       "id": "chevron-left",
       "category": "navigation",
       "title": "Chevron Left",
-      "description": "",
+      "description": "Left-facing chevron, used for back navigation or previous item",
       "keywords": [
         "chevron",
-        "left"
+        "left",
+        "caret",
+        "back",
+        "previous",
+        "navigate"
       ],
-      "aliases": [],
+      "aliases": [
+        "caret-left"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -900,12 +1351,18 @@
       "id": "chevron-right",
       "category": "navigation",
       "title": "Chevron Right",
-      "description": "",
+      "description": "Right-facing chevron, used for forward navigation or next item",
       "keywords": [
         "chevron",
-        "right"
+        "right",
+        "caret",
+        "forward",
+        "next",
+        "navigate"
       ],
-      "aliases": [],
+      "aliases": [
+        "caret-right"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -916,12 +1373,17 @@
       "id": "chevron-up",
       "category": "navigation",
       "title": "Chevron Up",
-      "description": "",
+      "description": "Upward-facing chevron, typically used to collapse a section or scroll up",
       "keywords": [
         "chevron",
-        "up"
+        "up",
+        "caret",
+        "collapse",
+        "scroll"
       ],
-      "aliases": [],
+      "aliases": [
+        "caret-up"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -932,12 +1394,20 @@
       "id": "circle-dashed",
       "category": "status-feedback",
       "title": "Circle Dashed",
-      "description": "",
+      "description": "A dashed circle indicating a pending or inactive state",
       "keywords": [
         "circle",
-        "dashed"
+        "dashed",
+        "pending",
+        "inactive",
+        "empty",
+        "placeholder"
       ],
-      "aliases": [],
+      "aliases": [
+        "pending",
+        "empty-state",
+        "placeholder"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -948,12 +1418,22 @@
       "id": "circle-notch",
       "category": "status-feedback",
       "title": "Circle Notch",
-      "description": "",
+      "description": "Spinning circle used as a loading or progress indicator",
       "keywords": [
         "circle",
-        "notch"
+        "notch",
+        "loading",
+        "spinner",
+        "progress",
+        "wait",
+        "busy",
+        "throbber"
       ],
-      "aliases": [],
+      "aliases": [
+        "spinner",
+        "loading",
+        "loader"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -964,11 +1444,17 @@
       "id": "clipboard",
       "category": "documents-content",
       "title": "Clipboard",
-      "description": "",
+      "description": "Clipboard for copying and pasting content",
       "keywords": [
-        "clipboard"
+        "clipboard",
+        "copy",
+        "paste",
+        "board",
+        "notes"
       ],
-      "aliases": [],
+      "aliases": [
+        "copy-paste"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -979,11 +1465,18 @@
       "id": "clock",
       "category": "calendar-scheduling",
       "title": "Clock",
-      "description": "",
+      "description": "Clock showing the current time",
       "keywords": [
-        "clock"
+        "clock",
+        "time",
+        "watch",
+        "hour",
+        "minute"
       ],
-      "aliases": [],
+      "aliases": [
+        "time",
+        "watch"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -994,11 +1487,22 @@
       "id": "close",
       "category": "navigation",
       "title": "Close",
-      "description": "",
+      "description": "X mark to close, dismiss, or remove something",
       "keywords": [
-        "close"
+        "close",
+        "dismiss",
+        "cancel",
+        "remove",
+        "clear",
+        "delete",
+        "x"
       ],
-      "aliases": [],
+      "aliases": [
+        "x",
+        "cancel",
+        "dismiss",
+        "remove"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1009,11 +1513,19 @@
       "id": "cloud",
       "category": "communications",
       "title": "Cloud",
-      "description": "",
+      "description": "Cloud storage or cloud-based service",
       "keywords": [
-        "cloud"
+        "cloud",
+        "storage",
+        "online",
+        "remote",
+        "server",
+        "saas"
       ],
-      "aliases": [],
+      "aliases": [
+        "cloud-storage",
+        "online"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1024,11 +1536,19 @@
       "id": "comment",
       "category": "communications",
       "title": "Comment",
-      "description": "",
+      "description": "Add a comment or note to an item",
       "keywords": [
-        "comment"
+        "comment",
+        "note",
+        "annotation",
+        "reply",
+        "feedback",
+        "chat"
       ],
-      "aliases": [],
+      "aliases": [
+        "note",
+        "annotation"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1039,11 +1559,20 @@
       "id": "config",
       "category": "settings-admin",
       "title": "Config",
-      "description": "",
+      "description": "Configuration settings for an application or service",
       "keywords": [
-        "config"
+        "config",
+        "configuration",
+        "settings",
+        "options",
+        "preferences",
+        "parameters"
       ],
-      "aliases": [],
+      "aliases": [
+        "configuration",
+        "settings",
+        "options"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1054,11 +1583,20 @@
       "id": "consultation",
       "category": "sector-health",
       "title": "Consultation",
-      "description": "",
+      "description": "A clinical consultation or patient appointment",
       "keywords": [
-        "consultation"
+        "consultation",
+        "clinical",
+        "appointment",
+        "patient",
+        "doctor",
+        "visit"
       ],
-      "aliases": [],
+      "aliases": [
+        "appointment",
+        "clinical-visit",
+        "patient-meeting"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1069,11 +1607,18 @@
       "id": "copy",
       "category": "data-actions",
       "title": "Copy",
-      "description": "",
+      "description": "Copy selected content to the clipboard",
       "keywords": [
-        "copy"
+        "copy",
+        "clone",
+        "duplicate",
+        "clipboard",
+        "multiple"
       ],
-      "aliases": [],
+      "aliases": [
+        "duplicate-content",
+        "clipboard-copy"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1084,11 +1629,17 @@
       "id": "cut",
       "category": "data-actions",
       "title": "Cut",
-      "description": "",
+      "description": "Cut selected content to the clipboard",
       "keywords": [
-        "cut"
+        "cut",
+        "scissors",
+        "remove",
+        "clipboard",
+        "snip"
       ],
-      "aliases": [],
+      "aliases": [
+        "scissors"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1099,11 +1650,20 @@
       "id": "dark",
       "category": "settings-admin",
       "title": "Dark",
-      "description": "",
+      "description": "Dark mode or dark theme toggle",
       "keywords": [
-        "dark"
+        "dark",
+        "mode",
+        "theme",
+        "night",
+        "toggle",
+        "appearance"
       ],
-      "aliases": [],
+      "aliases": [
+        "dark-mode",
+        "dark-theme",
+        "night-mode"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1114,11 +1674,19 @@
       "id": "dashboard",
       "category": "navigation",
       "title": "Dashboard",
-      "description": "",
+      "description": "Dashboard or overview layout with multiple panels",
       "keywords": [
-        "dashboard"
+        "dashboard",
+        "overview",
+        "layout",
+        "panels",
+        "home",
+        "widgets"
       ],
-      "aliases": [],
+      "aliases": [
+        "overview",
+        "home"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1129,11 +1697,21 @@
       "id": "database",
       "category": "settings-admin",
       "title": "Database",
-      "description": "",
+      "description": "Database or data storage system",
       "keywords": [
-        "database"
+        "database",
+        "db",
+        "storage",
+        "data",
+        "server",
+        "sql",
+        "tables"
       ],
-      "aliases": [],
+      "aliases": [
+        "db",
+        "data-store",
+        "storage"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1144,11 +1722,21 @@
       "id": "datatable",
       "category": "analytics-reports",
       "title": "Datatable",
-      "description": "",
+      "description": "A data table for displaying structured rows and columns",
       "keywords": [
-        "datatable"
+        "datatable",
+        "table",
+        "grid",
+        "spreadsheet",
+        "rows",
+        "columns",
+        "data"
       ],
-      "aliases": [],
+      "aliases": [
+        "table",
+        "grid-data",
+        "spreadsheet"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1159,11 +1747,19 @@
       "id": "deadline",
       "category": "calendar-scheduling",
       "title": "Deadline",
-      "description": "",
+      "description": "A deadline or due date marker",
       "keywords": [
-        "deadline"
+        "deadline",
+        "due-date",
+        "expiry",
+        "overdue",
+        "time",
+        "urgent"
       ],
-      "aliases": [],
+      "aliases": [
+        "due-date",
+        "expiry"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1174,11 +1770,21 @@
       "id": "deploy",
       "category": "settings-admin",
       "title": "Deploy",
-      "description": "",
+      "description": "Deploy or release an application or update",
       "keywords": [
-        "deploy"
+        "deploy",
+        "release",
+        "publish",
+        "ship",
+        "launch",
+        "push",
+        "devops"
       ],
-      "aliases": [],
+      "aliases": [
+        "release",
+        "publish",
+        "ship"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1189,11 +1795,20 @@
       "id": "diagnosis",
       "category": "sector-health",
       "title": "Diagnosis",
-      "description": "",
+      "description": "A clinical diagnosis or medical assessment",
       "keywords": [
-        "diagnosis"
+        "diagnosis",
+        "assessment",
+        "condition",
+        "finding",
+        "clinical",
+        "medical"
       ],
-      "aliases": [],
+      "aliases": [
+        "assessment",
+        "condition",
+        "finding"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1204,11 +1819,20 @@
       "id": "document",
       "category": "documents-content",
       "title": "Document",
-      "description": "",
+      "description": "A generic document or file",
       "keywords": [
-        "document"
+        "document",
+        "file",
+        "doc",
+        "paper",
+        "text",
+        "record"
       ],
-      "aliases": [],
+      "aliases": [
+        "file",
+        "doc",
+        "paper"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1219,12 +1843,20 @@
       "id": "document-new",
       "category": "documents-content",
       "title": "Document New",
-      "description": "",
+      "description": "Create a new document or file",
       "keywords": [
         "document",
-        "new"
+        "new",
+        "create",
+        "file",
+        "blank",
+        "draft"
       ],
-      "aliases": [],
+      "aliases": [
+        "new-file",
+        "new-document",
+        "create-document"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1235,11 +1867,19 @@
       "id": "download",
       "category": "documents-content",
       "title": "Download",
-      "description": "",
+      "description": "Download a file to your device",
       "keywords": [
-        "download"
+        "download",
+        "save",
+        "file",
+        "get",
+        "transfer",
+        "arrow"
       ],
-      "aliases": [],
+      "aliases": [
+        "save-file",
+        "get"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1250,12 +1890,20 @@
       "id": "drug-doubling",
       "category": "sector-health",
       "title": "Drug Doubling",
-      "description": "",
+      "description": "Drug doubling alert — flags when a patient may be receiving duplicate medication",
       "keywords": [
         "drug",
-        "doubling"
+        "doubling",
+        "duplicate",
+        "medication",
+        "alert",
+        "prescribing",
+        "safety"
       ],
-      "aliases": [],
+      "aliases": [
+        "duplicate-medication",
+        "double-prescribing"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1266,11 +1914,18 @@
       "id": "duplicate",
       "category": "data-actions",
       "title": "Duplicate",
-      "description": "",
+      "description": "Create an exact copy of an item",
       "keywords": [
-        "duplicate"
+        "duplicate",
+        "clone",
+        "copy",
+        "replicate",
+        "repeat"
       ],
-      "aliases": [],
+      "aliases": [
+        "clone",
+        "copy-item"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1281,11 +1936,21 @@
       "id": "edit",
       "category": "data-actions",
       "title": "Edit",
-      "description": "",
+      "description": "Edit or modify existing content",
       "keywords": [
-        "edit"
+        "edit",
+        "modify",
+        "update",
+        "pencil",
+        "write",
+        "change"
       ],
-      "aliases": [],
+      "aliases": [
+        "pencil",
+        "modify",
+        "update",
+        "write"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1296,11 +1961,21 @@
       "id": "error",
       "category": "status-feedback",
       "title": "Error",
-      "description": "",
+      "description": "An error state indicating something went wrong",
       "keywords": [
-        "error"
+        "error",
+        "failure",
+        "wrong",
+        "invalid",
+        "problem",
+        "issue",
+        "x"
       ],
-      "aliases": [],
+      "aliases": [
+        "failure",
+        "wrong",
+        "invalid"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1311,11 +1986,18 @@
       "id": "event",
       "category": "calendar-scheduling",
       "title": "Event",
-      "description": "",
+      "description": "A calendar event or scheduled occurrence",
       "keywords": [
-        "event"
+        "event",
+        "calendar",
+        "occasion",
+        "happening",
+        "schedule"
       ],
-      "aliases": [],
+      "aliases": [
+        "occasion",
+        "happening"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1326,11 +2008,19 @@
       "id": "export",
       "category": "sharing",
       "title": "Export",
-      "description": "",
+      "description": "Export data or a file out of the application",
       "keywords": [
-        "export"
+        "export",
+        "download",
+        "extract",
+        "output",
+        "save",
+        "share"
       ],
-      "aliases": [],
+      "aliases": [
+        "download",
+        "extract"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1341,11 +2031,20 @@
       "id": "favourite",
       "category": "search-discovery",
       "title": "Favourite",
-      "description": "",
+      "description": "Mark an item as a favourite",
       "keywords": [
-        "favourite"
+        "favourite",
+        "favorite",
+        "star",
+        "like",
+        "rating",
+        "bookmark"
       ],
-      "aliases": [],
+      "aliases": [
+        "favorite",
+        "star",
+        "like"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1356,11 +2055,19 @@
       "id": "filter",
       "category": "search-discovery",
       "title": "Filter",
-      "description": "",
+      "description": "Filter a list or dataset by specific criteria",
       "keywords": [
-        "filter"
+        "filter",
+        "sort",
+        "refine",
+        "search",
+        "narrow",
+        "criteria"
       ],
-      "aliases": [],
+      "aliases": [
+        "sort",
+        "refine"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1371,11 +2078,18 @@
       "id": "find",
       "category": "search-discovery",
       "title": "Find",
-      "description": "",
+      "description": "Find or search within content",
       "keywords": [
-        "find"
+        "find",
+        "search",
+        "lookup",
+        "scan",
+        "locate"
       ],
-      "aliases": [],
+      "aliases": [
+        "search",
+        "lookup"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1386,11 +2100,20 @@
       "id": "flag",
       "category": "settings-admin",
       "title": "Flag",
-      "description": "",
+      "description": "Feature flag or marker for tracking",
       "keywords": [
-        "flag"
+        "flag",
+        "feature-flag",
+        "marker",
+        "milestone",
+        "toggle",
+        "report"
       ],
-      "aliases": [],
+      "aliases": [
+        "feature-flag",
+        "marker",
+        "milestone"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1401,11 +2124,19 @@
       "id": "folder",
       "category": "documents-content",
       "title": "Folder",
-      "description": "",
+      "description": "A folder for organising and grouping files",
       "keywords": [
-        "folder"
+        "folder",
+        "directory",
+        "group",
+        "files",
+        "organise",
+        "storage"
       ],
-      "aliases": [],
+      "aliases": [
+        "directory",
+        "group"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1416,12 +2147,18 @@
       "id": "folder-basic",
       "category": "documents-content",
       "title": "Folder Basic",
-      "description": "",
+      "description": "A basic folder for organising files",
       "keywords": [
         "folder",
-        "basic"
+        "basic",
+        "directory",
+        "organise",
+        "files"
       ],
-      "aliases": [],
+      "aliases": [
+        "folder",
+        "directory"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1432,12 +2169,18 @@
       "id": "folder-new",
       "category": "documents-content",
       "title": "Folder New",
-      "description": "",
+      "description": "Create a new folder or directory",
       "keywords": [
         "folder",
-        "new"
+        "new",
+        "create",
+        "directory",
+        "add"
       ],
-      "aliases": [],
+      "aliases": [
+        "new-folder",
+        "create-folder"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1448,11 +2191,20 @@
       "id": "forecast",
       "category": "analytics-reports",
       "title": "Forecast",
-      "description": "",
+      "description": "Forecast or predictive data projection",
       "keywords": [
-        "forecast"
+        "forecast",
+        "prediction",
+        "projection",
+        "trend",
+        "future",
+        "estimate"
       ],
-      "aliases": [],
+      "aliases": [
+        "prediction",
+        "projection",
+        "trend"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1463,11 +2215,19 @@
       "id": "fullscreen",
       "category": "navigation",
       "title": "Fullscreen",
-      "description": "",
+      "description": "Expand to fill the full screen or viewport",
       "keywords": [
-        "fullscreen"
+        "fullscreen",
+        "expand",
+        "maximize",
+        "view",
+        "full",
+        "screen"
       ],
-      "aliases": [],
+      "aliases": [
+        "expand",
+        "maximize"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1478,11 +2238,21 @@
       "id": "globe",
       "category": "system-utility",
       "title": "Globe",
-      "description": "",
+      "description": "Globe representing the internet, language, or global scope",
       "keywords": [
-        "globe"
+        "globe",
+        "world",
+        "internet",
+        "international",
+        "language",
+        "translate",
+        "web"
       ],
-      "aliases": [],
+      "aliases": [
+        "world",
+        "internet",
+        "international"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1493,11 +2263,22 @@
       "id": "graduation",
       "category": "sector-education",
       "title": "Graduation",
-      "description": "",
+      "description": "Graduation cap representing education, qualifications, or learning",
       "keywords": [
-        "graduation"
+        "graduation",
+        "graduate",
+        "degree",
+        "cap",
+        "mortar-board",
+        "education",
+        "qualify"
       ],
-      "aliases": [],
+      "aliases": [
+        "graduate",
+        "degree",
+        "cap",
+        "mortar-board"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1508,11 +2289,18 @@
       "id": "grid",
       "category": "navigation",
       "title": "Grid",
-      "description": "",
+      "description": "Grid or tile layout view",
       "keywords": [
-        "grid"
+        "grid",
+        "layout",
+        "tiles",
+        "view",
+        "mosaic"
       ],
-      "aliases": [],
+      "aliases": [
+        "tiles",
+        "mosaic"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1523,11 +2311,20 @@
       "id": "headset",
       "category": "communications",
       "title": "Headset",
-      "description": "",
+      "description": "Headset used for support calls or customer service",
       "keywords": [
-        "headset"
+        "headset",
+        "support",
+        "helpdesk",
+        "customer-service",
+        "call",
+        "audio"
       ],
-      "aliases": [],
+      "aliases": [
+        "support",
+        "helpdesk",
+        "customer-service"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1538,11 +2335,22 @@
       "id": "help",
       "category": "status-feedback",
       "title": "Help",
-      "description": "",
+      "description": "Help or support information",
       "keywords": [
-        "help"
+        "help",
+        "support",
+        "question",
+        "faq",
+        "info",
+        "guide",
+        "?"
       ],
-      "aliases": [],
+      "aliases": [
+        "question",
+        "support",
+        "faq",
+        "?"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1553,11 +2361,20 @@
       "id": "history",
       "category": "search-discovery",
       "title": "History",
-      "description": "",
+      "description": "View previously visited items or actions",
       "keywords": [
-        "history"
+        "history",
+        "recent",
+        "log",
+        "past",
+        "timeline",
+        "clock"
       ],
-      "aliases": [],
+      "aliases": [
+        "recent",
+        "log",
+        "timeline"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1568,11 +2385,19 @@
       "id": "holiday",
       "category": "calendar-scheduling",
       "title": "Holiday",
-      "description": "",
+      "description": "A holiday or time-off period on a calendar",
       "keywords": [
-        "holiday"
+        "holiday",
+        "vacation",
+        "leave",
+        "time-off",
+        "calendar"
       ],
-      "aliases": [],
+      "aliases": [
+        "vacation",
+        "leave",
+        "time-off"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1583,11 +2408,19 @@
       "id": "home",
       "category": "navigation",
       "title": "Home",
-      "description": "",
+      "description": "Home or main page of an application",
       "keywords": [
-        "home"
+        "home",
+        "house",
+        "start",
+        "main",
+        "landing"
       ],
-      "aliases": [],
+      "aliases": [
+        "house",
+        "start",
+        "main"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1598,11 +2431,21 @@
       "id": "hype",
       "category": "status-feedback",
       "title": "Hype",
-      "description": "",
+      "description": "Excitement, enthusiasm, or positive energy",
       "keywords": [
-        "hype"
+        "hype",
+        "excited",
+        "boost",
+        "fire",
+        "energy",
+        "positive",
+        "trending"
       ],
-      "aliases": [],
+      "aliases": [
+        "excited",
+        "boost",
+        "fire"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1613,11 +2456,22 @@
       "id": "idbadge",
       "category": "user-id",
       "title": "Idbadge",
-      "description": "",
+      "description": "Identity badge or staff ID card",
       "keywords": [
-        "idbadge"
+        "idbadge",
+        "id",
+        "badge",
+        "identity",
+        "staff",
+        "card",
+        "access",
+        "credential"
       ],
-      "aliases": [],
+      "aliases": [
+        "id-badge",
+        "staff-id",
+        "access-card"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1628,11 +2482,20 @@
       "id": "idea",
       "category": "analytics-reports",
       "title": "Idea",
-      "description": "",
+      "description": "An idea or insight, represented by a lightbulb",
       "keywords": [
-        "idea"
+        "idea",
+        "lightbulb",
+        "insight",
+        "suggestion",
+        "creative",
+        "innovation"
       ],
-      "aliases": [],
+      "aliases": [
+        "lightbulb",
+        "insight",
+        "suggestion"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1643,11 +2506,20 @@
       "id": "image",
       "category": "documents-content",
       "title": "Image",
-      "description": "",
+      "description": "An image or photo file",
       "keywords": [
-        "image"
+        "image",
+        "photo",
+        "picture",
+        "img",
+        "media",
+        "graphic"
       ],
-      "aliases": [],
+      "aliases": [
+        "photo",
+        "picture",
+        "img"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1658,11 +2530,22 @@
       "id": "immunication",
       "category": "sector-health",
       "title": "Immunication",
-      "description": "",
+      "description": "Immunisation or vaccination record",
       "keywords": [
-        "immunication"
+        "immunication",
+        "immunisation",
+        "immunization",
+        "vaccination",
+        "vaccine",
+        "jab",
+        "prevention"
       ],
-      "aliases": [],
+      "aliases": [
+        "immunisation",
+        "immunization",
+        "vaccination",
+        "vaccine"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1673,11 +2556,19 @@
       "id": "import",
       "category": "sharing",
       "title": "Import",
-      "description": "",
+      "description": "Import data or a file into the application",
       "keywords": [
-        "import"
+        "import",
+        "upload",
+        "ingest",
+        "input",
+        "load",
+        "bring-in"
       ],
-      "aliases": [],
+      "aliases": [
+        "upload",
+        "ingest"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1688,12 +2579,22 @@
       "id": "in-progress",
       "category": "workflow-productivity",
       "title": "In Progress",
-      "description": "",
+      "description": "An item that is currently in progress or being worked on",
       "keywords": [
         "in",
-        "progress"
+        "progress",
+        "in-progress",
+        "working",
+        "active",
+        "ongoing",
+        "loading",
+        "processing"
       ],
-      "aliases": [],
+      "aliases": [
+        "working",
+        "active",
+        "ongoing"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1704,11 +2605,19 @@
       "id": "inbox",
       "category": "communications",
       "title": "Inbox",
-      "description": "",
+      "description": "Email inbox for incoming messages",
       "keywords": [
-        "inbox"
+        "inbox",
+        "email",
+        "messages",
+        "incoming",
+        "mail",
+        "tray"
       ],
-      "aliases": [],
+      "aliases": [
+        "email-inbox",
+        "messages"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1719,11 +2628,20 @@
       "id": "incognito",
       "category": "security-access",
       "title": "Incognito",
-      "description": "",
+      "description": "Incognito or private browsing mode",
       "keywords": [
-        "incognito"
+        "incognito",
+        "private",
+        "anonymous",
+        "stealth",
+        "browse",
+        "hidden"
       ],
-      "aliases": [],
+      "aliases": [
+        "private",
+        "anonymous",
+        "stealth"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1734,11 +2652,21 @@
       "id": "info",
       "category": "status-feedback",
       "title": "Info",
-      "description": "",
+      "description": "Informational notice or tooltip content",
       "keywords": [
-        "info"
+        "info",
+        "information",
+        "about",
+        "notice",
+        "hint",
+        "tooltip",
+        "i"
       ],
-      "aliases": [],
+      "aliases": [
+        "information",
+        "about",
+        "notice"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1749,11 +2677,21 @@
       "id": "key",
       "category": "security-access",
       "title": "Key",
-      "description": "",
+      "description": "Encryption key, password, or access credential",
       "keywords": [
-        "key"
+        "key",
+        "password",
+        "credential",
+        "access",
+        "unlock",
+        "encryption",
+        "api-key"
       ],
-      "aliases": [],
+      "aliases": [
+        "password",
+        "credential",
+        "access-key"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1764,12 +2702,19 @@
       "id": "key-return",
       "category": "navigation",
       "title": "Key Return",
-      "description": "",
+      "description": "Return or enter key on a keyboard",
       "keywords": [
         "key",
+        "return",
+        "enter",
+        "keyboard",
+        "submit",
+        "newline"
+      ],
+      "aliases": [
+        "enter",
         "return"
       ],
-      "aliases": [],
       "variants": [
         "outline",
         "fill",
@@ -1780,11 +2725,18 @@
       "id": "layout",
       "category": "navigation",
       "title": "Layout",
-      "description": "",
+      "description": "Layout panels showing a main content area with a sidebar",
       "keywords": [
-        "layout"
+        "layout",
+        "panels",
+        "sidebar",
+        "template",
+        "structure"
       ],
-      "aliases": [],
+      "aliases": [
+        "panels",
+        "template"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1795,12 +2747,18 @@
       "id": "layout-list",
       "category": "navigation",
       "title": "Layout List",
-      "description": "",
+      "description": "List layout view with rows of content",
       "keywords": [
         "layout",
-        "list"
+        "list",
+        "rows",
+        "view",
+        "feed"
       ],
-      "aliases": [],
+      "aliases": [
+        "list-view",
+        "rows"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1811,11 +2769,20 @@
       "id": "light",
       "category": "settings-admin",
       "title": "Light",
-      "description": "",
+      "description": "Light mode or light theme toggle",
       "keywords": [
-        "light"
+        "light",
+        "mode",
+        "theme",
+        "day",
+        "toggle",
+        "appearance"
       ],
-      "aliases": [],
+      "aliases": [
+        "light-mode",
+        "light-theme",
+        "day-mode"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1826,11 +2793,22 @@
       "id": "lightning",
       "category": "ai",
       "title": "Lightning",
-      "description": "",
+      "description": "Fast AI processing or a high-speed action",
       "keywords": [
-        "lightning"
+        "lightning",
+        "fast",
+        "instant",
+        "speed",
+        "ai",
+        "spark",
+        "power",
+        "bolt"
       ],
-      "aliases": [],
+      "aliases": [
+        "fast",
+        "instant",
+        "spark"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1841,11 +2819,20 @@
       "id": "link",
       "category": "sharing",
       "title": "Link",
-      "description": "",
+      "description": "A hyperlink or URL connection between items",
       "keywords": [
-        "link"
+        "link",
+        "url",
+        "hyperlink",
+        "chain",
+        "connect",
+        "web"
       ],
-      "aliases": [],
+      "aliases": [
+        "url",
+        "hyperlink",
+        "chain"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1856,11 +2843,20 @@
       "id": "locate",
       "category": "search-discovery",
       "title": "Locate",
-      "description": "",
+      "description": "Locate the user's current position on a map",
       "keywords": [
-        "locate"
+        "locate",
+        "gps",
+        "position",
+        "current",
+        "map",
+        "here"
       ],
-      "aliases": [],
+      "aliases": [
+        "my-location",
+        "gps",
+        "position"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1871,11 +2867,22 @@
       "id": "location",
       "category": "search-discovery",
       "title": "Location",
-      "description": "",
+      "description": "A map pin or location marker",
       "keywords": [
-        "location"
+        "location",
+        "pin",
+        "map",
+        "marker",
+        "place",
+        "address",
+        "waypoint"
       ],
-      "aliases": [],
+      "aliases": [
+        "pin",
+        "map-pin",
+        "place",
+        "marker"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1886,11 +2893,20 @@
       "id": "lock",
       "category": "security-access",
       "title": "Lock",
-      "description": "",
+      "description": "Locked or secured state, restricted access",
       "keywords": [
-        "lock"
+        "lock",
+        "locked",
+        "secure",
+        "protected",
+        "restricted",
+        "closed"
       ],
-      "aliases": [],
+      "aliases": [
+        "locked",
+        "secure",
+        "protected"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1901,11 +2917,21 @@
       "id": "logs",
       "category": "settings-admin",
       "title": "Logs",
-      "description": "",
+      "description": "System logs or activity records",
       "keywords": [
-        "logs"
+        "logs",
+        "log",
+        "activity",
+        "record",
+        "system",
+        "debug",
+        "events"
       ],
-      "aliases": [],
+      "aliases": [
+        "log",
+        "activity-log",
+        "audit-log"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1916,12 +2942,21 @@
       "id": "magic-wand",
       "category": "workflow-productivity",
       "title": "Magic Wand",
-      "description": "",
+      "description": "Magic wand for AI-powered or automatic actions",
       "keywords": [
         "magic",
-        "wand"
+        "wand",
+        "ai",
+        "auto",
+        "fix",
+        "generate",
+        "transform"
       ],
-      "aliases": [],
+      "aliases": [
+        "wand",
+        "ai-action",
+        "auto-fix"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1932,11 +2967,20 @@
       "id": "mail",
       "category": "communications",
       "title": "Mail",
-      "description": "",
+      "description": "Email or mail message",
       "keywords": [
-        "mail"
+        "mail",
+        "email",
+        "letter",
+        "message",
+        "envelope",
+        "send"
       ],
-      "aliases": [],
+      "aliases": [
+        "email",
+        "letter",
+        "message"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1947,11 +2991,19 @@
       "id": "map",
       "category": "system-utility",
       "title": "Map",
-      "description": "",
+      "description": "Map for viewing geographic information",
       "keywords": [
-        "map"
+        "map",
+        "geography",
+        "directions",
+        "navigate",
+        "location",
+        "place"
       ],
-      "aliases": [],
+      "aliases": [
+        "geography",
+        "directions"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1962,11 +3014,18 @@
       "id": "marketplace",
       "category": "navigation",
       "title": "Marketplace",
-      "description": "",
+      "description": "Marketplace or storefront for browsing and purchasing items",
       "keywords": [
-        "marketplace"
+        "marketplace",
+        "store",
+        "shop",
+        "storefront",
+        "browse"
       ],
-      "aliases": [],
+      "aliases": [
+        "store",
+        "shop"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1977,11 +3036,22 @@
       "id": "medication",
       "category": "sector-health",
       "title": "Medication",
-      "description": "",
+      "description": "General medication or prescription item",
       "keywords": [
-        "medication"
+        "medication",
+        "drug",
+        "medicine",
+        "prescription",
+        "rx",
+        "tablet",
+        "dose"
       ],
-      "aliases": [],
+      "aliases": [
+        "drug",
+        "medicine",
+        "prescription",
+        "rx"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -1992,12 +3062,20 @@
       "id": "medication-add",
       "category": "sector-health",
       "title": "Medication Add",
-      "description": "",
+      "description": "Add a new medication to a patient's record",
       "keywords": [
         "medication",
-        "add"
+        "add",
+        "prescribe",
+        "new",
+        "prescription",
+        "drug"
       ],
-      "aliases": [],
+      "aliases": [
+        "add-medication",
+        "prescribe",
+        "new-prescription"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2008,12 +3086,19 @@
       "id": "medication-branded",
       "category": "sector-health",
       "title": "Medication Branded",
-      "description": "",
+      "description": "A branded medication as opposed to a generic drug",
       "keywords": [
         "medication",
-        "branded"
+        "branded",
+        "brand",
+        "proprietary",
+        "drug",
+        "prescription"
       ],
-      "aliases": [],
+      "aliases": [
+        "brand-name-drug",
+        "proprietary-medication"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2024,12 +3109,19 @@
       "id": "medication-discontinued",
       "category": "sector-health",
       "title": "Medication Discontinued",
-      "description": "",
+      "description": "A medication that has been discontinued or stopped",
       "keywords": [
         "medication",
-        "discontinued"
+        "discontinued",
+        "stopped",
+        "ended",
+        "drug",
+        "historical"
       ],
-      "aliases": [],
+      "aliases": [
+        "stopped-medication",
+        "discontinued-drug"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2040,12 +3132,19 @@
       "id": "medication-unlicensed",
       "category": "sector-health",
       "title": "Medication Unlicensed",
-      "description": "",
+      "description": "An unlicensed or off-label medication use",
       "keywords": [
         "medication",
-        "unlicensed"
+        "unlicensed",
+        "off-label",
+        "special",
+        "drug",
+        "prescribing"
       ],
-      "aliases": [],
+      "aliases": [
+        "off-label",
+        "unlicensed-drug"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2056,11 +3155,18 @@
       "id": "meeting",
       "category": "calendar-scheduling",
       "title": "Meeting",
-      "description": "",
+      "description": "A scheduled meeting with multiple participants",
       "keywords": [
-        "meeting"
+        "meeting",
+        "conference",
+        "call",
+        "participants",
+        "schedule"
       ],
-      "aliases": [],
+      "aliases": [
+        "conference",
+        "call"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2071,11 +3177,20 @@
       "id": "menu",
       "category": "navigation",
       "title": "Menu",
-      "description": "",
+      "description": "Hamburger menu icon to open a navigation drawer or sidebar",
       "keywords": [
-        "menu"
+        "menu",
+        "hamburger",
+        "navigation",
+        "nav",
+        "bars",
+        "sidebar"
       ],
-      "aliases": [],
+      "aliases": [
+        "hamburger",
+        "nav",
+        "burger"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2086,11 +3201,20 @@
       "id": "merge",
       "category": "sharing",
       "title": "Merge",
-      "description": "",
+      "description": "Merge two or more items into one",
       "keywords": [
-        "merge"
+        "merge",
+        "combine",
+        "join",
+        "consolidate",
+        "unite",
+        "branches"
       ],
-      "aliases": [],
+      "aliases": [
+        "combine",
+        "join",
+        "consolidate"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2101,11 +3225,21 @@
       "id": "microphone",
       "category": "communications",
       "title": "Microphone",
-      "description": "",
+      "description": "Microphone for audio recording or voice input",
       "keywords": [
-        "microphone"
+        "microphone",
+        "mic",
+        "voice",
+        "record",
+        "audio",
+        "speak",
+        "input"
       ],
-      "aliases": [],
+      "aliases": [
+        "mic",
+        "voice",
+        "record"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2116,11 +3250,19 @@
       "id": "minimise",
       "category": "navigation",
       "title": "Minimise",
-      "description": "",
+      "description": "Minimise a window or panel to a smaller state",
       "keywords": [
-        "minimise"
+        "minimise",
+        "minimize",
+        "collapse",
+        "shrink",
+        "window"
       ],
-      "aliases": [],
+      "aliases": [
+        "minimize",
+        "collapse",
+        "shrink"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2131,12 +3273,22 @@
       "id": "more-horizontal",
       "category": "navigation",
       "title": "More Horizontal",
-      "description": "",
+      "description": "Horizontal ellipsis indicating additional options or overflow menu",
       "keywords": [
         "more",
-        "horizontal"
+        "horizontal",
+        "options",
+        "ellipsis",
+        "overflow",
+        "menu",
+        "dots"
       ],
-      "aliases": [],
+      "aliases": [
+        "ellipsis",
+        "options",
+        "more",
+        "overflow"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2147,12 +3299,22 @@
       "id": "more-vertical",
       "category": "navigation",
       "title": "More Vertical",
-      "description": "",
+      "description": "Vertical ellipsis indicating additional options or overflow menu",
       "keywords": [
         "more",
-        "vertical"
+        "vertical",
+        "options",
+        "ellipsis",
+        "overflow",
+        "menu",
+        "dots",
+        "kebab"
       ],
-      "aliases": [],
+      "aliases": [
+        "kebab-menu",
+        "options",
+        "overflow"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2163,12 +3325,19 @@
       "id": "new-conversation",
       "category": "communications",
       "title": "New Conversation",
-      "description": "",
+      "description": "Start a new conversation or thread",
       "keywords": [
         "new",
-        "conversation"
+        "conversation",
+        "thread",
+        "compose",
+        "start",
+        "chat"
       ],
-      "aliases": [],
+      "aliases": [
+        "compose",
+        "new-thread"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2179,11 +3348,21 @@
       "id": "news",
       "category": "communications",
       "title": "News",
-      "description": "",
+      "description": "News articles or content feed",
       "keywords": [
-        "news"
+        "news",
+        "articles",
+        "feed",
+        "blog",
+        "content",
+        "rss",
+        "updates"
       ],
-      "aliases": [],
+      "aliases": [
+        "articles",
+        "feed",
+        "blog"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2194,11 +3373,19 @@
       "id": "notes",
       "category": "documents-content",
       "title": "Notes",
-      "description": "",
+      "description": "Notes or freeform text content",
       "keywords": [
-        "notes"
+        "notes",
+        "notepad",
+        "memo",
+        "text",
+        "write",
+        "freeform"
       ],
-      "aliases": [],
+      "aliases": [
+        "notepad",
+        "memo"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2209,11 +3396,19 @@
       "id": "notifications",
       "category": "communications",
       "title": "Notifications",
-      "description": "",
+      "description": "Notification bell for alerts and updates",
       "keywords": [
-        "notifications"
+        "notifications",
+        "bell",
+        "alerts",
+        "updates",
+        "reminder",
+        "badge"
       ],
-      "aliases": [],
+      "aliases": [
+        "bell",
+        "alerts"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2224,12 +3419,20 @@
       "id": "open-external",
       "category": "navigation",
       "title": "Open External",
-      "description": "",
+      "description": "Open a link in a new tab or external window",
       "keywords": [
         "open",
-        "external"
+        "external",
+        "link",
+        "new-tab",
+        "outbound",
+        "share"
       ],
-      "aliases": [],
+      "aliases": [
+        "external-link",
+        "new-tab",
+        "open-new"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2240,11 +3443,21 @@
       "id": "organisation",
       "category": "user-id",
       "title": "Organisation",
-      "description": "",
+      "description": "Organisation chart or company hierarchy",
       "keywords": [
-        "organisation"
+        "organisation",
+        "organization",
+        "chart",
+        "hierarchy",
+        "company",
+        "structure",
+        "team"
       ],
-      "aliases": [],
+      "aliases": [
+        "org-chart",
+        "hierarchy",
+        "organization"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2255,11 +3468,19 @@
       "id": "outbox",
       "category": "communications",
       "title": "Outbox",
-      "description": "",
+      "description": "Email outbox for sent or pending messages",
       "keywords": [
-        "outbox"
+        "outbox",
+        "sent",
+        "outgoing",
+        "mail",
+        "email",
+        "pending"
       ],
-      "aliases": [],
+      "aliases": [
+        "sent",
+        "outgoing"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2270,11 +3491,21 @@
       "id": "palette",
       "category": "workflow-productivity",
       "title": "Palette",
-      "description": "",
+      "description": "Colour palette for theming or design customisation",
       "keywords": [
-        "palette"
+        "palette",
+        "colour",
+        "color",
+        "theme",
+        "design",
+        "paint",
+        "customise"
       ],
-      "aliases": [],
+      "aliases": [
+        "color-palette",
+        "colour-picker",
+        "theme"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2285,11 +3516,20 @@
       "id": "paragraph",
       "category": "documents-content",
       "title": "Paragraph",
-      "description": "",
+      "description": "A paragraph or block of text content",
       "keywords": [
-        "paragraph"
+        "paragraph",
+        "text",
+        "body",
+        "prose",
+        "content",
+        "writing"
       ],
-      "aliases": [],
+      "aliases": [
+        "text",
+        "body-text",
+        "prose"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2300,11 +3540,20 @@
       "id": "password",
       "category": "security-access",
       "title": "Password",
-      "description": "",
+      "description": "Password or PIN entry",
       "keywords": [
-        "password"
+        "password",
+        "pin",
+        "passcode",
+        "secret",
+        "auth",
+        "credential"
       ],
-      "aliases": [],
+      "aliases": [
+        "pin",
+        "passcode",
+        "secret"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2315,11 +3564,16 @@
       "id": "paste",
       "category": "data-actions",
       "title": "Paste",
-      "description": "",
+      "description": "Paste content from the clipboard",
       "keywords": [
-        "paste"
+        "paste",
+        "clipboard",
+        "insert",
+        "place"
       ],
-      "aliases": [],
+      "aliases": [
+        "clipboard-paste"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2330,11 +3584,19 @@
       "id": "pause",
       "category": "workflow-productivity",
       "title": "Pause",
-      "description": "",
+      "description": "Pause a running process or media playback",
       "keywords": [
-        "pause"
+        "pause",
+        "hold",
+        "stop",
+        "wait",
+        "playback",
+        "media"
       ],
-      "aliases": [],
+      "aliases": [
+        "hold",
+        "stop-temporarily"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2345,11 +3607,20 @@
       "id": "permissions",
       "category": "user-id",
       "title": "Permissions",
-      "description": "",
+      "description": "User permissions, access rights, or role settings",
       "keywords": [
-        "permissions"
+        "permissions",
+        "access",
+        "rights",
+        "roles",
+        "security",
+        "admin"
       ],
-      "aliases": [],
+      "aliases": [
+        "access",
+        "rights",
+        "roles"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2360,11 +3631,20 @@
       "id": "phone",
       "category": "communications",
       "title": "Phone",
-      "description": "",
+      "description": "Phone or telephone for calling",
       "keywords": [
-        "phone"
+        "phone",
+        "call",
+        "telephone",
+        "ring",
+        "contact",
+        "dial"
       ],
-      "aliases": [],
+      "aliases": [
+        "call",
+        "telephone",
+        "ring"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2375,11 +3655,21 @@
       "id": "piggybank",
       "category": "sector-finance",
       "title": "Piggybank",
-      "description": "",
+      "description": "Piggy bank representing savings, budgeting, or financial goals",
       "keywords": [
-        "piggybank"
+        "piggybank",
+        "savings",
+        "save",
+        "money",
+        "budget",
+        "finance",
+        "goal"
       ],
-      "aliases": [],
+      "aliases": [
+        "savings",
+        "save-money",
+        "budget"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2390,11 +3680,21 @@
       "id": "play",
       "category": "workflow-productivity",
       "title": "Play",
-      "description": "",
+      "description": "Start or resume a process or media playback",
       "keywords": [
-        "play"
+        "play",
+        "start",
+        "run",
+        "resume",
+        "playback",
+        "media",
+        "begin"
       ],
-      "aliases": [],
+      "aliases": [
+        "start",
+        "run",
+        "resume"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2405,11 +3705,20 @@
       "id": "plugin",
       "category": "settings-admin",
       "title": "Plugin",
-      "description": "",
+      "description": "Plugin or extension that adds functionality",
       "keywords": [
-        "plugin"
+        "plugin",
+        "extension",
+        "addon",
+        "module",
+        "integrate",
+        "connect"
       ],
-      "aliases": [],
+      "aliases": [
+        "extension",
+        "addon",
+        "module"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2420,11 +3729,20 @@
       "id": "policy",
       "category": "settings-admin",
       "title": "Policy",
-      "description": "",
+      "description": "Policy document or rule configuration",
       "keywords": [
-        "policy"
+        "policy",
+        "rules",
+        "governance",
+        "compliance",
+        "document",
+        "terms"
       ],
-      "aliases": [],
+      "aliases": [
+        "rules",
+        "governance",
+        "compliance"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2435,11 +3753,18 @@
       "id": "print",
       "category": "system-utility",
       "title": "Print",
-      "description": "",
+      "description": "Print a document or page",
       "keywords": [
-        "print"
+        "print",
+        "printer",
+        "document",
+        "paper",
+        "output",
+        "fax"
       ],
-      "aliases": [],
+      "aliases": [
+        "printer"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2450,12 +3775,20 @@
       "id": "priority-high",
       "category": "status-feedback",
       "title": "Priority High",
-      "description": "",
+      "description": "High priority item requiring urgent attention",
       "keywords": [
         "priority",
+        "high",
+        "urgent",
+        "critical",
+        "important",
+        "alert"
+      ],
+      "aliases": [
+        "urgent",
+        "critical",
         "high"
       ],
-      "aliases": [],
       "variants": [
         "outline",
         "fill",
@@ -2466,12 +3799,20 @@
       "id": "priority-low",
       "category": "status-feedback",
       "title": "Priority Low",
-      "description": "",
+      "description": "Low priority item that can be addressed later",
       "keywords": [
         "priority",
-        "low"
+        "low",
+        "minor",
+        "deferred",
+        "later",
+        "backlog"
       ],
-      "aliases": [],
+      "aliases": [
+        "low",
+        "minor",
+        "deferred"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2482,12 +3823,19 @@
       "id": "priority-medium",
       "category": "status-feedback",
       "title": "Priority Medium",
-      "description": "",
+      "description": "Medium priority item for normal workflow",
       "keywords": [
         "priority",
-        "medium"
+        "medium",
+        "normal",
+        "moderate",
+        "standard"
       ],
-      "aliases": [],
+      "aliases": [
+        "medium",
+        "normal",
+        "moderate"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2498,11 +3846,20 @@
       "id": "privacy",
       "category": "security-access",
       "title": "Privacy",
-      "description": "",
+      "description": "Privacy settings or data protection controls",
       "keywords": [
-        "privacy"
+        "privacy",
+        "data",
+        "gdpr",
+        "protection",
+        "policy",
+        "personal"
       ],
-      "aliases": [],
+      "aliases": [
+        "data-privacy",
+        "gdpr",
+        "protection"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2513,11 +3870,19 @@
       "id": "process",
       "category": "workflow-productivity",
       "title": "Process",
-      "description": "",
+      "description": "A process or workflow step",
       "keywords": [
-        "process"
+        "process",
+        "workflow",
+        "step",
+        "procedure",
+        "flow",
+        "cycle"
       ],
-      "aliases": [],
+      "aliases": [
+        "workflow-step",
+        "procedure"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2528,11 +3893,20 @@
       "id": "profile",
       "category": "user-id",
       "title": "Profile",
-      "description": "",
+      "description": "User profile or account details",
       "keywords": [
-        "profile"
+        "profile",
+        "account",
+        "user",
+        "avatar",
+        "details",
+        "personal"
       ],
-      "aliases": [],
+      "aliases": [
+        "account",
+        "user-profile",
+        "avatar"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2543,11 +3917,21 @@
       "id": "qrcode",
       "category": "system-utility",
       "title": "Qrcode",
-      "description": "",
+      "description": "QR code for linking to digital content",
       "keywords": [
-        "qrcode"
+        "qrcode",
+        "qr",
+        "barcode",
+        "scan",
+        "link",
+        "url",
+        "digital"
       ],
-      "aliases": [],
+      "aliases": [
+        "qr",
+        "barcode",
+        "scan-code"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2558,11 +3942,19 @@
       "id": "queue",
       "category": "workflow-productivity",
       "title": "Queue",
-      "description": "",
+      "description": "A queue of items waiting to be processed",
       "keywords": [
-        "queue"
+        "queue",
+        "waiting",
+        "list",
+        "backlog",
+        "order",
+        "sequence"
       ],
-      "aliases": [],
+      "aliases": [
+        "waiting-list",
+        "backlog"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2573,11 +3965,20 @@
       "id": "receipt",
       "category": "analytics-reports",
       "title": "Receipt",
-      "description": "",
+      "description": "A receipt or invoice for a transaction",
       "keywords": [
-        "receipt"
+        "receipt",
+        "invoice",
+        "bill",
+        "transaction",
+        "payment",
+        "purchase"
       ],
-      "aliases": [],
+      "aliases": [
+        "invoice",
+        "bill",
+        "transaction"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2588,11 +3989,20 @@
       "id": "recurring",
       "category": "calendar-scheduling",
       "title": "Recurring",
-      "description": "",
+      "description": "A recurring or repeating event",
       "keywords": [
-        "recurring"
+        "recurring",
+        "repeat",
+        "series",
+        "repeating",
+        "cycle",
+        "rotation"
       ],
-      "aliases": [],
+      "aliases": [
+        "repeat",
+        "repeating",
+        "series"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2603,11 +4013,20 @@
       "id": "refresh",
       "category": "data-actions",
       "title": "Refresh",
-      "description": "",
+      "description": "Refresh or reload content",
       "keywords": [
-        "refresh"
+        "refresh",
+        "reload",
+        "sync",
+        "update",
+        "repeat",
+        "arrows"
       ],
-      "aliases": [],
+      "aliases": [
+        "reload",
+        "sync",
+        "update"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2618,11 +4037,18 @@
       "id": "reminder",
       "category": "calendar-scheduling",
       "title": "Reminder",
-      "description": "",
+      "description": "A reminder or alert for an upcoming event",
       "keywords": [
-        "reminder"
+        "reminder",
+        "alert",
+        "notification",
+        "bell",
+        "upcoming"
       ],
-      "aliases": [],
+      "aliases": [
+        "alert",
+        "notification"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2633,11 +4059,18 @@
       "id": "restore",
       "category": "data-actions",
       "title": "Restore",
-      "description": "",
+      "description": "Restore an item from archive or trash",
       "keywords": [
-        "restore"
+        "restore",
+        "recover",
+        "unarchive",
+        "undo",
+        "back"
       ],
-      "aliases": [],
+      "aliases": [
+        "unarchive",
+        "recover"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2648,11 +4081,19 @@
       "id": "restoredown",
       "category": "navigation",
       "title": "Restoredown",
-      "description": "",
+      "description": "Restore a maximised window back to its previous size",
       "keywords": [
-        "restoredown"
+        "restoredown",
+        "restore",
+        "window",
+        "resize",
+        "down",
+        "shrink"
       ],
-      "aliases": [],
+      "aliases": [
+        "restore-down",
+        "restore-window"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2663,11 +4104,19 @@
       "id": "save",
       "category": "data-actions",
       "title": "Save",
-      "description": "",
+      "description": "Save the current state or file",
       "keywords": [
-        "save"
+        "save",
+        "store",
+        "floppy",
+        "disk",
+        "persist",
+        "write"
       ],
-      "aliases": [],
+      "aliases": [
+        "floppy-disk",
+        "store"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2678,11 +4127,21 @@
       "id": "scales",
       "category": "sector-legal",
       "title": "Scales",
-      "description": "",
+      "description": "Scales of justice representing legal balance and fairness",
       "keywords": [
-        "scales"
+        "scales",
+        "justice",
+        "balance",
+        "legal",
+        "law",
+        "court",
+        "fair"
       ],
-      "aliases": [],
+      "aliases": [
+        "justice",
+        "balance",
+        "legal"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2693,11 +4152,21 @@
       "id": "scan",
       "category": "system-utility",
       "title": "Scan",
-      "description": "",
+      "description": "Scan a document, barcode, or QR code",
       "keywords": [
-        "scan"
+        "scan",
+        "scanner",
+        "barcode",
+        "qr",
+        "capture",
+        "read",
+        "camera"
       ],
-      "aliases": [],
+      "aliases": [
+        "scanner",
+        "capture",
+        "read"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2708,11 +4177,21 @@
       "id": "search",
       "category": "search-discovery",
       "title": "Search",
-      "description": "",
+      "description": "Search or find content using a magnifying glass",
       "keywords": [
-        "search"
+        "search",
+        "find",
+        "magnify",
+        "lookup",
+        "lens",
+        "scan",
+        "discover"
       ],
-      "aliases": [],
+      "aliases": [
+        "find",
+        "magnify",
+        "lookup"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2723,12 +4202,21 @@
       "id": "security-alert",
       "category": "security-access",
       "title": "Security Alert",
-      "description": "",
+      "description": "Security alert or threat notification",
       "keywords": [
         "security",
-        "alert"
+        "alert",
+        "threat",
+        "breach",
+        "warning",
+        "danger",
+        "incident"
       ],
-      "aliases": [],
+      "aliases": [
+        "threat",
+        "breach",
+        "security-warning"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2739,11 +4227,20 @@
       "id": "send",
       "category": "communications",
       "title": "Send",
-      "description": "",
+      "description": "Send a message or submit a form",
       "keywords": [
-        "send"
+        "send",
+        "submit",
+        "message",
+        "email",
+        "paper-plane",
+        "dispatch"
       ],
-      "aliases": [],
+      "aliases": [
+        "submit",
+        "send-message",
+        "paper-plane"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2754,11 +4251,20 @@
       "id": "server",
       "category": "settings-admin",
       "title": "Server",
-      "description": "",
+      "description": "Server or backend infrastructure",
       "keywords": [
-        "server"
+        "server",
+        "backend",
+        "infrastructure",
+        "host",
+        "cloud",
+        "machine"
       ],
-      "aliases": [],
+      "aliases": [
+        "backend",
+        "infrastructure",
+        "host"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2769,11 +4275,21 @@
       "id": "settings",
       "category": "settings-admin",
       "title": "Settings",
-      "description": "",
+      "description": "Application settings and preferences",
       "keywords": [
-        "settings"
+        "settings",
+        "preferences",
+        "gear",
+        "cog",
+        "options",
+        "configure"
       ],
-      "aliases": [],
+      "aliases": [
+        "preferences",
+        "gear",
+        "cog",
+        "options"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2784,11 +4300,20 @@
       "id": "share",
       "category": "sharing",
       "title": "Share",
-      "description": "",
+      "description": "Share content with others",
       "keywords": [
-        "share"
+        "share",
+        "send",
+        "distribute",
+        "social",
+        "network",
+        "post"
       ],
-      "aliases": [],
+      "aliases": [
+        "send",
+        "distribute",
+        "share-out"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2799,11 +4324,21 @@
       "id": "shield",
       "category": "security-access",
       "title": "Shield",
-      "description": "",
+      "description": "Security shield representing protection or defence",
       "keywords": [
-        "shield"
+        "shield",
+        "protect",
+        "defence",
+        "guard",
+        "security",
+        "safe",
+        "armour"
       ],
-      "aliases": [],
+      "aliases": [
+        "protect",
+        "defence",
+        "guard"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2814,12 +4349,19 @@
       "id": "sidebar-left",
       "category": "navigation",
       "title": "Sidebar Left",
-      "description": "",
+      "description": "Toggle or show a left-side navigation panel",
       "keywords": [
         "sidebar",
-        "left"
+        "left",
+        "panel",
+        "navigation",
+        "drawer",
+        "layout"
       ],
-      "aliases": [],
+      "aliases": [
+        "panel-left",
+        "drawer-left"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2830,12 +4372,19 @@
       "id": "sidebar-right",
       "category": "navigation",
       "title": "Sidebar Right",
-      "description": "",
+      "description": "Toggle or show a right-side contextual panel",
       "keywords": [
         "sidebar",
-        "right"
+        "right",
+        "panel",
+        "contextual",
+        "drawer",
+        "layout"
       ],
-      "aliases": [],
+      "aliases": [
+        "panel-right",
+        "drawer-right"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2846,12 +4395,20 @@
       "id": "sign-out",
       "category": "navigation",
       "title": "Sign Out",
-      "description": "",
+      "description": "Sign out or log out of an account",
       "keywords": [
         "sign",
-        "out"
+        "out",
+        "sign-out",
+        "logout",
+        "exit",
+        "leave",
+        "account"
       ],
-      "aliases": [],
+      "aliases": [
+        "logout",
+        "log-out"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2862,12 +4419,19 @@
       "id": "signal-high",
       "category": "status-feedback",
       "title": "Signal High",
-      "description": "",
+      "description": "High signal strength or strong connection",
       "keywords": [
         "signal",
-        "high"
+        "high",
+        "strong",
+        "full",
+        "connection",
+        "bars"
       ],
-      "aliases": [],
+      "aliases": [
+        "signal-full",
+        "strong-signal"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2878,12 +4442,19 @@
       "id": "signal-low",
       "category": "status-feedback",
       "title": "Signal Low",
-      "description": "",
+      "description": "Low signal strength or weak connection",
       "keywords": [
         "signal",
-        "low"
+        "low",
+        "weak",
+        "poor",
+        "connection",
+        "bars"
       ],
-      "aliases": [],
+      "aliases": [
+        "signal-weak",
+        "weak-signal"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2894,12 +4465,19 @@
       "id": "signal-medium",
       "category": "status-feedback",
       "title": "Signal Medium",
-      "description": "",
+      "description": "Medium signal strength or moderate connection",
       "keywords": [
         "signal",
-        "medium"
+        "medium",
+        "fair",
+        "moderate",
+        "connection",
+        "bars"
       ],
-      "aliases": [],
+      "aliases": [
+        "signal-fair",
+        "medium-signal"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2910,11 +4488,20 @@
       "id": "sls",
       "category": "sector-health",
       "title": "Sls",
-      "description": "",
+      "description": "SLS — Selected List Scheme, a prescribing restriction category",
       "keywords": [
-        "sls"
+        "sls",
+        "selected",
+        "list",
+        "scheme",
+        "prescribing",
+        "restriction",
+        "clinical"
       ],
-      "aliases": [],
+      "aliases": [
+        "selected-list-scheme",
+        "prescribing-restriction"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2925,12 +4512,19 @@
       "id": "sort-ascending",
       "category": "search-discovery",
       "title": "Sort Ascending",
-      "description": "",
+      "description": "Sort a list in ascending order (A to Z or low to high)",
       "keywords": [
         "sort",
-        "ascending"
+        "ascending",
+        "order",
+        "asc",
+        "low-to-high",
+        "a-z"
       ],
-      "aliases": [],
+      "aliases": [
+        "sort-asc",
+        "order-ascending"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2941,12 +4535,19 @@
       "id": "sort-descending",
       "category": "search-discovery",
       "title": "Sort Descending",
-      "description": "",
+      "description": "Sort a list in descending order (Z to A or high to low)",
       "keywords": [
         "sort",
-        "descending"
+        "descending",
+        "order",
+        "desc",
+        "high-to-low",
+        "z-a"
       ],
-      "aliases": [],
+      "aliases": [
+        "sort-desc",
+        "order-descending"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2957,11 +4558,21 @@
       "id": "speech",
       "category": "ai",
       "title": "Speech",
-      "description": "",
+      "description": "Speech or voice AI capability",
       "keywords": [
-        "speech"
+        "speech",
+        "voice",
+        "ai",
+        "speech-to-text",
+        "tts",
+        "audio",
+        "speak"
       ],
-      "aliases": [],
+      "aliases": [
+        "voice",
+        "speech-to-text",
+        "tts"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2972,11 +4583,19 @@
       "id": "stop",
       "category": "workflow-productivity",
       "title": "Stop",
-      "description": "",
+      "description": "Stop a running process entirely",
       "keywords": [
-        "stop"
+        "stop",
+        "halt",
+        "end",
+        "terminate",
+        "finish",
+        "square"
       ],
-      "aliases": [],
+      "aliases": [
+        "halt",
+        "end"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -2987,11 +4606,18 @@
       "id": "stopwatch",
       "category": "calendar-scheduling",
       "title": "Stopwatch",
-      "description": "",
+      "description": "A stopwatch for measuring elapsed time",
       "keywords": [
-        "stopwatch"
+        "stopwatch",
+        "timer",
+        "elapsed",
+        "time",
+        "measure"
       ],
-      "aliases": [],
+      "aliases": [
+        "timer",
+        "elapsed"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3002,11 +4628,19 @@
       "id": "subtract",
       "category": "data-actions",
       "title": "Subtract",
-      "description": "",
+      "description": "Remove or subtract an item",
       "keywords": [
-        "subtract"
+        "subtract",
+        "minus",
+        "remove",
+        "decrease",
+        "reduce"
       ],
-      "aliases": [],
+      "aliases": [
+        "minus",
+        "remove",
+        "decrease"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3017,12 +4651,18 @@
       "id": "subtract-round",
       "category": "data-actions",
       "title": "Subtract Round",
-      "description": "",
+      "description": "Remove an item using a circular button",
       "keywords": [
         "subtract",
-        "round"
+        "round",
+        "minus",
+        "remove",
+        "circle"
       ],
-      "aliases": [],
+      "aliases": [
+        "minus-circle",
+        "remove-circle"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3033,12 +4673,17 @@
       "id": "subtract-square",
       "category": "data-actions",
       "title": "Subtract Square",
-      "description": "",
+      "description": "Remove an item using a square button",
       "keywords": [
         "subtract",
-        "square"
+        "square",
+        "minus",
+        "remove"
       ],
-      "aliases": [],
+      "aliases": [
+        "minus-square",
+        "remove-square"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3049,12 +4694,23 @@
       "id": "success-round",
       "category": "status-feedback",
       "title": "Success Round",
-      "description": "",
+      "description": "A round success indicator showing a completed action",
       "keywords": [
         "success",
-        "round"
+        "round",
+        "done",
+        "complete",
+        "tick",
+        "check",
+        "circle",
+        "approved"
       ],
-      "aliases": [],
+      "aliases": [
+        "check-circle",
+        "done",
+        "complete",
+        "tick-circle"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3065,11 +4721,20 @@
       "id": "swap",
       "category": "navigation",
       "title": "Swap",
-      "description": "",
+      "description": "Swap or exchange two items",
       "keywords": [
-        "swap"
+        "swap",
+        "exchange",
+        "switch",
+        "transfer",
+        "replace",
+        "arrows"
       ],
-      "aliases": [],
+      "aliases": [
+        "exchange",
+        "switch",
+        "transfer"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3080,11 +4745,20 @@
       "id": "sync",
       "category": "sharing",
       "title": "Sync",
-      "description": "",
+      "description": "Synchronise data across devices or services",
       "keywords": [
-        "sync"
+        "sync",
+        "synchronise",
+        "synchronize",
+        "refresh",
+        "update",
+        "arrows"
       ],
-      "aliases": [],
+      "aliases": [
+        "synchronise",
+        "synchronize",
+        "refresh"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3095,11 +4769,20 @@
       "id": "tag",
       "category": "search-discovery",
       "title": "Tag",
-      "description": "",
+      "description": "Label or tag an item for categorisation",
       "keywords": [
-        "tag"
+        "tag",
+        "label",
+        "badge",
+        "category",
+        "ticket",
+        "mark"
       ],
-      "aliases": [],
+      "aliases": [
+        "label",
+        "badge",
+        "category"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3110,11 +4793,20 @@
       "id": "target",
       "category": "workflow-productivity",
       "title": "Target",
-      "description": "",
+      "description": "A goal, target, or objective to achieve",
       "keywords": [
-        "target"
+        "target",
+        "goal",
+        "aim",
+        "objective",
+        "bullseye",
+        "focus"
       ],
-      "aliases": [],
+      "aliases": [
+        "goal",
+        "aim",
+        "objective"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3125,11 +4817,20 @@
       "id": "task",
       "category": "workflow-productivity",
       "title": "Task",
-      "description": "",
+      "description": "A task or work item to complete",
       "keywords": [
-        "task"
+        "task",
+        "todo",
+        "work",
+        "action",
+        "item",
+        "complete"
       ],
-      "aliases": [],
+      "aliases": [
+        "todo",
+        "work-item",
+        "action"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3140,12 +4841,20 @@
       "id": "task-new",
       "category": "workflow-productivity",
       "title": "Task New",
-      "description": "",
+      "description": "Create a new task or work item",
       "keywords": [
         "task",
-        "new"
+        "new",
+        "create",
+        "todo",
+        "add",
+        "work-item"
       ],
-      "aliases": [],
+      "aliases": [
+        "new-task",
+        "create-task",
+        "add-todo"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3156,11 +4865,21 @@
       "id": "team",
       "category": "user-id",
       "title": "Team",
-      "description": "",
+      "description": "A team or group of users",
       "keywords": [
-        "team"
+        "team",
+        "group",
+        "users",
+        "squad",
+        "people",
+        "members",
+        "collaboration"
       ],
-      "aliases": [],
+      "aliases": [
+        "group",
+        "users",
+        "squad"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3171,11 +4890,21 @@
       "id": "theme",
       "category": "system-utility",
       "title": "Theme",
-      "description": "",
+      "description": "Theme or appearance customisation",
       "keywords": [
-        "theme"
+        "theme",
+        "appearance",
+        "skin",
+        "style",
+        "colour",
+        "design",
+        "custom"
       ],
-      "aliases": [],
+      "aliases": [
+        "appearance",
+        "skin",
+        "style"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3186,12 +4915,22 @@
       "id": "thumbs-down",
       "category": "status-feedback",
       "title": "Thumbs Down",
-      "description": "",
+      "description": "Negative feedback or disapproval",
       "keywords": [
         "thumbs",
-        "down"
+        "down",
+        "thumbs-down",
+        "dislike",
+        "no",
+        "reject",
+        "negative",
+        "feedback"
       ],
-      "aliases": [],
+      "aliases": [
+        "dislike",
+        "no",
+        "reject"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3202,12 +4941,22 @@
       "id": "thumbs-up",
       "category": "status-feedback",
       "title": "Thumbs Up",
-      "description": "",
+      "description": "Positive feedback or approval",
       "keywords": [
         "thumbs",
-        "up"
+        "up",
+        "thumbs-up",
+        "like",
+        "yes",
+        "approve",
+        "positive",
+        "feedback"
       ],
-      "aliases": [],
+      "aliases": [
+        "like",
+        "yes",
+        "approve"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3218,11 +4967,20 @@
       "id": "ticket",
       "category": "documents-content",
       "title": "Ticket",
-      "description": "",
+      "description": "A ticket for support, events, or issue tracking",
       "keywords": [
-        "ticket"
+        "ticket",
+        "issue",
+        "support",
+        "voucher",
+        "event",
+        "tracking"
       ],
-      "aliases": [],
+      "aliases": [
+        "issue",
+        "support-ticket",
+        "voucher"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3233,11 +4991,20 @@
       "id": "timeline",
       "category": "workflow-productivity",
       "title": "Timeline",
-      "description": "",
+      "description": "A timeline view of events or tasks in chronological order",
       "keywords": [
-        "timeline"
+        "timeline",
+        "gantt",
+        "schedule",
+        "roadmap",
+        "chronological",
+        "events"
       ],
-      "aliases": [],
+      "aliases": [
+        "gantt",
+        "schedule",
+        "roadmap"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3248,11 +5015,20 @@
       "id": "toolbox",
       "category": "system-utility",
       "title": "Toolbox",
-      "description": "",
+      "description": "Toolbox containing developer or admin utilities",
       "keywords": [
-        "toolbox"
+        "toolbox",
+        "tools",
+        "utilities",
+        "toolkit",
+        "developer",
+        "admin"
       ],
-      "aliases": [],
+      "aliases": [
+        "dev-tools",
+        "utilities",
+        "toolkit"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3263,11 +5039,21 @@
       "id": "tools",
       "category": "settings-admin",
       "title": "Tools",
-      "description": "",
+      "description": "Developer or admin tools and utilities",
       "keywords": [
-        "tools"
+        "tools",
+        "utilities",
+        "wrench",
+        "spanner",
+        "developer",
+        "build",
+        "fix"
       ],
-      "aliases": [],
+      "aliases": [
+        "utilities",
+        "dev-tools",
+        "wrench"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3278,12 +5064,21 @@
       "id": "trend-down",
       "category": "analytics-reports",
       "title": "Trend Down",
-      "description": "",
+      "description": "Downward trend indicating decline or decrease",
       "keywords": [
         "trend",
-        "down"
+        "down",
+        "decrease",
+        "decline",
+        "fall",
+        "negative",
+        "statistics"
       ],
-      "aliases": [],
+      "aliases": [
+        "trending-down",
+        "decrease",
+        "decline"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3294,12 +5089,21 @@
       "id": "trend-up",
       "category": "analytics-reports",
       "title": "Trend Up",
-      "description": "",
+      "description": "Upward trend indicating growth or increase",
       "keywords": [
         "trend",
-        "up"
+        "up",
+        "increase",
+        "growth",
+        "rise",
+        "positive",
+        "statistics"
       ],
-      "aliases": [],
+      "aliases": [
+        "trending-up",
+        "increase",
+        "growth"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3310,11 +5114,19 @@
       "id": "unlink",
       "category": "sharing",
       "title": "Unlink",
-      "description": "",
+      "description": "Remove a hyperlink or disconnect two items",
       "keywords": [
-        "unlink"
+        "unlink",
+        "break",
+        "disconnect",
+        "remove",
+        "url",
+        "chain"
       ],
-      "aliases": [],
+      "aliases": [
+        "break-link",
+        "disconnect"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3325,11 +5137,20 @@
       "id": "unlock",
       "category": "security-access",
       "title": "Unlock",
-      "description": "",
+      "description": "Unlocked or open access state",
       "keywords": [
-        "unlock"
+        "unlock",
+        "unlocked",
+        "open",
+        "accessible",
+        "free",
+        "permitted"
       ],
-      "aliases": [],
+      "aliases": [
+        "unlocked",
+        "open",
+        "accessible"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3340,11 +5161,18 @@
       "id": "upload",
       "category": "documents-content",
       "title": "Upload",
-      "description": "",
+      "description": "Upload a file from your device",
       "keywords": [
-        "upload"
+        "upload",
+        "send",
+        "file",
+        "transfer",
+        "arrow",
+        "push"
       ],
-      "aliases": [],
+      "aliases": [
+        "send-file"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3355,11 +5183,20 @@
       "id": "user",
       "category": "user-id",
       "title": "User",
-      "description": "",
+      "description": "A single user or person",
       "keywords": [
-        "user"
+        "user",
+        "person",
+        "account",
+        "individual",
+        "profile",
+        "contact"
       ],
-      "aliases": [],
+      "aliases": [
+        "person",
+        "account",
+        "individual"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3370,12 +5207,22 @@
       "id": "user-add",
       "category": "user-id",
       "title": "User Add",
-      "description": "",
+      "description": "Add or invite a new user",
       "keywords": [
         "user",
-        "add"
+        "add",
+        "invite",
+        "new",
+        "plus",
+        "create",
+        "person"
       ],
-      "aliases": [],
+      "aliases": [
+        "invite",
+        "add-user",
+        "user-plus",
+        "new-user"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3386,12 +5233,20 @@
       "id": "user-circle",
       "category": "user-id",
       "title": "User Circle",
-      "description": "",
+      "description": "User avatar in a circular frame",
       "keywords": [
         "user",
-        "circle"
+        "circle",
+        "avatar",
+        "profile",
+        "account",
+        "person"
       ],
-      "aliases": [],
+      "aliases": [
+        "avatar",
+        "user-avatar",
+        "profile-circle"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3402,12 +5257,19 @@
       "id": "user-edit",
       "category": "user-id",
       "title": "User Edit",
-      "description": "",
+      "description": "Edit a user's profile or account details",
       "keywords": [
         "user",
-        "edit"
+        "edit",
+        "modify",
+        "update",
+        "profile",
+        "account"
       ],
-      "aliases": [],
+      "aliases": [
+        "edit-user",
+        "update-profile"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3418,12 +5280,20 @@
       "id": "user-group",
       "category": "user-id",
       "title": "User Group",
-      "description": "",
+      "description": "A group of users or people",
       "keywords": [
         "user",
-        "group"
+        "group",
+        "team",
+        "people",
+        "multiple",
+        "members"
       ],
-      "aliases": [],
+      "aliases": [
+        "group",
+        "team",
+        "people"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3434,12 +5304,20 @@
       "id": "user-remove",
       "category": "user-id",
       "title": "User Remove",
-      "description": "",
+      "description": "Remove or delete a user",
       "keywords": [
         "user",
-        "remove"
+        "remove",
+        "delete",
+        "minus",
+        "revoke",
+        "offboard"
       ],
-      "aliases": [],
+      "aliases": [
+        "remove-user",
+        "delete-user",
+        "user-minus"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3450,11 +5328,21 @@
       "id": "video",
       "category": "documents-content",
       "title": "Video",
-      "description": "",
+      "description": "A video file or recording",
       "keywords": [
-        "video"
+        "video",
+        "movie",
+        "film",
+        "clip",
+        "media",
+        "recording",
+        "mp4"
       ],
-      "aliases": [],
+      "aliases": [
+        "movie",
+        "film",
+        "clip"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3465,12 +5353,19 @@
       "id": "video-call",
       "category": "communications",
       "title": "Video Call",
-      "description": "",
+      "description": "Start a video call or video conference",
       "keywords": [
         "video",
-        "call"
+        "call",
+        "conference",
+        "meeting",
+        "camera",
+        "virtual"
       ],
-      "aliases": [],
+      "aliases": [
+        "video-conference",
+        "video-meeting"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3481,11 +5376,22 @@
       "id": "warning",
       "category": "status-feedback",
       "title": "Warning",
-      "description": "",
+      "description": "A warning or caution alert",
       "keywords": [
-        "warning"
+        "warning",
+        "alert",
+        "caution",
+        "danger",
+        "triangle",
+        "exclamation",
+        "!"
       ],
-      "aliases": [],
+      "aliases": [
+        "alert",
+        "caution",
+        "danger",
+        "triangle"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3496,11 +5402,21 @@
       "id": "web",
       "category": "communications",
       "title": "Web",
-      "description": "",
+      "description": "Open a web page or browser",
       "keywords": [
-        "web"
+        "web",
+        "browser",
+        "website",
+        "url",
+        "internet",
+        "link",
+        "page"
       ],
-      "aliases": [],
+      "aliases": [
+        "browser",
+        "website",
+        "url"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -3511,11 +5427,20 @@
       "id": "workflow",
       "category": "workflow-productivity",
       "title": "Workflow",
-      "description": "",
+      "description": "A multi-step workflow or process diagram",
       "keywords": [
-        "workflow"
+        "workflow",
+        "flowchart",
+        "pipeline",
+        "process",
+        "steps",
+        "automation"
       ],
-      "aliases": [],
+      "aliases": [
+        "flowchart",
+        "pipeline",
+        "process-flow"
+      ],
       "variants": [
         "outline",
         "fill",

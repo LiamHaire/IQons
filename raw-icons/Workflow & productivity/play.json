@@ -1,10 +1,20 @@
 {
   "title": "Play",
-  "description": "",
+  "description": "Start or resume a process or media playback",
   "keywords": [
-    "play"
+    "play",
+    "start",
+    "run",
+    "resume",
+    "playback",
+    "media",
+    "begin"
   ],
-  "aliases": [],
+  "aliases": [
+    "start",
+    "run",
+    "resume"
+  ],
   "variants": [
     "outline",
     "fill",

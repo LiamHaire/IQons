@@ -1,10 +1,18 @@
 {
   "title": "Appointment",
-  "description": "",
+  "description": "A scheduled appointment or meeting slot",
   "keywords": [
-    "appointment"
+    "appointment",
+    "booking",
+    "slot",
+    "schedule",
+    "calendar",
+    "meeting"
   ],
-  "aliases": [],
+  "aliases": [
+    "booking",
+    "slot"
+  ],
   "variants": [
     "outline",
     "fill",

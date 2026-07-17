@@ -1,10 +1,21 @@
 {
   "title": "Immunication",
-  "description": "",
+  "description": "Immunisation or vaccination record",
   "keywords": [
-    "immunication"
+    "immunication",
+    "immunisation",
+    "immunization",
+    "vaccination",
+    "vaccine",
+    "jab",
+    "prevention"
   ],
-  "aliases": [],
+  "aliases": [
+    "immunisation",
+    "immunization",
+    "vaccination",
+    "vaccine"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,10 +1,19 @@
 {
   "title": "Plugin",
-  "description": "",
+  "description": "Plugin or extension that adds functionality",
   "keywords": [
-    "plugin"
+    "plugin",
+    "extension",
+    "addon",
+    "module",
+    "integrate",
+    "connect"
   ],
-  "aliases": [],
+  "aliases": [
+    "extension",
+    "addon",
+    "module"
+  ],
   "variants": [
     "outline",
     "fill",

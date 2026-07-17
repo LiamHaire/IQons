@@ -1,11 +1,21 @@
 {
   "title": "More Vertical",
-  "description": "",
+  "description": "Vertical ellipsis indicating additional options or overflow menu",
   "keywords": [
     "more",
-    "vertical"
+    "vertical",
+    "options",
+    "ellipsis",
+    "overflow",
+    "menu",
+    "dots",
+    "kebab"
   ],
-  "aliases": [],
+  "aliases": [
+    "kebab-menu",
+    "options",
+    "overflow"
+  ],
   "variants": [
     "outline",
     "fill",

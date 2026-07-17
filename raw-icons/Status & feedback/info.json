@@ -1,10 +1,20 @@
 {
   "title": "Info",
-  "description": "",
+  "description": "Informational notice or tooltip content",
   "keywords": [
-    "info"
+    "info",
+    "information",
+    "about",
+    "notice",
+    "hint",
+    "tooltip",
+    "i"
   ],
-  "aliases": [],
+  "aliases": [
+    "information",
+    "about",
+    "notice"
+  ],
   "variants": [
     "outline",
     "fill",

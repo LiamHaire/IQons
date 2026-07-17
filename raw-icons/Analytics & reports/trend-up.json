@@ -1,11 +1,20 @@
 {
   "title": "Trend Up",
-  "description": "",
+  "description": "Upward trend indicating growth or increase",
   "keywords": [
     "trend",
-    "up"
+    "up",
+    "increase",
+    "growth",
+    "rise",
+    "positive",
+    "statistics"
   ],
-  "aliases": [],
+  "aliases": [
+    "trending-up",
+    "increase",
+    "growth"
+  ],
   "variants": [
     "outline",
     "fill",

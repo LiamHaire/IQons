@@ -1,11 +1,18 @@
 {
   "title": "Chat History",
-  "description": "",
+  "description": "View previous chat messages and conversation history",
   "keywords": [
     "chat",
-    "history"
+    "history",
+    "past",
+    "messages",
+    "conversation",
+    "log"
   ],
-  "aliases": [],
+  "aliases": [
+    "message-history",
+    "past-conversations"
+  ],
   "variants": [
     "outline",
     "fill",

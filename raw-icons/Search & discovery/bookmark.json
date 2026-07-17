@@ -1,10 +1,20 @@
 {
   "title": "Bookmark",
-  "description": "",
+  "description": "Bookmark or save an item for later reference",
   "keywords": [
-    "bookmark"
+    "bookmark",
+    "save",
+    "favourite",
+    "mark",
+    "pin",
+    "tag",
+    "read-later"
   ],
-  "aliases": [],
+  "aliases": [
+    "save",
+    "favourite",
+    "mark"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,10 +1,18 @@
 {
   "title": "Export",
-  "description": "",
+  "description": "Export data or a file out of the application",
   "keywords": [
-    "export"
+    "export",
+    "download",
+    "extract",
+    "output",
+    "save",
+    "share"
   ],
-  "aliases": [],
+  "aliases": [
+    "download",
+    "extract"
+  ],
   "variants": [
     "outline",
     "fill",

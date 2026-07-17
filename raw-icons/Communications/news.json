@@ -1,10 +1,20 @@
 {
   "title": "News",
-  "description": "",
+  "description": "News articles or content feed",
   "keywords": [
-    "news"
+    "news",
+    "articles",
+    "feed",
+    "blog",
+    "content",
+    "rss",
+    "updates"
   ],
-  "aliases": [],
+  "aliases": [
+    "articles",
+    "feed",
+    "blog"
+  ],
   "variants": [
     "outline",
     "fill",

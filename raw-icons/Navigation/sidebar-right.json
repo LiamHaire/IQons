@@ -1,11 +1,18 @@
 {
   "title": "Sidebar Right",
-  "description": "",
+  "description": "Toggle or show a right-side contextual panel",
   "keywords": [
     "sidebar",
-    "right"
+    "right",
+    "panel",
+    "contextual",
+    "drawer",
+    "layout"
   ],
-  "aliases": [],
+  "aliases": [
+    "panel-right",
+    "drawer-right"
+  ],
   "variants": [
     "outline",
     "fill",

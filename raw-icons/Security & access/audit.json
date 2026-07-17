@@ -1,10 +1,20 @@
 {
   "title": "Audit",
-  "description": "",
+  "description": "Audit trail or activity log for compliance and review",
   "keywords": [
-    "audit"
+    "audit",
+    "log",
+    "compliance",
+    "trail",
+    "review",
+    "history",
+    "record"
   ],
-  "aliases": [],
+  "aliases": [
+    "audit-log",
+    "compliance",
+    "trail"
+  ],
   "variants": [
     "outline",
     "fill",

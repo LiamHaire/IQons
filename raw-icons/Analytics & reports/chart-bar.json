@@ -1,11 +1,19 @@
 {
   "title": "Chart Bar",
-  "description": "",
+  "description": "Bar chart for comparing values across categories",
   "keywords": [
     "chart",
-    "bar"
+    "bar",
+    "graph",
+    "statistics",
+    "analytics",
+    "compare",
+    "columns"
   ],
-  "aliases": [],
+  "aliases": [
+    "bar-chart",
+    "bar-graph"
+  ],
   "variants": [
     "outline",
     "fill",

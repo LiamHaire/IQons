@@ -1,10 +1,19 @@
 {
   "title": "Mail",
-  "description": "",
+  "description": "Email or mail message",
   "keywords": [
-    "mail"
+    "mail",
+    "email",
+    "letter",
+    "message",
+    "envelope",
+    "send"
   ],
-  "aliases": [],
+  "aliases": [
+    "email",
+    "letter",
+    "message"
+  ],
   "variants": [
     "outline",
     "fill",

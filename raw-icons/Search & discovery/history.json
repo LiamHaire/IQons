@@ -1,10 +1,19 @@
 {
   "title": "History",
-  "description": "",
+  "description": "View previously visited items or actions",
   "keywords": [
-    "history"
+    "history",
+    "recent",
+    "log",
+    "past",
+    "timeline",
+    "clock"
   ],
-  "aliases": [],
+  "aliases": [
+    "recent",
+    "log",
+    "timeline"
+  ],
   "variants": [
     "outline",
     "fill",

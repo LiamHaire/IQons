@@ -1,10 +1,18 @@
 {
   "title": "Queue",
-  "description": "",
+  "description": "A queue of items waiting to be processed",
   "keywords": [
-    "queue"
+    "queue",
+    "waiting",
+    "list",
+    "backlog",
+    "order",
+    "sequence"
   ],
-  "aliases": [],
+  "aliases": [
+    "waiting-list",
+    "backlog"
+  ],
   "variants": [
     "outline",
     "fill",

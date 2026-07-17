@@ -1,11 +1,18 @@
 {
   "title": "Audio On",
-  "description": "",
+  "description": "Enable or unmute audio",
   "keywords": [
     "audio",
-    "on"
+    "on",
+    "sound",
+    "unmute",
+    "enable",
+    "speaker"
   ],
-  "aliases": [],
+  "aliases": [
+    "sound-on",
+    "unmute"
+  ],
   "variants": [
     "outline",
     "fill",

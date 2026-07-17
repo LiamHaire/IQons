@@ -1,10 +1,18 @@
 {
   "title": "Holiday",
-  "description": "",
+  "description": "A holiday or time-off period on a calendar",
   "keywords": [
-    "holiday"
+    "holiday",
+    "vacation",
+    "leave",
+    "time-off",
+    "calendar"
   ],
-  "aliases": [],
+  "aliases": [
+    "vacation",
+    "leave",
+    "time-off"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,10 +1,18 @@
 {
   "title": "Calculator",
-  "description": "",
+  "description": "Calculator for performing calculations",
   "keywords": [
-    "calculator"
+    "calculator",
+    "calc",
+    "math",
+    "arithmetic",
+    "numbers",
+    "compute"
   ],
-  "aliases": [],
+  "aliases": [
+    "calc",
+    "math"
+  ],
   "variants": [
     "outline",
     "fill",

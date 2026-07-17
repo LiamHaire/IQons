@@ -1,10 +1,17 @@
 {
   "title": "Layout",
-  "description": "",
+  "description": "Layout panels showing a main content area with a sidebar",
   "keywords": [
-    "layout"
+    "layout",
+    "panels",
+    "sidebar",
+    "template",
+    "structure"
   ],
-  "aliases": [],
+  "aliases": [
+    "panels",
+    "template"
+  ],
   "variants": [
     "outline",
     "fill",

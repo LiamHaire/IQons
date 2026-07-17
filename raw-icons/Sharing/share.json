@@ -1,10 +1,19 @@
 {
   "title": "Share",
-  "description": "",
+  "description": "Share content with others",
   "keywords": [
-    "share"
+    "share",
+    "send",
+    "distribute",
+    "social",
+    "network",
+    "post"
   ],
-  "aliases": [],
+  "aliases": [
+    "send",
+    "distribute",
+    "share-out"
+  ],
   "variants": [
     "outline",
     "fill",

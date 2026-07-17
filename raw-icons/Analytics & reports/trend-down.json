@@ -1,11 +1,20 @@
 {
   "title": "Trend Down",
-  "description": "",
+  "description": "Downward trend indicating decline or decrease",
   "keywords": [
     "trend",
-    "down"
+    "down",
+    "decrease",
+    "decline",
+    "fall",
+    "negative",
+    "statistics"
   ],
-  "aliases": [],
+  "aliases": [
+    "trending-down",
+    "decrease",
+    "decline"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,11 +1,17 @@
 {
   "title": "Arrow Up",
-  "description": "",
+  "description": "Arrow pointing upward, used to indicate direction, scroll, or expand",
   "keywords": [
     "arrow",
-    "up"
+    "up",
+    "direction",
+    "north",
+    "scroll",
+    "expand"
   ],
-  "aliases": [],
+  "aliases": [
+    "arrow-north"
+  ],
   "variants": [
     "outline",
     "fill",

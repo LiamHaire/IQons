@@ -1,10 +1,21 @@
 {
   "title": "Bin",
-  "description": "",
+  "description": "Delete or move an item to the trash",
   "keywords": [
-    "bin"
+    "bin",
+    "trash",
+    "delete",
+    "remove",
+    "garbage",
+    "rubbish",
+    "discard"
   ],
-  "aliases": [],
+  "aliases": [
+    "trash",
+    "delete",
+    "remove",
+    "garbage"
+  ],
   "variants": [
     "outline",
     "fill",

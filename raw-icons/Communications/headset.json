@@ -1,10 +1,19 @@
 {
   "title": "Headset",
-  "description": "",
+  "description": "Headset used for support calls or customer service",
   "keywords": [
-    "headset"
+    "headset",
+    "support",
+    "helpdesk",
+    "customer-service",
+    "call",
+    "audio"
   ],
-  "aliases": [],
+  "aliases": [
+    "support",
+    "helpdesk",
+    "customer-service"
+  ],
   "variants": [
     "outline",
     "fill",

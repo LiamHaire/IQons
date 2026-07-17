@@ -1,10 +1,19 @@
 {
   "title": "Link",
-  "description": "",
+  "description": "A hyperlink or URL connection between items",
   "keywords": [
-    "link"
+    "link",
+    "url",
+    "hyperlink",
+    "chain",
+    "connect",
+    "web"
   ],
-  "aliases": [],
+  "aliases": [
+    "url",
+    "hyperlink",
+    "chain"
+  ],
   "variants": [
     "outline",
     "fill",

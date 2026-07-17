@@ -1,10 +1,19 @@
 {
   "title": "Attach",
-  "description": "",
+  "description": "Attach a file to a message or record",
   "keywords": [
-    "attach"
+    "attach",
+    "attachment",
+    "paperclip",
+    "file",
+    "clip",
+    "append"
   ],
-  "aliases": [],
+  "aliases": [
+    "attachment",
+    "paperclip",
+    "file-attach"
+  ],
   "variants": [
     "outline",
     "fill",

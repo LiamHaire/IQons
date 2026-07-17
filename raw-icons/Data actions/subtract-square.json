@@ -1,11 +1,16 @@
 {
   "title": "Subtract Square",
-  "description": "",
+  "description": "Remove an item using a square button",
   "keywords": [
     "subtract",
-    "square"
+    "square",
+    "minus",
+    "remove"
   ],
-  "aliases": [],
+  "aliases": [
+    "minus-square",
+    "remove-square"
+  ],
   "variants": [
     "outline",
     "fill",

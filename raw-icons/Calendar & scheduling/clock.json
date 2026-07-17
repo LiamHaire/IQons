@@ -1,10 +1,17 @@
 {
   "title": "Clock",
-  "description": "",
+  "description": "Clock showing the current time",
   "keywords": [
-    "clock"
+    "clock",
+    "time",
+    "watch",
+    "hour",
+    "minute"
   ],
-  "aliases": [],
+  "aliases": [
+    "time",
+    "watch"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,10 +1,20 @@
 {
   "title": "Scan",
-  "description": "",
+  "description": "Scan a document, barcode, or QR code",
   "keywords": [
-    "scan"
+    "scan",
+    "scanner",
+    "barcode",
+    "qr",
+    "capture",
+    "read",
+    "camera"
   ],
-  "aliases": [],
+  "aliases": [
+    "scanner",
+    "capture",
+    "read"
+  ],
   "variants": [
     "outline",
     "fill",

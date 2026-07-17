@@ -1,11 +1,18 @@
 {
   "title": "User Edit",
-  "description": "",
+  "description": "Edit a user's profile or account details",
   "keywords": [
     "user",
-    "edit"
+    "edit",
+    "modify",
+    "update",
+    "profile",
+    "account"
   ],
-  "aliases": [],
+  "aliases": [
+    "edit-user",
+    "update-profile"
+  ],
   "variants": [
     "outline",
     "fill",

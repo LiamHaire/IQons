@@ -1,10 +1,20 @@
 {
   "title": "Datatable",
-  "description": "",
+  "description": "A data table for displaying structured rows and columns",
   "keywords": [
-    "datatable"
+    "datatable",
+    "table",
+    "grid",
+    "spreadsheet",
+    "rows",
+    "columns",
+    "data"
   ],
-  "aliases": [],
+  "aliases": [
+    "table",
+    "grid-data",
+    "spreadsheet"
+  ],
   "variants": [
     "outline",
     "fill",

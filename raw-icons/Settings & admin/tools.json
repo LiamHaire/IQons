@@ -1,10 +1,20 @@
 {
   "title": "Tools",
-  "description": "",
+  "description": "Developer or admin tools and utilities",
   "keywords": [
-    "tools"
+    "tools",
+    "utilities",
+    "wrench",
+    "spanner",
+    "developer",
+    "build",
+    "fix"
   ],
-  "aliases": [],
+  "aliases": [
+    "utilities",
+    "dev-tools",
+    "wrench"
+  ],
   "variants": [
     "outline",
     "fill",

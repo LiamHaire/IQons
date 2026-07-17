@@ -1,10 +1,19 @@
 {
   "title": "Audio",
-  "description": "",
+  "description": "An audio file or sound recording",
   "keywords": [
-    "audio"
+    "audio",
+    "sound",
+    "music",
+    "file",
+    "recording",
+    "mp3",
+    "wav"
   ],
-  "aliases": [],
+  "aliases": [
+    "sound",
+    "music-file"
+  ],
   "variants": [
     "outline",
     "fill",

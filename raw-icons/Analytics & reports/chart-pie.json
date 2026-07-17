@@ -1,11 +1,17 @@
 {
   "title": "Chart Pie",
-  "description": "",
+  "description": "Pie chart showing proportional data",
   "keywords": [
     "chart",
-    "pie"
+    "pie",
+    "proportion",
+    "statistics",
+    "analytics",
+    "segments"
   ],
-  "aliases": [],
+  "aliases": [
+    "pie-chart"
+  ],
   "variants": [
     "outline",
     "fill",

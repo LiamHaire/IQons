@@ -1,10 +1,19 @@
 {
   "title": "Checklist",
-  "description": "",
+  "description": "A checklist of items to complete",
   "keywords": [
-    "checklist"
+    "checklist",
+    "todo",
+    "task",
+    "list",
+    "items",
+    "complete",
+    "pending"
   ],
-  "aliases": [],
+  "aliases": [
+    "todo-list",
+    "task-list"
+  ],
   "variants": [
     "outline",
     "fill",

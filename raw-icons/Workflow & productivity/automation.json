@@ -1,10 +1,20 @@
 {
   "title": "Automation",
-  "description": "",
+  "description": "Automated workflow or scheduled process",
   "keywords": [
-    "automation"
+    "automation",
+    "automated",
+    "bot",
+    "scheduled",
+    "workflow",
+    "process",
+    "trigger"
   ],
-  "aliases": [],
+  "aliases": [
+    "automated",
+    "bot",
+    "scheduled"
+  ],
   "variants": [
     "outline",
     "fill",

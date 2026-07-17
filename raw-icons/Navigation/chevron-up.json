@@ -1,11 +1,16 @@
 {
   "title": "Chevron Up",
-  "description": "",
+  "description": "Upward-facing chevron, typically used to collapse a section or scroll up",
   "keywords": [
     "chevron",
-    "up"
+    "up",
+    "caret",
+    "collapse",
+    "scroll"
   ],
-  "aliases": [],
+  "aliases": [
+    "caret-up"
+  ],
   "variants": [
     "outline",
     "fill",

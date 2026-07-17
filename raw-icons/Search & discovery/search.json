@@ -1,10 +1,20 @@
 {
   "title": "Search",
-  "description": "",
+  "description": "Search or find content using a magnifying glass",
   "keywords": [
-    "search"
+    "search",
+    "find",
+    "magnify",
+    "lookup",
+    "lens",
+    "scan",
+    "discover"
   ],
-  "aliases": [],
+  "aliases": [
+    "find",
+    "magnify",
+    "lookup"
+  ],
   "variants": [
     "outline",
     "fill",

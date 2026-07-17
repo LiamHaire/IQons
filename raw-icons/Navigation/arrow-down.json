@@ -1,11 +1,17 @@
 {
   "title": "Arrow Down",
-  "description": "",
+  "description": "Arrow pointing downward, used to indicate direction, scroll, or collapse",
   "keywords": [
     "arrow",
-    "down"
+    "down",
+    "direction",
+    "south",
+    "scroll",
+    "collapse"
   ],
-  "aliases": [],
+  "aliases": [
+    "arrow-south"
+  ],
   "variants": [
     "outline",
     "fill",

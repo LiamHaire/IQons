@@ -1,11 +1,19 @@
 {
   "title": "Align Right",
-  "description": "",
+  "description": "Align selected elements to the right edge",
   "keywords": [
     "align",
-    "right"
+    "right",
+    "edge",
+    "layout",
+    "text",
+    "justify",
+    "position"
   ],
-  "aliases": [],
+  "aliases": [
+    "right-align",
+    "justify-right"
+  ],
   "variants": [
     "outline",
     "fill",

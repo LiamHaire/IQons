@@ -1,10 +1,17 @@
 {
   "title": "Restore",
-  "description": "",
+  "description": "Restore an item from archive or trash",
   "keywords": [
-    "restore"
+    "restore",
+    "recover",
+    "unarchive",
+    "undo",
+    "back"
   ],
-  "aliases": [],
+  "aliases": [
+    "unarchive",
+    "recover"
+  ],
   "variants": [
     "outline",
     "fill",

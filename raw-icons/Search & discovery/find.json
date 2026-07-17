@@ -1,10 +1,17 @@
 {
   "title": "Find",
-  "description": "",
+  "description": "Find or search within content",
   "keywords": [
-    "find"
+    "find",
+    "search",
+    "lookup",
+    "scan",
+    "locate"
   ],
-  "aliases": [],
+  "aliases": [
+    "search",
+    "lookup"
+  ],
   "variants": [
     "outline",
     "fill",

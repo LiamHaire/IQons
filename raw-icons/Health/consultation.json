@@ -1,10 +1,19 @@
 {
   "title": "Consultation",
-  "description": "",
+  "description": "A clinical consultation or patient appointment",
   "keywords": [
-    "consultation"
+    "consultation",
+    "clinical",
+    "appointment",
+    "patient",
+    "doctor",
+    "visit"
   ],
-  "aliases": [],
+  "aliases": [
+    "appointment",
+    "clinical-visit",
+    "patient-meeting"
+  ],
   "variants": [
     "outline",
     "fill",

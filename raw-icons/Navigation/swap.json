@@ -1,10 +1,19 @@
 {
   "title": "Swap",
-  "description": "",
+  "description": "Swap or exchange two items",
   "keywords": [
-    "swap"
+    "swap",
+    "exchange",
+    "switch",
+    "transfer",
+    "replace",
+    "arrows"
   ],
-  "aliases": [],
+  "aliases": [
+    "exchange",
+    "switch",
+    "transfer"
+  ],
   "variants": [
     "outline",
     "fill",

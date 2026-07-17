@@ -1,10 +1,20 @@
 {
   "title": "Ambulance",
-  "description": "",
+  "description": "Ambulance or emergency medical vehicle",
   "keywords": [
-    "ambulance"
+    "ambulance",
+    "emergency",
+    "ems",
+    "paramedic",
+    "vehicle",
+    "999",
+    "urgent"
   ],
-  "aliases": [],
+  "aliases": [
+    "emergency",
+    "ems",
+    "paramedic"
+  ],
   "variants": [
     "outline",
     "fill",

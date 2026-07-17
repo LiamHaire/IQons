@@ -1,10 +1,20 @@
 {
   "title": "Logs",
-  "description": "",
+  "description": "System logs or activity records",
   "keywords": [
-    "logs"
+    "logs",
+    "log",
+    "activity",
+    "record",
+    "system",
+    "debug",
+    "events"
   ],
-  "aliases": [],
+  "aliases": [
+    "log",
+    "activity-log",
+    "audit-log"
+  ],
   "variants": [
     "outline",
     "fill",

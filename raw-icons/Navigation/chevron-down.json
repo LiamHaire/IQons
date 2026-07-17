@@ -1,11 +1,18 @@
 {
   "title": "Chevron Down",
-  "description": "",
+  "description": "Downward-facing chevron, typically used for dropdowns or expandable sections",
   "keywords": [
     "chevron",
-    "down"
+    "down",
+    "caret",
+    "dropdown",
+    "expand",
+    "collapse"
   ],
-  "aliases": [],
+  "aliases": [
+    "caret-down",
+    "dropdown"
+  ],
   "variants": [
     "outline",
     "fill",

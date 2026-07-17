@@ -1,10 +1,19 @@
 {
   "title": "Lock",
-  "description": "",
+  "description": "Locked or secured state, restricted access",
   "keywords": [
-    "lock"
+    "lock",
+    "locked",
+    "secure",
+    "protected",
+    "restricted",
+    "closed"
   ],
-  "aliases": [],
+  "aliases": [
+    "locked",
+    "secure",
+    "protected"
+  ],
   "variants": [
     "outline",
     "fill",

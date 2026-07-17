@@ -1,10 +1,20 @@
 {
   "title": "Key",
-  "description": "",
+  "description": "Encryption key, password, or access credential",
   "keywords": [
-    "key"
+    "key",
+    "password",
+    "credential",
+    "access",
+    "unlock",
+    "encryption",
+    "api-key"
   ],
-  "aliases": [],
+  "aliases": [
+    "password",
+    "credential",
+    "access-key"
+  ],
   "variants": [
     "outline",
     "fill",

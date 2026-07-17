@@ -1,10 +1,19 @@
 {
   "title": "Light",
-  "description": "",
+  "description": "Light mode or light theme toggle",
   "keywords": [
-    "light"
+    "light",
+    "mode",
+    "theme",
+    "day",
+    "toggle",
+    "appearance"
   ],
-  "aliases": [],
+  "aliases": [
+    "light-mode",
+    "light-theme",
+    "day-mode"
+  ],
   "variants": [
     "outline",
     "fill",

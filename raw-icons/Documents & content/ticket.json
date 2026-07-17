@@ -1,10 +1,19 @@
 {
   "title": "Ticket",
-  "description": "",
+  "description": "A ticket for support, events, or issue tracking",
   "keywords": [
-    "ticket"
+    "ticket",
+    "issue",
+    "support",
+    "voucher",
+    "event",
+    "tracking"
   ],
-  "aliases": [],
+  "aliases": [
+    "issue",
+    "support-ticket",
+    "voucher"
+  ],
   "variants": [
     "outline",
     "fill",

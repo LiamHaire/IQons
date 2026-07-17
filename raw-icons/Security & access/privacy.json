@@ -1,10 +1,19 @@
 {
   "title": "Privacy",
-  "description": "",
+  "description": "Privacy settings or data protection controls",
   "keywords": [
-    "privacy"
+    "privacy",
+    "data",
+    "gdpr",
+    "protection",
+    "policy",
+    "personal"
   ],
-  "aliases": [],
+  "aliases": [
+    "data-privacy",
+    "gdpr",
+    "protection"
+  ],
   "variants": [
     "outline",
     "fill",

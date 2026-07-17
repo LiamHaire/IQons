@@ -1,10 +1,19 @@
 {
   "title": "Locate",
-  "description": "",
+  "description": "Locate the user's current position on a map",
   "keywords": [
-    "locate"
+    "locate",
+    "gps",
+    "position",
+    "current",
+    "map",
+    "here"
   ],
-  "aliases": [],
+  "aliases": [
+    "my-location",
+    "gps",
+    "position"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,11 +1,19 @@
 {
   "title": "Document New",
-  "description": "",
+  "description": "Create a new document or file",
   "keywords": [
     "document",
-    "new"
+    "new",
+    "create",
+    "file",
+    "blank",
+    "draft"
   ],
-  "aliases": [],
+  "aliases": [
+    "new-file",
+    "new-document",
+    "create-document"
+  ],
   "variants": [
     "outline",
     "fill",

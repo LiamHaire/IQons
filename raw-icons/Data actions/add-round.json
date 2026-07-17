@@ -1,11 +1,18 @@
 {
   "title": "Add Round",
-  "description": "",
+  "description": "Add a new item using a circular button",
   "keywords": [
     "add",
-    "round"
+    "round",
+    "create",
+    "new",
+    "plus",
+    "circle"
   ],
-  "aliases": [],
+  "aliases": [
+    "plus-circle",
+    "create-circle"
+  ],
   "variants": [
     "outline",
     "fill",

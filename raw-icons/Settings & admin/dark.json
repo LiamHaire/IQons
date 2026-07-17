@@ -1,10 +1,19 @@
 {
   "title": "Dark",
-  "description": "",
+  "description": "Dark mode or dark theme toggle",
   "keywords": [
-    "dark"
+    "dark",
+    "mode",
+    "theme",
+    "night",
+    "toggle",
+    "appearance"
   ],
-  "aliases": [],
+  "aliases": [
+    "dark-mode",
+    "dark-theme",
+    "night-mode"
+  ],
   "variants": [
     "outline",
     "fill",

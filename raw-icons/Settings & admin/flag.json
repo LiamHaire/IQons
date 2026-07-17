@@ -1,10 +1,19 @@
 {
   "title": "Flag",
-  "description": "",
+  "description": "Feature flag or marker for tracking",
   "keywords": [
-    "flag"
+    "flag",
+    "feature-flag",
+    "marker",
+    "milestone",
+    "toggle",
+    "report"
   ],
-  "aliases": [],
+  "aliases": [
+    "feature-flag",
+    "marker",
+    "milestone"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,10 +1,20 @@
 {
   "title": "Globe",
-  "description": "",
+  "description": "Globe representing the internet, language, or global scope",
   "keywords": [
-    "globe"
+    "globe",
+    "world",
+    "internet",
+    "international",
+    "language",
+    "translate",
+    "web"
   ],
-  "aliases": [],
+  "aliases": [
+    "world",
+    "internet",
+    "international"
+  ],
   "variants": [
     "outline",
     "fill",

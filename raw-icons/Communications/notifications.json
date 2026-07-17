@@ -1,10 +1,18 @@
 {
   "title": "Notifications",
-  "description": "",
+  "description": "Notification bell for alerts and updates",
   "keywords": [
-    "notifications"
+    "notifications",
+    "bell",
+    "alerts",
+    "updates",
+    "reminder",
+    "badge"
   ],
-  "aliases": [],
+  "aliases": [
+    "bell",
+    "alerts"
+  ],
   "variants": [
     "outline",
     "fill",

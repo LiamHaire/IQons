@@ -1,10 +1,19 @@
 {
   "title": "Toolbox",
-  "description": "",
+  "description": "Toolbox containing developer or admin utilities",
   "keywords": [
-    "toolbox"
+    "toolbox",
+    "tools",
+    "utilities",
+    "toolkit",
+    "developer",
+    "admin"
   ],
-  "aliases": [],
+  "aliases": [
+    "dev-tools",
+    "utilities",
+    "toolkit"
+  ],
   "variants": [
     "outline",
     "fill",

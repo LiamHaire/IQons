@@ -1,10 +1,18 @@
 {
   "title": "Filter",
-  "description": "",
+  "description": "Filter a list or dataset by specific criteria",
   "keywords": [
-    "filter"
+    "filter",
+    "sort",
+    "refine",
+    "search",
+    "narrow",
+    "criteria"
   ],
-  "aliases": [],
+  "aliases": [
+    "sort",
+    "refine"
+  ],
   "variants": [
     "outline",
     "fill",

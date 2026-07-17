@@ -1,10 +1,20 @@
 {
   "title": "Palette",
-  "description": "",
+  "description": "Colour palette for theming or design customisation",
   "keywords": [
-    "palette"
+    "palette",
+    "colour",
+    "color",
+    "theme",
+    "design",
+    "paint",
+    "customise"
   ],
-  "aliases": [],
+  "aliases": [
+    "color-palette",
+    "colour-picker",
+    "theme"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,10 +1,20 @@
 {
   "title": "Organisation",
-  "description": "",
+  "description": "Organisation chart or company hierarchy",
   "keywords": [
-    "organisation"
+    "organisation",
+    "organization",
+    "chart",
+    "hierarchy",
+    "company",
+    "structure",
+    "team"
   ],
-  "aliases": [],
+  "aliases": [
+    "org-chart",
+    "hierarchy",
+    "organization"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,10 +1,17 @@
 {
   "title": "Print",
-  "description": "",
+  "description": "Print a document or page",
   "keywords": [
-    "print"
+    "print",
+    "printer",
+    "document",
+    "paper",
+    "output",
+    "fax"
   ],
-  "aliases": [],
+  "aliases": [
+    "printer"
+  ],
   "variants": [
     "outline",
     "fill",

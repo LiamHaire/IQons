@@ -1,10 +1,19 @@
 {
   "title": "Config",
-  "description": "",
+  "description": "Configuration settings for an application or service",
   "keywords": [
-    "config"
+    "config",
+    "configuration",
+    "settings",
+    "options",
+    "preferences",
+    "parameters"
   ],
-  "aliases": [],
+  "aliases": [
+    "configuration",
+    "settings",
+    "options"
+  ],
   "variants": [
     "outline",
     "fill",

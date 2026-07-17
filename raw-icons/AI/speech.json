@@ -1,10 +1,20 @@
 {
   "title": "Speech",
-  "description": "",
+  "description": "Speech or voice AI capability",
   "keywords": [
-    "speech"
+    "speech",
+    "voice",
+    "ai",
+    "speech-to-text",
+    "tts",
+    "audio",
+    "speak"
   ],
-  "aliases": [],
+  "aliases": [
+    "voice",
+    "speech-to-text",
+    "tts"
+  ],
   "variants": [
     "outline",
     "fill",

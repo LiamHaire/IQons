@@ -1,10 +1,18 @@
 {
   "title": "Archive",
-  "description": "",
+  "description": "Archive an item to store it out of the active view",
   "keywords": [
-    "archive"
+    "archive",
+    "store",
+    "box",
+    "storage",
+    "backup",
+    "index"
   ],
-  "aliases": [],
+  "aliases": [
+    "store",
+    "box"
+  ],
   "variants": [
     "outline",
     "fill",

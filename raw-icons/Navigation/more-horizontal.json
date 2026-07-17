@@ -1,11 +1,21 @@
 {
   "title": "More Horizontal",
-  "description": "",
+  "description": "Horizontal ellipsis indicating additional options or overflow menu",
   "keywords": [
     "more",
-    "horizontal"
+    "horizontal",
+    "options",
+    "ellipsis",
+    "overflow",
+    "menu",
+    "dots"
   ],
-  "aliases": [],
+  "aliases": [
+    "ellipsis",
+    "options",
+    "more",
+    "overflow"
+  ],
   "variants": [
     "outline",
     "fill",

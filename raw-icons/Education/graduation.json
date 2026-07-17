@@ -1,10 +1,21 @@
 {
   "title": "Graduation",
-  "description": "",
+  "description": "Graduation cap representing education, qualifications, or learning",
   "keywords": [
-    "graduation"
+    "graduation",
+    "graduate",
+    "degree",
+    "cap",
+    "mortar-board",
+    "education",
+    "qualify"
   ],
-  "aliases": [],
+  "aliases": [
+    "graduate",
+    "degree",
+    "cap",
+    "mortar-board"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,10 +1,18 @@
 {
   "title": "Stop",
-  "description": "",
+  "description": "Stop a running process entirely",
   "keywords": [
-    "stop"
+    "stop",
+    "halt",
+    "end",
+    "terminate",
+    "finish",
+    "square"
   ],
-  "aliases": [],
+  "aliases": [
+    "halt",
+    "end"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,10 +1,17 @@
 {
   "title": "Marketplace",
-  "description": "",
+  "description": "Marketplace or storefront for browsing and purchasing items",
   "keywords": [
-    "marketplace"
+    "marketplace",
+    "store",
+    "shop",
+    "storefront",
+    "browse"
   ],
-  "aliases": [],
+  "aliases": [
+    "store",
+    "shop"
+  ],
   "variants": [
     "outline",
     "fill",

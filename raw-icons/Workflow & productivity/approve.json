@@ -1,10 +1,21 @@
 {
   "title": "Approve",
-  "description": "",
+  "description": "Approve or accept an item",
   "keywords": [
-    "approve"
+    "approve",
+    "accept",
+    "confirm",
+    "tick",
+    "check",
+    "done",
+    "complete"
   ],
-  "aliases": [],
+  "aliases": [
+    "accept",
+    "confirm",
+    "tick",
+    "check"
+  ],
   "variants": [
     "outline",
     "fill",

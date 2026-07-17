@@ -1,10 +1,18 @@
 {
   "title": "Folder",
-  "description": "",
+  "description": "A folder for organising and grouping files",
   "keywords": [
-    "folder"
+    "folder",
+    "directory",
+    "group",
+    "files",
+    "organise",
+    "storage"
   ],
-  "aliases": [],
+  "aliases": [
+    "directory",
+    "group"
+  ],
   "variants": [
     "outline",
     "fill",

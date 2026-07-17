@@ -1,10 +1,21 @@
 {
   "title": "Warning",
-  "description": "",
+  "description": "A warning or caution alert",
   "keywords": [
-    "warning"
+    "warning",
+    "alert",
+    "caution",
+    "danger",
+    "triangle",
+    "exclamation",
+    "!"
   ],
-  "aliases": [],
+  "aliases": [
+    "alert",
+    "caution",
+    "danger",
+    "triangle"
+  ],
   "variants": [
     "outline",
     "fill",

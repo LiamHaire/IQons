@@ -1,10 +1,21 @@
 {
   "title": "Idbadge",
-  "description": "",
+  "description": "Identity badge or staff ID card",
   "keywords": [
-    "idbadge"
+    "idbadge",
+    "id",
+    "badge",
+    "identity",
+    "staff",
+    "card",
+    "access",
+    "credential"
   ],
-  "aliases": [],
+  "aliases": [
+    "id-badge",
+    "staff-id",
+    "access-card"
+  ],
   "variants": [
     "outline",
     "fill",

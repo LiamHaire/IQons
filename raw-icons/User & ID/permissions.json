@@ -1,10 +1,19 @@
 {
   "title": "Permissions",
-  "description": "",
+  "description": "User permissions, access rights, or role settings",
   "keywords": [
-    "permissions"
+    "permissions",
+    "access",
+    "rights",
+    "roles",
+    "security",
+    "admin"
   ],
-  "aliases": [],
+  "aliases": [
+    "access",
+    "rights",
+    "roles"
+  ],
   "variants": [
     "outline",
     "fill",

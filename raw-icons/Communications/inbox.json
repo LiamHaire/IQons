@@ -1,10 +1,18 @@
 {
   "title": "Inbox",
-  "description": "",
+  "description": "Email inbox for incoming messages",
   "keywords": [
-    "inbox"
+    "inbox",
+    "email",
+    "messages",
+    "incoming",
+    "mail",
+    "tray"
   ],
-  "aliases": [],
+  "aliases": [
+    "email-inbox",
+    "messages"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,10 +1,21 @@
 {
   "title": "Medication",
-  "description": "",
+  "description": "General medication or prescription item",
   "keywords": [
-    "medication"
+    "medication",
+    "drug",
+    "medicine",
+    "prescription",
+    "rx",
+    "tablet",
+    "dose"
   ],
-  "aliases": [],
+  "aliases": [
+    "drug",
+    "medicine",
+    "prescription",
+    "rx"
+  ],
   "variants": [
     "outline",
     "fill",

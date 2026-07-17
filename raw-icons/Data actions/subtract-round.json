@@ -1,11 +1,17 @@
 {
   "title": "Subtract Round",
-  "description": "",
+  "description": "Remove an item using a circular button",
   "keywords": [
     "subtract",
-    "round"
+    "round",
+    "minus",
+    "remove",
+    "circle"
   ],
-  "aliases": [],
+  "aliases": [
+    "minus-circle",
+    "remove-circle"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,11 +1,17 @@
 {
   "title": "Chevron Left",
-  "description": "",
+  "description": "Left-facing chevron, used for back navigation or previous item",
   "keywords": [
     "chevron",
-    "left"
+    "left",
+    "caret",
+    "back",
+    "previous",
+    "navigate"
   ],
-  "aliases": [],
+  "aliases": [
+    "caret-left"
+  ],
   "variants": [
     "outline",
     "fill",

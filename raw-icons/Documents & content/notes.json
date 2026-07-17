@@ -1,10 +1,18 @@
 {
   "title": "Notes",
-  "description": "",
+  "description": "Notes or freeform text content",
   "keywords": [
-    "notes"
+    "notes",
+    "notepad",
+    "memo",
+    "text",
+    "write",
+    "freeform"
   ],
-  "aliases": [],
+  "aliases": [
+    "notepad",
+    "memo"
+  ],
   "variants": [
     "outline",
     "fill",

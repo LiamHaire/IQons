@@ -1,10 +1,17 @@
 {
   "title": "Event",
-  "description": "",
+  "description": "A calendar event or scheduled occurrence",
   "keywords": [
-    "event"
+    "event",
+    "calendar",
+    "occasion",
+    "happening",
+    "schedule"
   ],
-  "aliases": [],
+  "aliases": [
+    "occasion",
+    "happening"
+  ],
   "variants": [
     "outline",
     "fill",

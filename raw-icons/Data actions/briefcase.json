@@ -1,10 +1,19 @@
 {
   "title": "Briefcase",
-  "description": "",
+  "description": "Briefcase representing work, tasks, or a job",
   "keywords": [
-    "briefcase"
+    "briefcase",
+    "work",
+    "job",
+    "portfolio",
+    "bag",
+    "business"
   ],
-  "aliases": [],
+  "aliases": [
+    "work",
+    "job",
+    "portfolio"
+  ],
   "variants": [
     "outline",
     "fill",

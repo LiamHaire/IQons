@@ -1,11 +1,19 @@
 {
   "title": "Priority High",
-  "description": "",
+  "description": "High priority item requiring urgent attention",
   "keywords": [
     "priority",
+    "high",
+    "urgent",
+    "critical",
+    "important",
+    "alert"
+  ],
+  "aliases": [
+    "urgent",
+    "critical",
     "high"
   ],
-  "aliases": [],
   "variants": [
     "outline",
     "fill",

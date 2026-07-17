@@ -1,10 +1,18 @@
 {
   "title": "Map",
-  "description": "",
+  "description": "Map for viewing geographic information",
   "keywords": [
-    "map"
+    "map",
+    "geography",
+    "directions",
+    "navigate",
+    "location",
+    "place"
   ],
-  "aliases": [],
+  "aliases": [
+    "geography",
+    "directions"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,11 +1,18 @@
 {
   "title": "Align Bottom",
-  "description": "",
+  "description": "Align selected elements to the bottom edge",
   "keywords": [
     "align",
-    "bottom"
+    "bottom",
+    "edge",
+    "layout",
+    "position",
+    "distribute"
   ],
-  "aliases": [],
+  "aliases": [
+    "align-base",
+    "bottom-align"
+  ],
   "variants": [
     "outline",
     "fill",

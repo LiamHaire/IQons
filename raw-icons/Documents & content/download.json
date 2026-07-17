@@ -1,10 +1,18 @@
 {
   "title": "Download",
-  "description": "",
+  "description": "Download a file to your device",
   "keywords": [
-    "download"
+    "download",
+    "save",
+    "file",
+    "get",
+    "transfer",
+    "arrow"
   ],
-  "aliases": [],
+  "aliases": [
+    "save-file",
+    "get"
+  ],
   "variants": [
     "outline",
     "fill",

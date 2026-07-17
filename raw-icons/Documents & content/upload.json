@@ -1,10 +1,17 @@
 {
   "title": "Upload",
-  "description": "",
+  "description": "Upload a file from your device",
   "keywords": [
-    "upload"
+    "upload",
+    "send",
+    "file",
+    "transfer",
+    "arrow",
+    "push"
   ],
-  "aliases": [],
+  "aliases": [
+    "send-file"
+  ],
   "variants": [
     "outline",
     "fill",

@@ -1,11 +1,22 @@
 {
   "title": "Success Round",
-  "description": "",
+  "description": "A round success indicator showing a completed action",
   "keywords": [
     "success",
-    "round"
+    "round",
+    "done",
+    "complete",
+    "tick",
+    "check",
+    "circle",
+    "approved"
   ],
-  "aliases": [],
+  "aliases": [
+    "check-circle",
+    "done",
+    "complete",
+    "tick-circle"
+  ],
   "variants": [
     "outline",
     "fill",

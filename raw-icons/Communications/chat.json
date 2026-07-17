@@ -1,10 +1,19 @@
 {
   "title": "Chat",
-  "description": "",
+  "description": "Chat or instant messaging conversation",
   "keywords": [
-    "chat"
+    "chat",
+    "message",
+    "conversation",
+    "im",
+    "bubble",
+    "talk"
   ],
-  "aliases": [],
+  "aliases": [
+    "message",
+    "im",
+    "conversation"
+  ],
   "variants": [
     "outline",
     "fill",

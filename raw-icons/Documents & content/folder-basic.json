@@ -1,11 +1,17 @@
 {
   "title": "Folder Basic",
-  "description": "",
+  "description": "A basic folder for organising files",
   "keywords": [
     "folder",
-    "basic"
+    "basic",
+    "directory",
+    "organise",
+    "files"
   ],
-  "aliases": [],
+  "aliases": [
+    "folder",
+    "directory"
+  ],
   "variants": [
     "outline",
     "fill",

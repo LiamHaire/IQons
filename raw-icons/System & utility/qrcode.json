@@ -1,10 +1,20 @@
 {
   "title": "Qrcode",
-  "description": "",
+  "description": "QR code for linking to digital content",
   "keywords": [
-    "qrcode"
+    "qrcode",
+    "qr",
+    "barcode",
+    "scan",
+    "link",
+    "url",
+    "digital"
   ],
-  "aliases": [],
+  "aliases": [
+    "qr",
+    "barcode",
+    "scan-code"
+  ],
   "variants": [
     "outline",
     "fill",

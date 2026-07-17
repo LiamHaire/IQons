@@ -1,10 +1,19 @@
 {
   "title": "Favourite",
-  "description": "",
+  "description": "Mark an item as a favourite",
   "keywords": [
-    "favourite"
+    "favourite",
+    "favorite",
+    "star",
+    "like",
+    "rating",
+    "bookmark"
   ],
-  "aliases": [],
+  "aliases": [
+    "favorite",
+    "star",
+    "like"
+  ],
   "variants": [
     "outline",
     "fill",

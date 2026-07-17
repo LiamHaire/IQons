@@ -1,10 +1,19 @@
 {
   "title": "Policy",
-  "description": "",
+  "description": "Policy document or rule configuration",
   "keywords": [
-    "policy"
+    "policy",
+    "rules",
+    "governance",
+    "compliance",
+    "document",
+    "terms"
   ],
-  "aliases": [],
+  "aliases": [
+    "rules",
+    "governance",
+    "compliance"
+  ],
   "variants": [
     "outline",
     "fill",

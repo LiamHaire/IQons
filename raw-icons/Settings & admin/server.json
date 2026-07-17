@@ -1,10 +1,19 @@
 {
   "title": "Server",
-  "description": "",
+  "description": "Server or backend infrastructure",
   "keywords": [
-    "server"
+    "server",
+    "backend",
+    "infrastructure",
+    "host",
+    "cloud",
+    "machine"
   ],
-  "aliases": [],
+  "aliases": [
+    "backend",
+    "infrastructure",
+    "host"
+  ],
   "variants": [
     "outline",
     "fill",

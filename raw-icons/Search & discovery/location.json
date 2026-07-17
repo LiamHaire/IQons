@@ -1,10 +1,21 @@
 {
   "title": "Location",
-  "description": "",
+  "description": "A map pin or location marker",
   "keywords": [
-    "location"
+    "location",
+    "pin",
+    "map",
+    "marker",
+    "place",
+    "address",
+    "waypoint"
   ],
-  "aliases": [],
+  "aliases": [
+    "pin",
+    "map-pin",
+    "place",
+    "marker"
+  ],
   "variants": [
     "outline",
     "fill",

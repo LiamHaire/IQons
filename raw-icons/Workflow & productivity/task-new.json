@@ -1,11 +1,19 @@
 {
   "title": "Task New",
-  "description": "",
+  "description": "Create a new task or work item",
   "keywords": [
     "task",
-    "new"
+    "new",
+    "create",
+    "todo",
+    "add",
+    "work-item"
   ],
-  "aliases": [],
+  "aliases": [
+    "new-task",
+    "create-task",
+    "add-todo"
+  ],
   "variants": [
     "outline",
     "fill",

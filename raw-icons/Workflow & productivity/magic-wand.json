@@ -1,11 +1,20 @@
 {
   "title": "Magic Wand",
-  "description": "",
+  "description": "Magic wand for AI-powered or automatic actions",
   "keywords": [
     "magic",
-    "wand"
+    "wand",
+    "ai",
+    "auto",
+    "fix",
+    "generate",
+    "transform"
   ],
-  "aliases": [],
+  "aliases": [
+    "wand",
+    "ai-action",
+    "auto-fix"
+  ],
   "variants": [
     "outline",
     "fill",
