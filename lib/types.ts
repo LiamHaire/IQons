@@ -16,6 +16,7 @@ export type IconCategory =
   | "settings-admin"
   | "system-utility"
   | "ai"
+  | "layout"
   | "sector-health"
   | "sector-education"
   | "sector-legal"

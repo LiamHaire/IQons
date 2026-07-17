@@ -23,6 +23,7 @@ const FOLDER_MAP: Record<string, FolderConfig> = {
   "Settings & admin":    { id: "settings-admin",   prefix: "settings&admin" },
   "System & utility":    { id: "system-utility",   prefix: "system&utility" },
   "AI":                  { id: "ai",               prefix: "ai" },
+  "Layout":              { id: "layout",           prefix: "layout" },
   "Health":              { id: "sector-health",    prefix: "health" },
   "Education":           { id: "sector-education", prefix: "education" },
   "Legal":               { id: "sector-legal",     prefix: "legal" },
