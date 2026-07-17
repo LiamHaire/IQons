@@ -58,7 +58,7 @@ export function IconDetail({ icon, style, onClose }: IconDetailProps) {
     {
       key: "react" as Tab,
       label: "React",
-      note: "Coming in Step 3 — iqons-react package",
+      note: "Install: npm install iqons-react",
       code: `import { ${componentName} } from 'iqons-react'\n\n<${componentName} variant="${activeVariant}" size={24} className="text-foreground" />`,
     },
     {

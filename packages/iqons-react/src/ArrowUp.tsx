@@ -1,0 +1,41 @@
+import type { IqonProps } from "./types";
+
+const VARIANTS: Partial<Record<string, string>> = {
+  outline: `<path d="M11.3546 4.30076C11.6727 3.9296 12.2312 3.9064 12.5792 4.23143L12.6456 4.30076L18.5694 11.2119C18.8388 11.5263 18.8027 12 18.4884 12.2695C18.174 12.539 17.7004 12.5027 17.4308 12.1885L12.7501 6.72752V19.25C12.7501 19.6642 12.4143 19.9999 12.0001 20C11.5859 20 11.2501 19.6642 11.2501 19.25V6.72752L6.56943 12.1885C6.29987 12.5027 5.82623 12.5389 5.51181 12.2695C5.19748 11.9999 5.16128 11.5263 5.43075 11.2119L11.3546 4.30076Z" fill="currentColor"/>`,
+  fill: `<path fill-rule="evenodd" clip-rule="evenodd" d="M20 2C21.1046 2 22 2.89543 22 4V20C22 21.1046 21.1046 22 20 22H4C2.89543 22 2 21.1046 2 20V4C2 2.89543 2.89543 2 4 2H20ZM12.5791 4.23145C12.2311 3.90646 11.6726 3.92963 11.3545 4.30078L5.43066 11.2119C5.16125 11.5263 5.19745 12 5.51172 12.2695C5.82613 12.5389 6.29977 12.5027 6.56934 12.1885L11.25 6.72754V19.25C11.25 19.6642 11.5858 20 12 20C12.4142 20 12.75 19.6642 12.75 19.25V6.72754L17.4307 12.1885C17.7003 12.5027 18.1739 12.5389 18.4883 12.2695C18.8026 12 18.8387 11.5264 18.5693 11.2119L12.6455 4.30078L12.5791 4.23145Z" fill="currentColor"/>`,
+  duotone: `<path d="M2 4C2 2.89543 2.89543 2 4 2H20C21.1046 2 22 2.89543 22 4V20C22 21.1046 21.1046 22 20 22H4C2.89543 22 2 21.1046 2 20V4Z" fill="currentColor" fill-opacity="0.15"/>
+<path d="M12 4C12.3035 4 12.5744 4.13612 12.7578 4.34961L18.7588 11.3496C18.9091 11.5246 19 11.7512 19 12C19 12.5523 18.5523 13 18 13C17.696 13 17.4246 12.8635 17.2412 12.6494L13 7.70117V19C13 19.5523 12.5523 20 12 20C11.4477 20 11 19.5523 11 19V7.70117L6.75879 12.6504L6.75781 12.6494C6.57441 12.8632 6.30379 13 6 13C5.44772 13 5 12.5523 5 12C5 11.7515 5.09115 11.5245 5.24121 11.3496L11.2412 4.34961C11.4246 4.13584 11.6963 4 12 4Z" fill="currentColor"/>`,
+};
+
+const AVAILABLE = ["outline","fill","duotone"] as const;
+type Variant = (typeof AVAILABLE)[number];
+
+/**
+ * ArrowUp icon
+ * Variants: outline, fill, duotone
+ */
+export function ArrowUp({
+  variant = "outline",
+  size = 24,
+  label,
+  ...props
+}: IqonProps) {
+  const inner = VARIANTS[variant] ?? VARIANTS["outline"] ?? "";
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width={size}
+      height={size}
+      fill="none"
+      aria-label={label}
+      aria-hidden={label ? undefined : true}
+      role={label ? "img" : undefined}
+      {...props}
+      dangerouslySetInnerHTML={{ __html: inner }}
+    />
+  );
+}
+
+ArrowUp.displayName = "ArrowUp";
+ArrowUp.variants = AVAILABLE;

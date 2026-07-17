@@ -1,0 +1,45 @@
+import type { IqonProps } from "./types";
+
+const VARIANTS: Partial<Record<string, string>> = {
+  outline: `<path d="M18.875 10.125C19.2891 10.1251 19.625 10.4609 19.625 10.875C19.625 11.2891 19.2891 11.6249 18.875 11.625H16.6748C16.2607 11.6249 15.9248 11.2891 15.9248 10.875C15.9248 10.4609 16.2607 10.1251 16.6748 10.125H18.875Z" fill="currentColor"/>
+<path d="M18.875 6.75C19.2891 6.75011 19.625 7.08585 19.625 7.5C19.625 7.91415 19.2891 8.24989 18.875 8.25H16.6748C16.2607 8.24989 15.9248 7.91415 15.9248 7.5C15.9248 7.08585 16.2607 6.75011 16.6748 6.75H18.875Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21 3C22.1046 3 23 3.89543 23 5V19C23 20.1046 22.1046 21 21 21H3L2.7959 20.9893C1.78722 20.887 1 20.0357 1 19V5C1 3.89543 1.89543 3 3 3H21ZM3 4.5C2.72386 4.5 2.5 4.72386 2.5 5V19C2.5 19.2761 2.72386 19.5 3 19.5H12.9004V4.5H3ZM14.4004 19.5H21C21.2761 19.5 21.5 19.2761 21.5 19V5C21.5 4.72386 21.2761 4.5 21 4.5H14.4004V19.5Z" fill="currentColor"/>`,
+  fill: `<path fill-rule="evenodd" clip-rule="evenodd" d="M21 3C22.1046 3 23 3.89543 23 5V19C23 20.1046 22.1046 21 21 21H3L2.7959 20.9893C1.78722 20.887 1 20.0357 1 19V5C1 3.89543 1.89543 3 3 3H21ZM3 4.5C2.72386 4.5 2.5 4.72386 2.5 5V19C2.5 19.2761 2.72386 19.5 3 19.5H12.9004V4.5H3ZM16.6748 10.125C16.2607 10.1251 15.9248 10.4609 15.9248 10.875C15.9248 11.2891 16.2607 11.6249 16.6748 11.625H18.875C19.2891 11.6249 19.625 11.2891 19.625 10.875C19.625 10.4609 19.2891 10.1251 18.875 10.125H16.6748ZM16.6748 6.75C16.2607 6.75011 15.9248 7.08585 15.9248 7.5C15.9248 7.91415 16.2607 8.24989 16.6748 8.25H18.875C19.2891 8.24989 19.625 7.91415 19.625 7.5C19.625 7.08585 19.2891 6.75011 18.875 6.75H16.6748Z" fill="currentColor"/>`,
+  duotone: `<path d="M13 4H20C21.1046 4 22 4.89543 22 6V18C22 19.1046 21.1046 20 20 20H13V4Z" fill="currentColor" fill-opacity="0.15"/>
+<path d="M18.875 10.125C19.2891 10.1251 19.625 10.4609 19.625 10.875C19.625 11.2891 19.2891 11.6249 18.875 11.625H16.6748C16.2607 11.6249 15.9248 11.2891 15.9248 10.875C15.9248 10.4609 16.2607 10.1251 16.6748 10.125H18.875Z" fill="currentColor"/>
+<path d="M18.875 6.75C19.2891 6.75011 19.625 7.08585 19.625 7.5C19.625 7.91415 19.2891 8.24989 18.875 8.25H16.6748C16.2607 8.24989 15.9248 7.91415 15.9248 7.5C15.9248 7.08585 16.2607 6.75011 16.6748 6.75H18.875Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21 3C22.1046 3 23 3.89543 23 5V19C23 20.1046 22.1046 21 21 21H3L2.7959 20.9893C1.78722 20.887 1 20.0357 1 19V5C1 3.89543 1.89543 3 3 3H21ZM3 4.5C2.72386 4.5 2.5 4.72386 2.5 5V19C2.5 19.2761 2.72386 19.5 3 19.5H12.9004V4.5H3ZM14.4004 19.5H21C21.2761 19.5 21.5 19.2761 21.5 19V5C21.5 4.72386 21.2761 4.5 21 4.5H14.4004V19.5Z" fill="currentColor"/>`,
+};
+
+const AVAILABLE = ["outline","fill","duotone"] as const;
+type Variant = (typeof AVAILABLE)[number];
+
+/**
+ * SidebarRight icon
+ * Variants: outline, fill, duotone
+ */
+export function SidebarRight({
+  variant = "outline",
+  size = 24,
+  label,
+  ...props
+}: IqonProps) {
+  const inner = VARIANTS[variant] ?? VARIANTS["outline"] ?? "";
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width={size}
+      height={size}
+      fill="none"
+      aria-label={label}
+      aria-hidden={label ? undefined : true}
+      role={label ? "img" : undefined}
+      {...props}
+      dangerouslySetInnerHTML={{ __html: inner }}
+    />
+  );
+}
+
+SidebarRight.displayName = "SidebarRight";
+SidebarRight.variants = AVAILABLE;

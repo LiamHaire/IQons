@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "gen:meta": "node scripts/generate-metadata.mjs",
-    "build:manifest": "node scripts/build-manifest.mjs"
+    "build:manifest": "node scripts/build-manifest.mjs",
+    "build:react": "node scripts/build-react.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.42.0",

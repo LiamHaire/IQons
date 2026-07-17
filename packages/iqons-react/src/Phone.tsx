@@ -1,0 +1,44 @@
+import type { IqonProps } from "./types";
+
+const VARIANTS: Partial<Record<string, string>> = {
+  outline: `<path d="M13 18.75C13.4142 18.75 13.75 19.0858 13.75 19.5C13.75 19.9142 13.4142 20.25 13 20.25H11C10.5858 20.25 10.25 19.9142 10.25 19.5C10.25 19.0858 10.5858 18.75 11 18.75H13Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18 1C19.1046 1 20 1.89543 20 3V21C20 22.1046 19.1046 23 18 23H6C4.96435 23 4.113 22.2128 4.01074 21.2041L4 21V3C4 1.89543 4.89543 1 6 1H18ZM6 2.5C5.72386 2.5 5.5 2.72386 5.5 3V21C5.5 21.2761 5.72386 21.5 6 21.5H18C18.2761 21.5 18.5 21.2761 18.5 21V3C18.5 2.72386 18.2761 2.5 18 2.5H14.3994L14.251 2.87109C14.0991 3.25067 13.732 3.49989 13.3232 3.5H10.6768C10.268 3.49989 9.90085 3.25067 9.74902 2.87109L9.60059 2.5H6Z" fill="currentColor"/>`,
+  fill: `<path d="M13 18.75C13.4142 18.75 13.75 19.0858 13.75 19.5C13.75 19.9142 13.4142 20.25 13 20.25H11C10.5858 20.25 10.25 19.9142 10.25 19.5C10.25 19.0858 10.5858 18.75 11 18.75H13Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18 1C19.1046 1 20 1.89543 20 3V21C20 22.1046 19.1046 23 18 23H6C4.96435 23 4.113 22.2128 4.01074 21.2041L4 21V3C4 1.89543 4.89543 1 6 1H18ZM6 2.5C5.72386 2.5 5.5 2.72386 5.5 3V21C5.5 21.2761 5.72386 21.5 6 21.5H18C18.2761 21.5 18.5 21.2761 18.5 21V3C18.5 2.72386 18.2761 2.5 18 2.5H14.3994L14.251 2.87109C14.0991 3.25067 13.732 3.49989 13.3232 3.5H10.6768C10.268 3.49989 9.90085 3.25067 9.74902 2.87109L9.60059 2.5H6Z" fill="currentColor"/>`,
+  duotone: `<path d="M5 3C5 2.44772 5.44772 2 6 2H18C18.5523 2 19 2.44772 19 3V21C19 21.5523 18.5523 22 18 22H6C5.44772 22 5 21.5523 5 21V3Z" fill="currentColor" fill-opacity="0.15"/>
+<path d="M13 18.75C13.4142 18.75 13.75 19.0858 13.75 19.5C13.75 19.9142 13.4142 20.25 13 20.25H11C10.5858 20.25 10.25 19.9142 10.25 19.5C10.25 19.0858 10.5858 18.75 11 18.75H13Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18 1C19.1046 1 20 1.89543 20 3V21C20 22.1046 19.1046 23 18 23H6C4.96435 23 4.113 22.2128 4.01074 21.2041L4 21V3C4 1.89543 4.89543 1 6 1H18ZM6 2.5C5.72386 2.5 5.5 2.72386 5.5 3V21C5.5 21.2761 5.72386 21.5 6 21.5H18C18.2761 21.5 18.5 21.2761 18.5 21V3C18.5 2.72386 18.2761 2.5 18 2.5H14.3994L14.251 2.87109C14.0991 3.25067 13.732 3.49989 13.3232 3.5H10.6768C10.268 3.49989 9.90085 3.25067 9.74902 2.87109L9.60059 2.5H6Z" fill="currentColor"/>`,
+};
+
+const AVAILABLE = ["outline","fill","duotone"] as const;
+type Variant = (typeof AVAILABLE)[number];
+
+/**
+ * Phone icon
+ * Variants: outline, fill, duotone
+ */
+export function Phone({
+  variant = "outline",
+  size = 24,
+  label,
+  ...props
+}: IqonProps) {
+  const inner = VARIANTS[variant] ?? VARIANTS["outline"] ?? "";
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width={size}
+      height={size}
+      fill="none"
+      aria-label={label}
+      aria-hidden={label ? undefined : true}
+      role={label ? "img" : undefined}
+      {...props}
+      dangerouslySetInnerHTML={{ __html: inner }}
+    />
+  );
+}
+
+Phone.displayName = "Phone";
+Phone.variants = AVAILABLE;

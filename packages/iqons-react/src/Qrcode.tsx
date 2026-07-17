@@ -1,0 +1,68 @@
+import type { IqonProps } from "./types";
+
+const VARIANTS: Partial<Record<string, string>> = {
+  outline: `<path d="M2.75 16C3.16421 16 3.5 16.3358 3.5 16.75V20C3.5 20.2761 3.72386 20.5 4 20.5H7.25C7.66421 20.5 8 20.8358 8 21.25C8 21.6642 7.66421 22 7.25 22H4C2.96435 22 2.113 21.2128 2.01074 20.2041L2 20V16.75C2 16.3358 2.33579 16 2.75 16Z" fill="currentColor"/>
+<path d="M21.25 16C21.6642 16 22 16.3358 22 16.75V20L21.9893 20.2041C21.8938 21.1457 21.1457 21.8938 20.2041 21.9893L20 22H16.75C16.3358 22 16 21.6642 16 21.25C16 20.8358 16.3358 20.5 16.75 20.5H20C20.2761 20.5 20.5 20.2761 20.5 20V16.75C20.5 16.3358 20.8358 16 21.25 16Z" fill="currentColor"/>
+<path d="M9 18H6V15H9V18Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18 18H10V10H18V18ZM11.5 16.5H16.5V11.5H11.5V16.5Z" fill="currentColor"/>
+<path d="M9 14H6V10H9V14Z" fill="currentColor"/>
+<path d="M9 9H7V7H9V9Z" fill="currentColor"/>
+<path d="M14 9H10V6H14V9Z" fill="currentColor"/>
+<path d="M18 9H15V6H18V9Z" fill="currentColor"/>
+<path d="M7.25 2C7.66421 2 8 2.33579 8 2.75C8 3.16421 7.66421 3.5 7.25 3.5H4C3.72386 3.5 3.5 3.72386 3.5 4V7.25C3.5 7.66421 3.16421 8 2.75 8C2.33579 8 2 7.66421 2 7.25V4C2 2.89543 2.89543 2 4 2H7.25Z" fill="currentColor"/>
+<path d="M20.2041 2.01074C21.2128 2.113 22 2.96435 22 4V7.25C22 7.66421 21.6642 8 21.25 8C20.8358 8 20.5 7.66421 20.5 7.25V4C20.5 3.72386 20.2761 3.5 20 3.5H16.75C16.3358 3.5 16 3.16421 16 2.75C16 2.33579 16.3358 2 16.75 2H20L20.2041 2.01074Z" fill="currentColor"/>`,
+  fill: `<path d="M2.75 16C3.16421 16 3.5 16.3358 3.5 16.75V20C3.5 20.2761 3.72386 20.5 4 20.5H7.25C7.66421 20.5 8 20.8358 8 21.25C8 21.6642 7.66421 22 7.25 22H4C2.96435 22 2.113 21.2128 2.01074 20.2041L2 20V16.75C2 16.3358 2.33579 16 2.75 16Z" fill="currentColor"/>
+<path d="M21.25 16C21.6642 16 22 16.3358 22 16.75V20L21.9893 20.2041C21.8938 21.1457 21.1457 21.8938 20.2041 21.9893L20 22H16.75C16.3358 22 16 21.6642 16 21.25C16 20.8358 16.3358 20.5 16.75 20.5H20C20.2761 20.5 20.5 20.2761 20.5 20V16.75C20.5 16.3358 20.8358 16 21.25 16Z" fill="currentColor"/>
+<path d="M9 18H6V15H9V18Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18 18H10V10H18V18ZM11.5 16.5H16.5V11.5H11.5V16.5Z" fill="currentColor"/>
+<path d="M9 14H6V10H9V14Z" fill="currentColor"/>
+<path d="M9 9H7V7H9V9Z" fill="currentColor"/>
+<path d="M14 9H10V6H14V9Z" fill="currentColor"/>
+<path d="M18 9H15V6H18V9Z" fill="currentColor"/>
+<path d="M7.25 2C7.66421 2 8 2.33579 8 2.75C8 3.16421 7.66421 3.5 7.25 3.5H4C3.72386 3.5 3.5 3.72386 3.5 4V7.25C3.5 7.66421 3.16421 8 2.75 8C2.33579 8 2 7.66421 2 7.25V4C2 2.89543 2.89543 2 4 2H7.25Z" fill="currentColor"/>
+<path d="M20.2041 2.01074C21.2128 2.113 22 2.96435 22 4V7.25C22 7.66421 21.6642 8 21.25 8C20.8358 8 20.5 7.66421 20.5 7.25V4C20.5 3.72386 20.2761 3.5 20 3.5H16.75C16.3358 3.5 16 3.16421 16 2.75C16 2.33579 16.3358 2 16.75 2H20L20.2041 2.01074Z" fill="currentColor"/>`,
+  duotone: `<path fill-rule="evenodd" clip-rule="evenodd" d="M19 3C20.1046 3 21 3.89543 21 5V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H19ZM10 10V18H18V10H10Z" fill="currentColor" fill-opacity="0.15"/>
+<path d="M2.75 16C3.16421 16 3.5 16.3358 3.5 16.75V20C3.5 20.2761 3.72386 20.5 4 20.5H7.25C7.66421 20.5 8 20.8358 8 21.25C8 21.6642 7.66421 22 7.25 22H4C2.96435 22 2.113 21.2128 2.01074 20.2041L2 20V16.75C2 16.3358 2.33579 16 2.75 16Z" fill="currentColor"/>
+<path d="M21.25 16C21.6642 16 22 16.3358 22 16.75V20L21.9893 20.2041C21.8938 21.1457 21.1457 21.8938 20.2041 21.9893L20 22H16.75C16.3358 22 16 21.6642 16 21.25C16 20.8358 16.3358 20.5 16.75 20.5H20C20.2761 20.5 20.5 20.2761 20.5 20V16.75C20.5 16.3358 20.8358 16 21.25 16Z" fill="currentColor"/>
+<path d="M9 18H6V15H9V18Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18 18H10V10H18V18ZM11.5 16.5H16.5V11.5H11.5V16.5Z" fill="currentColor"/>
+<path d="M9 14H6V10H9V14Z" fill="currentColor"/>
+<path d="M9 9H7V7H9V9Z" fill="currentColor"/>
+<path d="M14 9H10V6H14V9Z" fill="currentColor"/>
+<path d="M18 9H15V6H18V9Z" fill="currentColor"/>
+<path d="M7.25 2C7.66421 2 8 2.33579 8 2.75C8 3.16421 7.66421 3.5 7.25 3.5H4C3.72386 3.5 3.5 3.72386 3.5 4V7.25C3.5 7.66421 3.16421 8 2.75 8C2.33579 8 2 7.66421 2 7.25V4C2 2.89543 2.89543 2 4 2H7.25Z" fill="currentColor"/>
+<path d="M20.2041 2.01074C21.2128 2.113 22 2.96435 22 4V7.25C22 7.66421 21.6642 8 21.25 8C20.8358 8 20.5 7.66421 20.5 7.25V4C20.5 3.72386 20.2761 3.5 20 3.5H16.75C16.3358 3.5 16 3.16421 16 2.75C16 2.33579 16.3358 2 16.75 2H20L20.2041 2.01074Z" fill="currentColor"/>`,
+};
+
+const AVAILABLE = ["outline","fill","duotone"] as const;
+type Variant = (typeof AVAILABLE)[number];
+
+/**
+ * Qrcode icon
+ * Variants: outline, fill, duotone
+ */
+export function Qrcode({
+  variant = "outline",
+  size = 24,
+  label,
+  ...props
+}: IqonProps) {
+  const inner = VARIANTS[variant] ?? VARIANTS["outline"] ?? "";
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width={size}
+      height={size}
+      fill="none"
+      aria-label={label}
+      aria-hidden={label ? undefined : true}
+      role={label ? "img" : undefined}
+      {...props}
+      dangerouslySetInnerHTML={{ __html: inner }}
+    />
+  );
+}
+
+Qrcode.displayName = "Qrcode";
+Qrcode.variants = AVAILABLE;

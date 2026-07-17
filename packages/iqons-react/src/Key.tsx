@@ -1,0 +1,41 @@
+import type { IqonProps } from "./types";
+
+const VARIANTS: Partial<Record<string, string>> = {
+  outline: `<path fill-rule="evenodd" clip-rule="evenodd" d="M7 6C9.97288 6 12.4388 8.16245 12.915 11H22C22.5523 11 23 11.4477 23 12C23 12.5523 22.5523 13 22 13V15C22 15.5523 21.5523 16 21 16C20.4477 16 20 15.5523 20 15V13H19V16C19 16.5523 18.5523 17 18 17C17.4477 17 17 16.5523 17 16V13H12.915C12.4388 15.8376 9.97288 18 7 18C3.68629 18 1 15.3137 1 12C1 8.68629 3.68629 6 7 6ZM7 8C4.79086 8 3 9.79086 3 12C3 14.2091 4.79086 16 7 16C9.20914 16 11 14.2091 11 12C11 9.79086 9.20914 8 7 8Z" fill="currentColor"/>`,
+  fill: `<path fill-rule="evenodd" clip-rule="evenodd" d="M7 6C9.97288 6 12.4388 8.16245 12.915 11H22C22.5523 11 23 11.4477 23 12C23 12.5523 22.5523 13 22 13V15C22 15.5523 21.5523 16 21 16C20.4477 16 20 15.5523 20 15V13H19V16C19 16.5523 18.5523 17 18 17C17.4477 17 17 16.5523 17 16V13H12.915C12.4388 15.8376 9.97288 18 7 18C3.68629 18 1 15.3137 1 12C1 8.68629 3.68629 6 7 6ZM7 8C4.79086 8 3 9.79086 3 12C3 14.2091 4.79086 16 7 16C9.20914 16 11 14.2091 11 12C11 9.79086 9.20914 8 7 8Z" fill="currentColor"/>`,
+  duotone: `<circle cx="7" cy="12" r="6" fill="currentColor" fill-opacity="0.15"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7 6C9.97288 6 12.4388 8.16245 12.915 11H22C22.5523 11 23 11.4477 23 12C23 12.5523 22.5523 13 22 13V15C22 15.5523 21.5523 16 21 16C20.4477 16 20 15.5523 20 15V13H19V16C19 16.5523 18.5523 17 18 17C17.4477 17 17 16.5523 17 16V13H12.915C12.4388 15.8376 9.97288 18 7 18C3.68629 18 1 15.3137 1 12C1 8.68629 3.68629 6 7 6ZM7 8C4.79086 8 3 9.79086 3 12C3 14.2091 4.79086 16 7 16C9.20914 16 11 14.2091 11 12C11 9.79086 9.20914 8 7 8Z" fill="currentColor"/>`,
+};
+
+const AVAILABLE = ["outline","fill","duotone"] as const;
+type Variant = (typeof AVAILABLE)[number];
+
+/**
+ * Key icon
+ * Variants: outline, fill, duotone
+ */
+export function Key({
+  variant = "outline",
+  size = 24,
+  label,
+  ...props
+}: IqonProps) {
+  const inner = VARIANTS[variant] ?? VARIANTS["outline"] ?? "";
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width={size}
+      height={size}
+      fill="none"
+      aria-label={label}
+      aria-hidden={label ? undefined : true}
+      role={label ? "img" : undefined}
+      {...props}
+      dangerouslySetInnerHTML={{ __html: inner }}
+    />
+  );
+}
+
+Key.displayName = "Key";
+Key.variants = AVAILABLE;
