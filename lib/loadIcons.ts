@@ -4,30 +4,28 @@ import type { Icon, IconCategory, IconStyle } from "./types";
 
 const RAW_DIR = path.join(process.cwd(), "raw-icons");
 
-type FolderConfig = { id: IconCategory; prefix: string };
-
-// Maps the folder name on disk → category ID + the prefix used in filenames
-const FOLDER_MAP: Record<string, FolderConfig> = {
-  "Navigation":          { id: "navigation",       prefix: "navigation" },
-  "Data actions":        { id: "data-actions",     prefix: "dataactions" },
-  "Search & discovery":  { id: "search-discovery", prefix: "search&discovery" },
-  "Calendar & scheduling": { id: "calendar-scheduling", prefix: "calendar&scheduling" },
-  "Communications":      { id: "communications",   prefix: "communications" },
-  "Sharing":             { id: "sharing",          prefix: "sharing" },
-  "Documents & content": { id: "documents-content", prefix: "documents&content" },
-  "Workflow & productivity": { id: "workflow-productivity", prefix: "workflow&productivity" },
-  "User & ID":           { id: "user-id",          prefix: "user&id" },
-  "Status & feedback":   { id: "status-feedback",  prefix: "status&feedback" },
-  "Security & access":   { id: "security-access",  prefix: "security&access" },
-  "Analytics & reports": { id: "analytics-reports", prefix: "analytics&reports" },
-  "Settings & admin":    { id: "settings-admin",   prefix: "settings&admin" },
-  "System & utility":    { id: "system-utility",   prefix: "system&utility" },
-  "AI":                  { id: "ai",               prefix: "ai" },
-  "Layout":              { id: "layout",           prefix: "layout" },
-  "Health":              { id: "sector-health",    prefix: "health" },
-  "Education":           { id: "sector-education", prefix: "education" },
-  "Legal":               { id: "sector-legal",     prefix: "legal" },
-  "Finance":             { id: "sector-finance",   prefix: "finance" },
+// Maps the folder name on disk → category ID
+const FOLDER_MAP: Record<string, IconCategory> = {
+  "Navigation":              "navigation",
+  "Data actions":            "data-actions",
+  "Search & discovery":      "search-discovery",
+  "Calendar & scheduling":   "calendar-scheduling",
+  "Communications":          "communications",
+  "Sharing":                 "sharing",
+  "Documents & content":     "documents-content",
+  "Workflow & productivity":  "workflow-productivity",
+  "User & ID":               "user-id",
+  "Status & feedback":       "status-feedback",
+  "Security & access":       "security-access",
+  "Analytics & reports":     "analytics-reports",
+  "Settings & admin":        "settings-admin",
+  "System & utility":        "system-utility",
+  "AI":                      "ai",
+  "Layout":                  "layout",
+  "Health":                  "sector-health",
+  "Education":               "sector-education",
+  "Legal":                   "sector-legal",
+  "Finance":                 "sector-finance",
 };
 
 const STYLE_MAP: Record<string, IconStyle> = {
@@ -37,38 +35,18 @@ const STYLE_MAP: Record<string, IconStyle> = {
   thin:    "thin",
 };
 
-function parseIconFile(filename: string, prefix: string): { iconId: string; style: IconStyle } | null {
+function parseIconFile(filename: string): { iconId: string; style: IconStyle } | null {
   const base = filename.replace(/\.svg$/i, "");
-  if (!base.startsWith("icon-")) return null;
-
-  const rest = base.slice("icon-".length);
-
-  // Find style suffix — check with hyphen first, then without (handles typos like "arrow-upoutline")
-  let iconName: string | null = null;
-  let styleKey: string | null = null;
 
   for (const s of ["duotone", "outline", "fill", "thin"]) {
-    if (rest.endsWith(`-${s}`)) {
-      styleKey = s;
-      iconName = rest.slice(0, rest.length - s.length - 1);
-      break;
-    } else if (rest.endsWith(s)) {
-      styleKey = s;
-      iconName = rest.slice(0, rest.length - s.length);
-      break;
+    if (base.endsWith(`-${s}`)) {
+      const iconId = base.slice(0, base.length - s.length - 1);
+      if (!iconId) return null;
+      return { iconId, style: STYLE_MAP[s] };
     }
   }
 
-  if (!iconName || !styleKey) return null;
-
-  // Strip category prefix if present (e.g. "navigation-arrow-down" → "arrow-down")
-  if (prefix && iconName.startsWith(`${prefix}-`)) {
-    iconName = iconName.slice(prefix.length + 1);
-  }
-
-  if (!iconName) return null;
-
-  return { iconId: iconName, style: STYLE_MAP[styleKey] };
+  return null;
 }
 
 function toTitleCase(kebab: string): string {
@@ -83,19 +61,19 @@ export function getAllIcons(): Icon[] {
   type Entry = { category: IconCategory; svgMap: Partial<Record<IconStyle, string>>; styles: Set<IconStyle> };
   const iconMap = new Map<string, Entry>();
 
-  for (const [folderName, config] of Object.entries(FOLDER_MAP)) {
+  for (const [folderName, categoryId] of Object.entries(FOLDER_MAP)) {
     const folderPath = path.join(RAW_DIR, folderName);
     if (!fs.existsSync(folderPath) || !fs.statSync(folderPath).isDirectory()) continue;
 
     for (const file of fs.readdirSync(folderPath)) {
       if (!file.toLowerCase().endsWith(".svg")) continue;
 
-      const parsed = parseIconFile(file, config.prefix);
+      const parsed = parseIconFile(file);
       if (!parsed) continue;
 
-      const key = `${config.id}:${parsed.iconId}`;
+      const key = `${categoryId}:${parsed.iconId}`;
       if (!iconMap.has(key)) {
-        iconMap.set(key, { category: config.id, svgMap: {}, styles: new Set() });
+        iconMap.set(key, { category: categoryId, svgMap: {}, styles: new Set() });
       }
 
       const entry = iconMap.get(key)!;
