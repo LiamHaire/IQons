@@ -1,0 +1,13 @@
+{
+  "title": "Theme",
+  "description": "",
+  "keywords": [
+    "theme"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

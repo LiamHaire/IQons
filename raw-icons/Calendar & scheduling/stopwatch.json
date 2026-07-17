@@ -1,0 +1,13 @@
+{
+  "title": "Stopwatch",
+  "description": "",
+  "keywords": [
+    "stopwatch"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

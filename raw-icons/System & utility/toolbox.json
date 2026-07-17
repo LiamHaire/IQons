@@ -1,0 +1,13 @@
+{
+  "title": "Toolbox",
+  "description": "",
+  "keywords": [
+    "toolbox"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

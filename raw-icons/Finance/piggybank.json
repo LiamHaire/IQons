@@ -1,0 +1,13 @@
+{
+  "title": "Piggybank",
+  "description": "",
+  "keywords": [
+    "piggybank"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

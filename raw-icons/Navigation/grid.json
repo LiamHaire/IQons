@@ -1,0 +1,13 @@
+{
+  "title": "Grid",
+  "description": "",
+  "keywords": [
+    "grid"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

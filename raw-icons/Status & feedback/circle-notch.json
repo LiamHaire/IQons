@@ -1,0 +1,14 @@
+{
+  "title": "Circle Notch",
+  "description": "",
+  "keywords": [
+    "circle",
+    "notch"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

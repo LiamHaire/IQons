@@ -1,0 +1,14 @@
+{
+  "title": "Chart Bar",
+  "description": "",
+  "keywords": [
+    "chart",
+    "bar"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

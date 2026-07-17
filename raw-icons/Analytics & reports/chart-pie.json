@@ -1,0 +1,14 @@
+{
+  "title": "Chart Pie",
+  "description": "",
+  "keywords": [
+    "chart",
+    "pie"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

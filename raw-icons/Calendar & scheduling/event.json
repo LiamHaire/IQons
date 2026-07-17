@@ -1,0 +1,13 @@
+{
+  "title": "Event",
+  "description": "",
+  "keywords": [
+    "event"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

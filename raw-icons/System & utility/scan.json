@@ -1,0 +1,13 @@
+{
+  "title": "Scan",
+  "description": "",
+  "keywords": [
+    "scan"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

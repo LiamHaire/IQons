@@ -1,0 +1,13 @@
+{
+  "title": "Target",
+  "description": "",
+  "keywords": [
+    "target"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

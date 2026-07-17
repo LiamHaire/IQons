@@ -1,0 +1,14 @@
+{
+  "title": "Chart Donut",
+  "description": "",
+  "keywords": [
+    "chart",
+    "donut"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Bin",
+  "description": "",
+  "keywords": [
+    "bin"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Plugin",
+  "description": "",
+  "keywords": [
+    "plugin"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

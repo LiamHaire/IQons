@@ -1,0 +1,13 @@
+{
+  "title": "Flag",
+  "description": "",
+  "keywords": [
+    "flag"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

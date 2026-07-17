@@ -1,0 +1,13 @@
+{
+  "title": "Warning",
+  "description": "",
+  "keywords": [
+    "warning"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

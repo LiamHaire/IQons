@@ -1,0 +1,13 @@
+{
+  "title": "Idbadge",
+  "description": "",
+  "keywords": [
+    "idbadge"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

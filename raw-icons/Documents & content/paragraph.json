@@ -1,0 +1,13 @@
+{
+  "title": "Paragraph",
+  "description": "",
+  "keywords": [
+    "paragraph"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

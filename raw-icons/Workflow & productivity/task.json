@@ -1,0 +1,13 @@
+{
+  "title": "Task",
+  "description": "",
+  "keywords": [
+    "task"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

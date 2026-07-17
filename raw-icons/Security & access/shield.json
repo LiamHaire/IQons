@@ -1,0 +1,13 @@
+{
+  "title": "Shield",
+  "description": "",
+  "keywords": [
+    "shield"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Export",
+  "description": "",
+  "keywords": [
+    "export"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

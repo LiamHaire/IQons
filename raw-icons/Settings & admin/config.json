@@ -1,0 +1,13 @@
+{
+  "title": "Config",
+  "description": "",
+  "keywords": [
+    "config"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

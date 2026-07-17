@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "gen:meta": "node scripts/generate-metadata.mjs",
+    "build:manifest": "node scripts/build-manifest.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.42.0",

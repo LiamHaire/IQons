@@ -1,0 +1,13 @@
+{
+  "title": "Menu",
+  "description": "",
+  "keywords": [
+    "menu"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Qrcode",
+  "description": "",
+  "keywords": [
+    "qrcode"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

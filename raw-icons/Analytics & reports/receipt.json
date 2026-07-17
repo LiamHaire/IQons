@@ -1,0 +1,13 @@
+{
+  "title": "Receipt",
+  "description": "",
+  "keywords": [
+    "receipt"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

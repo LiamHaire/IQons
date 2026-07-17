@@ -1,0 +1,13 @@
+{
+  "title": "Briefcase",
+  "description": "",
+  "keywords": [
+    "briefcase"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

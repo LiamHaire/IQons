@@ -1,0 +1,13 @@
+{
+  "title": "Globe",
+  "description": "",
+  "keywords": [
+    "globe"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

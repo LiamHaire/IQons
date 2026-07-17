@@ -1,0 +1,13 @@
+{
+  "title": "Layout",
+  "description": "",
+  "keywords": [
+    "layout"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

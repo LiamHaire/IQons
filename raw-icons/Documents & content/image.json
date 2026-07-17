@@ -1,0 +1,13 @@
+{
+  "title": "Image",
+  "description": "",
+  "keywords": [
+    "image"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

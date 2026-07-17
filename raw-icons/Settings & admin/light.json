@@ -1,0 +1,13 @@
+{
+  "title": "Light",
+  "description": "",
+  "keywords": [
+    "light"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

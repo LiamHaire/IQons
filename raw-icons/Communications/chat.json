@@ -1,0 +1,13 @@
+{
+  "title": "Chat",
+  "description": "",
+  "keywords": [
+    "chat"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

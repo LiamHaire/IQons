@@ -1,0 +1,13 @@
+{
+  "title": "Scales",
+  "description": "",
+  "keywords": [
+    "scales"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

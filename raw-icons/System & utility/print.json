@@ -1,0 +1,13 @@
+{
+  "title": "Print",
+  "description": "",
+  "keywords": [
+    "print"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Palette",
+  "description": "",
+  "keywords": [
+    "palette"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

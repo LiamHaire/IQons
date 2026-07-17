@@ -1,0 +1,13 @@
+{
+  "title": "Paste",
+  "description": "",
+  "keywords": [
+    "paste"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Calculator",
+  "description": "",
+  "keywords": [
+    "calculator"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

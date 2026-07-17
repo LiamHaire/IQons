@@ -1,0 +1,13 @@
+{
+  "title": "Phone",
+  "description": "",
+  "keywords": [
+    "phone"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

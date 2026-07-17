@@ -1,0 +1,13 @@
+{
+  "title": "Attach",
+  "description": "",
+  "keywords": [
+    "attach"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

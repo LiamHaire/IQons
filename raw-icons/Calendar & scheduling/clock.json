@@ -1,0 +1,13 @@
+{
+  "title": "Clock",
+  "description": "",
+  "keywords": [
+    "clock"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

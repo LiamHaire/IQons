@@ -1,0 +1,13 @@
+{
+  "title": "Headset",
+  "description": "",
+  "keywords": [
+    "headset"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Fullscreen",
+  "description": "",
+  "keywords": [
+    "fullscreen"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

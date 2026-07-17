@@ -1,0 +1,14 @@
+{
+  "title": "Chart Line",
+  "description": "",
+  "keywords": [
+    "chart",
+    "line"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

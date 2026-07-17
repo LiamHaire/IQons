@@ -1,0 +1,14 @@
+{
+  "title": "Circle Dashed",
+  "description": "",
+  "keywords": [
+    "circle",
+    "dashed"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

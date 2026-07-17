@@ -1,0 +1,13 @@
+{
+  "title": "Cut",
+  "description": "",
+  "keywords": [
+    "cut"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

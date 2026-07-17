@@ -1,0 +1,13 @@
+{
+  "title": "Clipboard",
+  "description": "",
+  "keywords": [
+    "clipboard"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

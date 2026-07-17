@@ -1,0 +1,3526 @@
+{
+  "version": "1.0.0",
+  "count": 229,
+  "icons": [
+    {
+      "id": "acbs",
+      "category": "sector-health",
+      "title": "Acbs",
+      "description": "",
+      "keywords": [
+        "acbs"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "accessibility",
+      "category": "system-utility",
+      "title": "Accessibility",
+      "description": "",
+      "keywords": [
+        "accessibility"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "add",
+      "category": "data-actions",
+      "title": "Add",
+      "description": "",
+      "keywords": [
+        "add"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "add-round",
+      "category": "data-actions",
+      "title": "Add Round",
+      "description": "",
+      "keywords": [
+        "add",
+        "round"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "add-square",
+      "category": "data-actions",
+      "title": "Add Square",
+      "description": "",
+      "keywords": [
+        "add",
+        "square"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "address-book",
+      "category": "user-id",
+      "title": "Address Book",
+      "description": "",
+      "keywords": [
+        "address",
+        "book"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "admin",
+      "category": "settings-admin",
+      "title": "Admin",
+      "description": "",
+      "keywords": [
+        "admin"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "agent",
+      "category": "ai",
+      "title": "Agent",
+      "description": "",
+      "keywords": [
+        "agent"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "ai",
+      "category": "communications",
+      "title": "Ai",
+      "description": "",
+      "keywords": [
+        "ai",
+        "artificial intelligence",
+        "machine learning"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "align-bottom",
+      "category": "layout",
+      "title": "Align Bottom",
+      "description": "",
+      "keywords": [
+        "align",
+        "bottom"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "align-left",
+      "category": "layout",
+      "title": "Align Left",
+      "description": "",
+      "keywords": [
+        "align",
+        "left"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "align-right",
+      "category": "layout",
+      "title": "Align Right",
+      "description": "",
+      "keywords": [
+        "align",
+        "right"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "align-top",
+      "category": "layout",
+      "title": "Align Top",
+      "description": "",
+      "keywords": [
+        "align",
+        "top"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "ambulance",
+      "category": "sector-health",
+      "title": "Ambulance",
+      "description": "",
+      "keywords": [
+        "ambulance"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "analytics",
+      "category": "analytics-reports",
+      "title": "Analytics",
+      "description": "",
+      "keywords": [
+        "analytics"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "announcement",
+      "category": "communications",
+      "title": "Announcement",
+      "description": "",
+      "keywords": [
+        "announcement"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "appointment",
+      "category": "calendar-scheduling",
+      "title": "Appointment",
+      "description": "",
+      "keywords": [
+        "appointment"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "appointment-new",
+      "category": "calendar-scheduling",
+      "title": "Appointment New",
+      "description": "",
+      "keywords": [
+        "appointment",
+        "new"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "approve",
+      "category": "workflow-productivity",
+      "title": "Approve",
+      "description": "",
+      "keywords": [
+        "approve"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "approve-square",
+      "category": "workflow-productivity",
+      "title": "Approve Square",
+      "description": "",
+      "keywords": [
+        "approve",
+        "square"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "apps",
+      "category": "navigation",
+      "title": "Apps",
+      "description": "",
+      "keywords": [
+        "apps"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "archive",
+      "category": "data-actions",
+      "title": "Archive",
+      "description": "",
+      "keywords": [
+        "archive"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "arrow-diagonal-down-left",
+      "category": "navigation",
+      "title": "Arrow Diagonal Down Left",
+      "description": "",
+      "keywords": [
+        "arrow",
+        "diagonal",
+        "down",
+        "left"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "arrow-diagonal-down-right",
+      "category": "navigation",
+      "title": "Arrow Diagonal Down Right",
+      "description": "",
+      "keywords": [
+        "arrow",
+        "diagonal",
+        "down",
+        "right"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "arrow-diagonal-up-left",
+      "category": "navigation",
+      "title": "Arrow Diagonal Up Left",
+      "description": "",
+      "keywords": [
+        "arrow",
+        "diagonal",
+        "up",
+        "left"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "arrow-diagonal-up-right",
+      "category": "navigation",
+      "title": "Arrow Diagonal Up Right",
+      "description": "",
+      "keywords": [
+        "arrow",
+        "diagonal",
+        "up",
+        "right"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "arrow-down",
+      "category": "navigation",
+      "title": "Arrow Down",
+      "description": "",
+      "keywords": [
+        "arrow",
+        "down"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "arrow-left",
+      "category": "navigation",
+      "title": "Arrow Left",
+      "description": "",
+      "keywords": [
+        "arrow",
+        "left"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "arrow-right",
+      "category": "navigation",
+      "title": "Arrow Right",
+      "description": "",
+      "keywords": [
+        "arrow",
+        "right"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "arrow-up",
+      "category": "navigation",
+      "title": "Arrow Up",
+      "description": "",
+      "keywords": [
+        "arrow",
+        "up"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "attach",
+      "category": "documents-content",
+      "title": "Attach",
+      "description": "",
+      "keywords": [
+        "attach"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "audio",
+      "category": "documents-content",
+      "title": "Audio",
+      "description": "",
+      "keywords": [
+        "audio"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "audio-off",
+      "category": "system-utility",
+      "title": "Audio Off",
+      "description": "",
+      "keywords": [
+        "audio",
+        "off"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "audio-on",
+      "category": "system-utility",
+      "title": "Audio On",
+      "description": "",
+      "keywords": [
+        "audio",
+        "on"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "audit",
+      "category": "security-access",
+      "title": "Audit",
+      "description": "",
+      "keywords": [
+        "audit"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "authentication",
+      "category": "security-access",
+      "title": "Authentication",
+      "description": "",
+      "keywords": [
+        "authentication"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "automation",
+      "category": "workflow-productivity",
+      "title": "Automation",
+      "description": "",
+      "keywords": [
+        "automation"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "bin",
+      "category": "data-actions",
+      "title": "Bin",
+      "description": "",
+      "keywords": [
+        "bin"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "boardroom",
+      "category": "calendar-scheduling",
+      "title": "Boardroom",
+      "description": "",
+      "keywords": [
+        "boardroom"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "bookmark",
+      "category": "search-discovery",
+      "title": "Bookmark",
+      "description": "",
+      "keywords": [
+        "bookmark"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "briefcase",
+      "category": "data-actions",
+      "title": "Briefcase",
+      "description": "",
+      "keywords": [
+        "briefcase"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "calculator",
+      "category": "system-utility",
+      "title": "Calculator",
+      "description": "",
+      "keywords": [
+        "calculator"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "calendar",
+      "category": "calendar-scheduling",
+      "title": "Calendar",
+      "description": "",
+      "keywords": [
+        "calendar"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "cancel",
+      "category": "workflow-productivity",
+      "title": "Cancel",
+      "description": "",
+      "keywords": [
+        "cancel"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "cancel-square",
+      "category": "workflow-productivity",
+      "title": "Cancel Square",
+      "description": "",
+      "keywords": [
+        "cancel",
+        "square"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "certificate",
+      "category": "security-access",
+      "title": "Certificate",
+      "description": "",
+      "keywords": [
+        "certificate"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "chart-bar",
+      "category": "analytics-reports",
+      "title": "Chart Bar",
+      "description": "",
+      "keywords": [
+        "chart",
+        "bar"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "chart-donut",
+      "category": "analytics-reports",
+      "title": "Chart Donut",
+      "description": "",
+      "keywords": [
+        "chart",
+        "donut"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "chart-line",
+      "category": "analytics-reports",
+      "title": "Chart Line",
+      "description": "",
+      "keywords": [
+        "chart",
+        "line"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "chart-pie",
+      "category": "analytics-reports",
+      "title": "Chart Pie",
+      "description": "",
+      "keywords": [
+        "chart",
+        "pie"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "chat",
+      "category": "communications",
+      "title": "Chat",
+      "description": "",
+      "keywords": [
+        "chat"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "chat-close",
+      "category": "communications",
+      "title": "Chat Close",
+      "description": "",
+      "keywords": [
+        "chat",
+        "close"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "chat-history",
+      "category": "communications",
+      "title": "Chat History",
+      "description": "",
+      "keywords": [
+        "chat",
+        "history"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "chat-new",
+      "category": "communications",
+      "title": "Chat New",
+      "description": "",
+      "keywords": [
+        "chat",
+        "new"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "checklist",
+      "category": "workflow-productivity",
+      "title": "Checklist",
+      "description": "",
+      "keywords": [
+        "checklist"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "chevron-down",
+      "category": "navigation",
+      "title": "Chevron Down",
+      "description": "",
+      "keywords": [
+        "chevron",
+        "down"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "chevron-left",
+      "category": "navigation",
+      "title": "Chevron Left",
+      "description": "",
+      "keywords": [
+        "chevron",
+        "left"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "chevron-right",
+      "category": "navigation",
+      "title": "Chevron Right",
+      "description": "",
+      "keywords": [
+        "chevron",
+        "right"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "chevron-up",
+      "category": "navigation",
+      "title": "Chevron Up",
+      "description": "",
+      "keywords": [
+        "chevron",
+        "up"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "circle-dashed",
+      "category": "status-feedback",
+      "title": "Circle Dashed",
+      "description": "",
+      "keywords": [
+        "circle",
+        "dashed"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "circle-notch",
+      "category": "status-feedback",
+      "title": "Circle Notch",
+      "description": "",
+      "keywords": [
+        "circle",
+        "notch"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "clipboard",
+      "category": "documents-content",
+      "title": "Clipboard",
+      "description": "",
+      "keywords": [
+        "clipboard"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "clock",
+      "category": "calendar-scheduling",
+      "title": "Clock",
+      "description": "",
+      "keywords": [
+        "clock"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "close",
+      "category": "navigation",
+      "title": "Close",
+      "description": "",
+      "keywords": [
+        "close"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "cloud",
+      "category": "communications",
+      "title": "Cloud",
+      "description": "",
+      "keywords": [
+        "cloud"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "comment",
+      "category": "communications",
+      "title": "Comment",
+      "description": "",
+      "keywords": [
+        "comment"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "config",
+      "category": "settings-admin",
+      "title": "Config",
+      "description": "",
+      "keywords": [
+        "config"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "consultation",
+      "category": "sector-health",
+      "title": "Consultation",
+      "description": "",
+      "keywords": [
+        "consultation"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "copy",
+      "category": "data-actions",
+      "title": "Copy",
+      "description": "",
+      "keywords": [
+        "copy"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "cut",
+      "category": "data-actions",
+      "title": "Cut",
+      "description": "",
+      "keywords": [
+        "cut"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "dark",
+      "category": "settings-admin",
+      "title": "Dark",
+      "description": "",
+      "keywords": [
+        "dark"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "dashboard",
+      "category": "navigation",
+      "title": "Dashboard",
+      "description": "",
+      "keywords": [
+        "dashboard"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "database",
+      "category": "settings-admin",
+      "title": "Database",
+      "description": "",
+      "keywords": [
+        "database"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "datatable",
+      "category": "analytics-reports",
+      "title": "Datatable",
+      "description": "",
+      "keywords": [
+        "datatable"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "deadline",
+      "category": "calendar-scheduling",
+      "title": "Deadline",
+      "description": "",
+      "keywords": [
+        "deadline"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "deploy",
+      "category": "settings-admin",
+      "title": "Deploy",
+      "description": "",
+      "keywords": [
+        "deploy"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "diagnosis",
+      "category": "sector-health",
+      "title": "Diagnosis",
+      "description": "",
+      "keywords": [
+        "diagnosis"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "document",
+      "category": "documents-content",
+      "title": "Document",
+      "description": "",
+      "keywords": [
+        "document"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "document-new",
+      "category": "documents-content",
+      "title": "Document New",
+      "description": "",
+      "keywords": [
+        "document",
+        "new"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "download",
+      "category": "documents-content",
+      "title": "Download",
+      "description": "",
+      "keywords": [
+        "download"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "drug-doubling",
+      "category": "sector-health",
+      "title": "Drug Doubling",
+      "description": "",
+      "keywords": [
+        "drug",
+        "doubling"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "duplicate",
+      "category": "data-actions",
+      "title": "Duplicate",
+      "description": "",
+      "keywords": [
+        "duplicate"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "edit",
+      "category": "data-actions",
+      "title": "Edit",
+      "description": "",
+      "keywords": [
+        "edit"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "error",
+      "category": "status-feedback",
+      "title": "Error",
+      "description": "",
+      "keywords": [
+        "error"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "event",
+      "category": "calendar-scheduling",
+      "title": "Event",
+      "description": "",
+      "keywords": [
+        "event"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "export",
+      "category": "sharing",
+      "title": "Export",
+      "description": "",
+      "keywords": [
+        "export"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "favourite",
+      "category": "search-discovery",
+      "title": "Favourite",
+      "description": "",
+      "keywords": [
+        "favourite"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "filter",
+      "category": "search-discovery",
+      "title": "Filter",
+      "description": "",
+      "keywords": [
+        "filter"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "find",
+      "category": "search-discovery",
+      "title": "Find",
+      "description": "",
+      "keywords": [
+        "find"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "flag",
+      "category": "settings-admin",
+      "title": "Flag",
+      "description": "",
+      "keywords": [
+        "flag"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "folder",
+      "category": "documents-content",
+      "title": "Folder",
+      "description": "",
+      "keywords": [
+        "folder"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "folder-basic",
+      "category": "documents-content",
+      "title": "Folder Basic",
+      "description": "",
+      "keywords": [
+        "folder",
+        "basic"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "folder-new",
+      "category": "documents-content",
+      "title": "Folder New",
+      "description": "",
+      "keywords": [
+        "folder",
+        "new"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "forecast",
+      "category": "analytics-reports",
+      "title": "Forecast",
+      "description": "",
+      "keywords": [
+        "forecast"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "fullscreen",
+      "category": "navigation",
+      "title": "Fullscreen",
+      "description": "",
+      "keywords": [
+        "fullscreen"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "globe",
+      "category": "system-utility",
+      "title": "Globe",
+      "description": "",
+      "keywords": [
+        "globe"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "graduation",
+      "category": "sector-education",
+      "title": "Graduation",
+      "description": "",
+      "keywords": [
+        "graduation"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "grid",
+      "category": "navigation",
+      "title": "Grid",
+      "description": "",
+      "keywords": [
+        "grid"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "headset",
+      "category": "communications",
+      "title": "Headset",
+      "description": "",
+      "keywords": [
+        "headset"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "help",
+      "category": "status-feedback",
+      "title": "Help",
+      "description": "",
+      "keywords": [
+        "help"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "history",
+      "category": "search-discovery",
+      "title": "History",
+      "description": "",
+      "keywords": [
+        "history"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "holiday",
+      "category": "calendar-scheduling",
+      "title": "Holiday",
+      "description": "",
+      "keywords": [
+        "holiday"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "home",
+      "category": "navigation",
+      "title": "Home",
+      "description": "",
+      "keywords": [
+        "home"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "hype",
+      "category": "status-feedback",
+      "title": "Hype",
+      "description": "",
+      "keywords": [
+        "hype"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "idbadge",
+      "category": "user-id",
+      "title": "Idbadge",
+      "description": "",
+      "keywords": [
+        "idbadge"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "idea",
+      "category": "analytics-reports",
+      "title": "Idea",
+      "description": "",
+      "keywords": [
+        "idea"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "image",
+      "category": "documents-content",
+      "title": "Image",
+      "description": "",
+      "keywords": [
+        "image"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "immunication",
+      "category": "sector-health",
+      "title": "Immunication",
+      "description": "",
+      "keywords": [
+        "immunication"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "import",
+      "category": "sharing",
+      "title": "Import",
+      "description": "",
+      "keywords": [
+        "import"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "in-progress",
+      "category": "workflow-productivity",
+      "title": "In Progress",
+      "description": "",
+      "keywords": [
+        "in",
+        "progress"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "inbox",
+      "category": "communications",
+      "title": "Inbox",
+      "description": "",
+      "keywords": [
+        "inbox"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "incognito",
+      "category": "security-access",
+      "title": "Incognito",
+      "description": "",
+      "keywords": [
+        "incognito"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "info",
+      "category": "status-feedback",
+      "title": "Info",
+      "description": "",
+      "keywords": [
+        "info"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "key",
+      "category": "security-access",
+      "title": "Key",
+      "description": "",
+      "keywords": [
+        "key"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "key-return",
+      "category": "navigation",
+      "title": "Key Return",
+      "description": "",
+      "keywords": [
+        "key",
+        "return"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "layout",
+      "category": "navigation",
+      "title": "Layout",
+      "description": "",
+      "keywords": [
+        "layout"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "layout-list",
+      "category": "navigation",
+      "title": "Layout List",
+      "description": "",
+      "keywords": [
+        "layout",
+        "list"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "light",
+      "category": "settings-admin",
+      "title": "Light",
+      "description": "",
+      "keywords": [
+        "light"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "lightning",
+      "category": "ai",
+      "title": "Lightning",
+      "description": "",
+      "keywords": [
+        "lightning"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "link",
+      "category": "sharing",
+      "title": "Link",
+      "description": "",
+      "keywords": [
+        "link"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "locate",
+      "category": "search-discovery",
+      "title": "Locate",
+      "description": "",
+      "keywords": [
+        "locate"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "location",
+      "category": "search-discovery",
+      "title": "Location",
+      "description": "",
+      "keywords": [
+        "location"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "lock",
+      "category": "security-access",
+      "title": "Lock",
+      "description": "",
+      "keywords": [
+        "lock"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "logs",
+      "category": "settings-admin",
+      "title": "Logs",
+      "description": "",
+      "keywords": [
+        "logs"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "magic-wand",
+      "category": "workflow-productivity",
+      "title": "Magic Wand",
+      "description": "",
+      "keywords": [
+        "magic",
+        "wand"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "mail",
+      "category": "communications",
+      "title": "Mail",
+      "description": "",
+      "keywords": [
+        "mail"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "map",
+      "category": "system-utility",
+      "title": "Map",
+      "description": "",
+      "keywords": [
+        "map"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "marketplace",
+      "category": "navigation",
+      "title": "Marketplace",
+      "description": "",
+      "keywords": [
+        "marketplace"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "medication",
+      "category": "sector-health",
+      "title": "Medication",
+      "description": "",
+      "keywords": [
+        "medication"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "medication-add",
+      "category": "sector-health",
+      "title": "Medication Add",
+      "description": "",
+      "keywords": [
+        "medication",
+        "add"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "medication-branded",
+      "category": "sector-health",
+      "title": "Medication Branded",
+      "description": "",
+      "keywords": [
+        "medication",
+        "branded"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "medication-discontinued",
+      "category": "sector-health",
+      "title": "Medication Discontinued",
+      "description": "",
+      "keywords": [
+        "medication",
+        "discontinued"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "medication-unlicensed",
+      "category": "sector-health",
+      "title": "Medication Unlicensed",
+      "description": "",
+      "keywords": [
+        "medication",
+        "unlicensed"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "meeting",
+      "category": "calendar-scheduling",
+      "title": "Meeting",
+      "description": "",
+      "keywords": [
+        "meeting"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "menu",
+      "category": "navigation",
+      "title": "Menu",
+      "description": "",
+      "keywords": [
+        "menu"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "merge",
+      "category": "sharing",
+      "title": "Merge",
+      "description": "",
+      "keywords": [
+        "merge"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "microphone",
+      "category": "communications",
+      "title": "Microphone",
+      "description": "",
+      "keywords": [
+        "microphone"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "minimise",
+      "category": "navigation",
+      "title": "Minimise",
+      "description": "",
+      "keywords": [
+        "minimise"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "more-horizontal",
+      "category": "navigation",
+      "title": "More Horizontal",
+      "description": "",
+      "keywords": [
+        "more",
+        "horizontal"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "more-vertical",
+      "category": "navigation",
+      "title": "More Vertical",
+      "description": "",
+      "keywords": [
+        "more",
+        "vertical"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "new-conversation",
+      "category": "communications",
+      "title": "New Conversation",
+      "description": "",
+      "keywords": [
+        "new",
+        "conversation"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "news",
+      "category": "communications",
+      "title": "News",
+      "description": "",
+      "keywords": [
+        "news"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "notes",
+      "category": "documents-content",
+      "title": "Notes",
+      "description": "",
+      "keywords": [
+        "notes"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "notifications",
+      "category": "communications",
+      "title": "Notifications",
+      "description": "",
+      "keywords": [
+        "notifications"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "open-external",
+      "category": "navigation",
+      "title": "Open External",
+      "description": "",
+      "keywords": [
+        "open",
+        "external"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "organisation",
+      "category": "user-id",
+      "title": "Organisation",
+      "description": "",
+      "keywords": [
+        "organisation"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "outbox",
+      "category": "communications",
+      "title": "Outbox",
+      "description": "",
+      "keywords": [
+        "outbox"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "palette",
+      "category": "workflow-productivity",
+      "title": "Palette",
+      "description": "",
+      "keywords": [
+        "palette"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "paragraph",
+      "category": "documents-content",
+      "title": "Paragraph",
+      "description": "",
+      "keywords": [
+        "paragraph"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "password",
+      "category": "security-access",
+      "title": "Password",
+      "description": "",
+      "keywords": [
+        "password"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "paste",
+      "category": "data-actions",
+      "title": "Paste",
+      "description": "",
+      "keywords": [
+        "paste"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "pause",
+      "category": "workflow-productivity",
+      "title": "Pause",
+      "description": "",
+      "keywords": [
+        "pause"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "permissions",
+      "category": "user-id",
+      "title": "Permissions",
+      "description": "",
+      "keywords": [
+        "permissions"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "phone",
+      "category": "communications",
+      "title": "Phone",
+      "description": "",
+      "keywords": [
+        "phone"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "piggybank",
+      "category": "sector-finance",
+      "title": "Piggybank",
+      "description": "",
+      "keywords": [
+        "piggybank"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "play",
+      "category": "workflow-productivity",
+      "title": "Play",
+      "description": "",
+      "keywords": [
+        "play"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "plugin",
+      "category": "settings-admin",
+      "title": "Plugin",
+      "description": "",
+      "keywords": [
+        "plugin"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "policy",
+      "category": "settings-admin",
+      "title": "Policy",
+      "description": "",
+      "keywords": [
+        "policy"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "print",
+      "category": "system-utility",
+      "title": "Print",
+      "description": "",
+      "keywords": [
+        "print"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "priority-high",
+      "category": "status-feedback",
+      "title": "Priority High",
+      "description": "",
+      "keywords": [
+        "priority",
+        "high"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "priority-low",
+      "category": "status-feedback",
+      "title": "Priority Low",
+      "description": "",
+      "keywords": [
+        "priority",
+        "low"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "priority-medium",
+      "category": "status-feedback",
+      "title": "Priority Medium",
+      "description": "",
+      "keywords": [
+        "priority",
+        "medium"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "privacy",
+      "category": "security-access",
+      "title": "Privacy",
+      "description": "",
+      "keywords": [
+        "privacy"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "process",
+      "category": "workflow-productivity",
+      "title": "Process",
+      "description": "",
+      "keywords": [
+        "process"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "profile",
+      "category": "user-id",
+      "title": "Profile",
+      "description": "",
+      "keywords": [
+        "profile"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "qrcode",
+      "category": "system-utility",
+      "title": "Qrcode",
+      "description": "",
+      "keywords": [
+        "qrcode"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "queue",
+      "category": "workflow-productivity",
+      "title": "Queue",
+      "description": "",
+      "keywords": [
+        "queue"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "receipt",
+      "category": "analytics-reports",
+      "title": "Receipt",
+      "description": "",
+      "keywords": [
+        "receipt"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "recurring",
+      "category": "calendar-scheduling",
+      "title": "Recurring",
+      "description": "",
+      "keywords": [
+        "recurring"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "refresh",
+      "category": "data-actions",
+      "title": "Refresh",
+      "description": "",
+      "keywords": [
+        "refresh"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "reminder",
+      "category": "calendar-scheduling",
+      "title": "Reminder",
+      "description": "",
+      "keywords": [
+        "reminder"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "restore",
+      "category": "data-actions",
+      "title": "Restore",
+      "description": "",
+      "keywords": [
+        "restore"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "restoredown",
+      "category": "navigation",
+      "title": "Restoredown",
+      "description": "",
+      "keywords": [
+        "restoredown"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "save",
+      "category": "data-actions",
+      "title": "Save",
+      "description": "",
+      "keywords": [
+        "save"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "scales",
+      "category": "sector-legal",
+      "title": "Scales",
+      "description": "",
+      "keywords": [
+        "scales"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "scan",
+      "category": "system-utility",
+      "title": "Scan",
+      "description": "",
+      "keywords": [
+        "scan"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "search",
+      "category": "search-discovery",
+      "title": "Search",
+      "description": "",
+      "keywords": [
+        "search"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "security-alert",
+      "category": "security-access",
+      "title": "Security Alert",
+      "description": "",
+      "keywords": [
+        "security",
+        "alert"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "send",
+      "category": "communications",
+      "title": "Send",
+      "description": "",
+      "keywords": [
+        "send"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "server",
+      "category": "settings-admin",
+      "title": "Server",
+      "description": "",
+      "keywords": [
+        "server"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "settings",
+      "category": "settings-admin",
+      "title": "Settings",
+      "description": "",
+      "keywords": [
+        "settings"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "share",
+      "category": "sharing",
+      "title": "Share",
+      "description": "",
+      "keywords": [
+        "share"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "shield",
+      "category": "security-access",
+      "title": "Shield",
+      "description": "",
+      "keywords": [
+        "shield"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "sidebar-left",
+      "category": "navigation",
+      "title": "Sidebar Left",
+      "description": "",
+      "keywords": [
+        "sidebar",
+        "left"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "sidebar-right",
+      "category": "navigation",
+      "title": "Sidebar Right",
+      "description": "",
+      "keywords": [
+        "sidebar",
+        "right"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "sign-out",
+      "category": "navigation",
+      "title": "Sign Out",
+      "description": "",
+      "keywords": [
+        "sign",
+        "out"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "signal-high",
+      "category": "status-feedback",
+      "title": "Signal High",
+      "description": "",
+      "keywords": [
+        "signal",
+        "high"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "signal-low",
+      "category": "status-feedback",
+      "title": "Signal Low",
+      "description": "",
+      "keywords": [
+        "signal",
+        "low"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "signal-medium",
+      "category": "status-feedback",
+      "title": "Signal Medium",
+      "description": "",
+      "keywords": [
+        "signal",
+        "medium"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "sls",
+      "category": "sector-health",
+      "title": "Sls",
+      "description": "",
+      "keywords": [
+        "sls"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "sort-ascending",
+      "category": "search-discovery",
+      "title": "Sort Ascending",
+      "description": "",
+      "keywords": [
+        "sort",
+        "ascending"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "sort-descending",
+      "category": "search-discovery",
+      "title": "Sort Descending",
+      "description": "",
+      "keywords": [
+        "sort",
+        "descending"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "speech",
+      "category": "ai",
+      "title": "Speech",
+      "description": "",
+      "keywords": [
+        "speech"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "stop",
+      "category": "workflow-productivity",
+      "title": "Stop",
+      "description": "",
+      "keywords": [
+        "stop"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "stopwatch",
+      "category": "calendar-scheduling",
+      "title": "Stopwatch",
+      "description": "",
+      "keywords": [
+        "stopwatch"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "subtract",
+      "category": "data-actions",
+      "title": "Subtract",
+      "description": "",
+      "keywords": [
+        "subtract"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "subtract-round",
+      "category": "data-actions",
+      "title": "Subtract Round",
+      "description": "",
+      "keywords": [
+        "subtract",
+        "round"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "subtract-square",
+      "category": "data-actions",
+      "title": "Subtract Square",
+      "description": "",
+      "keywords": [
+        "subtract",
+        "square"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "success-round",
+      "category": "status-feedback",
+      "title": "Success Round",
+      "description": "",
+      "keywords": [
+        "success",
+        "round"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "swap",
+      "category": "navigation",
+      "title": "Swap",
+      "description": "",
+      "keywords": [
+        "swap"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "sync",
+      "category": "sharing",
+      "title": "Sync",
+      "description": "",
+      "keywords": [
+        "sync"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "tag",
+      "category": "search-discovery",
+      "title": "Tag",
+      "description": "",
+      "keywords": [
+        "tag"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "target",
+      "category": "workflow-productivity",
+      "title": "Target",
+      "description": "",
+      "keywords": [
+        "target"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "task",
+      "category": "workflow-productivity",
+      "title": "Task",
+      "description": "",
+      "keywords": [
+        "task"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "task-new",
+      "category": "workflow-productivity",
+      "title": "Task New",
+      "description": "",
+      "keywords": [
+        "task",
+        "new"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "team",
+      "category": "user-id",
+      "title": "Team",
+      "description": "",
+      "keywords": [
+        "team"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "theme",
+      "category": "system-utility",
+      "title": "Theme",
+      "description": "",
+      "keywords": [
+        "theme"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "thumbs-down",
+      "category": "status-feedback",
+      "title": "Thumbs Down",
+      "description": "",
+      "keywords": [
+        "thumbs",
+        "down"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "thumbs-up",
+      "category": "status-feedback",
+      "title": "Thumbs Up",
+      "description": "",
+      "keywords": [
+        "thumbs",
+        "up"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "ticket",
+      "category": "documents-content",
+      "title": "Ticket",
+      "description": "",
+      "keywords": [
+        "ticket"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "timeline",
+      "category": "workflow-productivity",
+      "title": "Timeline",
+      "description": "",
+      "keywords": [
+        "timeline"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "toolbox",
+      "category": "system-utility",
+      "title": "Toolbox",
+      "description": "",
+      "keywords": [
+        "toolbox"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "tools",
+      "category": "settings-admin",
+      "title": "Tools",
+      "description": "",
+      "keywords": [
+        "tools"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "trend-down",
+      "category": "analytics-reports",
+      "title": "Trend Down",
+      "description": "",
+      "keywords": [
+        "trend",
+        "down"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "trend-up",
+      "category": "analytics-reports",
+      "title": "Trend Up",
+      "description": "",
+      "keywords": [
+        "trend",
+        "up"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "unlink",
+      "category": "sharing",
+      "title": "Unlink",
+      "description": "",
+      "keywords": [
+        "unlink"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "unlock",
+      "category": "security-access",
+      "title": "Unlock",
+      "description": "",
+      "keywords": [
+        "unlock"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "upload",
+      "category": "documents-content",
+      "title": "Upload",
+      "description": "",
+      "keywords": [
+        "upload"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "user",
+      "category": "user-id",
+      "title": "User",
+      "description": "",
+      "keywords": [
+        "user"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "user-add",
+      "category": "user-id",
+      "title": "User Add",
+      "description": "",
+      "keywords": [
+        "user",
+        "add"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "user-circle",
+      "category": "user-id",
+      "title": "User Circle",
+      "description": "",
+      "keywords": [
+        "user",
+        "circle"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "user-edit",
+      "category": "user-id",
+      "title": "User Edit",
+      "description": "",
+      "keywords": [
+        "user",
+        "edit"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "user-group",
+      "category": "user-id",
+      "title": "User Group",
+      "description": "",
+      "keywords": [
+        "user",
+        "group"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "user-remove",
+      "category": "user-id",
+      "title": "User Remove",
+      "description": "",
+      "keywords": [
+        "user",
+        "remove"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "video",
+      "category": "documents-content",
+      "title": "Video",
+      "description": "",
+      "keywords": [
+        "video"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "video-call",
+      "category": "communications",
+      "title": "Video Call",
+      "description": "",
+      "keywords": [
+        "video",
+        "call"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "warning",
+      "category": "status-feedback",
+      "title": "Warning",
+      "description": "",
+      "keywords": [
+        "warning"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "web",
+      "category": "communications",
+      "title": "Web",
+      "description": "",
+      "keywords": [
+        "web"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "workflow",
+      "category": "workflow-productivity",
+      "title": "Workflow",
+      "description": "",
+      "keywords": [
+        "workflow"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    }
+  ]
+}

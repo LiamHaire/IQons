@@ -1,0 +1,13 @@
+{
+  "title": "Map",
+  "description": "",
+  "keywords": [
+    "map"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

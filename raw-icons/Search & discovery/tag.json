@@ -1,0 +1,13 @@
+{
+  "title": "Tag",
+  "description": "",
+  "keywords": [
+    "tag"
+  ],
+  "aliases": [],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}
