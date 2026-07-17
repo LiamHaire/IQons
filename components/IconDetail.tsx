@@ -116,7 +116,7 @@ export function IconDetail({ icon, style, onClose }: IconDetailProps) {
             <div
               style={{
                 width: 560,
-                height: 580,
+                height: 640,
                 maxWidth: "calc(100vw - 48px)",
                 maxHeight: "calc(100vh - 80px)",
                 background: "var(--background)",
@@ -140,7 +140,17 @@ export function IconDetail({ icon, style, onClose }: IconDetailProps) {
                   flexShrink: 0,
                 }}
               >
-                {/* Close button — top left */}
+                {/* Icon name + category */}
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <h2 style={{ fontSize: 16, fontWeight: 600, color: "var(--text-primary)", margin: 0 }}>
+                    {icon.name}
+                  </h2>
+                  <p style={{ fontSize: 12, color: "var(--text-muted)", margin: "2px 0 0" }}>
+                    {CATEGORY_LABELS[icon.category]}
+                  </p>
+                </div>
+
+                {/* Close button — top right */}
                 <button
                   onClick={onClose}
                   style={{
@@ -169,16 +179,6 @@ export function IconDetail({ icon, style, onClose }: IconDetailProps) {
                     <path d="M18.293 4.293a1 1 0 0 1 1.414 1.414L13.414 12l6.293 6.293a1 1 0 0 1-1.414 1.414L12 13.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L10.586 12 4.293 5.707a1 1 0 0 1 1.414-1.414L12 10.586l6.293-6.293Z" fill="currentColor"/>
                   </svg>
                 </button>
-
-                {/* Icon name + category */}
-                <div style={{ flex: 1, minWidth: 0 }}>
-                  <h2 style={{ fontSize: 16, fontWeight: 600, color: "var(--text-primary)", margin: 0 }}>
-                    {icon.name}
-                  </h2>
-                  <p style={{ fontSize: 12, color: "var(--text-muted)", margin: "2px 0 0" }}>
-                    {CATEGORY_LABELS[icon.category]}
-                  </p>
-                </div>
               </div>
 
               {/* ── Body ── */}
