@@ -58,7 +58,7 @@ function toTitleCase(kebab: string): string {
 export function getAllIcons(): Icon[] {
   if (!fs.existsSync(RAW_DIR)) return [];
 
-  type Entry = { category: IconCategory; svgMap: Partial<Record<IconStyle, string>>; styles: Set<IconStyle> };
+  type Entry = { category: IconCategory; folderName: string; svgMap: Partial<Record<IconStyle, string>>; styles: Set<IconStyle> };
   const iconMap = new Map<string, Entry>();
 
   for (const [folderName, categoryId] of Object.entries(FOLDER_MAP)) {
@@ -73,7 +73,7 @@ export function getAllIcons(): Icon[] {
 
       const key = `${categoryId}:${parsed.iconId}`;
       if (!iconMap.has(key)) {
-        iconMap.set(key, { category: categoryId, svgMap: {}, styles: new Set() });
+        iconMap.set(key, { category: categoryId, folderName, svgMap: {}, styles: new Set() });
       }
 
       const entry = iconMap.get(key)!;
@@ -109,6 +109,22 @@ export function getAllIcons(): Icon[] {
   return Array.from(iconMap.entries()).map(([key, entry]) => {
     const iconId = key.split(":")[1];
     const name = toTitleCase(iconId);
+
+    // Load sidecar metadata if it exists
+    let description: string | undefined;
+    let keywords: string[] | undefined;
+    let aliases: string[] | undefined;
+
+    const metaPath = path.join(RAW_DIR, entry.folderName, `${iconId}.json`);
+    if (fs.existsSync(metaPath)) {
+      try {
+        const meta = JSON.parse(fs.readFileSync(metaPath, "utf8"));
+        description = meta.description || undefined;
+        keywords    = meta.keywords?.length  ? meta.keywords  : undefined;
+        aliases     = meta.aliases?.length   ? meta.aliases   : undefined;
+      } catch {}
+    }
+
     return {
       id: iconId,
       name,
@@ -116,6 +132,9 @@ export function getAllIcons(): Icon[] {
       category: entry.category,
       styles: Array.from(entry.styles),
       svg: entry.svgMap,
+      description,
+      keywords,
+      aliases,
     };
   });
 }

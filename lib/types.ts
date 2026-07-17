@@ -29,6 +29,9 @@ export interface Icon {
   category: IconCategory;
   styles: IconStyle[];
   svg: Partial<Record<IconStyle, string>>;
+  description?: string;
+  keywords?: string[];
+  aliases?: string[];
 }
 
 export interface IconGroup {

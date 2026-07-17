@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import { CATEGORY_LABELS, CATEGORY_ORDER, SECTOR_CATEGORIES, ICON_STYLES, CATEGORY_ICONS } from "@/lib/icons";
 import { IconCard } from "./IconCard";
+import { IconDetail } from "./IconDetail";
 import { ZeroState } from "./ZeroState";
 import type { Icon, IconCategory, IconStyle } from "@/lib/types";
 
@@ -28,6 +29,7 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
   const iconSize = SIZE_STEPS[sizeIndex];
   const [dark, setDark]                 = useState(false);
   const [pressing, setPressing]         = useState(false);
+  const [selectedIcon, setSelectedIcon] = useState<Icon | null>(null);
   const [searchFocused, setSearchFocused] = useState(false);
   const [searchHovered, setSearchHovered] = useState(false);
 
@@ -71,6 +73,7 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
 
   return (
     <>
+      <IconDetail icon={selectedIcon} style={activeStyle} onClose={() => setSelectedIcon(null)} />
       {/* ── Sidebar ── */}
       <aside
         className="flex flex-col shrink-0 overflow-y-auto custom-scroll"
@@ -321,7 +324,14 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
           ) : (
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(140px, 1fr))", gap: 8 }}>
               {filtered.map((icon) => (
-                <IconCard key={icon.id} icon={icon} style={activeStyle} size={iconSize} />
+                <IconCard
+                  key={icon.id}
+                  icon={icon}
+                  style={activeStyle}
+                  size={iconSize}
+                  selected={selectedIcon?.id === icon.id}
+                  onClick={() => setSelectedIcon(icon)}
+                />
               ))}
             </div>
           )}
