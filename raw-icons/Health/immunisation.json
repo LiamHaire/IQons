@@ -1,8 +1,7 @@
 {
-  "title": "Immunication",
+  "title": "Immunisation",
   "description": "Immunisation or vaccination record",
   "keywords": [
-    "immunication",
     "immunisation",
     "immunization",
     "vaccination",
@@ -11,7 +10,6 @@
     "prevention"
   ],
   "aliases": [
-    "immunisation",
     "immunization",
     "vaccination",
     "vaccine"

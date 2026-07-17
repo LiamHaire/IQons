@@ -2431,7 +2431,7 @@
       "id": "hype",
       "category": "status-feedback",
       "title": "Hype",
-      "description": "Excitement, enthusiasm, or positive energy",
+      "description": "Registers excitement or enthusiasm for shared content",
       "keywords": [
         "hype",
         "excited",
@@ -2439,12 +2439,15 @@
         "fire",
         "energy",
         "positive",
-        "trending"
+        "trending",
+        "reaction",
+        "share"
       ],
       "aliases": [
         "excited",
         "boost",
-        "fire"
+        "fire",
+        "reaction"
       ],
       "variants": [
         "outline",
@@ -2527,12 +2530,11 @@
       ]
     },
     {
-      "id": "immunication",
+      "id": "immunisation",
       "category": "sector-health",
-      "title": "Immunication",
+      "title": "Immunisation",
       "description": "Immunisation or vaccination record",
       "keywords": [
-        "immunication",
         "immunisation",
         "immunization",
         "vaccination",
@@ -2541,7 +2543,6 @@
         "prevention"
       ],
       "aliases": [
-        "immunisation",
         "immunization",
         "vaccination",
         "vaccine"

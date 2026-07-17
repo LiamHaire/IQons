@@ -1,6 +1,6 @@
 {
   "title": "Hype",
-  "description": "Excitement, enthusiasm, or positive energy",
+  "description": "Registers excitement or enthusiasm for shared content",
   "keywords": [
     "hype",
     "excited",
@@ -8,12 +8,15 @@
     "fire",
     "energy",
     "positive",
-    "trending"
+    "trending",
+    "reaction",
+    "share"
   ],
   "aliases": [
     "excited",
     "boost",
-    "fire"
+    "fire",
+    "reaction"
   ],
   "variants": [
     "outline",
