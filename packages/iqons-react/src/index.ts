@@ -10,6 +10,7 @@ export { AddSquare } from "./AddSquare";
 export { Admin } from "./Admin";
 export { Agent } from "./Agent";
 export { AI } from "./AI";
+export { AIMemory } from "./AIMemory";
 export { AlignBottom } from "./AlignBottom";
 export { AlignLeft } from "./AlignLeft";
 export { AlignRight } from "./AlignRight";

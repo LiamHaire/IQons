@@ -235,7 +235,11 @@
         "memory-ai",
         "context-memory"
       ],
-      "variants": []
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
     },
     {
       "id": "align-bottom",
