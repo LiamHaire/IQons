@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "count": 232,
+  "count": 233,
   "icons": [
     {
       "id": "acbs",
@@ -235,11 +235,7 @@
         "memory-ai",
         "context-memory"
       ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
+      "variants": []
     },
     {
       "id": "align-bottom",
@@ -2396,6 +2392,35 @@
         "support",
         "helpdesk",
         "customer-service"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "healthcare",
+      "category": "sector-health",
+      "title": "Healthcare",
+      "description": "Represents general healthcare, medical services, or a clinical context",
+      "keywords": [
+        "healthcare",
+        "medical",
+        "health",
+        "clinical",
+        "hospital",
+        "care",
+        "medicine",
+        "briefcase",
+        "cross",
+        "plus"
+      ],
+      "aliases": [
+        "medical",
+        "health-services",
+        "clinical",
+        "medical-bag"
       ],
       "variants": [
         "outline",

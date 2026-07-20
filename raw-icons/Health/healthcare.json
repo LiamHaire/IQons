@@ -1,0 +1,27 @@
+{
+  "title": "Healthcare",
+  "description": "Represents general healthcare, medical services, or a clinical context",
+  "keywords": [
+    "healthcare",
+    "medical",
+    "health",
+    "clinical",
+    "hospital",
+    "care",
+    "medicine",
+    "briefcase",
+    "cross",
+    "plus"
+  ],
+  "aliases": [
+    "medical",
+    "health-services",
+    "clinical",
+    "medical-bag"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

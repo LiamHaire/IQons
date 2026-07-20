@@ -1534,6 +1534,21 @@
       ]
     },
     {
+      "name": "healthcare",
+      "type": "registry:ui",
+      "title": "Healthcare",
+      "description": "IQons Healthcare icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Healthcare.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "help",
       "type": "registry:ui",
       "title": "Help",
@@ -2054,6 +2069,21 @@
       "files": [
         {
           "path": "packages/iqons-react/src/Meeting.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "memory",
+      "type": "registry:ui",
+      "title": "Memory",
+      "description": "IQons Memory icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Memory.tsx",
           "type": "registry:ui"
         }
       ]
