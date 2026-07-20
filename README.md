@@ -114,6 +114,43 @@ Icons use `currentColor` throughout, so they inherit colour from CSS and work co
 
 ---
 
+## Figma plugin
+
+An icon browser plugin for Figma Desktop that lets you search, filter by category and style, and drop any icon directly onto the canvas.
+
+### Installing the plugin (local)
+
+1. **Build the plugin** from the repo root:
+   ```bash
+   npm run build:plugin
+   ```
+   This generates `figma-plugin/dist/ui.html` (all icon SVGs bundled in) and `figma-plugin/dist/code.js`.
+
+2. **Import into Figma Desktop:**
+   `Menu → Plugins → Development → Import plugin from manifest...`
+   Navigate to `figma-plugin/manifest.json` and click Open.
+
+3. **Run it:**
+   `Menu → Plugins → Development → IQons`
+
+   Browse or search for an icon, choose a variant (Outline / Duo-tone / Fill) from the detail strip, then click **Add to canvas**.
+
+> After pulling updates from the repo, re-run `npm run build:plugin` to rebuild the plugin with the latest icons, then remove and re-import the plugin in Figma to pick up the new `dist/code.js`.
+
+### Plugin file structure
+
+```
+figma-plugin/
+  manifest.json     Figma plugin config (points at dist/)
+  code.js           Sandbox source — receives icon from UI, places SVG on canvas
+  ui.html           UI template — __PLUGIN_DATA__ placeholder replaced at build time
+  dist/             Generated output (gitignored — run npm run build:plugin)
+    ui.html         Fully built UI with all icon SVGs injected
+    code.js         Copy of sandbox ready for Figma to load
+```
+
+---
+
 ## Repository structure
 
 ```
@@ -128,10 +165,13 @@ packages/
   iqons-react/      npm package source
     src/            Generated React components (run build:react)
     dist/           Built output (ESM + CJS + types)
+figma-plugin/       Figma plugin (see above)
 scripts/
-  build-manifest.mjs   Compiles icons.json from raw-icons/
-  build-react.mjs      Generates React components and barrel index
-  build-registry.mjs   Generates ShadCN registry JSON files
+  build-manifest.mjs      Compiles icons.json from raw-icons/
+  build-react.mjs         Generates React components and barrel index
+  build-registry.mjs      Generates ShadCN registry JSON files
+  build-plugin-data.mjs   Extracts SVG paths into plugin-data.json
+  build-plugin.mjs        Injects plugin data into ui.html, outputs to dist/
 lib/
   loadIcons.ts      Runtime icon loader (used by the browser app)
   icons.ts          Category labels and static metadata
@@ -211,4 +251,5 @@ See `.claude/skills/create-icon/SKILL.md` for the full process, naming conventio
 
 - [ ] Publish `iqons-react` to npm
 - [ ] Make ShadCN registry components fully self-contained (no `iqons-react` dependency)
+- [ ] Publish Figma plugin to the Figma Community
 - [ ] Expand icon set
