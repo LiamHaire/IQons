@@ -1,13 +1,21 @@
 {
   "title": "Ai Memory",
-  "description": "",
+  "description": "Represents AI memory, context retention, or knowledge persistence in intelligent systems",
   "keywords": [
     "ai",
     "memory",
+    "context",
+    "knowledge",
+    "retention",
+    "recall",
+    "storage",
     "artificial intelligence",
     "machine learning"
   ],
-  "aliases": [],
+  "aliases": [
+    "memory-ai",
+    "context-memory"
+  ],
   "variants": [
     "outline",
     "fill",

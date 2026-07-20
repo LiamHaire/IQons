@@ -219,14 +219,22 @@
       "id": "ai-memory",
       "category": "ai",
       "title": "Ai Memory",
-      "description": "",
+      "description": "Represents AI memory, context retention, or knowledge persistence in intelligent systems",
       "keywords": [
         "ai",
         "memory",
+        "context",
+        "knowledge",
+        "retention",
+        "recall",
+        "storage",
         "artificial intelligence",
         "machine learning"
       ],
-      "aliases": [],
+      "aliases": [
+        "memory-ai",
+        "context-memory"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -330,11 +338,19 @@
       "id": "allergies",
       "category": "sector-health",
       "title": "Allergies",
-      "description": "",
+      "description": "Indicates allergic reactions, allergen warnings, or allergy information in health contexts",
       "keywords": [
-        "allergies"
+        "allergies",
+        "allergen",
+        "reaction",
+        "sensitivity",
+        "health",
+        "medical"
       ],
-      "aliases": [],
+      "aliases": [
+        "allergen",
+        "allergy"
+      ],
       "variants": [
         "outline",
         "fill",
@@ -345,12 +361,19 @@
       "id": "allergies-none",
       "category": "sector-health",
       "title": "Allergies None",
-      "description": "",
+      "description": "Indicates no allergies recorded or an allergy-free status",
       "keywords": [
         "allergies",
-        "none"
+        "none",
+        "no allergies",
+        "clear",
+        "allergen-free",
+        "health"
       ],
-      "aliases": [],
+      "aliases": [
+        "no-allergies",
+        "allergen-free"
+      ],
       "variants": [
         "outline",
         "fill",

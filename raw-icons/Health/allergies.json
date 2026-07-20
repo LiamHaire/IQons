@@ -1,10 +1,18 @@
 {
   "title": "Allergies",
-  "description": "",
+  "description": "Indicates allergic reactions, allergen warnings, or allergy information in health contexts",
   "keywords": [
-    "allergies"
+    "allergies",
+    "allergen",
+    "reaction",
+    "sensitivity",
+    "health",
+    "medical"
   ],
-  "aliases": [],
+  "aliases": [
+    "allergen",
+    "allergy"
+  ],
   "variants": [
     "outline",
     "fill",

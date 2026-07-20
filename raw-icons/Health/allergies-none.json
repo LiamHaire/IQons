@@ -1,11 +1,18 @@
 {
   "title": "Allergies None",
-  "description": "",
+  "description": "Indicates no allergies recorded or an allergy-free status",
   "keywords": [
     "allergies",
-    "none"
+    "none",
+    "no allergies",
+    "clear",
+    "allergen-free",
+    "health"
   ],
-  "aliases": [],
+  "aliases": [
+    "no-allergies",
+    "allergen-free"
+  ],
   "variants": [
     "outline",
     "fill",
