@@ -3,7 +3,7 @@
   "name": "approve-square",
   "type": "registry:ui",
   "title": "Approve Square",
-  "description": "IQons ApproveSquare icon. Variants: outline, fill, duotone.",
+  "description": "IQons Approve Square icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

@@ -3,7 +3,7 @@
   "name": "chat-new",
   "type": "registry:ui",
   "title": "Chat New",
-  "description": "IQons ChatNew icon. Variants: outline, fill, duotone.",
+  "description": "IQons Chat New icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

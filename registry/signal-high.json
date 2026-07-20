@@ -3,7 +3,7 @@
   "name": "signal-high",
   "type": "registry:ui",
   "title": "Signal High",
-  "description": "IQons SignalHigh icon. Variants: outline, fill, duotone.",
+  "description": "IQons Signal High icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

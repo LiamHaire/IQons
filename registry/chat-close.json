@@ -3,7 +3,7 @@
   "name": "chat-close",
   "type": "registry:ui",
   "title": "Chat Close",
-  "description": "IQons ChatClose icon. Variants: outline, fill, duotone.",
+  "description": "IQons Chat Close icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

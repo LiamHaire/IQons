@@ -3,7 +3,7 @@
   "name": "arrow-down",
   "type": "registry:ui",
   "title": "Arrow Down",
-  "description": "IQons ArrowDown icon. Variants: outline, fill, duotone.",
+  "description": "IQons Arrow Down icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

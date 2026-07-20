@@ -3,7 +3,7 @@
   "name": "more-vertical",
   "type": "registry:ui",
   "title": "More Vertical",
-  "description": "IQons MoreVertical icon. Variants: outline, fill, duotone.",
+  "description": "IQons More Vertical icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

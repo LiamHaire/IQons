@@ -3,7 +3,7 @@
   "name": "drug-doubling",
   "type": "registry:ui",
   "title": "Drug Doubling",
-  "description": "IQons DrugDoubling icon. Variants: outline, fill, duotone.",
+  "description": "IQons Drug Doubling icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

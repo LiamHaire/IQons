@@ -3,7 +3,7 @@
   "name": "arrow-up",
   "type": "registry:ui",
   "title": "Arrow Up",
-  "description": "IQons ArrowUp icon. Variants: outline, fill, duotone.",
+  "description": "IQons Arrow Up icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

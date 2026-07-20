@@ -3,7 +3,7 @@
   "name": "folder-basic",
   "type": "registry:ui",
   "title": "Folder Basic",
-  "description": "IQons FolderBasic icon. Variants: outline, fill, duotone.",
+  "description": "IQons Folder Basic icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

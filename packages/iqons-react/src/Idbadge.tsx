@@ -20,10 +20,10 @@ const AVAILABLE = ["outline","fill","duotone"] as const;
 type Variant = (typeof AVAILABLE)[number];
 
 /**
- * Idbadge icon
+ * IDBadge icon
  * Variants: outline, fill, duotone
  */
-export function Idbadge({
+export function IDBadge({
   variant = "outline",
   size = 24,
   label,
@@ -46,5 +46,5 @@ export function Idbadge({
   );
 }
 
-Idbadge.displayName = "Idbadge";
-Idbadge.variants = AVAILABLE;
+IDBadge.displayName = "IDBadge";
+IDBadge.variants = AVAILABLE;

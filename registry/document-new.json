@@ -3,7 +3,7 @@
   "name": "document-new",
   "type": "registry:ui",
   "title": "Document New",
-  "description": "IQons DocumentNew icon. Variants: outline, fill, duotone.",
+  "description": "IQons Document New icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

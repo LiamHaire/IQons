@@ -39,8 +39,10 @@ const FOLDER_MAP = {
 
 const VARIANT_ORDER = ["outline", "fill", "duotone", "thin"];
 
+const COMPONENT_ACRONYMS = new Set(["id", "ai", "ui", "ux", "api", "url", "svg", "pdf", "qr"]);
+
 function toComponentName(id) {
-  return id.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join("");
+  return id.split("-").map(w => COMPONENT_ACRONYMS.has(w) ? w.toUpperCase() : w.charAt(0).toUpperCase() + w.slice(1)).join("");
 }
 
 function normaliseSvg(raw) {

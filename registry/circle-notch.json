@@ -3,7 +3,7 @@
   "name": "circle-notch",
   "type": "registry:ui",
   "title": "Circle Notch",
-  "description": "IQons CircleNotch icon. Variants: outline, fill, duotone.",
+  "description": "IQons Circle Notch icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

@@ -3,7 +3,7 @@
   "name": "appointment-new",
   "type": "registry:ui",
   "title": "Appointment New",
-  "description": "IQons AppointmentNew icon. Variants: outline, fill, duotone.",
+  "description": "IQons Appointment New icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

@@ -3,7 +3,7 @@
   "name": "more-horizontal",
   "type": "registry:ui",
   "title": "More Horizontal",
-  "description": "IQons MoreHorizontal icon. Variants: outline, fill, duotone.",
+  "description": "IQons More Horizontal icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

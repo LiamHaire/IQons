@@ -3,7 +3,7 @@
   "name": "cancel-square",
   "type": "registry:ui",
   "title": "Cancel Square",
-  "description": "IQons CancelSquare icon. Variants: outline, fill, duotone.",
+  "description": "IQons Cancel Square icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

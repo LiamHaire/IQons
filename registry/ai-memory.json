@@ -3,7 +3,7 @@
   "name": "ai-memory",
   "type": "registry:ui",
   "title": "Ai Memory",
-  "description": "IQons AiMemory icon. Variants: outline, fill, duotone.",
+  "description": "IQons Ai Memory icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

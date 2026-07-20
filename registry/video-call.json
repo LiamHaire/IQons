@@ -3,7 +3,7 @@
   "name": "video-call",
   "type": "registry:ui",
   "title": "Video Call",
-  "description": "IQons VideoCall icon. Variants: outline, fill, duotone.",
+  "description": "IQons Video Call icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

@@ -3,7 +3,7 @@
   "name": "sign-out",
   "type": "registry:ui",
   "title": "Sign Out",
-  "description": "IQons SignOut icon. Variants: outline, fill, duotone.",
+  "description": "IQons Sign Out icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

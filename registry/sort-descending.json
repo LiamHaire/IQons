@@ -3,7 +3,7 @@
   "name": "sort-descending",
   "type": "registry:ui",
   "title": "Sort Descending",
-  "description": "IQons SortDescending icon. Variants: outline, fill, duotone.",
+  "description": "IQons Sort Descending icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

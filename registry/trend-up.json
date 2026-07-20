@@ -3,7 +3,7 @@
   "name": "trend-up",
   "type": "registry:ui",
   "title": "Trend Up",
-  "description": "IQons TrendUp icon. Variants: outline, fill, duotone.",
+  "description": "IQons Trend Up icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

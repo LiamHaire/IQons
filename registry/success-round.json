@@ -3,7 +3,7 @@
   "name": "success-round",
   "type": "registry:ui",
   "title": "Success Round",
-  "description": "IQons SuccessRound icon. Variants: outline, fill, duotone.",
+  "description": "IQons Success Round icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

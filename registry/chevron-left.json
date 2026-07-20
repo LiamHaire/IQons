@@ -3,7 +3,7 @@
   "name": "chevron-left",
   "type": "registry:ui",
   "title": "Chevron Left",
-  "description": "IQons ChevronLeft icon. Variants: outline, fill, duotone.",
+  "description": "IQons Chevron Left icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

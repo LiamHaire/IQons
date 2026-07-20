@@ -3,7 +3,7 @@
   "name": "chart-line",
   "type": "registry:ui",
   "title": "Chart Line",
-  "description": "IQons ChartLine icon. Variants: outline, fill, duotone.",
+  "description": "IQons Chart Line icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

@@ -52,7 +52,7 @@
       "name": "add-round",
       "type": "registry:ui",
       "title": "Add Round",
-      "description": "IQons AddRound icon. Variants: outline, fill, duotone.",
+      "description": "IQons Add Round icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -67,7 +67,7 @@
       "name": "add-square",
       "type": "registry:ui",
       "title": "Add Square",
-      "description": "IQons AddSquare icon. Variants: outline, fill, duotone.",
+      "description": "IQons Add Square icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -82,7 +82,7 @@
       "name": "address-book",
       "type": "registry:ui",
       "title": "Address Book",
-      "description": "IQons AddressBook icon. Variants: outline, fill, duotone.",
+      "description": "IQons Address Book icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -142,7 +142,7 @@
       "name": "ai-memory",
       "type": "registry:ui",
       "title": "Ai Memory",
-      "description": "IQons AiMemory icon. Variants: outline, fill, duotone.",
+      "description": "IQons Ai Memory icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -157,7 +157,7 @@
       "name": "align-bottom",
       "type": "registry:ui",
       "title": "Align Bottom",
-      "description": "IQons AlignBottom icon. Variants: outline, fill, duotone.",
+      "description": "IQons Align Bottom icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -172,7 +172,7 @@
       "name": "align-left",
       "type": "registry:ui",
       "title": "Align Left",
-      "description": "IQons AlignLeft icon. Variants: outline, fill, duotone.",
+      "description": "IQons Align Left icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -187,7 +187,7 @@
       "name": "align-right",
       "type": "registry:ui",
       "title": "Align Right",
-      "description": "IQons AlignRight icon. Variants: outline, fill, duotone.",
+      "description": "IQons Align Right icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -202,7 +202,7 @@
       "name": "align-top",
       "type": "registry:ui",
       "title": "Align Top",
-      "description": "IQons AlignTop icon. Variants: outline, fill, duotone.",
+      "description": "IQons Align Top icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -232,7 +232,7 @@
       "name": "allergies-none",
       "type": "registry:ui",
       "title": "Allergies None",
-      "description": "IQons AllergiesNone icon. Variants: outline, fill, duotone.",
+      "description": "IQons Allergies None icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -307,7 +307,7 @@
       "name": "appointment-new",
       "type": "registry:ui",
       "title": "Appointment New",
-      "description": "IQons AppointmentNew icon. Variants: outline, fill, duotone.",
+      "description": "IQons Appointment New icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -337,7 +337,7 @@
       "name": "approve-square",
       "type": "registry:ui",
       "title": "Approve Square",
-      "description": "IQons ApproveSquare icon. Variants: outline, fill, duotone.",
+      "description": "IQons Approve Square icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -382,7 +382,7 @@
       "name": "arrow-diagonal-down-left",
       "type": "registry:ui",
       "title": "Arrow Diagonal Down Left",
-      "description": "IQons ArrowDiagonalDownLeft icon. Variants: outline, fill, duotone.",
+      "description": "IQons Arrow Diagonal Down Left icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -397,7 +397,7 @@
       "name": "arrow-diagonal-down-right",
       "type": "registry:ui",
       "title": "Arrow Diagonal Down Right",
-      "description": "IQons ArrowDiagonalDownRight icon. Variants: outline, fill, duotone.",
+      "description": "IQons Arrow Diagonal Down Right icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -412,7 +412,7 @@
       "name": "arrow-diagonal-up-left",
       "type": "registry:ui",
       "title": "Arrow Diagonal Up Left",
-      "description": "IQons ArrowDiagonalUpLeft icon. Variants: outline, fill, duotone.",
+      "description": "IQons Arrow Diagonal Up Left icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -427,7 +427,7 @@
       "name": "arrow-diagonal-up-right",
       "type": "registry:ui",
       "title": "Arrow Diagonal Up Right",
-      "description": "IQons ArrowDiagonalUpRight icon. Variants: outline, fill, duotone.",
+      "description": "IQons Arrow Diagonal Up Right icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -442,7 +442,7 @@
       "name": "arrow-down",
       "type": "registry:ui",
       "title": "Arrow Down",
-      "description": "IQons ArrowDown icon. Variants: outline, fill, duotone.",
+      "description": "IQons Arrow Down icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -457,7 +457,7 @@
       "name": "arrow-left",
       "type": "registry:ui",
       "title": "Arrow Left",
-      "description": "IQons ArrowLeft icon. Variants: outline, fill, duotone.",
+      "description": "IQons Arrow Left icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -472,7 +472,7 @@
       "name": "arrow-right",
       "type": "registry:ui",
       "title": "Arrow Right",
-      "description": "IQons ArrowRight icon. Variants: outline, fill, duotone.",
+      "description": "IQons Arrow Right icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -487,7 +487,7 @@
       "name": "arrow-up",
       "type": "registry:ui",
       "title": "Arrow Up",
-      "description": "IQons ArrowUp icon. Variants: outline, fill, duotone.",
+      "description": "IQons Arrow Up icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -532,7 +532,7 @@
       "name": "audio-off",
       "type": "registry:ui",
       "title": "Audio Off",
-      "description": "IQons AudioOff icon. Variants: outline, fill, duotone.",
+      "description": "IQons Audio Off icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -547,7 +547,7 @@
       "name": "audio-on",
       "type": "registry:ui",
       "title": "Audio On",
-      "description": "IQons AudioOn icon. Variants: outline, fill, duotone.",
+      "description": "IQons Audio On icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -712,7 +712,7 @@
       "name": "cancel-square",
       "type": "registry:ui",
       "title": "Cancel Square",
-      "description": "IQons CancelSquare icon. Variants: outline, fill, duotone.",
+      "description": "IQons Cancel Square icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -742,7 +742,7 @@
       "name": "chart-bar",
       "type": "registry:ui",
       "title": "Chart Bar",
-      "description": "IQons ChartBar icon. Variants: outline, fill, duotone.",
+      "description": "IQons Chart Bar icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -757,7 +757,7 @@
       "name": "chart-donut",
       "type": "registry:ui",
       "title": "Chart Donut",
-      "description": "IQons ChartDonut icon. Variants: outline, fill, duotone.",
+      "description": "IQons Chart Donut icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -772,7 +772,7 @@
       "name": "chart-line",
       "type": "registry:ui",
       "title": "Chart Line",
-      "description": "IQons ChartLine icon. Variants: outline, fill, duotone.",
+      "description": "IQons Chart Line icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -787,7 +787,7 @@
       "name": "chart-pie",
       "type": "registry:ui",
       "title": "Chart Pie",
-      "description": "IQons ChartPie icon. Variants: outline, fill, duotone.",
+      "description": "IQons Chart Pie icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -817,7 +817,7 @@
       "name": "chat-close",
       "type": "registry:ui",
       "title": "Chat Close",
-      "description": "IQons ChatClose icon. Variants: outline, fill, duotone.",
+      "description": "IQons Chat Close icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -832,7 +832,7 @@
       "name": "chat-history",
       "type": "registry:ui",
       "title": "Chat History",
-      "description": "IQons ChatHistory icon. Variants: outline, fill, duotone.",
+      "description": "IQons Chat History icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -847,7 +847,7 @@
       "name": "chat-new",
       "type": "registry:ui",
       "title": "Chat New",
-      "description": "IQons ChatNew icon. Variants: outline, fill, duotone.",
+      "description": "IQons Chat New icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -877,7 +877,7 @@
       "name": "chevron-down",
       "type": "registry:ui",
       "title": "Chevron Down",
-      "description": "IQons ChevronDown icon. Variants: outline, fill, duotone.",
+      "description": "IQons Chevron Down icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -892,7 +892,7 @@
       "name": "chevron-left",
       "type": "registry:ui",
       "title": "Chevron Left",
-      "description": "IQons ChevronLeft icon. Variants: outline, fill, duotone.",
+      "description": "IQons Chevron Left icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -907,7 +907,7 @@
       "name": "chevron-right",
       "type": "registry:ui",
       "title": "Chevron Right",
-      "description": "IQons ChevronRight icon. Variants: outline, fill, duotone.",
+      "description": "IQons Chevron Right icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -922,7 +922,7 @@
       "name": "chevron-up",
       "type": "registry:ui",
       "title": "Chevron Up",
-      "description": "IQons ChevronUp icon. Variants: outline, fill, duotone.",
+      "description": "IQons Chevron Up icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -937,7 +937,7 @@
       "name": "circle-dashed",
       "type": "registry:ui",
       "title": "Circle Dashed",
-      "description": "IQons CircleDashed icon. Variants: outline, fill, duotone.",
+      "description": "IQons Circle Dashed icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -952,7 +952,7 @@
       "name": "circle-notch",
       "type": "registry:ui",
       "title": "Circle Notch",
-      "description": "IQons CircleNotch icon. Variants: outline, fill, duotone.",
+      "description": "IQons Circle Notch icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -1222,7 +1222,7 @@
       "name": "document-new",
       "type": "registry:ui",
       "title": "Document New",
-      "description": "IQons DocumentNew icon. Variants: outline, fill, duotone.",
+      "description": "IQons Document New icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -1252,7 +1252,7 @@
       "name": "drug-doubling",
       "type": "registry:ui",
       "title": "Drug Doubling",
-      "description": "IQons DrugDoubling icon. Variants: outline, fill, duotone.",
+      "description": "IQons Drug Doubling icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -1417,7 +1417,7 @@
       "name": "folder-basic",
       "type": "registry:ui",
       "title": "Folder Basic",
-      "description": "IQons FolderBasic icon. Variants: outline, fill, duotone.",
+      "description": "IQons Folder Basic icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -1432,7 +1432,7 @@
       "name": "folder-new",
       "type": "registry:ui",
       "title": "Folder New",
-      "description": "IQons FolderNew icon. Variants: outline, fill, duotone.",
+      "description": "IQons Folder New icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -1624,16 +1624,16 @@
       ]
     },
     {
-      "name": "idbadge",
+      "name": "id-badge",
       "type": "registry:ui",
-      "title": "Idbadge",
-      "description": "IQons Idbadge icon. Variants: outline, fill, duotone.",
+      "title": "ID Badge",
+      "description": "IQons ID Badge icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
       "files": [
         {
-          "path": "packages/iqons-react/src/Idbadge.tsx",
+          "path": "packages/iqons-react/src/IDBadge.tsx",
           "type": "registry:ui"
         }
       ]
@@ -1702,7 +1702,7 @@
       "name": "in-progress",
       "type": "registry:ui",
       "title": "In Progress",
-      "description": "IQons InProgress icon. Variants: outline, fill, duotone.",
+      "description": "IQons In Progress icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -1777,7 +1777,7 @@
       "name": "key-return",
       "type": "registry:ui",
       "title": "Key Return",
-      "description": "IQons KeyReturn icon. Variants: outline, fill, duotone.",
+      "description": "IQons Key Return icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -1807,7 +1807,7 @@
       "name": "layout-list",
       "type": "registry:ui",
       "title": "Layout List",
-      "description": "IQons LayoutList icon. Variants: outline, fill, duotone.",
+      "description": "IQons Layout List icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -1927,7 +1927,7 @@
       "name": "magic-wand",
       "type": "registry:ui",
       "title": "Magic Wand",
-      "description": "IQons MagicWand icon. Variants: outline, fill, duotone.",
+      "description": "IQons Magic Wand icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2002,7 +2002,7 @@
       "name": "medication-add",
       "type": "registry:ui",
       "title": "Medication Add",
-      "description": "IQons MedicationAdd icon. Variants: outline, fill, duotone.",
+      "description": "IQons Medication Add icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2017,7 +2017,7 @@
       "name": "medication-branded",
       "type": "registry:ui",
       "title": "Medication Branded",
-      "description": "IQons MedicationBranded icon. Variants: outline, fill, duotone.",
+      "description": "IQons Medication Branded icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2032,7 +2032,7 @@
       "name": "medication-discontinued",
       "type": "registry:ui",
       "title": "Medication Discontinued",
-      "description": "IQons MedicationDiscontinued icon. Variants: outline, fill, duotone.",
+      "description": "IQons Medication Discontinued icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2047,7 +2047,7 @@
       "name": "medication-unlicensed",
       "type": "registry:ui",
       "title": "Medication Unlicensed",
-      "description": "IQons MedicationUnlicensed icon. Variants: outline, fill, duotone.",
+      "description": "IQons Medication Unlicensed icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2152,7 +2152,7 @@
       "name": "more-horizontal",
       "type": "registry:ui",
       "title": "More Horizontal",
-      "description": "IQons MoreHorizontal icon. Variants: outline, fill, duotone.",
+      "description": "IQons More Horizontal icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2167,7 +2167,7 @@
       "name": "more-vertical",
       "type": "registry:ui",
       "title": "More Vertical",
-      "description": "IQons MoreVertical icon. Variants: outline, fill, duotone.",
+      "description": "IQons More Vertical icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2182,7 +2182,7 @@
       "name": "new-conversation",
       "type": "registry:ui",
       "title": "New Conversation",
-      "description": "IQons NewConversation icon. Variants: outline, fill, duotone.",
+      "description": "IQons New Conversation icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2242,7 +2242,7 @@
       "name": "open-external",
       "type": "registry:ui",
       "title": "Open External",
-      "description": "IQons OpenExternal icon. Variants: outline, fill, duotone.",
+      "description": "IQons Open External icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2467,7 +2467,7 @@
       "name": "priority-high",
       "type": "registry:ui",
       "title": "Priority High",
-      "description": "IQons PriorityHigh icon. Variants: outline, fill, duotone.",
+      "description": "IQons Priority High icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2482,7 +2482,7 @@
       "name": "priority-low",
       "type": "registry:ui",
       "title": "Priority Low",
-      "description": "IQons PriorityLow icon. Variants: outline, fill, duotone.",
+      "description": "IQons Priority Low icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2497,7 +2497,7 @@
       "name": "priority-medium",
       "type": "registry:ui",
       "title": "Priority Medium",
-      "description": "IQons PriorityMedium icon. Variants: outline, fill, duotone.",
+      "description": "IQons Priority Medium icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2737,7 +2737,7 @@
       "name": "security-alert",
       "type": "registry:ui",
       "title": "Security Alert",
-      "description": "IQons SecurityAlert icon. Variants: outline, fill, duotone.",
+      "description": "IQons Security Alert icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2827,7 +2827,7 @@
       "name": "sidebar-left",
       "type": "registry:ui",
       "title": "Sidebar Left",
-      "description": "IQons SidebarLeft icon. Variants: outline, fill, duotone.",
+      "description": "IQons Sidebar Left icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2842,7 +2842,7 @@
       "name": "sidebar-right",
       "type": "registry:ui",
       "title": "Sidebar Right",
-      "description": "IQons SidebarRight icon. Variants: outline, fill, duotone.",
+      "description": "IQons Sidebar Right icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2857,7 +2857,7 @@
       "name": "sign-out",
       "type": "registry:ui",
       "title": "Sign Out",
-      "description": "IQons SignOut icon. Variants: outline, fill, duotone.",
+      "description": "IQons Sign Out icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2872,7 +2872,7 @@
       "name": "signal-high",
       "type": "registry:ui",
       "title": "Signal High",
-      "description": "IQons SignalHigh icon. Variants: outline, fill, duotone.",
+      "description": "IQons Signal High icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2887,7 +2887,7 @@
       "name": "signal-low",
       "type": "registry:ui",
       "title": "Signal Low",
-      "description": "IQons SignalLow icon. Variants: outline, fill, duotone.",
+      "description": "IQons Signal Low icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2902,7 +2902,7 @@
       "name": "signal-medium",
       "type": "registry:ui",
       "title": "Signal Medium",
-      "description": "IQons SignalMedium icon. Variants: outline, fill, duotone.",
+      "description": "IQons Signal Medium icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2932,7 +2932,7 @@
       "name": "sort-ascending",
       "type": "registry:ui",
       "title": "Sort Ascending",
-      "description": "IQons SortAscending icon. Variants: outline, fill, duotone.",
+      "description": "IQons Sort Ascending icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -2947,7 +2947,7 @@
       "name": "sort-descending",
       "type": "registry:ui",
       "title": "Sort Descending",
-      "description": "IQons SortDescending icon. Variants: outline, fill, duotone.",
+      "description": "IQons Sort Descending icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -3022,7 +3022,7 @@
       "name": "subtract-round",
       "type": "registry:ui",
       "title": "Subtract Round",
-      "description": "IQons SubtractRound icon. Variants: outline, fill, duotone.",
+      "description": "IQons Subtract Round icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -3037,7 +3037,7 @@
       "name": "subtract-square",
       "type": "registry:ui",
       "title": "Subtract Square",
-      "description": "IQons SubtractSquare icon. Variants: outline, fill, duotone.",
+      "description": "IQons Subtract Square icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -3052,7 +3052,7 @@
       "name": "success-round",
       "type": "registry:ui",
       "title": "Success Round",
-      "description": "IQons SuccessRound icon. Variants: outline, fill, duotone.",
+      "description": "IQons Success Round icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -3142,7 +3142,7 @@
       "name": "task-new",
       "type": "registry:ui",
       "title": "Task New",
-      "description": "IQons TaskNew icon. Variants: outline, fill, duotone.",
+      "description": "IQons Task New icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -3187,7 +3187,7 @@
       "name": "thumbs-down",
       "type": "registry:ui",
       "title": "Thumbs Down",
-      "description": "IQons ThumbsDown icon. Variants: outline, fill, duotone.",
+      "description": "IQons Thumbs Down icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -3202,7 +3202,7 @@
       "name": "thumbs-up",
       "type": "registry:ui",
       "title": "Thumbs Up",
-      "description": "IQons ThumbsUp icon. Variants: outline, fill, duotone.",
+      "description": "IQons Thumbs Up icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -3277,7 +3277,7 @@
       "name": "trend-down",
       "type": "registry:ui",
       "title": "Trend Down",
-      "description": "IQons TrendDown icon. Variants: outline, fill, duotone.",
+      "description": "IQons Trend Down icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -3292,7 +3292,7 @@
       "name": "trend-up",
       "type": "registry:ui",
       "title": "Trend Up",
-      "description": "IQons TrendUp icon. Variants: outline, fill, duotone.",
+      "description": "IQons Trend Up icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -3367,7 +3367,7 @@
       "name": "user-add",
       "type": "registry:ui",
       "title": "User Add",
-      "description": "IQons UserAdd icon. Variants: outline, fill, duotone.",
+      "description": "IQons User Add icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -3382,7 +3382,7 @@
       "name": "user-circle",
       "type": "registry:ui",
       "title": "User Circle",
-      "description": "IQons UserCircle icon. Variants: outline, fill, duotone.",
+      "description": "IQons User Circle icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -3397,7 +3397,7 @@
       "name": "user-edit",
       "type": "registry:ui",
       "title": "User Edit",
-      "description": "IQons UserEdit icon. Variants: outline, fill, duotone.",
+      "description": "IQons User Edit icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -3412,7 +3412,7 @@
       "name": "user-group",
       "type": "registry:ui",
       "title": "User Group",
-      "description": "IQons UserGroup icon. Variants: outline, fill, duotone.",
+      "description": "IQons User Group icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -3427,7 +3427,7 @@
       "name": "user-remove",
       "type": "registry:ui",
       "title": "User Remove",
-      "description": "IQons UserRemove icon. Variants: outline, fill, duotone.",
+      "description": "IQons User Remove icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
@@ -3457,7 +3457,7 @@
       "name": "video-call",
       "type": "registry:ui",
       "title": "Video Call",
-      "description": "IQons VideoCall icon. Variants: outline, fill, duotone.",
+      "description": "IQons Video Call icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],

@@ -3,7 +3,7 @@
   "name": "arrow-diagonal-down-right",
   "type": "registry:ui",
   "title": "Arrow Diagonal Down Right",
-  "description": "IQons ArrowDiagonalDownRight icon. Variants: outline, fill, duotone.",
+  "description": "IQons Arrow Diagonal Down Right icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

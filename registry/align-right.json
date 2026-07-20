@@ -3,7 +3,7 @@
   "name": "align-right",
   "type": "registry:ui",
   "title": "Align Right",
-  "description": "IQons AlignRight icon. Variants: outline, fill, duotone.",
+  "description": "IQons Align Right icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

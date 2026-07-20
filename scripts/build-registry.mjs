@@ -22,9 +22,18 @@ const REPO_RAW   = "https://raw.githubusercontent.com/LiamHaire/IQons/master";
 mkdirSync(REG_DIR, { recursive: true });
 
 function toIconId(componentName) {
+  // Insert hyphens between transitions: lowercase→uppercase or uppercase-run→uppercase+lowercase
   return componentName
-    .replace(/([A-Z])/g, (m, l, i) => (i > 0 ? "-" : "") + l.toLowerCase())
-    .replace(/^-/, "");
+    .replace(/([a-z0-9])([A-Z])/g, "$1-$2")
+    .replace(/([A-Z]+)([A-Z][a-z])/g, "$1-$2")
+    .toLowerCase();
+}
+
+function toTitle(componentName) {
+  // Split on same boundaries as toIconId, then title-case each word
+  return componentName
+    .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
+    .replace(/([A-Z]+)([A-Z][a-z])/g, "$1 $2");
 }
 
 // Collect all generated component files
@@ -55,8 +64,8 @@ for (const file of componentFiles) {
     $schema: "https://ui.shadcn.com/schema/registry-item.json",
     name: id,
     type: "registry:ui",
-    title: componentName.replace(/([A-Z])/g, (m, l, i) => (i > 0 ? " " : "") + l),
-    description: `IQons ${componentName} icon. Variants: ${variants.join(", ")}.`,
+    title: toTitle(componentName),
+    description: `IQons ${toTitle(componentName)} icon. Variants: ${variants.join(", ")}.`,
     dependencies: ["iqons-react"],
     files: [
       {

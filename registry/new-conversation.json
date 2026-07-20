@@ -3,7 +3,7 @@
   "name": "new-conversation",
   "type": "registry:ui",
   "title": "New Conversation",
-  "description": "IQons NewConversation icon. Variants: outline, fill, duotone.",
+  "description": "IQons New Conversation icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

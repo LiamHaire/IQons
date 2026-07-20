@@ -3,7 +3,7 @@
   "name": "chart-pie",
   "type": "registry:ui",
   "title": "Chart Pie",
-  "description": "IQons ChartPie icon. Variants: outline, fill, duotone.",
+  "description": "IQons Chart Pie icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

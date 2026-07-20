@@ -3,7 +3,7 @@
   "name": "subtract-round",
   "type": "registry:ui",
   "title": "Subtract Round",
-  "description": "IQons SubtractRound icon. Variants: outline, fill, duotone.",
+  "description": "IQons Subtract Round icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

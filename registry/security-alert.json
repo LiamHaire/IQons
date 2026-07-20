@@ -3,7 +3,7 @@
   "name": "security-alert",
   "type": "registry:ui",
   "title": "Security Alert",
-  "description": "IQons SecurityAlert icon. Variants: outline, fill, duotone.",
+  "description": "IQons Security Alert icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

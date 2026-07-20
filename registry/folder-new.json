@@ -3,7 +3,7 @@
   "name": "folder-new",
   "type": "registry:ui",
   "title": "Folder New",
-  "description": "IQons FolderNew icon. Variants: outline, fill, duotone.",
+  "description": "IQons Folder New icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

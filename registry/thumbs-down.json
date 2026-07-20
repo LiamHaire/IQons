@@ -3,7 +3,7 @@
   "name": "thumbs-down",
   "type": "registry:ui",
   "title": "Thumbs Down",
-  "description": "IQons ThumbsDown icon. Variants: outline, fill, duotone.",
+  "description": "IQons Thumbs Down icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

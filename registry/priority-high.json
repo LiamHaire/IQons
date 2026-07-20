@@ -3,7 +3,7 @@
   "name": "priority-high",
   "type": "registry:ui",
   "title": "Priority High",
-  "description": "IQons PriorityHigh icon. Variants: outline, fill, duotone.",
+  "description": "IQons Priority High icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

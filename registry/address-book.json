@@ -3,7 +3,7 @@
   "name": "address-book",
   "type": "registry:ui",
   "title": "Address Book",
-  "description": "IQons AddressBook icon. Variants: outline, fill, duotone.",
+  "description": "IQons Address Book icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

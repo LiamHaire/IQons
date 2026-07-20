@@ -3,7 +3,7 @@
   "name": "add-round",
   "type": "registry:ui",
   "title": "Add Round",
-  "description": "IQons AddRound icon. Variants: outline, fill, duotone.",
+  "description": "IQons Add Round icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

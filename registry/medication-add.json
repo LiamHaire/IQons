@@ -3,7 +3,7 @@
   "name": "medication-add",
   "type": "registry:ui",
   "title": "Medication Add",
-  "description": "IQons MedicationAdd icon. Variants: outline, fill, duotone.",
+  "description": "IQons Medication Add icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

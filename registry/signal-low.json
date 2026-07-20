@@ -3,7 +3,7 @@
   "name": "signal-low",
   "type": "registry:ui",
   "title": "Signal Low",
-  "description": "IQons SignalLow icon. Variants: outline, fill, duotone.",
+  "description": "IQons Signal Low icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

@@ -3,7 +3,7 @@
   "name": "medication-branded",
   "type": "registry:ui",
   "title": "Medication Branded",
-  "description": "IQons MedicationBranded icon. Variants: outline, fill, duotone.",
+  "description": "IQons Medication Branded icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

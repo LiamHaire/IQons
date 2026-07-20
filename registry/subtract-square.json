@@ -3,7 +3,7 @@
   "name": "subtract-square",
   "type": "registry:ui",
   "title": "Subtract Square",
-  "description": "IQons SubtractSquare icon. Variants: outline, fill, duotone.",
+  "description": "IQons Subtract Square icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

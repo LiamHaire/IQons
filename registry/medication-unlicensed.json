@@ -3,7 +3,7 @@
   "name": "medication-unlicensed",
   "type": "registry:ui",
   "title": "Medication Unlicensed",
-  "description": "IQons MedicationUnlicensed icon. Variants: outline, fill, duotone.",
+  "description": "IQons Medication Unlicensed icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

@@ -3,7 +3,7 @@
   "name": "sidebar-right",
   "type": "registry:ui",
   "title": "Sidebar Right",
-  "description": "IQons SidebarRight icon. Variants: outline, fill, duotone.",
+  "description": "IQons Sidebar Right icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

@@ -3,7 +3,7 @@
   "name": "magic-wand",
   "type": "registry:ui",
   "title": "Magic Wand",
-  "description": "IQons MagicWand icon. Variants: outline, fill, duotone.",
+  "description": "IQons Magic Wand icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

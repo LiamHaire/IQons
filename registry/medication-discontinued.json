@@ -3,7 +3,7 @@
   "name": "medication-discontinued",
   "type": "registry:ui",
   "title": "Medication Discontinued",
-  "description": "IQons MedicationDiscontinued icon. Variants: outline, fill, duotone.",
+  "description": "IQons Medication Discontinued icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

@@ -3,7 +3,7 @@
   "name": "allergies-none",
   "type": "registry:ui",
   "title": "Allergies None",
-  "description": "IQons AllergiesNone icon. Variants: outline, fill, duotone.",
+  "description": "IQons Allergies None icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

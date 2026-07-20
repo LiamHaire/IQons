@@ -3,7 +3,7 @@
   "name": "chevron-down",
   "type": "registry:ui",
   "title": "Chevron Down",
-  "description": "IQons ChevronDown icon. Variants: outline, fill, duotone.",
+  "description": "IQons Chevron Down icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

@@ -3,7 +3,7 @@
   "name": "trend-down",
   "type": "registry:ui",
   "title": "Trend Down",
-  "description": "IQons TrendDown icon. Variants: outline, fill, duotone.",
+  "description": "IQons Trend Down icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

@@ -3,7 +3,7 @@
   "name": "open-external",
   "type": "registry:ui",
   "title": "Open External",
-  "description": "IQons OpenExternal icon. Variants: outline, fill, duotone.",
+  "description": "IQons Open External icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

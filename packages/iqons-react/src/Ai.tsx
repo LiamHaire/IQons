@@ -14,10 +14,10 @@ const AVAILABLE = ["outline","fill","duotone"] as const;
 type Variant = (typeof AVAILABLE)[number];
 
 /**
- * Ai icon
+ * AI icon
  * Variants: outline, fill, duotone
  */
-export function Ai({
+export function AI({
   variant = "outline",
   size = 24,
   label,
@@ -40,5 +40,5 @@ export function Ai({
   );
 }
 
-Ai.displayName = "Ai";
-Ai.variants = AVAILABLE;
+AI.displayName = "AI";
+AI.variants = AVAILABLE;

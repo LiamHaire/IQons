@@ -3,7 +3,7 @@
   "name": "chevron-right",
   "type": "registry:ui",
   "title": "Chevron Right",
-  "description": "IQons ChevronRight icon. Variants: outline, fill, duotone.",
+  "description": "IQons Chevron Right icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

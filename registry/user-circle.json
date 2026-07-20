@@ -3,7 +3,7 @@
   "name": "user-circle",
   "type": "registry:ui",
   "title": "User Circle",
-  "description": "IQons UserCircle icon. Variants: outline, fill, duotone.",
+  "description": "IQons User Circle icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

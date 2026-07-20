@@ -3,7 +3,7 @@
   "name": "signal-medium",
   "type": "registry:ui",
   "title": "Signal Medium",
-  "description": "IQons SignalMedium icon. Variants: outline, fill, duotone.",
+  "description": "IQons Signal Medium icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

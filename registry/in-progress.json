@@ -3,7 +3,7 @@
   "name": "in-progress",
   "type": "registry:ui",
   "title": "In Progress",
-  "description": "IQons InProgress icon. Variants: outline, fill, duotone.",
+  "description": "IQons In Progress icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

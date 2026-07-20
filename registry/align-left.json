@@ -3,7 +3,7 @@
   "name": "align-left",
   "type": "registry:ui",
   "title": "Align Left",
-  "description": "IQons AlignLeft icon. Variants: outline, fill, duotone.",
+  "description": "IQons Align Left icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

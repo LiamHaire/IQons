@@ -3,7 +3,7 @@
   "name": "user-group",
   "type": "registry:ui",
   "title": "User Group",
-  "description": "IQons UserGroup icon. Variants: outline, fill, duotone.",
+  "description": "IQons User Group icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

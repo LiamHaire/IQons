@@ -49,10 +49,13 @@ function parseIconFile(filename: string): { iconId: string; style: IconStyle } |
   return null;
 }
 
+const ACRONYMS = new Set(["id", "ai", "ui", "ux", "api", "url", "svg", "pdf", "qr"]);
+
 function toTitleCase(kebab: string): string {
   return kebab
-    .replace(/-./g, (m) => " " + m[1].toUpperCase())
-    .replace(/^./, (m) => m.toUpperCase());
+    .split("-")
+    .map((word) => ACRONYMS.has(word) ? word.toUpperCase() : word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 }
 
 export function getAllIcons(): Icon[] {

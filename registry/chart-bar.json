@@ -3,7 +3,7 @@
   "name": "chart-bar",
   "type": "registry:ui",
   "title": "Chart Bar",
-  "description": "IQons ChartBar icon. Variants: outline, fill, duotone.",
+  "description": "IQons Chart Bar icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

@@ -3,7 +3,7 @@
   "name": "chat-history",
   "type": "registry:ui",
   "title": "Chat History",
-  "description": "IQons ChatHistory icon. Variants: outline, fill, duotone.",
+  "description": "IQons Chat History icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

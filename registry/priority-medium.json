@@ -3,7 +3,7 @@
   "name": "priority-medium",
   "type": "registry:ui",
   "title": "Priority Medium",
-  "description": "IQons PriorityMedium icon. Variants: outline, fill, duotone.",
+  "description": "IQons Priority Medium icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

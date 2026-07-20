@@ -3,7 +3,7 @@
   "name": "align-bottom",
   "type": "registry:ui",
   "title": "Align Bottom",
-  "description": "IQons AlignBottom icon. Variants: outline, fill, duotone.",
+  "description": "IQons Align Bottom icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

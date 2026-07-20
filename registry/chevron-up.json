@@ -3,7 +3,7 @@
   "name": "chevron-up",
   "type": "registry:ui",
   "title": "Chevron Up",
-  "description": "IQons ChevronUp icon. Variants: outline, fill, duotone.",
+  "description": "IQons Chevron Up icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

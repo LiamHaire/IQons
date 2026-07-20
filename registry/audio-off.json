@@ -3,7 +3,7 @@
   "name": "audio-off",
   "type": "registry:ui",
   "title": "Audio Off",
-  "description": "IQons AudioOff icon. Variants: outline, fill, duotone.",
+  "description": "IQons Audio Off icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

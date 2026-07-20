@@ -3,7 +3,7 @@
   "name": "thumbs-up",
   "type": "registry:ui",
   "title": "Thumbs Up",
-  "description": "IQons ThumbsUp icon. Variants: outline, fill, duotone.",
+  "description": "IQons Thumbs Up icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

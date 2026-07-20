@@ -3,7 +3,7 @@
   "name": "layout-list",
   "type": "registry:ui",
   "title": "Layout List",
-  "description": "IQons LayoutList icon. Variants: outline, fill, duotone.",
+  "description": "IQons Layout List icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

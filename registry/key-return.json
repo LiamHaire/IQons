@@ -3,7 +3,7 @@
   "name": "key-return",
   "type": "registry:ui",
   "title": "Key Return",
-  "description": "IQons KeyReturn icon. Variants: outline, fill, duotone.",
+  "description": "IQons Key Return icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

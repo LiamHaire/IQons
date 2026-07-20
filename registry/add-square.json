@@ -3,7 +3,7 @@
   "name": "add-square",
   "type": "registry:ui",
   "title": "Add Square",
-  "description": "IQons AddSquare icon. Variants: outline, fill, duotone.",
+  "description": "IQons Add Square icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

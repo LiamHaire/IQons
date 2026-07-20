@@ -3,7 +3,7 @@
   "name": "priority-low",
   "type": "registry:ui",
   "title": "Priority Low",
-  "description": "IQons PriorityLow icon. Variants: outline, fill, duotone.",
+  "description": "IQons Priority Low icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],

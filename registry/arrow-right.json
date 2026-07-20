@@ -3,7 +3,7 @@
   "name": "arrow-right",
   "type": "registry:ui",
   "title": "Arrow Right",
-  "description": "IQons ArrowRight icon. Variants: outline, fill, duotone.",
+  "description": "IQons Arrow Right icon. Variants: outline, fill, duotone.",
   "dependencies": [
     "iqons-react"
   ],
