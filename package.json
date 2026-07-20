@@ -10,7 +10,9 @@
     "gen:meta": "node scripts/generate-metadata.mjs",
     "build:manifest": "node scripts/build-manifest.mjs",
     "build:react": "node scripts/build-react.mjs",
-    "build:registry": "node scripts/build-registry.mjs"
+    "build:registry": "node scripts/build-registry.mjs",
+    "build:plugin-data": "node scripts/build-plugin-data.mjs",
+    "build:plugin": "node scripts/build-plugin-data.mjs && node scripts/build-plugin.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.42.0",
