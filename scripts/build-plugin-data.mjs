@@ -33,11 +33,18 @@ function extractVariants(source) {
     const re = new RegExp(`${variant}:\\s*\`([\\s\\S]*?)\`(?:,|\\s*$)`, "m");
     const m = block.match(re);
     if (m) {
-      // Replace currentColor with #000000 for Figma, preserve fill-opacity
       result[variant] = m[1]
         .trim()
+        // Replace currentColor with #000000 for Figma
         .replace(/fill="currentColor"/g, 'fill="#000000"')
-        .replace(/stroke="currentColor"/g, 'stroke="#000000"');
+        .replace(/stroke="currentColor"/g, 'stroke="#000000"')
+        // Figma doesn't support <mask> elements — strip them entirely
+        .replace(/<mask[\s\S]*?<\/mask>/gi, "")
+        // Remove mask="url(#...)" references from paths (path still renders without it)
+        .replace(/\s*mask="url\([^)]*\)"/g, "")
+        // Clean up any double spaces left behind
+        .replace(/  +/g, " ")
+        .trim();
     }
   }
 

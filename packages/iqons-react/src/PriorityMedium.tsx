@@ -1,12 +1,12 @@
 import type { IqonProps } from "./types";
 
 const VARIANTS: Partial<Record<string, string>> = {
-  outline: `<circle cx="12" cy="12" r="10.25" stroke="currentColor" stroke- />
-<path d="M7.75 13.25L11.9293 9.07071C11.9683 9.03166 12.0317 9.03166 12.0707 9.07071L16.25 13.25" stroke="currentColor" stroke- stroke-linecap="round"/>`,
+  outline: `<circle cx="12" cy="12" r="10.25" stroke="currentColor" stroke-width="1.5"/>
+<path d="M7.75 13.25L11.9293 9.07071C11.9683 9.03166 12.0317 9.03166 12.0707 9.07071L16.25 13.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>`,
   fill: `<path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C17.0751 0 22 4.92487 22 11C22 17.0751 17.0751 22 11 22C4.92487 22 0 17.0751 0 11C0 4.92487 4.92487 0 11 0ZM11.5361 7.48242C11.2245 7.2283 10.7755 7.2283 10.4639 7.48242L10.3994 7.54004L6.21973 11.7197C5.92684 12.0126 5.92684 12.4874 6.21973 12.7803C6.51262 13.0732 6.98738 13.0732 7.28027 12.7803L11 9.06055L14.7197 12.7803C15.0126 13.0732 15.4874 13.0732 15.7803 12.7803C16.0732 12.4874 16.0732 12.0126 15.7803 11.7197L11.6006 7.54004L11.5361 7.48242Z" fill="currentColor"/>`,
   duotone: `<circle cx="12" cy="12" r="11" fill="currentColor" fill-opacity="0.2"/>
-<circle cx="12" cy="12" r="10.25" stroke="currentColor" stroke- />
-<path d="M7.75 13.25L11.9293 9.07071C11.9683 9.03166 12.0317 9.03166 12.0707 9.07071L16.25 13.25" stroke="currentColor" stroke- stroke-linecap="round"/>`,
+<circle cx="12" cy="12" r="10.25" stroke="currentColor" stroke-width="1.5"/>
+<path d="M7.75 13.25L11.9293 9.07071C11.9683 9.03166 12.0317 9.03166 12.0707 9.07071L16.25 13.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>`,
 };
 
 const AVAILABLE = ["outline","fill","duotone"] as const;

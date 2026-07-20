@@ -53,8 +53,8 @@ function normaliseSvg(raw) {
   });
 
   const normalised = withoutMasks
-    .replace(/\s*width="[^"]*"\s*/g, " ")
-    .replace(/\s*height="[^"]*"\s*/g, " ")
+    .replace(/(?<![a-z-])width="[^"]*"/g, "")
+    .replace(/(?<![a-z-])height="[^"]*"/g, "")
     .replace(/fill="#E2DDCD"/gi, 'fill="currentColor" fill-opacity="0.15"')
     .replace(/stroke="#E2DDCD"/gi, 'stroke="currentColor" stroke-opacity="0.15"')
     .replace(/fill="#[0-9a-fA-F]{3,8}"/g, 'fill="currentColor"')

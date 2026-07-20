@@ -5,22 +5,22 @@ const VARIANTS: Partial<Record<string, string>> = {
 <path d="M5 7C5 5.89543 5.89543 5 7 5H17C18.1046 5 19 5.89543 19 7V17C19 18.1046 18.1046 19 17 19H7C5.89543 19 5 18.1046 5 17V7Z"/>
 </mask>
 <path d="M7 5V6.5H17V5V3.5H7V5ZM19 7H17.5V17H19H20.5V7H19ZM17 19V17.5H7V19V20.5H17V19ZM5 17H6.5V7H5H3.5V17H5ZM7 19V17.5C6.72386 17.5 6.5 17.2761 6.5 17H5H3.5C3.5 18.933 5.067 20.5 7 20.5V19ZM19 17H17.5C17.5 17.2761 17.2761 17.5 17 17.5V19V20.5C18.933 20.5 20.5 18.933 20.5 17H19ZM17 5V6.5C17.2761 6.5 17.5 6.72386 17.5 7H19H20.5C20.5 5.067 18.933 3.5 17 3.5V5ZM7 5V3.5C5.067 3.5 3.5 5.067 3.5 7H5H6.5C6.5 6.72386 6.72386 6.5 7 6.5V5Z" fill="currentColor" mask="url(#path-1-inside-1_488_131)"/>
-<path d="M7 5.5V2" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M10.3333 5.5V2" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M13.6667 5.5V2" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M17 5.5V2" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M18.5 7L22 7" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M18.5 10.3333L22 10.3333" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M18.5 13.6667L22 13.6667" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M18.5 17L22 17" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M17 18.5L17 22" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M13.6667 18.5L13.6667 22" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M10.3333 18.5L10.3333 22" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M7 18.5L7 22" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M5.5 17L2 17" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M5.5 13.6667L2 13.6667" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M5.5 10.3333L2 10.3333" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M5.5 7L2 7" stroke="currentColor" stroke- stroke-linecap="round"/>
+<path d="M7 5.5V2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M10.3333 5.5V2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M13.6667 5.5V2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M17 5.5V2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M18.5 7L22 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M18.5 10.3333L22 10.3333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M18.5 13.6667L22 13.6667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M18.5 17L22 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M17 18.5L17 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M13.6667 18.5L13.6667 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M10.3333 18.5L10.3333 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M7 18.5L7 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M5.5 17L2 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M5.5 13.6667L2 13.6667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M5.5 10.3333L2 10.3333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M5.5 7L2 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 <path d="M15.5 9V15H14.0904V9H15.5Z" fill="currentColor"/>
 <path d="M10.448 10.261L9.01833 15H7.5L9.65465 9H10.6172L10.448 10.261ZM11.6321 15L10.1984 10.261L10.0131 9H10.9877L13.1545 15H11.6321ZM11.5757 12.7624V13.8791H8.56726V12.7624H11.5757Z" fill="currentColor"/>`,
   fill: `<path d="M10.9551 12.7627H9.69336L10.3232 10.6738L10.9551 12.7627Z" fill="currentColor"/>
@@ -30,22 +30,22 @@ const VARIANTS: Partial<Record<string, string>> = {
 <path d="M5 7C5 5.89543 5.89543 5 7 5H17C18.1046 5 19 5.89543 19 7V17C19 18.1046 18.1046 19 17 19H7C5.89543 19 5 18.1046 5 17V7Z"/>
 </mask>
 <path d="M7 5V6.5H17V5V3.5H7V5ZM19 7H17.5V17H19H20.5V7H19ZM17 19V17.5H7V19V20.5H17V19ZM5 17H6.5V7H5H3.5V17H5ZM7 19V17.5C6.72386 17.5 6.5 17.2761 6.5 17H5H3.5C3.5 18.933 5.067 20.5 7 20.5V19ZM19 17H17.5C17.5 17.2761 17.2761 17.5 17 17.5V19V20.5C18.933 20.5 20.5 18.933 20.5 17H19ZM17 5V6.5C17.2761 6.5 17.5 6.72386 17.5 7H19H20.5C20.5 5.067 18.933 3.5 17 3.5V5ZM7 5V3.5C5.067 3.5 3.5 5.067 3.5 7H5H6.5C6.5 6.72386 6.72386 6.5 7 6.5V5Z" fill="currentColor" mask="url(#path-2-inside-1_488_133)"/>
-<path d="M7 5.5V2" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M10.3333 5.5V2" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M13.6667 5.5V2" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M17 5.5V2" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M18.5 7L22 7" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M18.5 10.3333L22 10.3333" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M18.5 13.6667L22 13.6667" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M18.5 17L22 17" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M17 18.5L17 22" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M13.6667 18.5L13.6667 22" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M10.3333 18.5L10.3333 22" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M7 18.5L7 22" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M5.5 17L2 17" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M5.5 13.6667L2 13.6667" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M5.5 10.3333L2 10.3333" stroke="currentColor" stroke- stroke-linecap="round"/>
-<path d="M5.5 7L2 7" stroke="currentColor" stroke- stroke-linecap="round"/>
+<path d="M7 5.5V2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M10.3333 5.5V2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M13.6667 5.5V2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M17 5.5V2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M18.5 7L22 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M18.5 10.3333L22 10.3333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M18.5 13.6667L22 13.6667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M18.5 17L22 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M17 18.5L17 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M13.6667 18.5L13.6667 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M10.3333 18.5L10.3333 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M7 18.5L7 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M5.5 17L2 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M5.5 13.6667L2 13.6667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M5.5 10.3333L2 10.3333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M5.5 7L2 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 <path d="M15.5 9V15H14.0904V9H15.5Z" fill="currentColor"/>
 <path d="M10.448 10.261L9.01833 15H7.5L9.65465 9H10.6172L10.448 10.261ZM11.6321 15L10.1984 10.261L10.0131 9H10.9877L13.1545 15H11.6321ZM11.5757 12.7624V13.8791H8.56726V12.7624H11.5757Z" fill="currentColor"/>`,
 };
