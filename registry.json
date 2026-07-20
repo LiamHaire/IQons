@@ -139,6 +139,21 @@
       ]
     },
     {
+      "name": "ai-memory",
+      "type": "registry:ui",
+      "title": "Ai Memory",
+      "description": "IQons AiMemory icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/AiMemory.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "align-bottom",
       "type": "registry:ui",
       "title": "Align Bottom",
@@ -194,6 +209,36 @@
       "files": [
         {
           "path": "packages/iqons-react/src/AlignTop.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "allergies",
+      "type": "registry:ui",
+      "title": "Allergies",
+      "description": "IQons Allergies icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Allergies.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "allergies-none",
+      "type": "registry:ui",
+      "title": "Allergies None",
+      "description": "IQons AllergiesNone icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/AllergiesNone.tsx",
           "type": "registry:ui"
         }
       ]

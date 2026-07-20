@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "count": 229,
+  "count": 232,
   "icons": [
     {
       "id": "acbs",
@@ -216,6 +216,24 @@
       ]
     },
     {
+      "id": "ai-memory",
+      "category": "ai",
+      "title": "Ai Memory",
+      "description": "",
+      "keywords": [
+        "ai",
+        "memory",
+        "artificial intelligence",
+        "machine learning"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
       "id": "align-bottom",
       "category": "layout",
       "title": "Align Bottom",
@@ -302,6 +320,37 @@
       "aliases": [
         "top-align"
       ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "allergies",
+      "category": "sector-health",
+      "title": "Allergies",
+      "description": "",
+      "keywords": [
+        "allergies"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "allergies-none",
+      "category": "sector-health",
+      "title": "Allergies None",
+      "description": "",
+      "keywords": [
+        "allergies",
+        "none"
+      ],
+      "aliases": [],
       "variants": [
         "outline",
         "fill",
