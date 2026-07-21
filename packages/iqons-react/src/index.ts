@@ -218,6 +218,7 @@ export { ThumbsDown } from "./ThumbsDown";
 export { ThumbsUp } from "./ThumbsUp";
 export { Ticket } from "./Ticket";
 export { Timeline } from "./Timeline";
+export { Token } from "./Token";
 export { Toolbox } from "./Toolbox";
 export { Tools } from "./Tools";
 export { TrendDown } from "./TrendDown";

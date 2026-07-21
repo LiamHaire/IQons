@@ -3259,6 +3259,21 @@
       ]
     },
     {
+      "name": "token",
+      "type": "registry:ui",
+      "title": "Token",
+      "description": "IQons Token icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Token.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "toolbox",
       "type": "registry:ui",
       "title": "Toolbox",

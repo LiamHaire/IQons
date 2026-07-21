@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "count": 235,
+  "count": 236,
   "icons": [
     {
       "id": "acbs",
@@ -5138,6 +5138,21 @@
         "schedule",
         "roadmap"
       ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "token",
+      "category": "ai",
+      "title": "Token",
+      "description": "",
+      "keywords": [
+        "token"
+      ],
+      "aliases": [],
       "variants": [
         "outline",
         "fill",
