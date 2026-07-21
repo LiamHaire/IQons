@@ -1789,6 +1789,21 @@
       ]
     },
     {
+      "name": "knowledge-base",
+      "type": "registry:ui",
+      "title": "Knowledge Base",
+      "description": "IQons Knowledge Base icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/KnowledgeBase.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "layout",
       "type": "registry:ui",
       "title": "Layout",
@@ -2984,6 +2999,21 @@
       "files": [
         {
           "path": "packages/iqons-react/src/Stopwatch.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "storage",
+      "type": "registry:ui",
+      "title": "Storage",
+      "description": "IQons Storage icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Storage.tsx",
           "type": "registry:ui"
         }
       ]

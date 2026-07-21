@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "count": 233,
+  "count": 235,
   "icons": [
     {
       "id": "acbs",
@@ -2824,6 +2824,22 @@
       ]
     },
     {
+      "id": "knowledge-base",
+      "category": "ai",
+      "title": "Knowledge Base",
+      "description": "",
+      "keywords": [
+        "knowledge",
+        "base"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
       "id": "layout",
       "category": "navigation",
       "title": "Layout",
@@ -4720,6 +4736,21 @@
         "timer",
         "elapsed"
       ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "storage",
+      "category": "system-utility",
+      "title": "Storage",
+      "description": "",
+      "keywords": [
+        "storage"
+      ],
+      "aliases": [],
       "variants": [
         "outline",
         "fill",
