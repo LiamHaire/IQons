@@ -1624,21 +1624,6 @@
       ]
     },
     {
-      "name": "icon-dataactions-briefcase",
-      "type": "registry:ui",
-      "title": "Icon Dataactions Briefcase",
-      "description": "IQons Icon Dataactions Briefcase icon. Variants: duotone.",
-      "dependencies": [
-        "iqons-react"
-      ],
-      "files": [
-        {
-          "path": "packages/iqons-react/src/IconDataactionsBriefcase.tsx",
-          "type": "registry:ui"
-        }
-      ]
-    },
-    {
       "name": "id-badge",
       "type": "registry:ui",
       "title": "ID Badge",
