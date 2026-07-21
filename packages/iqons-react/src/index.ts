@@ -109,7 +109,6 @@ export { History } from "./History";
 export { Holiday } from "./Holiday";
 export { Home } from "./Home";
 export { Hype } from "./Hype";
-export { IconDataactionsBriefcase } from "./IconDataactionsBriefcase";
 export { IDBadge } from "./IDBadge";
 export { Idea } from "./Idea";
 export { Image } from "./Image";
