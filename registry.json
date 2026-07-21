@@ -1624,6 +1624,21 @@
       ]
     },
     {
+      "name": "icon-dataactions-briefcase",
+      "type": "registry:ui",
+      "title": "Icon Dataactions Briefcase",
+      "description": "IQons Icon Dataactions Briefcase icon. Variants: duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/IconDataactionsBriefcase.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "id-badge",
       "type": "registry:ui",
       "title": "ID Badge",
@@ -2069,21 +2084,6 @@
       "files": [
         {
           "path": "packages/iqons-react/src/Meeting.tsx",
-          "type": "registry:ui"
-        }
-      ]
-    },
-    {
-      "name": "memory",
-      "type": "registry:ui",
-      "title": "Memory",
-      "description": "IQons Memory icon. Variants: outline, fill, duotone.",
-      "dependencies": [
-        "iqons-react"
-      ],
-      "files": [
-        {
-          "path": "packages/iqons-react/src/Memory.tsx",
           "type": "registry:ui"
         }
       ]
