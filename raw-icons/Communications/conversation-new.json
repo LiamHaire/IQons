@@ -1,0 +1,22 @@
+{
+  "title": "New Conversation",
+  "description": "Start a new conversation or thread",
+  "keywords": [
+    "new",
+    "conversation",
+    "thread",
+    "compose",
+    "start",
+    "chat"
+  ],
+  "aliases": [
+    "new-conversation",
+    "compose",
+    "new-thread"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

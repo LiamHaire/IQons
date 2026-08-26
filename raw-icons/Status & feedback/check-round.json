@@ -1,0 +1,27 @@
+{
+  "title": "Check Round",
+  "description": "A tick inside a circle indicating success or a completed action",
+  "keywords": [
+    "check",
+    "round",
+    "circle",
+    "success",
+    "done",
+    "complete",
+    "tick",
+    "approved"
+  ],
+  "aliases": [
+    "success-round",
+    "check-circle",
+    "done",
+    "complete",
+    "tick-circle",
+    "approve-circle"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

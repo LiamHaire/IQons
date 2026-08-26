@@ -1,0 +1,25 @@
+{
+  "title": "Video File",
+  "description": "A video file or recording",
+  "keywords": [
+    "video",
+    "file",
+    "movie",
+    "film",
+    "clip",
+    "media",
+    "recording",
+    "mp4"
+  ],
+  "aliases": [
+    "video",
+    "movie",
+    "film",
+    "clip"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "count": 236,
+  "count": 235,
   "icons": [
     {
       "id": "acbs",
@@ -166,23 +166,27 @@
       ]
     },
     {
-      "id": "agent",
+      "id": "agent-create",
       "category": "ai",
-      "title": "Agent",
+      "title": "Agent Create",
       "description": "AI agent capable of performing autonomous tasks",
       "keywords": [
         "agent",
+        "create",
         "ai",
         "autonomous",
         "bot",
         "assistant",
         "task",
-        "automation"
+        "automation",
+        "new"
       ],
       "aliases": [
+        "agent",
         "ai-agent",
         "bot",
-        "assistant-agent"
+        "assistant-agent",
+        "new-agent"
       ],
       "variants": [
         "outline",
@@ -500,55 +504,6 @@
       ]
     },
     {
-      "id": "approve",
-      "category": "workflow-productivity",
-      "title": "Approve",
-      "description": "Approve or accept an item",
-      "keywords": [
-        "approve",
-        "accept",
-        "confirm",
-        "tick",
-        "check",
-        "done",
-        "complete"
-      ],
-      "aliases": [
-        "accept",
-        "confirm",
-        "tick",
-        "check"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
-      "id": "approve-square",
-      "category": "workflow-productivity",
-      "title": "Approve Square",
-      "description": "Approve or accept an item using a square checkbox",
-      "keywords": [
-        "approve",
-        "square",
-        "accept",
-        "checkbox",
-        "tick",
-        "done"
-      ],
-      "aliases": [
-        "checkbox",
-        "check-square"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
       "id": "apps",
       "category": "navigation",
       "title": "Apps",
@@ -804,20 +759,21 @@
       ]
     },
     {
-      "id": "audio",
+      "id": "audio-file",
       "category": "documents-content",
-      "title": "Audio",
+      "title": "Audio File",
       "description": "An audio file or sound recording",
       "keywords": [
         "audio",
+        "file",
         "sound",
         "music",
-        "file",
         "recording",
         "mp3",
         "wav"
       ],
       "aliases": [
+        "audio",
         "sound",
         "music-file"
       ],
@@ -1093,52 +1049,6 @@
       ]
     },
     {
-      "id": "cancel",
-      "category": "workflow-productivity",
-      "title": "Cancel",
-      "description": "Cancel or reject an action",
-      "keywords": [
-        "cancel",
-        "reject",
-        "deny",
-        "decline",
-        "stop",
-        "close",
-        "x"
-      ],
-      "aliases": [
-        "reject",
-        "deny",
-        "decline"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
-      "id": "cancel-square",
-      "category": "workflow-productivity",
-      "title": "Cancel Square",
-      "description": "Cancel or reject an action using a square button",
-      "keywords": [
-        "cancel",
-        "square",
-        "reject",
-        "stop",
-        "x"
-      ],
-      "aliases": [
-        "reject-square"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
       "id": "certificate",
       "category": "security-access",
       "title": "Certificate",
@@ -1351,6 +1261,92 @@
       ]
     },
     {
+      "id": "check",
+      "category": "status-feedback",
+      "title": "Check",
+      "description": "A tick or checkmark indicating confirmation, approval, or a completed action",
+      "keywords": [
+        "check",
+        "tick",
+        "confirm",
+        "approve",
+        "accept",
+        "done",
+        "complete",
+        "correct",
+        "valid"
+      ],
+      "aliases": [
+        "approve",
+        "accept",
+        "confirm",
+        "tick",
+        "correct",
+        "valid"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "check-round",
+      "category": "status-feedback",
+      "title": "Check Round",
+      "description": "A tick inside a circle indicating success or a completed action",
+      "keywords": [
+        "check",
+        "round",
+        "circle",
+        "success",
+        "done",
+        "complete",
+        "tick",
+        "approved"
+      ],
+      "aliases": [
+        "success-round",
+        "check-circle",
+        "done",
+        "complete",
+        "tick-circle",
+        "approve-circle"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "check-square",
+      "category": "status-feedback",
+      "title": "Check Square",
+      "description": "A tick inside a square, used for checkboxes and task completion",
+      "keywords": [
+        "check",
+        "square",
+        "approve",
+        "accept",
+        "checkbox",
+        "tick",
+        "done",
+        "task"
+      ],
+      "aliases": [
+        "approve-square",
+        "checkbox",
+        "confirm-square",
+        "tick-square"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
       "id": "checklist",
       "category": "workflow-productivity",
       "title": "Checklist",
@@ -1463,56 +1459,6 @@
       ]
     },
     {
-      "id": "circle-dashed",
-      "category": "status-feedback",
-      "title": "Circle Dashed",
-      "description": "A dashed circle indicating a pending or inactive state",
-      "keywords": [
-        "circle",
-        "dashed",
-        "pending",
-        "inactive",
-        "empty",
-        "placeholder"
-      ],
-      "aliases": [
-        "pending",
-        "empty-state",
-        "placeholder"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
-      "id": "circle-notch",
-      "category": "status-feedback",
-      "title": "Circle Notch",
-      "description": "Spinning circle used as a loading or progress indicator",
-      "keywords": [
-        "circle",
-        "notch",
-        "loading",
-        "spinner",
-        "progress",
-        "wait",
-        "busy",
-        "throbber"
-      ],
-      "aliases": [
-        "spinner",
-        "loading",
-        "loader"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
       "id": "clipboard",
       "category": "documents-content",
       "title": "Clipboard",
@@ -1556,32 +1502,6 @@
       ]
     },
     {
-      "id": "close",
-      "category": "navigation",
-      "title": "Close",
-      "description": "X mark to close, dismiss, or remove something",
-      "keywords": [
-        "close",
-        "dismiss",
-        "cancel",
-        "remove",
-        "clear",
-        "delete",
-        "x"
-      ],
-      "aliases": [
-        "x",
-        "cancel",
-        "dismiss",
-        "remove"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
       "id": "cloud",
       "category": "communications",
       "title": "Cloud",
@@ -1605,6 +1525,30 @@
       ]
     },
     {
+      "id": "coffee-break",
+      "category": "calendar-scheduling",
+      "title": "Coffee Break",
+      "description": "A scheduled break or rest period",
+      "keywords": [
+        "coffee",
+        "break",
+        "rest",
+        "pause",
+        "schedule",
+        "calendar"
+      ],
+      "aliases": [
+        "break",
+        "rest",
+        "pause"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
       "id": "comment",
       "category": "communications",
       "title": "Comment",
@@ -1620,6 +1564,31 @@
       "aliases": [
         "note",
         "annotation"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "communications-send",
+      "category": "communications",
+      "title": "Send",
+      "description": "Send a message or submit a form",
+      "keywords": [
+        "send",
+        "submit",
+        "message",
+        "email",
+        "paper-plane",
+        "dispatch"
+      ],
+      "aliases": [
+        "send",
+        "submit",
+        "send-message",
+        "paper-plane"
       ],
       "variants": [
         "outline",
@@ -1676,6 +1645,30 @@
       ]
     },
     {
+      "id": "conversation-new",
+      "category": "communications",
+      "title": "New Conversation",
+      "description": "Start a new conversation or thread",
+      "keywords": [
+        "new",
+        "conversation",
+        "thread",
+        "compose",
+        "start",
+        "chat"
+      ],
+      "aliases": [
+        "new-conversation",
+        "compose",
+        "new-thread"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
       "id": "copy",
       "category": "data-actions",
       "title": "Copy",
@@ -1690,6 +1683,89 @@
       "aliases": [
         "duplicate-content",
         "clipboard-copy"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "cross",
+      "category": "status-feedback",
+      "title": "Cross",
+      "description": "An X mark indicating cancellation, rejection, or removal",
+      "keywords": [
+        "cross",
+        "x",
+        "cancel",
+        "reject",
+        "deny",
+        "decline",
+        "remove",
+        "clear",
+        "close"
+      ],
+      "aliases": [
+        "cancel",
+        "reject",
+        "deny",
+        "decline",
+        "x-mark"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "cross-circle",
+      "category": "status-feedback",
+      "title": "Cross Circle",
+      "description": "An X mark inside a circle, used to close, dismiss, or remove",
+      "keywords": [
+        "cross",
+        "circle",
+        "close",
+        "dismiss",
+        "cancel",
+        "remove",
+        "clear",
+        "x"
+      ],
+      "aliases": [
+        "close",
+        "dismiss",
+        "x",
+        "remove",
+        "cancel-circle",
+        "close-circle"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "cross-square",
+      "category": "status-feedback",
+      "title": "Cross Square",
+      "description": "An X mark inside a square, used to cancel or reject with a square button",
+      "keywords": [
+        "cross",
+        "square",
+        "cancel",
+        "reject",
+        "stop",
+        "x",
+        "remove"
+      ],
+      "aliases": [
+        "cancel-square",
+        "reject-square",
+        "x-square"
       ],
       "variants": [
         "outline",
@@ -2030,31 +2106,6 @@
       ]
     },
     {
-      "id": "error",
-      "category": "status-feedback",
-      "title": "Error",
-      "description": "An error state indicating something went wrong",
-      "keywords": [
-        "error",
-        "failure",
-        "wrong",
-        "invalid",
-        "problem",
-        "issue",
-        "x"
-      ],
-      "aliases": [
-        "failure",
-        "wrong",
-        "invalid"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
       "id": "event",
       "category": "calendar-scheduling",
       "title": "Event",
@@ -2208,28 +2259,6 @@
       "aliases": [
         "directory",
         "group"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
-      "id": "folder-basic",
-      "category": "documents-content",
-      "title": "Folder Basic",
-      "description": "A basic folder for organising files",
-      "keywords": [
-        "folder",
-        "basic",
-        "directory",
-        "organise",
-        "files"
-      ],
-      "aliases": [
-        "folder",
-        "directory"
       ],
       "variants": [
         "outline",
@@ -2433,32 +2462,6 @@
       ]
     },
     {
-      "id": "help",
-      "category": "status-feedback",
-      "title": "Help",
-      "description": "Help or support information",
-      "keywords": [
-        "help",
-        "support",
-        "question",
-        "faq",
-        "info",
-        "guide",
-        "?"
-      ],
-      "aliases": [
-        "question",
-        "support",
-        "faq",
-        "?"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
       "id": "history",
       "category": "search-discovery",
       "title": "History",
@@ -2529,7 +2532,84 @@
       ]
     },
     {
-      "id": "hype",
+      "id": "icon-circle-dashed",
+      "category": "status-feedback",
+      "title": "Circle Dashed",
+      "description": "A dashed circle indicating a pending or inactive state",
+      "keywords": [
+        "circle",
+        "dashed",
+        "pending",
+        "inactive",
+        "empty",
+        "placeholder"
+      ],
+      "aliases": [
+        "circle-dashed",
+        "pending",
+        "empty-state",
+        "placeholder"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "icon-circle-notch",
+      "category": "status-feedback",
+      "title": "Circle Notch",
+      "description": "Spinning circle used as a loading or progress indicator",
+      "keywords": [
+        "circle",
+        "notch",
+        "loading",
+        "spinner",
+        "progress",
+        "wait",
+        "busy",
+        "throbber"
+      ],
+      "aliases": [
+        "circle-notch",
+        "spinner",
+        "loading",
+        "loader"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "icon-help",
+      "category": "status-feedback",
+      "title": "Help",
+      "description": "Help or support information",
+      "keywords": [
+        "help",
+        "support",
+        "question",
+        "faq",
+        "info",
+        "guide"
+      ],
+      "aliases": [
+        "help",
+        "question",
+        "support",
+        "faq"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "icon-hype",
       "category": "status-feedback",
       "title": "Hype",
       "description": "Registers excitement or enthusiasm for shared content",
@@ -2541,14 +2621,261 @@
         "energy",
         "positive",
         "trending",
-        "reaction",
-        "share"
+        "reaction"
       ],
       "aliases": [
+        "hype",
         "excited",
         "boost",
         "fire",
         "reaction"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "icon-info-square",
+      "category": "status-feedback",
+      "title": "Info",
+      "description": "Informational notice or tooltip content",
+      "keywords": [
+        "info",
+        "information",
+        "about",
+        "notice",
+        "hint",
+        "tooltip"
+      ],
+      "aliases": [
+        "info",
+        "information",
+        "about",
+        "notice"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "icon-priority-high",
+      "category": "status-feedback",
+      "title": "Priority High",
+      "description": "High priority item requiring urgent attention",
+      "keywords": [
+        "priority",
+        "high",
+        "urgent",
+        "critical",
+        "important",
+        "alert"
+      ],
+      "aliases": [
+        "priority-high",
+        "urgent",
+        "critical",
+        "high"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "icon-priority-low",
+      "category": "status-feedback",
+      "title": "Priority Low",
+      "description": "Low priority item that can be addressed later",
+      "keywords": [
+        "priority",
+        "low",
+        "minor",
+        "deferred",
+        "later",
+        "backlog"
+      ],
+      "aliases": [
+        "priority-low",
+        "low",
+        "minor",
+        "deferred"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "icon-priority-medium",
+      "category": "status-feedback",
+      "title": "Priority Medium",
+      "description": "Medium priority item for normal workflow",
+      "keywords": [
+        "priority",
+        "medium",
+        "normal",
+        "moderate",
+        "standard"
+      ],
+      "aliases": [
+        "priority-medium",
+        "medium",
+        "normal",
+        "moderate"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "icon-signal-high",
+      "category": "status-feedback",
+      "title": "Signal High",
+      "description": "High signal strength or strong connection",
+      "keywords": [
+        "signal",
+        "high",
+        "strong",
+        "full",
+        "connection",
+        "bars"
+      ],
+      "aliases": [
+        "signal-high",
+        "signal-full",
+        "strong-signal"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "icon-signal-low",
+      "category": "status-feedback",
+      "title": "Signal Low",
+      "description": "Low signal strength or weak connection",
+      "keywords": [
+        "signal",
+        "low",
+        "weak",
+        "poor",
+        "connection",
+        "bars"
+      ],
+      "aliases": [
+        "signal-low",
+        "signal-weak",
+        "weak-signal"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "icon-signal-medium",
+      "category": "status-feedback",
+      "title": "Signal Medium",
+      "description": "Medium signal strength or moderate connection",
+      "keywords": [
+        "signal",
+        "medium",
+        "fair",
+        "moderate",
+        "connection",
+        "bars"
+      ],
+      "aliases": [
+        "signal-medium",
+        "signal-fair",
+        "medium-signal"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "icon-thumbs-down",
+      "category": "status-feedback",
+      "title": "Thumbs Down",
+      "description": "Negative feedback or disapproval",
+      "keywords": [
+        "thumbs",
+        "down",
+        "dislike",
+        "no",
+        "reject",
+        "negative",
+        "feedback"
+      ],
+      "aliases": [
+        "thumbs-down",
+        "dislike",
+        "no"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "icon-thumbs-up",
+      "category": "status-feedback",
+      "title": "Thumbs Up",
+      "description": "Positive feedback or approval",
+      "keywords": [
+        "thumbs",
+        "up",
+        "like",
+        "yes",
+        "approve",
+        "positive",
+        "feedback"
+      ],
+      "aliases": [
+        "thumbs-up",
+        "like",
+        "yes"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "icon-warning",
+      "category": "status-feedback",
+      "title": "Warning",
+      "description": "A warning or caution alert",
+      "keywords": [
+        "warning",
+        "alert",
+        "caution",
+        "danger",
+        "triangle",
+        "exclamation"
+      ],
+      "aliases": [
+        "warning",
+        "alert",
+        "caution",
+        "danger",
+        "triangle"
       ],
       "variants": [
         "outline",
@@ -2607,12 +2934,13 @@
       ]
     },
     {
-      "id": "image",
+      "id": "image-file",
       "category": "documents-content",
-      "title": "Image",
+      "title": "Image File",
       "description": "An image or photo file",
       "keywords": [
         "image",
+        "file",
         "photo",
         "picture",
         "img",
@@ -2620,6 +2948,7 @@
         "graphic"
       ],
       "aliases": [
+        "image",
         "photo",
         "picture",
         "img"
@@ -2743,31 +3072,6 @@
         "private",
         "anonymous",
         "stealth"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
-      "id": "info",
-      "category": "status-feedback",
-      "title": "Info",
-      "description": "Informational notice or tooltip content",
-      "keywords": [
-        "info",
-        "information",
-        "about",
-        "notice",
-        "hint",
-        "tooltip",
-        "i"
-      ],
-      "aliases": [
-        "information",
-        "about",
-        "notice"
       ],
       "variants": [
         "outline",
@@ -3440,29 +3744,6 @@
       ]
     },
     {
-      "id": "new-conversation",
-      "category": "communications",
-      "title": "New Conversation",
-      "description": "Start a new conversation or thread",
-      "keywords": [
-        "new",
-        "conversation",
-        "thread",
-        "compose",
-        "start",
-        "chat"
-      ],
-      "aliases": [
-        "compose",
-        "new-thread"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
       "id": "news",
       "category": "communications",
       "title": "News",
@@ -3890,77 +4171,6 @@
       ]
     },
     {
-      "id": "priority-high",
-      "category": "status-feedback",
-      "title": "Priority High",
-      "description": "High priority item requiring urgent attention",
-      "keywords": [
-        "priority",
-        "high",
-        "urgent",
-        "critical",
-        "important",
-        "alert"
-      ],
-      "aliases": [
-        "urgent",
-        "critical",
-        "high"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
-      "id": "priority-low",
-      "category": "status-feedback",
-      "title": "Priority Low",
-      "description": "Low priority item that can be addressed later",
-      "keywords": [
-        "priority",
-        "low",
-        "minor",
-        "deferred",
-        "later",
-        "backlog"
-      ],
-      "aliases": [
-        "low",
-        "minor",
-        "deferred"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
-      "id": "priority-medium",
-      "category": "status-feedback",
-      "title": "Priority Medium",
-      "description": "Medium priority item for normal workflow",
-      "keywords": [
-        "priority",
-        "medium",
-        "normal",
-        "moderate",
-        "standard"
-      ],
-      "aliases": [
-        "medium",
-        "normal",
-        "moderate"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
       "id": "privacy",
       "category": "security-access",
       "title": "Privacy",
@@ -4196,20 +4406,19 @@
       ]
     },
     {
-      "id": "restoredown",
+      "id": "restore-down",
       "category": "navigation",
-      "title": "Restoredown",
+      "title": "Restore Down",
       "description": "Restore a maximised window back to its previous size",
       "keywords": [
-        "restoredown",
         "restore",
+        "down",
         "window",
         "resize",
-        "down",
         "shrink"
       ],
       "aliases": [
-        "restore-down",
+        "restoredown",
         "restore-window"
       ],
       "variants": [
@@ -4334,30 +4543,6 @@
         "threat",
         "breach",
         "security-warning"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
-      "id": "send",
-      "category": "communications",
-      "title": "Send",
-      "description": "Send a message or submit a form",
-      "keywords": [
-        "send",
-        "submit",
-        "message",
-        "email",
-        "paper-plane",
-        "dispatch"
-      ],
-      "aliases": [
-        "submit",
-        "send-message",
-        "paper-plane"
       ],
       "variants": [
         "outline",
@@ -4526,75 +4711,6 @@
       "aliases": [
         "logout",
         "log-out"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
-      "id": "signal-high",
-      "category": "status-feedback",
-      "title": "Signal High",
-      "description": "High signal strength or strong connection",
-      "keywords": [
-        "signal",
-        "high",
-        "strong",
-        "full",
-        "connection",
-        "bars"
-      ],
-      "aliases": [
-        "signal-full",
-        "strong-signal"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
-      "id": "signal-low",
-      "category": "status-feedback",
-      "title": "Signal Low",
-      "description": "Low signal strength or weak connection",
-      "keywords": [
-        "signal",
-        "low",
-        "weak",
-        "poor",
-        "connection",
-        "bars"
-      ],
-      "aliases": [
-        "signal-weak",
-        "weak-signal"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
-      "id": "signal-medium",
-      "category": "status-feedback",
-      "title": "Signal Medium",
-      "description": "Medium signal strength or moderate connection",
-      "keywords": [
-        "signal",
-        "medium",
-        "fair",
-        "moderate",
-        "connection",
-        "bars"
-      ],
-      "aliases": [
-        "signal-fair",
-        "medium-signal"
       ],
       "variants": [
         "outline",
@@ -4824,33 +4940,6 @@
       ]
     },
     {
-      "id": "success-round",
-      "category": "status-feedback",
-      "title": "Success Round",
-      "description": "A round success indicator showing a completed action",
-      "keywords": [
-        "success",
-        "round",
-        "done",
-        "complete",
-        "tick",
-        "check",
-        "circle",
-        "approved"
-      ],
-      "aliases": [
-        "check-circle",
-        "done",
-        "complete",
-        "tick-circle"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
       "id": "swap",
       "category": "navigation",
       "title": "Swap",
@@ -5037,58 +5126,6 @@
         "appearance",
         "skin",
         "style"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
-      "id": "thumbs-down",
-      "category": "status-feedback",
-      "title": "Thumbs Down",
-      "description": "Negative feedback or disapproval",
-      "keywords": [
-        "thumbs",
-        "down",
-        "thumbs-down",
-        "dislike",
-        "no",
-        "reject",
-        "negative",
-        "feedback"
-      ],
-      "aliases": [
-        "dislike",
-        "no",
-        "reject"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
-      "id": "thumbs-up",
-      "category": "status-feedback",
-      "title": "Thumbs Up",
-      "description": "Positive feedback or approval",
-      "keywords": [
-        "thumbs",
-        "up",
-        "thumbs-up",
-        "like",
-        "yes",
-        "approve",
-        "positive",
-        "feedback"
-      ],
-      "aliases": [
-        "like",
-        "yes",
-        "approve"
       ],
       "variants": [
         "outline",
@@ -5473,31 +5510,6 @@
       ]
     },
     {
-      "id": "video",
-      "category": "documents-content",
-      "title": "Video",
-      "description": "A video file or recording",
-      "keywords": [
-        "video",
-        "movie",
-        "film",
-        "clip",
-        "media",
-        "recording",
-        "mp4"
-      ],
-      "aliases": [
-        "movie",
-        "film",
-        "clip"
-      ],
-      "variants": [
-        "outline",
-        "fill",
-        "duotone"
-      ]
-    },
-    {
       "id": "video-call",
       "category": "communications",
       "title": "Video Call",
@@ -5521,24 +5533,25 @@
       ]
     },
     {
-      "id": "warning",
-      "category": "status-feedback",
-      "title": "Warning",
-      "description": "A warning or caution alert",
+      "id": "video-file",
+      "category": "documents-content",
+      "title": "Video File",
+      "description": "A video file or recording",
       "keywords": [
-        "warning",
-        "alert",
-        "caution",
-        "danger",
-        "triangle",
-        "exclamation",
-        "!"
+        "video",
+        "file",
+        "movie",
+        "film",
+        "clip",
+        "media",
+        "recording",
+        "mp4"
       ],
       "aliases": [
-        "alert",
-        "caution",
-        "danger",
-        "triangle"
+        "video",
+        "movie",
+        "film",
+        "clip"
       ],
       "variants": [
         "outline",

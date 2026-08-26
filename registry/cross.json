@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cross",
+  "type": "registry:ui",
+  "title": "Cross",
+  "description": "IQons Cross icon. Variants: outline, fill, duotone.",
+  "dependencies": [
+    "iqons-react"
+  ],
+  "files": [
+    {
+      "path": "packages/iqons-react/src/Cross.tsx",
+      "type": "registry:ui",
+      "content": "import type { IqonProps } from \"./types\";\n\nconst VARIANTS: Partial<Record<string, string>> = {\n  outline: `<path d=\"M15.7198 7.21979C16.0127 6.9269 16.4874 6.9269 16.7803 7.21979C17.0732 7.51269 17.0732 7.98746 16.7803 8.28034L13.0606 12.0001L16.7803 15.7198C17.0732 16.0127 17.0732 16.4875 16.7803 16.7803C16.4875 17.0732 16.0127 17.0732 15.7198 16.7803L12.0001 13.0606L8.28034 16.7803C7.98746 17.0732 7.51269 17.0732 7.21979 16.7803C6.9269 16.4874 6.9269 16.0127 7.21979 15.7198L10.9395 12.0001L7.21979 8.28034C6.9269 7.98745 6.9269 7.51268 7.21979 7.21979C7.51269 6.9269 7.98745 6.9269 8.28034 7.21979L12.0001 10.9395L15.7198 7.21979Z\" fill=\"currentColor\"/>`,\n  fill: `<path d=\"M15.7198 7.21979C16.0127 6.9269 16.4874 6.9269 16.7803 7.21979C17.0732 7.51269 17.0732 7.98746 16.7803 8.28034L13.0606 12.0001L16.7803 15.7198C17.0732 16.0127 17.0732 16.4875 16.7803 16.7803C16.4875 17.0732 16.0127 17.0732 15.7198 16.7803L12.0001 13.0606L8.28034 16.7803C7.98746 17.0732 7.51269 17.0732 7.21979 16.7803C6.9269 16.4874 6.9269 16.0127 7.21979 15.7198L10.9395 12.0001L7.21979 8.28034C6.9269 7.98745 6.9269 7.51268 7.21979 7.21979C7.51269 6.9269 7.98745 6.9269 8.28034 7.21979L12.0001 10.9395L15.7198 7.21979Z\" fill=\"currentColor\"/>`,\n  duotone: `<path d=\"M15.7198 7.21979C16.0127 6.9269 16.4874 6.9269 16.7803 7.21979C17.0732 7.51269 17.0732 7.98746 16.7803 8.28034L13.0606 12.0001L16.7803 15.7198C17.0732 16.0127 17.0732 16.4875 16.7803 16.7803C16.4875 17.0732 16.0127 17.0732 15.7198 16.7803L12.0001 13.0606L8.28034 16.7803C7.98746 17.0732 7.51269 17.0732 7.21979 16.7803C6.9269 16.4874 6.9269 16.0127 7.21979 15.7198L10.9395 12.0001L7.21979 8.28034C6.9269 7.98745 6.9269 7.51268 7.21979 7.21979C7.51269 6.9269 7.98745 6.9269 8.28034 7.21979L12.0001 10.9395L15.7198 7.21979Z\" fill=\"currentColor\"/>`,\n};\n\nconst AVAILABLE = [\"outline\",\"fill\",\"duotone\"] as const;\ntype Variant = (typeof AVAILABLE)[number];\n\n/**\n * Cross icon\n * Variants: outline, fill, duotone\n */\nexport function Cross({\n  variant = \"outline\",\n  size = 24,\n  label,\n  ...props\n}: IqonProps) {\n  const inner = VARIANTS[variant] ?? VARIANTS[\"outline\"] ?? \"\";\n  return (\n    <svg\n      xmlns=\"http://www.w3.org/2000/svg\"\n      viewBox=\"0 0 24 24\"\n      width={size}\n      height={size}\n      fill=\"none\"\n      aria-label={label}\n      aria-hidden={label ? undefined : true}\n      role={label ? \"img\" : undefined}\n      {...props}\n      dangerouslySetInnerHTML={{ __html: inner }}\n    />\n  );\n}\n\nCross.displayName = \"Cross\";\nCross.variants = AVAILABLE;\n"
+    }
+  ]
+}

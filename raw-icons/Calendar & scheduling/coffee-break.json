@@ -1,0 +1,22 @@
+{
+  "title": "Coffee Break",
+  "description": "A scheduled break or rest period",
+  "keywords": [
+    "coffee",
+    "break",
+    "rest",
+    "pause",
+    "schedule",
+    "calendar"
+  ],
+  "aliases": [
+    "break",
+    "rest",
+    "pause"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

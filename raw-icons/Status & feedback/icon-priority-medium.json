@@ -1,0 +1,22 @@
+{
+  "title": "Priority Medium",
+  "description": "Medium priority item for normal workflow",
+  "keywords": [
+    "priority",
+    "medium",
+    "normal",
+    "moderate",
+    "standard"
+  ],
+  "aliases": [
+    "priority-medium",
+    "medium",
+    "normal",
+    "moderate"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

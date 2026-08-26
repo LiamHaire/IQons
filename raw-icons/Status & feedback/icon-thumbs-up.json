@@ -1,0 +1,23 @@
+{
+  "title": "Thumbs Up",
+  "description": "Positive feedback or approval",
+  "keywords": [
+    "thumbs",
+    "up",
+    "like",
+    "yes",
+    "approve",
+    "positive",
+    "feedback"
+  ],
+  "aliases": [
+    "thumbs-up",
+    "like",
+    "yes"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

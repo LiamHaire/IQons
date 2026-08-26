@@ -1,0 +1,23 @@
+{
+  "title": "Circle Dashed",
+  "description": "A dashed circle indicating a pending or inactive state",
+  "keywords": [
+    "circle",
+    "dashed",
+    "pending",
+    "inactive",
+    "empty",
+    "placeholder"
+  ],
+  "aliases": [
+    "circle-dashed",
+    "pending",
+    "empty-state",
+    "placeholder"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

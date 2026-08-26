@@ -124,6 +124,21 @@
       ]
     },
     {
+      "name": "agent-create",
+      "type": "registry:ui",
+      "title": "Agent Create",
+      "description": "IQons Agent Create icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/AgentCreate.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "ai",
       "type": "registry:ui",
       "title": "Ai",
@@ -529,6 +544,21 @@
       ]
     },
     {
+      "name": "audio-file",
+      "type": "registry:ui",
+      "title": "Audio File",
+      "description": "IQons Audio File icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/AudioFile.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "audio-off",
       "type": "registry:ui",
       "title": "Audio Off",
@@ -859,6 +889,51 @@
       ]
     },
     {
+      "name": "check",
+      "type": "registry:ui",
+      "title": "Check",
+      "description": "IQons Check icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Check.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "check-round",
+      "type": "registry:ui",
+      "title": "Check Round",
+      "description": "IQons Check Round icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/CheckRound.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "check-square",
+      "type": "registry:ui",
+      "title": "Check Square",
+      "description": "IQons Check Square icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/CheckSquare.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "checklist",
       "type": "registry:ui",
       "title": "Checklist",
@@ -1024,6 +1099,21 @@
       ]
     },
     {
+      "name": "coffee-break",
+      "type": "registry:ui",
+      "title": "Coffee Break",
+      "description": "IQons Coffee Break icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/CoffeeBreak.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "comment",
       "type": "registry:ui",
       "title": "Comment",
@@ -1034,6 +1124,21 @@
       "files": [
         {
           "path": "packages/iqons-react/src/Comment.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "communications-send",
+      "type": "registry:ui",
+      "title": "Communications Send",
+      "description": "IQons Communications Send icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/CommunicationsSend.tsx",
           "type": "registry:ui"
         }
       ]
@@ -1069,6 +1174,21 @@
       ]
     },
     {
+      "name": "conversation-new",
+      "type": "registry:ui",
+      "title": "Conversation New",
+      "description": "IQons Conversation New icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ConversationNew.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "copy",
       "type": "registry:ui",
       "title": "Copy",
@@ -1079,6 +1199,51 @@
       "files": [
         {
           "path": "packages/iqons-react/src/Copy.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "cross",
+      "type": "registry:ui",
+      "title": "Cross",
+      "description": "IQons Cross icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Cross.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "cross-circle",
+      "type": "registry:ui",
+      "title": "Cross Circle",
+      "description": "IQons Cross Circle icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/CrossCircle.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "cross-square",
+      "type": "registry:ui",
+      "title": "Cross Square",
+      "description": "IQons Cross Square icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/CrossSquare.tsx",
           "type": "registry:ui"
         }
       ]
@@ -1624,6 +1789,216 @@
       ]
     },
     {
+      "name": "icon-circle-dashed",
+      "type": "registry:ui",
+      "title": "Icon Circle Dashed",
+      "description": "IQons Icon Circle Dashed icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/IconCircleDashed.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "icon-circle-notch",
+      "type": "registry:ui",
+      "title": "Icon Circle Notch",
+      "description": "IQons Icon Circle Notch icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/IconCircleNotch.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "icon-help",
+      "type": "registry:ui",
+      "title": "Icon Help",
+      "description": "IQons Icon Help icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/IconHelp.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "icon-hype",
+      "type": "registry:ui",
+      "title": "Icon Hype",
+      "description": "IQons Icon Hype icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/IconHype.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "icon-info-square",
+      "type": "registry:ui",
+      "title": "Icon Info Square",
+      "description": "IQons Icon Info Square icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/IconInfoSquare.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "icon-priority-high",
+      "type": "registry:ui",
+      "title": "Icon Priority High",
+      "description": "IQons Icon Priority High icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/IconPriorityHigh.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "icon-priority-low",
+      "type": "registry:ui",
+      "title": "Icon Priority Low",
+      "description": "IQons Icon Priority Low icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/IconPriorityLow.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "icon-priority-medium",
+      "type": "registry:ui",
+      "title": "Icon Priority Medium",
+      "description": "IQons Icon Priority Medium icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/IconPriorityMedium.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "icon-signal-high",
+      "type": "registry:ui",
+      "title": "Icon Signal High",
+      "description": "IQons Icon Signal High icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/IconSignalHigh.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "icon-signal-low",
+      "type": "registry:ui",
+      "title": "Icon Signal Low",
+      "description": "IQons Icon Signal Low icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/IconSignalLow.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "icon-signal-medium",
+      "type": "registry:ui",
+      "title": "Icon Signal Medium",
+      "description": "IQons Icon Signal Medium icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/IconSignalMedium.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "icon-thumbs-down",
+      "type": "registry:ui",
+      "title": "Icon Thumbs Down",
+      "description": "IQons Icon Thumbs Down icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/IconThumbsDown.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "icon-thumbs-up",
+      "type": "registry:ui",
+      "title": "Icon Thumbs Up",
+      "description": "IQons Icon Thumbs Up icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/IconThumbsUp.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "icon-warning",
+      "type": "registry:ui",
+      "title": "Icon Warning",
+      "description": "IQons Icon Warning icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/IconWarning.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "id-badge",
       "type": "registry:ui",
       "title": "ID Badge",
@@ -1664,6 +2039,21 @@
       "files": [
         {
           "path": "packages/iqons-react/src/Image.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "image-file",
+      "type": "registry:ui",
+      "title": "Image File",
+      "description": "IQons Image File icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/ImageFile.tsx",
           "type": "registry:ui"
         }
       ]
@@ -3494,6 +3884,21 @@
       "files": [
         {
           "path": "packages/iqons-react/src/VideoCall.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "video-file",
+      "type": "registry:ui",
+      "title": "Video File",
+      "description": "IQons Video File icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/VideoFile.tsx",
           "type": "registry:ui"
         }
       ]

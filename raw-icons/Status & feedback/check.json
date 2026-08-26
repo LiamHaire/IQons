@@ -1,0 +1,28 @@
+{
+  "title": "Check",
+  "description": "A tick or checkmark indicating confirmation, approval, or a completed action",
+  "keywords": [
+    "check",
+    "tick",
+    "confirm",
+    "approve",
+    "accept",
+    "done",
+    "complete",
+    "correct",
+    "valid"
+  ],
+  "aliases": [
+    "approve",
+    "accept",
+    "confirm",
+    "tick",
+    "correct",
+    "valid"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Help",
+  "description": "Help or support information",
+  "keywords": [
+    "help",
+    "support",
+    "question",
+    "faq",
+    "info",
+    "guide"
+  ],
+  "aliases": [
+    "help",
+    "question",
+    "support",
+    "faq"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Cross Square",
+  "description": "An X mark inside a square, used to cancel or reject with a square button",
+  "keywords": [
+    "cross",
+    "square",
+    "cancel",
+    "reject",
+    "stop",
+    "x",
+    "remove"
+  ],
+  "aliases": [
+    "cancel-square",
+    "reject-square",
+    "x-square"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

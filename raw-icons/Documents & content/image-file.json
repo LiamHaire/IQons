@@ -1,0 +1,24 @@
+{
+  "title": "Image File",
+  "description": "An image or photo file",
+  "keywords": [
+    "image",
+    "file",
+    "photo",
+    "picture",
+    "img",
+    "media",
+    "graphic"
+  ],
+  "aliases": [
+    "image",
+    "photo",
+    "picture",
+    "img"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

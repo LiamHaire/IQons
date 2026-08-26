@@ -1,0 +1,25 @@
+{
+  "title": "Check Square",
+  "description": "A tick inside a square, used for checkboxes and task completion",
+  "keywords": [
+    "check",
+    "square",
+    "approve",
+    "accept",
+    "checkbox",
+    "tick",
+    "done",
+    "task"
+  ],
+  "aliases": [
+    "approve-square",
+    "checkbox",
+    "confirm-square",
+    "tick-square"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

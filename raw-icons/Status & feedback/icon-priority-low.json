@@ -1,0 +1,23 @@
+{
+  "title": "Priority Low",
+  "description": "Low priority item that can be addressed later",
+  "keywords": [
+    "priority",
+    "low",
+    "minor",
+    "deferred",
+    "later",
+    "backlog"
+  ],
+  "aliases": [
+    "priority-low",
+    "low",
+    "minor",
+    "deferred"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Signal Low",
+  "description": "Low signal strength or weak connection",
+  "keywords": [
+    "signal",
+    "low",
+    "weak",
+    "poor",
+    "connection",
+    "bars"
+  ],
+  "aliases": [
+    "signal-low",
+    "signal-weak",
+    "weak-signal"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

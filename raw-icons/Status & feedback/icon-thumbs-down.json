@@ -1,0 +1,23 @@
+{
+  "title": "Thumbs Down",
+  "description": "Negative feedback or disapproval",
+  "keywords": [
+    "thumbs",
+    "down",
+    "dislike",
+    "no",
+    "reject",
+    "negative",
+    "feedback"
+  ],
+  "aliases": [
+    "thumbs-down",
+    "dislike",
+    "no"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

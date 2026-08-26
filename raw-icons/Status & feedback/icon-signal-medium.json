@@ -1,0 +1,22 @@
+{
+  "title": "Signal Medium",
+  "description": "Medium signal strength or moderate connection",
+  "keywords": [
+    "signal",
+    "medium",
+    "fair",
+    "moderate",
+    "connection",
+    "bars"
+  ],
+  "aliases": [
+    "signal-medium",
+    "signal-fair",
+    "medium-signal"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

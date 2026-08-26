@@ -1,0 +1,20 @@
+{
+  "title": "Restore Down",
+  "description": "Restore a maximised window back to its previous size",
+  "keywords": [
+    "restore",
+    "down",
+    "window",
+    "resize",
+    "shrink"
+  ],
+  "aliases": [
+    "restoredown",
+    "restore-window"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

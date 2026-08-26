@@ -1,0 +1,22 @@
+{
+  "title": "Signal High",
+  "description": "High signal strength or strong connection",
+  "keywords": [
+    "signal",
+    "high",
+    "strong",
+    "full",
+    "connection",
+    "bars"
+  ],
+  "aliases": [
+    "signal-high",
+    "signal-full",
+    "strong-signal"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

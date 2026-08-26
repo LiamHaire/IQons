@@ -1,0 +1,27 @@
+{
+  "title": "Cross",
+  "description": "An X mark indicating cancellation, rejection, or removal",
+  "keywords": [
+    "cross",
+    "x",
+    "cancel",
+    "reject",
+    "deny",
+    "decline",
+    "remove",
+    "clear",
+    "close"
+  ],
+  "aliases": [
+    "cancel",
+    "reject",
+    "deny",
+    "decline",
+    "x-mark"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

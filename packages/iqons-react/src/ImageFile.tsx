@@ -1,0 +1,44 @@
+import type { IqonProps } from "./types";
+
+const VARIANTS: Partial<Record<string, string>> = {
+  outline: `<path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7C8.88071 7 10 8.11929 10 9.5C10 10.8807 8.88071 12 7.5 12C6.11929 12 5 10.8807 5 9.5C5 8.11929 6.11929 7 7.5 7ZM7.5 8.5C6.94772 8.5 6.5 8.94772 6.5 9.5C6.5 10.0523 6.94772 10.5 7.5 10.5C8.05228 10.5 8.5 10.0523 8.5 9.5C8.5 8.94772 8.05228 8.5 7.5 8.5Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20.2041 4.01074C21.2128 4.113 22 4.96435 22 6V18C22 19.0357 21.2128 19.887 20.2041 19.9893L20 20H4C2.89543 20 2 19.1046 2 18V6C2 4.89543 2.89543 4 4 4H20L20.2041 4.01074ZM4.56055 18.5H11.4395L8 15.0605L4.56055 18.5ZM11.5605 16.5L13.5303 18.4697L13.5 18.5H20C20.2761 18.5 20.5 18.2761 20.5 18V17.5L20.4697 17.5303L15.5 12.5605L11.5605 16.5ZM4 5.5C3.72386 5.5 3.5 5.72386 3.5 6V17.4395L8 12.9395L10.5 15.4395L15.5 10.4395L20.5 15.4395V6C20.5 5.72386 20.2761 5.5 20 5.5H4Z" fill="currentColor"/>`,
+  fill: `<path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7C8.88071 7 10 8.11929 10 9.5C10 10.8807 8.88071 12 7.5 12C6.11929 12 5 10.8807 5 9.5C5 8.11929 6.11929 7 7.5 7ZM7.5 8.5C6.94772 8.5 6.5 8.94772 6.5 9.5C6.5 10.0523 6.94772 10.5 7.5 10.5C8.05228 10.5 8.5 10.0523 8.5 9.5C8.5 8.94772 8.05228 8.5 7.5 8.5Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20.2041 4.01074C21.2128 4.113 22 4.96435 22 6V18C22 19.0357 21.2128 19.887 20.2041 19.9893L20 20H4C2.89543 20 2 19.1046 2 18V6C2 4.89543 2.89543 4 4 4H20L20.2041 4.01074ZM4 5.5C3.72386 5.5 3.5 5.72386 3.5 6V17.4395L8 12.9395L10.5 15.4395L15.5 10.4395L20.5 15.4395V6C20.5 5.72386 20.2761 5.5 20 5.5H4Z" fill="currentColor"/>`,
+  duotone: `<path d="M8 14L3 19H21V17L15.5 11.5L10.5 16.5L8 14Z" fill="currentColor" fill-opacity="0.2"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7C8.88071 7 10 8.11929 10 9.5C10 10.8807 8.88071 12 7.5 12C6.11929 12 5 10.8807 5 9.5C5 8.11929 6.11929 7 7.5 7ZM7.5 8.5C6.94772 8.5 6.5 8.94772 6.5 9.5C6.5 10.0523 6.94772 10.5 7.5 10.5C8.05228 10.5 8.5 10.0523 8.5 9.5C8.5 8.94772 8.05228 8.5 7.5 8.5Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20.2041 4.01074C21.2128 4.113 22 4.96435 22 6V18C22 19.0357 21.2128 19.887 20.2041 19.9893L20 20H4C2.89543 20 2 19.1046 2 18V6C2 4.89543 2.89543 4 4 4H20L20.2041 4.01074ZM4.56055 18.5H11.4395L8 15.0605L4.56055 18.5ZM11.5605 16.5L13.5303 18.4697L13.5 18.5H20C20.2761 18.5 20.5 18.2761 20.5 18V17.5L20.4697 17.5303L15.5 12.5605L11.5605 16.5ZM4 5.5C3.72386 5.5 3.5 5.72386 3.5 6V17.4395L8 12.9395L10.5 15.4395L15.5 10.4395L20.5 15.4395V6C20.5 5.72386 20.2761 5.5 20 5.5H4Z" fill="currentColor"/>`,
+};
+
+const AVAILABLE = ["outline","fill","duotone"] as const;
+type Variant = (typeof AVAILABLE)[number];
+
+/**
+ * ImageFile icon
+ * Variants: outline, fill, duotone
+ */
+export function ImageFile({
+  variant = "outline",
+  size = 24,
+  label,
+  ...props
+}: IqonProps) {
+  const inner = VARIANTS[variant] ?? VARIANTS["outline"] ?? "";
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width={size}
+      height={size}
+      fill="none"
+      aria-label={label}
+      aria-hidden={label ? undefined : true}
+      role={label ? "img" : undefined}
+      {...props}
+      dangerouslySetInnerHTML={{ __html: inner }}
+    />
+  );
+}
+
+ImageFile.displayName = "ImageFile";
+ImageFile.variants = AVAILABLE;

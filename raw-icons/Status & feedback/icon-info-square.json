@@ -1,0 +1,23 @@
+{
+  "title": "Info",
+  "description": "Informational notice or tooltip content",
+  "keywords": [
+    "info",
+    "information",
+    "about",
+    "notice",
+    "hint",
+    "tooltip"
+  ],
+  "aliases": [
+    "info",
+    "information",
+    "about",
+    "notice"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

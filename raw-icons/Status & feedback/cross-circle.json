@@ -1,0 +1,27 @@
+{
+  "title": "Cross Circle",
+  "description": "An X mark inside a circle, used to close, dismiss, or remove",
+  "keywords": [
+    "cross",
+    "circle",
+    "close",
+    "dismiss",
+    "cancel",
+    "remove",
+    "clear",
+    "x"
+  ],
+  "aliases": [
+    "close",
+    "dismiss",
+    "x",
+    "remove",
+    "cancel-circle",
+    "close-circle"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

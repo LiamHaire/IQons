@@ -1,0 +1,23 @@
+{
+  "title": "Audio File",
+  "description": "An audio file or sound recording",
+  "keywords": [
+    "audio",
+    "file",
+    "sound",
+    "music",
+    "recording",
+    "mp3",
+    "wav"
+  ],
+  "aliases": [
+    "audio",
+    "sound",
+    "music-file"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

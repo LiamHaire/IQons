@@ -1,0 +1,23 @@
+{
+  "title": "Send",
+  "description": "Send a message or submit a form",
+  "keywords": [
+    "send",
+    "submit",
+    "message",
+    "email",
+    "paper-plane",
+    "dispatch"
+  ],
+  "aliases": [
+    "send",
+    "submit",
+    "send-message",
+    "paper-plane"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}
