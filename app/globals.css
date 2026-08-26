@@ -293,10 +293,6 @@ body {
   height: 0;
 }
 
-/* Icon grid scroll — track starts level with the top of the tiles */
-.icon-grid-scroll::-webkit-scrollbar-track {
-  margin-top: 16px;
-}
 
 /* ─── Range slider ────────────────────────────────────────────────────────── */
 input[type="range"] {

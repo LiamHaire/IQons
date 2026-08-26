@@ -258,9 +258,12 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
           </motion.button>
         </div>
 
+        {/* Spacer — pushes scroll container down so scrollbar top aligns with first tile */}
+        <div style={{ height: 16, flexShrink: 0 }} />
+
         {/* Icon grid */}
         <div
-          className="custom-scroll icon-grid-scroll flex-1 overflow-y-auto pb-8 pt-4"
+          className="custom-scroll icon-grid-scroll flex-1 overflow-y-auto pb-8"
           style={{ scrollbarGutter: "stable", paddingRight: 12 }}
         >
           {filtered.length === 0 ? (
