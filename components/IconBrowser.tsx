@@ -201,13 +201,6 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
             ))}
           </div>
 
-          {/* Count */}
-          <span className="text-sm" style={{ color: "var(--text-muted)" }}>
-            {filtered.length === total
-              ? <>{total.toLocaleString()} icon{total !== 1 ? "s" : ""}</>
-              : <>{filtered.length.toLocaleString()} of {total.toLocaleString()} icons</>
-            }
-          </span>
 
           {/* Size slider */}
           <div className="flex items-center gap-2.5">
