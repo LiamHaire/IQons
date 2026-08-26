@@ -186,7 +186,7 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
 
         {/* ── Filter row: style chips + controls ── */}
         <div
-          className="flex items-center gap-2 shrink-0 mt-3"
+          className="flex items-center gap-2 shrink-0 mt-5"
           style={{ paddingBottom: 16, borderBottom: "1px solid var(--border-default)" }}
         >
           {/* Style chips */}
@@ -200,6 +200,14 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
               />
             ))}
           </div>
+
+          {/* Count */}
+          <span className="text-sm" style={{ color: "var(--text-muted)" }}>
+            {filtered.length === total
+              ? <>{total.toLocaleString()} icon{total !== 1 ? "s" : ""}</>
+              : <>{filtered.length.toLocaleString()} of {total.toLocaleString()} icons</>
+            }
+          </span>
 
           {/* Size slider */}
           <div className="flex items-center gap-2.5">
@@ -257,17 +265,9 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
           </motion.button>
         </div>
 
-        {/* Count */}
-        <p className="shrink-0 text-sm mt-3 mb-3" style={{ color: "var(--text-muted)" }}>
-          {filtered.length === total
-            ? <>{total.toLocaleString()} icon{total !== 1 ? "s" : ""}</>
-            : <>{filtered.length.toLocaleString()} of {total.toLocaleString()} icons</>
-          }
-        </p>
-
         {/* Icon grid */}
         <div
-          className="custom-scroll flex-1 overflow-y-auto pb-8"
+          className="custom-scroll flex-1 overflow-y-auto pb-8 pt-4"
           style={{ marginRight: "-32px", paddingRight: "32px", scrollbarGutter: "stable" }}
         >
           {filtered.length === 0 ? (
