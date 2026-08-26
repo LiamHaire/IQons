@@ -8,6 +8,7 @@ export { AddressBook } from "./AddressBook";
 export { AddRound } from "./AddRound";
 export { AddSquare } from "./AddSquare";
 export { Admin } from "./Admin";
+export { Agent } from "./Agent";
 export { AgentCreate } from "./AgentCreate";
 export { AI } from "./AI";
 export { AIMemory } from "./AIMemory";

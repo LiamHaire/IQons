@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "count": 236,
+  "count": 237,
   "icons": [
     {
       "id": "acbs",
@@ -158,6 +158,33 @@
       "aliases": [
         "administration",
         "control-panel"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "agent",
+      "category": "ai",
+      "title": "Agent",
+      "description": "An AI agent capable of performing autonomous tasks",
+      "keywords": [
+        "agent",
+        "ai",
+        "autonomous",
+        "bot",
+        "assistant",
+        "robot",
+        "automation",
+        "task"
+      ],
+      "aliases": [
+        "ai-agent",
+        "bot",
+        "robot",
+        "assistant-agent"
       ],
       "variants": [
         "outline",
