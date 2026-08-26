@@ -14,7 +14,7 @@ export default async function IconsPage() {
       {/* ── Nav ── */}
       <header
         className="flex items-center justify-between shrink-0"
-        style={{ height: 72 }}
+        style={{ height: 56, paddingLeft: 0 }}
       >
         {/* Logo */}
         <Link href="/" style={{ display: "flex", alignItems: "center" }}>
