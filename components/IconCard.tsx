@@ -19,7 +19,7 @@ export function IconCard({ icon, style, size = 32, onClick }: IconCardProps) {
       className="group flex flex-col items-center justify-end gap-0 text-left transition-colors"
       style={{
         width: "100%",
-        height: 148,
+        aspectRatio: "1 / 1",
         border: "1px solid var(--border-default)",
         borderRadius: 12,
         background: "var(--surface-raised)",
@@ -43,8 +43,8 @@ export function IconCard({ icon, style, size = 32, onClick }: IconCardProps) {
     >
       {/* Icon area */}
       <div
-        className="w-full flex items-center justify-center"
-        style={{ height: 112, overflow: "hidden" }}
+        className="flex-1 w-full flex items-center justify-center"
+        style={{ overflow: "hidden", minHeight: 0 }}
       >
         <span
           data-icon
@@ -65,7 +65,7 @@ export function IconCard({ icon, style, size = 32, onClick }: IconCardProps) {
 
       {/* Label */}
       <div
-        className="w-full px-3 pt-1.5 pb-5 text-sm text-center"
+        className="w-full px-3 pt-1.5 pb-3 text-sm text-center shrink-0"
         style={{ color: "var(--text-muted)" }}
       >
         <span className="truncate block">{icon.name}</span>
