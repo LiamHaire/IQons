@@ -67,9 +67,9 @@ height="24"
 
 The artwork must fit within the 24×24 canvas.
 
-Maintain a minimum of:
+Padding is determined by the chosen size frame — see the Size Frames table below.
 
-- 1px padding from all edges
+Minimum padding is 2px (Circle frame). Never place artwork closer than 2px to any canvas edge.
 
 Icons should be optically centred rather than mathematically centred.
 
@@ -206,19 +206,19 @@ The size frame defines the bounding area of the artwork **within** the canvas, n
 
 | Frame | Artwork size | Padding each side | Usage |
 |---|---|---|---|
-| Circle | 22×22px diameter | 1px | Circular objects, faces, globes, badges |
-| Square | 20×20px | 2px | Solid objects, documents, cards, tiles |
-| Landscape | 22×18px | 1px h / 3px v | Wide objects, cameras, banners, monitors |
-| Portrait | 18×22px | 3px h / 1px v | Tall objects, phones, pages, keys |
-| Small | 16×16px | 4px | Navigation, arrows, chevrons, compact symbols |
+| Circle | 20×20px diameter | 2px | Circular objects, faces, globes, badges |
+| Square | 18×18px | 3px | Solid fill squares, icons contained within a square, or icons that are primarily square in shape |
+| Landscape | 20×16px | 2px h / 4px v | Wide objects, cameras, banners, monitors |
+| Portrait | 16×20px | 4px h / 2px v | Tall objects, phones, pages, keys |
+| Small | 14×14px | 5px | Navigation icons, arrows, chevrons, compact directional symbols |
 
 **Frame selection must be driven by the concept's natural proportions** — the shape the artwork would naturally occupy if drawn without constraints.
 
-- A cup is wider than it is tall → Landscape (22×18px)
-- A phone is taller than it is wide → Portrait (18×22px)
-- A document is roughly square → Square (20×20px)
-- A globe is circular → Circle (22×22px)
-- An arrow is compact and directional → Small (16×16px)
+- A cup is wider than it is tall → Landscape (20×16px)
+- A phone is taller than it is wide → Portrait (16×20px)
+- A document is roughly square → Square (18×18px)
+- A globe is circular → Circle (20×20px)
+- An arrow is compact and directional → Small (14×14px)
 
 If a concept does not obviously fit one frame, choose the closest match based on the dominant axis.
 
@@ -234,12 +234,12 @@ Solid filled shapes carry more visual weight.
 
 Use:
 
-- Solid squares: 20×20px
+- Solid squares: 18×18px
 - Solid rectangles: sized proportionally to maintain equivalent weight
 
-Do not enlarge solid filled shapes to 22×22px unless specifically required.
+Do not enlarge solid filled shapes to 20×20px unless specifically required.
 
-A 22×22px solid shape will usually appear visually heavier than surrounding icons.
+An 18×18px solid square will usually appear visually heavier than surrounding icons if enlarged further.
 
 ---
 
@@ -249,12 +249,12 @@ Outlined, hollow, or detailed icons may occupy more space because they carry les
 
 Use:
 
-- Up to 22×22px visual area
+- Up to 20×20px visual area
 
 A non-solid icon should feel balanced when placed beside:
 
-- A 20×20px solid square
-- A 22px circle
+- An 18×18px solid square
+- A 20px circle
 
 ---
 
@@ -262,17 +262,17 @@ A non-solid icon should feel balanced when placed beside:
 
 The objective is equal perceived size across all icons in the library.
 
-**The 22×22px circle is the optical reference.**
+**The 20×20px circle is the optical reference.**
 
-Every size frame is derived from this reference — its dimensions are chosen so that the artwork produces the same perceived visual weight as a 22×22px circle.
+Every size frame is derived from this reference — its dimensions are chosen so that the artwork produces the same perceived visual weight as a 20×20px circle.
 
-- Square icons use 20×20px because a solid square at 22×22px appears heavier than a 22px circle.
-- Portrait and Landscape icons use one 22px axis and one 18px axis because the shorter axis compensates for the shape's directionality.
-- Small icons use 16×16px because compact symbols carry concentrated weight.
+- Square icons use 18×18px because a solid square at larger sizes appears heavier than a 20px circle.
+- Portrait and Landscape icons use one 20px axis and one 16px axis because the shorter axis compensates for the shape's directionality.
+- Small icons use 14×14px because compact symbols carry concentrated weight.
 
 Rules:
 
-- Always size artwork so it feels equal in weight to a 22×22px circle.
+- Always size artwork so it feels equal in weight to a 20×20px circle.
 - Heavy filled shapes must be smaller — do not expand them to fill the maximum frame.
 - Lighter outlined shapes may use more of the frame because they carry less visual weight.
 - Irregular or complex shapes should be sized by visual weight, not mathematical bounds.
@@ -537,7 +537,7 @@ Before completing an icon, confirm:
 
 - [ ] Uses 24×24 viewBox
 - [ ] Uses 24×24 dimensions
-- [ ] Maintains minimum 1px padding
+- [ ] Maintains correct padding for the chosen frame (Circle 2px, Square 3px, Landscape 2px h/4px v, Portrait 4px h/2px v, Small 5px)
 - [ ] Uses filled paths only
 - [ ] Does not use SVG strokes
 - [ ] Uses `currentColor`

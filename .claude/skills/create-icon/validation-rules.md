@@ -86,11 +86,11 @@ Confirm:
 - [ ] 24 × 24 artboard (`width="24" height="24" viewBox="0 0 24 24"`).
 - [ ] One of the five permitted size frames was chosen — no custom dimensions used.
 - [ ] Correct frame selected for the icon's proportions and weight.
-- [ ] Circle frame: artwork fits within 22×22px diameter.
-- [ ] Square frame: artwork fits within 20×20px.
-- [ ] Landscape frame: artwork fits within 22×18px.
-- [ ] Portrait frame: artwork fits within 18×22px.
-- [ ] Small frame: artwork fits within 16×16px.
+- [ ] Circle frame: artwork fits within 20×20px diameter.
+- [ ] Square frame: artwork fits within 18×18px.
+- [ ] Landscape frame: artwork fits within 20×16px.
+- [ ] Portrait frame: artwork fits within 16×20px.
+- [ ] Small frame: artwork fits within 14×14px.
 - [ ] Padding respected for the chosen frame.
 - [ ] Optical alignment correct.
 - [ ] Optical centring correct.

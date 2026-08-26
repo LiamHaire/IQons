@@ -225,17 +225,17 @@ These are the **only** permitted frames. You must select one. Do not invent a cu
 
 | Frame | Artwork size | Use when the concept's natural proportions are… |
 |---|---|---|
-| Circle | 22×22px | Circular or radially symmetric |
-| Square | 20×20px | Roughly equal width and height |
-| Landscape | 22×18px | Noticeably wider than tall |
-| Portrait | 18×22px | Noticeably taller than wide |
-| Small | 16×16px | A compact symbol or directional indicator with no dominant axis |
+| Circle | 20×20px | Circular or radially symmetric |
+| Square | 18×18px | Solid fill squares, icons contained within a square, or icons that are primarily square in shape |
+| Landscape | 20×16px | Noticeably wider than tall |
+| Portrait | 16×20px | Noticeably taller than wide |
+| Small | 14×14px | Navigation icons, arrows, chevrons, compact directional symbols |
 
 **The concept's natural proportions must drive the decision** — not style preference or available space.
 
 Sketch the icon's silhouette mentally. Does it sit square, wider, or taller? That determines the frame.
 
-All frames are calibrated to produce the same perceived visual weight as a 22×22px circle.
+All frames are calibrated to produce the same perceived visual weight as a 20×20px circle.
 
 Do not choose a larger frame simply to fill more space.
 
