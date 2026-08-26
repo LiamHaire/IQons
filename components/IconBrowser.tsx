@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
-import { CATEGORY_LABELS, CATEGORY_ORDER, SECTOR_CATEGORIES, ICON_STYLES, CATEGORY_ICONS } from "@/lib/icons";
+import { CATEGORY_LABELS, CATEGORY_ORDER, SECTOR_CATEGORIES, ICON_STYLES, CATEGORY_ICONS, CATEGORY_ICONS_OUTLINE } from "@/lib/icons";
 import { IconCard } from "./IconCard";
 import { IconDetail } from "./IconDetail";
 import { ZeroState } from "./ZeroState";
@@ -96,6 +96,7 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
             active={activeCategory === ALL}
             onClick={() => setActiveCategory(ALL)}
             iconSvg={CATEGORY_ICONS["all"]}
+            iconSvgOutline={CATEGORY_ICONS_OUTLINE["all"]}
           />
           {categories.map((cat, i) => {
             const isFirstSector =
@@ -116,6 +117,7 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
                   active={activeCategory === cat}
                   onClick={() => setActiveCategory(cat)}
                   iconSvg={CATEGORY_ICONS[cat]}
+                  iconSvgOutline={CATEGORY_ICONS_OUTLINE[cat]}
                 />
               </div>
             );
@@ -333,13 +335,16 @@ function CategoryRow({
   active,
   onClick,
   iconSvg,
+  iconSvgOutline,
 }: {
   label: string;
   active: boolean;
   onClick: () => void;
   iconSvg?: string;
+  iconSvgOutline?: string;
 }) {
   const [hovered, setHovered] = useState(false);
+  const displaySvg = active && iconSvgOutline ? iconSvgOutline : iconSvg;
   return (
     <button
       onClick={onClick}
@@ -360,16 +365,15 @@ function CategoryRow({
         fontWeight: active ? 500 : 400,
       }}
     >
-      {iconSvg && (
+      {displaySvg && (
         <span
           className="shrink-0 flex items-center justify-center"
           style={{
             width: 18,
             height: 18,
-            color: active ? "var(--brand-primary)" : "var(--text-muted)",
-            transition: "color 120ms",
+            color: "var(--text-muted)",
           }}
-          dangerouslySetInnerHTML={{ __html: iconSvg.replace(/<svg /, '<svg width="18" height="18" ') }}
+          dangerouslySetInnerHTML={{ __html: displaySvg.replace(/<svg /, '<svg width="18" height="18" ') }}
         />
       )}
       <span className="truncate">{label}</span>
