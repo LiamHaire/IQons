@@ -371,7 +371,7 @@ function CategoryRow({
           style={{
             width: 18,
             height: 18,
-            color: "var(--text-muted)",
+            color: "var(--icon-fill)",
           }}
           dangerouslySetInnerHTML={{ __html: displaySvg.replace(/<svg /, '<svg width="18" height="18" ') }}
         />
