@@ -67,6 +67,7 @@ export { Clock } from "./Clock";
 export { Close } from "./Close";
 export { Cloud } from "./Cloud";
 export { CoffeeBreak } from "./CoffeeBreak";
+export { Coins } from "./Coins";
 export { Comment } from "./Comment";
 export { CommunicationsSend } from "./CommunicationsSend";
 export { Config } from "./Config";

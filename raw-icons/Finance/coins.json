@@ -1,0 +1,25 @@
+{
+  "title": "Coins",
+  "description": "A stack of coins representing currency, payments, or financial transactions",
+  "keywords": [
+    "coins",
+    "money",
+    "currency",
+    "payment",
+    "cash",
+    "finance",
+    "transaction",
+    "funds"
+  ],
+  "aliases": [
+    "money",
+    "currency",
+    "cash",
+    "payment"
+  ],
+  "variants": [
+    "outline",
+    "fill",
+    "duotone"
+  ]
+}

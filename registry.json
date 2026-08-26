@@ -1114,6 +1114,21 @@
       ]
     },
     {
+      "name": "coins",
+      "type": "registry:ui",
+      "title": "Coins",
+      "description": "IQons Coins icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Coins.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "comment",
       "type": "registry:ui",
       "title": "Comment",

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "count": 235,
+  "count": 236,
   "icons": [
     {
       "id": "acbs",
@@ -1541,6 +1541,33 @@
         "break",
         "rest",
         "pause"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "coins",
+      "category": "sector-finance",
+      "title": "Coins",
+      "description": "A stack of coins representing currency, payments, or financial transactions",
+      "keywords": [
+        "coins",
+        "money",
+        "currency",
+        "payment",
+        "cash",
+        "finance",
+        "transaction",
+        "funds"
+      ],
+      "aliases": [
+        "money",
+        "currency",
+        "cash",
+        "payment"
       ],
       "variants": [
         "outline",
