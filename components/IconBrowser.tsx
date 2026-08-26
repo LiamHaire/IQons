@@ -261,7 +261,7 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
         {/* Icon grid */}
         <div
           className="custom-scroll flex-1 overflow-y-auto pb-8 pt-4"
-          style={{ marginRight: "-32px", paddingRight: "32px", scrollbarGutter: "stable" }}
+          style={{ scrollbarGutter: "stable" }}
         >
           {filtered.length === 0 ? (
             <ZeroState query={query} onHome={() => { setQuery(""); setActiveCategory(ALL); }} />
