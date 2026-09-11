@@ -134,12 +134,12 @@ export function IconBrowser({ icons }: { icons: Icon[] }) {
           style={{
             height: 48,
             border: searchFocused
-              ? "1.5px solid var(--brand-primary)"
+              ? "1.5px solid var(--text-primary)"
               : "1px solid var(--border-default)",
             borderRadius: 12,
             background: "var(--surface)",
-            transition: "border-color 150ms, box-shadow 150ms",
-            boxShadow: searchFocused ? "0 0 0 3px var(--brand-primary-soft)" : "none",
+            transition: "border-color 150ms",
+            boxShadow: "none",
             marginRight: 0,
           }}
           onFocusCapture={() => setSearchFocused(true)}
