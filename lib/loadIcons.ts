@@ -26,6 +26,7 @@ const FOLDER_MAP: Record<string, IconCategory> = {
   "Education":               "sector-education",
   "Legal":                   "sector-legal",
   "Finance":                 "sector-finance",
+  "Retail":                  "sector-retail",
 };
 
 const STYLE_MAP: Record<string, IconStyle> = {

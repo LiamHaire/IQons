@@ -1,15 +1,18 @@
 {
-  "title": "Policy",
-  "description": "Policy document or rule configuration",
+  "title": "Gavel",
+  "description": "A gavel representing policy enforcement, rules, or governance",
   "keywords": [
+    "gavel",
     "policy",
     "rules",
     "governance",
     "compliance",
     "document",
-    "terms"
+    "terms",
+    "enforce"
   ],
   "aliases": [
+    "policy",
     "rules",
     "governance",
     "compliance"

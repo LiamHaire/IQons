@@ -32,6 +32,7 @@ const FOLDER_MAP = {
   "Education":               "Education",
   "Legal":                   "Legal",
   "Finance":                 "Finance",
+  "Retail":                  "Retail",
 };
 
 // icon-id → { description, aliases, keywords (merged with existing) }

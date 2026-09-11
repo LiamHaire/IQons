@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "count": 237,
+  "count": 244,
   "icons": [
     {
       "id": "acbs",
@@ -1006,6 +1006,21 @@
       ]
     },
     {
+      "id": "books",
+      "category": "sector-education",
+      "title": "Books",
+      "description": "",
+      "keywords": [
+        "books"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
       "id": "briefcase",
       "category": "data-actions",
       "title": "Briefcase",
@@ -1522,6 +1537,21 @@
         "time",
         "watch"
       ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "close",
+      "category": "navigation",
+      "title": "Close",
+      "description": "",
+      "keywords": [
+        "close"
+      ],
+      "aliases": [],
       "variants": [
         "outline",
         "fill",
@@ -2089,6 +2119,21 @@
       ]
     },
     {
+      "id": "drs",
+      "category": "sector-retail",
+      "title": "Drs",
+      "description": "",
+      "keywords": [
+        "drs"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
       "id": "drug-doubling",
       "category": "sector-health",
       "title": "Drug Doubling",
@@ -2382,6 +2427,33 @@
       "aliases": [
         "expand",
         "maximize"
+      ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "gavel",
+      "category": "settings-admin",
+      "title": "Gavel",
+      "description": "A gavel representing policy enforcement, rules, or governance",
+      "keywords": [
+        "gavel",
+        "policy",
+        "rules",
+        "governance",
+        "compliance",
+        "document",
+        "terms",
+        "enforce"
+      ],
+      "aliases": [
+        "policy",
+        "rules",
+        "governance",
+        "compliance"
       ],
       "variants": [
         "outline",
@@ -4057,6 +4129,21 @@
       ]
     },
     {
+      "id": "payroll",
+      "category": "sector-finance",
+      "title": "Payroll",
+      "description": "",
+      "keywords": [
+        "payroll"
+      ],
+      "aliases": [],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
       "id": "permissions",
       "category": "user-id",
       "title": "Permissions",
@@ -4180,22 +4267,13 @@
     },
     {
       "id": "policy",
-      "category": "settings-admin",
+      "category": "sector-legal",
       "title": "Policy",
-      "description": "Policy document or rule configuration",
+      "description": "",
       "keywords": [
-        "policy",
-        "rules",
-        "governance",
-        "compliance",
-        "document",
-        "terms"
+        "policy"
       ],
-      "aliases": [
-        "rules",
-        "governance",
-        "compliance"
-      ],
+      "aliases": [],
       "variants": [
         "outline",
         "fill",
@@ -4289,6 +4367,21 @@
         "user-profile",
         "avatar"
       ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "purchasing",
+      "category": "sector-finance",
+      "title": "Purchasing",
+      "description": "",
+      "keywords": [
+        "purchasing"
+      ],
+      "aliases": [],
       "variants": [
         "outline",
         "fill",
@@ -4766,6 +4859,21 @@
         "logout",
         "log-out"
       ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "signature",
+      "category": "sector-finance",
+      "title": "Signature",
+      "description": "",
+      "keywords": [
+        "signature"
+      ],
+      "aliases": [],
       "variants": [
         "outline",
         "fill",

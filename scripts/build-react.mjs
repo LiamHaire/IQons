@@ -35,6 +35,7 @@ const FOLDER_MAP = {
   "Education":               "sector-education",
   "Legal":                   "sector-legal",
   "Finance":                 "sector-finance",
+  "Retail":                  "sector-retail",
 };
 
 const VARIANT_ORDER = ["outline", "fill", "duotone", "thin"];
