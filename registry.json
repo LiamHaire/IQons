@@ -141,14 +141,14 @@
     {
       "name": "ai",
       "type": "registry:ui",
-      "title": "Ai",
-      "description": "IQons Ai icon. Variants: outline, fill, duotone.",
+      "title": "AI",
+      "description": "IQons AI icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
       "files": [
         {
-          "path": "packages/iqons-react/src/Ai.tsx",
+          "path": "packages/iqons-react/src/AI.tsx",
           "type": "registry:ui"
         }
       ]
@@ -156,14 +156,14 @@
     {
       "name": "ai-memory",
       "type": "registry:ui",
-      "title": "Ai Memory",
-      "description": "IQons Ai Memory icon. Variants: outline, fill, duotone.",
+      "title": "AI Memory",
+      "description": "IQons AI Memory icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
       "files": [
         {
-          "path": "packages/iqons-react/src/AiMemory.tsx",
+          "path": "packages/iqons-react/src/AIMemory.tsx",
           "type": "registry:ui"
         }
       ]
@@ -674,6 +674,21 @@
       "files": [
         {
           "path": "packages/iqons-react/src/Bookmark.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "books",
+      "type": "registry:ui",
+      "title": "Books",
+      "description": "IQons Books icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Books.tsx",
           "type": "registry:ui"
         }
       ]
@@ -1429,6 +1444,21 @@
       ]
     },
     {
+      "name": "drs",
+      "type": "registry:ui",
+      "title": "Drs",
+      "description": "IQons Drs icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Drs.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "drug-doubling",
       "type": "registry:ui",
       "title": "Drug Doubling",
@@ -1649,6 +1679,21 @@
       "files": [
         {
           "path": "packages/iqons-react/src/Fullscreen.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "gavel",
+      "type": "registry:ui",
+      "title": "Gavel",
+      "description": "IQons Gavel icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Gavel.tsx",
           "type": "registry:ui"
         }
       ]
@@ -2764,6 +2809,21 @@
       ]
     },
     {
+      "name": "payroll",
+      "type": "registry:ui",
+      "title": "Payroll",
+      "description": "IQons Payroll icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Payroll.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "permissions",
       "type": "registry:ui",
       "title": "Permissions",
@@ -2959,6 +3019,21 @@
       ]
     },
     {
+      "name": "purchasing",
+      "type": "registry:ui",
+      "title": "Purchasing",
+      "description": "IQons Purchasing icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Purchasing.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "qrcode",
       "type": "registry:ui",
       "title": "Qrcode",
@@ -3064,16 +3139,16 @@
       ]
     },
     {
-      "name": "restoredown",
+      "name": "restore-down",
       "type": "registry:ui",
-      "title": "Restoredown",
-      "description": "IQons Restoredown icon. Variants: outline, fill, duotone.",
+      "title": "Restore Down",
+      "description": "IQons Restore Down icon. Variants: outline, fill, duotone.",
       "dependencies": [
         "iqons-react"
       ],
       "files": [
         {
-          "path": "packages/iqons-react/src/Restoredown.tsx",
+          "path": "packages/iqons-react/src/RestoreDown.tsx",
           "type": "registry:ui"
         }
       ]
@@ -3314,6 +3389,21 @@
       "files": [
         {
           "path": "packages/iqons-react/src/SignalMedium.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "signature",
+      "type": "registry:ui",
+      "title": "Signature",
+      "description": "IQons Signature icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Signature.tsx",
           "type": "registry:ui"
         }
       ]

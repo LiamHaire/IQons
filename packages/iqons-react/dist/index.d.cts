@@ -432,6 +432,16 @@ declare namespace Bookmark {
 }
 
 /**
+ * Books icon
+ * Variants: outline, fill, duotone
+ */
+declare function Books({ variant, size, label, ...props }: IqonProps): react.JSX.Element;
+declare namespace Books {
+    var displayName: string;
+    var variants: readonly ["outline", "fill", "duotone"];
+}
+
+/**
  * Briefcase icon
  * Variants: outline, fill, duotone
  */
@@ -892,6 +902,16 @@ declare namespace Download {
 }
 
 /**
+ * Drs icon
+ * Variants: outline, fill, duotone
+ */
+declare function Drs({ variant, size, label, ...props }: IqonProps): react.JSX.Element;
+declare namespace Drs {
+    var displayName: string;
+    var variants: readonly ["outline", "fill", "duotone"];
+}
+
+/**
  * DrugDoubling icon
  * Variants: outline, fill, duotone
  */
@@ -1017,6 +1037,16 @@ declare namespace Forecast {
  */
 declare function Fullscreen({ variant, size, label, ...props }: IqonProps): react.JSX.Element;
 declare namespace Fullscreen {
+    var displayName: string;
+    var variants: readonly ["outline", "fill", "duotone"];
+}
+
+/**
+ * Gavel icon
+ * Variants: outline, fill, duotone
+ */
+declare function Gavel({ variant, size, label, ...props }: IqonProps): react.JSX.Element;
+declare namespace Gavel {
     var displayName: string;
     var variants: readonly ["outline", "fill", "duotone"];
 }
@@ -1712,6 +1742,16 @@ declare namespace Pause {
 }
 
 /**
+ * Payroll icon
+ * Variants: outline, fill, duotone
+ */
+declare function Payroll({ variant, size, label, ...props }: IqonProps): react.JSX.Element;
+declare namespace Payroll {
+    var displayName: string;
+    var variants: readonly ["outline", "fill", "duotone"];
+}
+
+/**
  * Permissions icon
  * Variants: outline, fill, duotone
  */
@@ -1807,6 +1847,16 @@ declare namespace Process {
  */
 declare function Profile({ variant, size, label, ...props }: IqonProps): react.JSX.Element;
 declare namespace Profile {
+    var displayName: string;
+    var variants: readonly ["outline", "fill", "duotone"];
+}
+
+/**
+ * Purchasing icon
+ * Variants: outline, fill, duotone
+ */
+declare function Purchasing({ variant, size, label, ...props }: IqonProps): react.JSX.Element;
+declare namespace Purchasing {
     var displayName: string;
     var variants: readonly ["outline", "fill", "duotone"];
 }
@@ -1997,6 +2047,16 @@ declare namespace SidebarLeft {
  */
 declare function SidebarRight({ variant, size, label, ...props }: IqonProps): react.JSX.Element;
 declare namespace SidebarRight {
+    var displayName: string;
+    var variants: readonly ["outline", "fill", "duotone"];
+}
+
+/**
+ * Signature icon
+ * Variants: outline, fill, duotone
+ */
+declare function Signature({ variant, size, label, ...props }: IqonProps): react.JSX.Element;
+declare namespace Signature {
     var displayName: string;
     var variants: readonly ["outline", "fill", "duotone"];
 }
@@ -2391,4 +2451,4 @@ declare namespace Workflow {
     var variants: readonly ["outline", "fill", "duotone"];
 }
 
-export { AI, AIMemory, Acbs, Accessibility, Add, AddRound, AddSquare, AddressBook, Admin, Agent, AgentCreate, AlignBottom, AlignLeft, AlignRight, AlignTop, Allergies, AllergiesNone, Ambulance, Analytics, Announcement, Appointment, AppointmentNew, Apps, Archive, ArrowDiagonalDownLeft, ArrowDiagonalDownRight, ArrowDiagonalUpLeft, ArrowDiagonalUpRight, ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Attach, AudioFile, AudioOff, AudioOn, Audit, Authentication, Automation, Bin, Boardroom, Bookmark, Briefcase, Calculator, Calendar, Certificate, ChartBar, ChartDonut, ChartLine, ChartPie, Chat, ChatClose, ChatHistory, ChatNew, Check, CheckRound, CheckSquare, Checklist, ChevronDown, ChevronLeft, ChevronRight, ChevronUp, Clipboard, Clock, Close, Cloud, CoffeeBreak, Coins, Comment, CommunicationsSend, Config, Consultation, ConversationNew, Copy, Cross, CrossCircle, CrossSquare, Cut, Dark, Dashboard, Database, Datatable, Deadline, Deploy, Diagnosis, Document, DocumentNew, Download, DrugDoubling, Duplicate, Edit, Event, Export, Favourite, Filter, Find, Flag, Folder, FolderNew, Forecast, Fullscreen, Globe, Graduation, Grid, Headset, Healthcare, History, Holiday, Home, IDBadge, IconCircleDashed, IconCircleNotch, IconHelp, IconHype, IconInfoSquare, IconPriorityHigh, IconPriorityLow, IconPriorityMedium, IconSignalHigh, IconSignalLow, IconSignalMedium, IconThumbsDown, IconThumbsUp, IconWarning, Idea, ImageFile, Immunisation, Import, InProgress, Inbox, Incognito, type IqonProps, type IqonVariant, Key, KeyReturn, KnowledgeBase, Layout, LayoutList, Light, Lightning, Link, Locate, Location, Lock, Logs, MagicWand, Mail, Map, Marketplace, Medication, MedicationAdd, MedicationBranded, MedicationDiscontinued, MedicationUnlicensed, Meeting, Menu, Merge, Microphone, Minimise, MoreHorizontal, MoreVertical, News, Notes, Notifications, OpenExternal, Organisation, Outbox, Palette, Paragraph, Password, Paste, Pause, Permissions, Phone, Piggybank, Play, Plugin, Policy, Print, Privacy, Process, Profile, Qrcode, Queue, Receipt, Recurring, Refresh, Reminder, Restore, RestoreDown, Save, Scales, Scan, Search, SecurityAlert, Server, Settings, Share, Shield, SidebarLeft, SidebarRight, SignOut, Sls, SortAscending, SortDescending, Speech, Stop, Stopwatch, Storage, Subtract, SubtractRound, SubtractSquare, Swap, Sync, Tag, Target, Task, TaskNew, Team, Theme, Ticket, Timeline, Token, Toolbox, Tools, TrendDown, TrendUp, Unlink, Unlock, Upload, User, UserAdd, UserCircle, UserEdit, UserGroup, UserRemove, VideoCall, VideoFile, Web, Workflow };
+export { AI, AIMemory, Acbs, Accessibility, Add, AddRound, AddSquare, AddressBook, Admin, Agent, AgentCreate, AlignBottom, AlignLeft, AlignRight, AlignTop, Allergies, AllergiesNone, Ambulance, Analytics, Announcement, Appointment, AppointmentNew, Apps, Archive, ArrowDiagonalDownLeft, ArrowDiagonalDownRight, ArrowDiagonalUpLeft, ArrowDiagonalUpRight, ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Attach, AudioFile, AudioOff, AudioOn, Audit, Authentication, Automation, Bin, Boardroom, Bookmark, Books, Briefcase, Calculator, Calendar, Certificate, ChartBar, ChartDonut, ChartLine, ChartPie, Chat, ChatClose, ChatHistory, ChatNew, Check, CheckRound, CheckSquare, Checklist, ChevronDown, ChevronLeft, ChevronRight, ChevronUp, Clipboard, Clock, Close, Cloud, CoffeeBreak, Coins, Comment, CommunicationsSend, Config, Consultation, ConversationNew, Copy, Cross, CrossCircle, CrossSquare, Cut, Dark, Dashboard, Database, Datatable, Deadline, Deploy, Diagnosis, Document, DocumentNew, Download, Drs, DrugDoubling, Duplicate, Edit, Event, Export, Favourite, Filter, Find, Flag, Folder, FolderNew, Forecast, Fullscreen, Gavel, Globe, Graduation, Grid, Headset, Healthcare, History, Holiday, Home, IDBadge, IconCircleDashed, IconCircleNotch, IconHelp, IconHype, IconInfoSquare, IconPriorityHigh, IconPriorityLow, IconPriorityMedium, IconSignalHigh, IconSignalLow, IconSignalMedium, IconThumbsDown, IconThumbsUp, IconWarning, Idea, ImageFile, Immunisation, Import, InProgress, Inbox, Incognito, type IqonProps, type IqonVariant, Key, KeyReturn, KnowledgeBase, Layout, LayoutList, Light, Lightning, Link, Locate, Location, Lock, Logs, MagicWand, Mail, Map, Marketplace, Medication, MedicationAdd, MedicationBranded, MedicationDiscontinued, MedicationUnlicensed, Meeting, Menu, Merge, Microphone, Minimise, MoreHorizontal, MoreVertical, News, Notes, Notifications, OpenExternal, Organisation, Outbox, Palette, Paragraph, Password, Paste, Pause, Payroll, Permissions, Phone, Piggybank, Play, Plugin, Policy, Print, Privacy, Process, Profile, Purchasing, Qrcode, Queue, Receipt, Recurring, Refresh, Reminder, Restore, RestoreDown, Save, Scales, Scan, Search, SecurityAlert, Server, Settings, Share, Shield, SidebarLeft, SidebarRight, SignOut, Signature, Sls, SortAscending, SortDescending, Speech, Stop, Stopwatch, Storage, Subtract, SubtractRound, SubtractSquare, Swap, Sync, Tag, Target, Task, TaskNew, Team, Theme, Ticket, Timeline, Token, Toolbox, Tools, TrendDown, TrendUp, Unlink, Unlock, Upload, User, UserAdd, UserCircle, UserEdit, UserGroup, UserRemove, VideoCall, VideoFile, Web, Workflow };
