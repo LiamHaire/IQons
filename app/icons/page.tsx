@@ -17,7 +17,7 @@ export default async function IconsPage() {
         style={{ height: 56, paddingLeft: 0 }}
       >
         {/* Logo */}
-        <Link href="/" style={{ display: "flex", alignItems: "center" }}>
+        <Link href="/" style={{ display: "flex", alignItems: "center", padding: "8px 16px" }}>
           <svg
             width="120"
             height="27"
