@@ -2436,7 +2436,7 @@
     },
     {
       "id": "gavel",
-      "category": "settings-admin",
+      "category": "sector-legal",
       "title": "Gavel",
       "description": "A gavel representing policy enforcement, rules, or governance",
       "keywords": [
