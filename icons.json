@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "count": 244,
+  "count": 245,
   "icons": [
     {
       "id": "acbs",
@@ -4524,6 +4524,21 @@
         "alert",
         "notification"
       ],
+      "variants": [
+        "outline",
+        "fill",
+        "duotone"
+      ]
+    },
+    {
+      "id": "report",
+      "category": "analytics-reports",
+      "title": "Report",
+      "description": "",
+      "keywords": [
+        "report"
+      ],
+      "aliases": [],
       "variants": [
         "outline",
         "fill",

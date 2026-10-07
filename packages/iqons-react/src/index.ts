@@ -192,6 +192,7 @@ export { Receipt } from "./Receipt";
 export { Recurring } from "./Recurring";
 export { Refresh } from "./Refresh";
 export { Reminder } from "./Reminder";
+export { Report } from "./Report";
 export { Restore } from "./Restore";
 export { RestoreDown } from "./RestoreDown";
 export { Save } from "./Save";

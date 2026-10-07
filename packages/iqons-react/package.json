@@ -18,7 +18,7 @@
   "types": "./dist/index.d.ts",
   "files": ["dist"],
   "scripts": {
-    "generate": "node ../../scripts/build-react.mjs",
+    "generate": "cd ../.. && node scripts/build-react.mjs",
     "build": "npm run generate && tsup",
     "dev": "tsup --watch"
   },
