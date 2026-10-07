@@ -3124,6 +3124,21 @@
       ]
     },
     {
+      "name": "report",
+      "type": "registry:ui",
+      "title": "Report",
+      "description": "IQons Report icon. Variants: outline, fill, duotone.",
+      "dependencies": [
+        "iqons-react"
+      ],
+      "files": [
+        {
+          "path": "packages/iqons-react/src/Report.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "restore",
       "type": "registry:ui",
       "title": "Restore",
