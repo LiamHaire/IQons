@@ -1,8 +1,14 @@
 {
   "name": "iqons-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "IQons icon library for React — outline, fill and duotone variants",
-  "keywords": ["icons", "react", "svg", "iqons", "advanced"],
+  "keywords": [
+    "icons",
+    "react",
+    "svg",
+    "iqons",
+    "advanced"
+  ],
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
@@ -16,7 +22,9 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "generate": "cd ../.. && node scripts/build-react.mjs",
     "build": "npm run generate && tsup",
