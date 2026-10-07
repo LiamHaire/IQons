@@ -1,10 +1,24 @@
 {
   "title": "Report",
-  "description": "",
+  "description": "Document report for presenting data summaries, findings, and analytics",
   "keywords": [
-    "report"
+    "report",
+    "document",
+    "summary",
+    "findings",
+    "analytics",
+    "data",
+    "export",
+    "file",
+    "results",
+    "output"
   ],
-  "aliases": [],
+  "aliases": [
+    "summary",
+    "document",
+    "export",
+    "findings"
+  ],
   "variants": [
     "outline",
     "fill",
